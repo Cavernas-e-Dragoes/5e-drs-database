@@ -1,0 +1,242 @@
+{
+  "index": "barbaro",
+  "name": "Bárbaro",
+  "hit_die": 12,
+  "proficiency_choices": [
+    {
+      "desc": "Escolha duas entre Atletismo, Intimidação, Lidar com Animais, Natureza, Percepção e Sobrevivência",
+      "choose": 2,
+      "type": "proficiencias",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "pericia-lidar-com-animais",
+              "name": "Perícia: Lidar com Animais",
+              "url": "/api/proficiencias/pericia-lidar-com-animais"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "pericia-atletismo",
+              "name": "Perícia: Atletismo",
+              "url": "/api/proficiencias/pericia-atletismo"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "pericia-intimidacao",
+              "name": "Perícia: Intimidação",
+              "url": "/api/proficiencias/pericia-intimidacao"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "pericia-natureza",
+              "name": "Perícia: Natureza",
+              "url": "/api/proficiencias/pericia-natureza"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "pericia-percepcao",
+              "name": "Perícia: Percepção",
+              "url": "/api/proficiencias/pericia-percepcao"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "pericia-sobrevivencia",
+              "name": "Perícia: Sobrevivência",
+              "url": "/api/proficiencias/pericia-sobrevivencia"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "proficiencies": [
+    {
+      "index": "armadura-leve",
+      "name": "Armadura Leve",
+      "url": "/api/proficiencias/armadura-leve"
+    },
+    {
+      "index": "armadura-media",
+      "name": "Armadura Média",
+      "url": "/api/proficiencias/armadura-media"
+    },
+    {
+      "index": "escudos",
+      "name": "Escudos",
+      "url": "/api/proficiencias/escudos"
+    },
+    {
+      "index": "armas-simples",
+      "name": "Armas Simples",
+      "url": "/api/proficiencias/armas-simples"
+    },
+    {
+      "index": "armas-marciais",
+      "name": "Armas Marciais",
+      "url": "/api/proficiencias/armas-marciais"
+    },
+    {
+      "index": "teste-resistencia-for",
+      "name": "Teste de Resistência: FOR",
+      "url": "/api/proficiencias/teste-resistencia-for"
+    },
+    {
+      "index": "teste-resistencia-con",
+      "name": "Teste de Resistência: CON",
+      "url": "/api/proficiencias/teste-resistencia-con"
+    }
+  ],
+  "saving_throws": [
+    {
+      "index": "for",
+      "name": "FOR",
+      "url": "/api/atributos/for"
+    },
+    {
+      "index": "con",
+      "name": "CON",
+      "url": "/api/atributos/con"
+    }
+  ],
+  "starting_equipment": [
+    {
+      "equipment": {
+        "index": "kit-explorador",
+        "name": "Kit de Explorador",
+        "url": "/api/equipamento/kit-explorador"
+      },
+      "quantity": 1
+    },
+    {
+      "equipment": {
+        "index": "azagaia",
+        "name": "Azagaia",
+        "url": "/api/equipamento/azagaia"
+      },
+      "quantity": 4
+    }
+  ],
+  "starting_equipment_options": [
+    {
+      "desc": "(a) um machado grande ou (b) qualquer arma marcial de combate corpo a corpo",
+      "choose": 1,
+      "type": "equipamento",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "counted_reference",
+            "count": 1,
+            "of": {
+              "index": "machado-grande",
+              "name": "Machado Grande",
+              "url": "/api/equipamento/machado-grande"
+            }
+          },
+          {
+            "option_type": "choice",
+            "choice": {
+              "desc": "qualquer arma marcial de combate corpo a corpo",
+              "choose": 1,
+              "type": "equipamento",
+              "from": {
+                "option_set_type": "categoria_equipamento",
+                "equipment_category": {
+                  "index": "arma-marcial-de-combate-corpo-a-corpo",
+                  "name": "Armas Marciais de Corpo-a-Corpo",
+                  "url": "/api/categoria-equipamento/arma-marcial-combate-corpo-a-corpo"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "desc": "(a) duas machadinhas ou (b) qualquer arma simples",
+      "choose": 1,
+      "type": "equipamento",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "counted_reference",
+            "count": 2,
+            "of": {
+              "index": "machadinha",
+              "name": "Machadinha",
+              "url": "/api/equipamento/machadinha"
+            }
+          },
+          {
+            "option_type": "choice",
+            "choice": {
+              "desc": "qualquer arma simples",
+              "choose": 1,
+              "type": "equipamento",
+              "from": {
+                "option_set_type": "categoria_equipamento",
+                "equipment_category": {
+                  "index": "armas-simples",
+                  "name": "Armas Simples",
+                  "url": "/api/categoria_equipamento/armas-simples"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "class_levels": "/api/classes/barbaro/niveis",
+  "multi_classing": {
+    "prerequisites": [
+      {
+        "ability_score": {
+          "index": "for",
+          "name": "FOR",
+          "url": "/api/atributos/for"
+        },
+        "minimum_score": 13
+      }
+    ],
+    "proficiencies": [
+      {
+        "index": "escudos",
+        "name": "Escudos",
+        "url": "/api/proficiencias/escudos"
+      },
+      {
+        "index": "armas-simples",
+        "name": "Armas Simples",
+        "url": "/api/proficiencias/armas-simples"
+      },
+      {
+        "index": "armas-marciais",
+        "name": "Armas Marciais",
+        "url": "/api/proficiencias/armas-marciais"
+      }
+    ]
+  },
+  "subclasses": [
+    {
+      "index": "berserker",
+      "name": "Berserker",
+      "url": "/api/subclasses/berserker"
+    }
+  ],
+  "url": "/api/classes/barbaro"
+}
