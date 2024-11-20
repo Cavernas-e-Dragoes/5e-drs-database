@@ -1,0 +1,25 @@
+name: Update MongoDB
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+  workflow_dispatch:
+
+jobs:
+  update-mongodb:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install MongoDB Tools
+        run: |
+          sudo apt-get update
+          sudo apt install -y gdebi
+          sudo gdebi https://fastdl.mongodb.org/tools/db/mongodb-database-tools-ubuntu2404-x86_64-100.10.0.0.deb
+      - name: Import Data
+        run: |
+          for file in src/*.json; do
+            collection=$(basename "$file" .json | tr '[:upper:]' '[:lower:]')
+            mongoimport --host ${{ vars.MONGO_HOST }} --username=${{ secrets.MONGO_USER }} --password=${{ secrets.MONGO_PASSWORD }} --db ${{ vars.MONGO_DATABASE }} --collection "$collection" --type json --file "$file" --jsonArray --drop
+          done
