@@ -12,14 +12,32 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v3
+
+      - name: Update package lists
+        run: |
+          echo "Updating package lists..."
+          sudo apt-get update
+
+      - name: Install wget and gdebi
+        run: |
+          echo "Installing wget and gdebi..."
+          sudo apt install -y wget gdebi
+
+      - name: Download MongoDB Tools
+        run: |
+          echo "Downloading MongoDB Tools..."
+          wget https://fastdl.mongodb.org/tools/db/mongodb-database-tools-ubuntu2404-x86_64-100.10.0.deb -O mongodb-tools.deb
+
       - name: Install MongoDB Tools
         run: |
-          sudo apt-get update
-          sudo apt install -y gdebi
-          sudo gdebi https://fastdl.mongodb.org/tools/db/mongodb-database-tools-ubuntu2404-x86_64-100.10.0.deb
+          echo "Installing MongoDB Tools..."
+          sudo gdebi -n mongodb-tools.deb
+
       - name: Import Data
         run: |
+          echo "Importing data into MongoDB..."
           for file in src/*.json; do
             collection=$(basename "$file" .json | tr '[:upper:]' '[:lower:]')
+            echo "Importing $file into collection $collection..."
             mongoimport --host ${{ vars.MONGO_HOST }} --username=${{ secrets.MONGO_USER }} --password=${{ secrets.MONGO_PASSWORD }} --db ${{ vars.MONGO_DATABASE }} --collection "$collection" --type json --file "$file" --jsonArray --drop
           done
