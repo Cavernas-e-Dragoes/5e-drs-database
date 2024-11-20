@@ -16,7 +16,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt install -y gdebi
-          sudo gdebi https://fastdl.mongodb.org/tools/db/mongodb-database-tools-ubuntu2404-x86_64-100.10.0.0.deb
+          sudo gdebi https://fastdl.mongodb.org/tools/db/mongodb-database-tools-ubuntu2404-x86_64-100.10.0.deb
       - name: Import Data
         run: |
           for file in src/*.json; do
