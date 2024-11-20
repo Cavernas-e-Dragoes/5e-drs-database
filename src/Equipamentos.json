@@ -1,0 +1,6282 @@
+[
+  {
+    "index": "clava",
+    "name": "Clava",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Simples",
+    "weapon_range": "Corpo a Corpo",
+    "category_range": "Simples Corpo a Corpo",
+    "cost": {
+      "quantity": 1,
+      "unit": "pp"
+    },
+    "damage": {
+      "damage_dice": "1d4",
+      "damage_type": {
+        "index": "concussao",
+        "name": "Concussão",
+        "url": "/api/tipos-de-dano/concussao"
+      }
+    },
+    "range": {
+      "normal": 5
+    },
+    "weight": 2,
+    "properties": [
+      {
+        "index": "leve",
+        "name": "Leve",
+        "url": "/api/propriedades-de-armas/leve"
+      },
+      {
+        "index": "monge",
+        "name": "Monge",
+        "url": "/api/propriedades-de-armas/monge"
+      }
+    ],
+    "url": "/api/equipamentos/clava"
+  },
+  {
+    "index": "adaga",
+    "name": "Adaga",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Simples",
+    "weapon_range": "Corpo a Corpo",
+    "category_range": "Simples Corpo a Corpo",
+    "cost": {
+      "quantity": 2,
+      "unit": "po"
+    },
+    "damage": {
+      "damage_dice": "1d4",
+      "damage_type": {
+        "index": "perfuracao",
+        "name": "Perfuração",
+        "url": "/api/tipos-de-dano/perfuracao"
+      }
+    },
+    "range": {
+      "normal": 5
+    },
+    "weight": 1,
+    "properties": [
+      {
+        "index": "acuidade",
+        "name": "Acuidade",
+        "url": "/api/propriedades-de-armas/acuidade"
+      },
+      {
+        "index": "leve",
+        "name": "Leve",
+        "url": "/api/propriedades-de-armas/leve"
+      },
+      {
+        "index": "arremesso",
+        "name": "Arremesso",
+        "url": "/api/propriedades-de-armas/arremesso"
+      },
+      {
+        "index": "monge",
+        "name": "Monge",
+        "url": "/api/propriedades-de-armas/monge"
+      }
+    ],
+    "throw_range": {
+      "normal": 20,
+      "long": 60
+    },
+    "url": "/api/equipamentos/adaga"
+  },
+  {
+    "index": "grande-clava",
+    "name": "Grande Clava",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Simples",
+    "weapon_range": "Corpo a Corpo",
+    "category_range": "Simples Corpo a Corpo",
+    "cost": {
+      "quantity": 2,
+      "unit": "pp"
+    },
+    "damage": {
+      "damage_dice": "1d8",
+      "damage_type": {
+        "index": "concussao",
+        "name": "Concussão",
+        "url": "/api/tipos-de-dano/concussao"
+      }
+    },
+    "range": {
+      "normal": 5
+    },
+    "weight": 10,
+    "properties": [
+      {
+        "index": "duas-maos",
+        "name": "Duas Mãos",
+        "url": "/api/propriedades-de-armas/duas-maos"
+      }
+    ],
+    "url": "/api/equipamentos/grande-clava"
+  },
+  {
+    "index": "machadinha",
+    "name": "Machadinha",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Simples",
+    "weapon_range": "Corpo a Corpo",
+    "category_range": "Simples Corpo a Corpo",
+    "cost": {
+      "quantity": 5,
+      "unit": "po"
+    },
+    "damage": {
+      "damage_dice": "1d6",
+      "damage_type": {
+        "index": "corte",
+        "name": "Corte",
+        "url": "/api/tipos-de-dano/corte"
+      }
+    },
+    "range": {
+      "normal": 5
+    },
+    "weight": 2,
+    "properties": [
+      {
+        "index": "leve",
+        "name": "Leve",
+        "url": "/api/propriedades-de-armas/leve"
+      },
+      {
+        "index": "arremesso",
+        "name": "Arremesso",
+        "url": "/api/propriedades-de-armas/arremesso"
+      },
+      {
+        "index": "monge",
+        "name": "Monge",
+        "url": "/api/propriedades-de-armas/monge"
+      }
+    ],
+    "throw_range": {
+      "normal": 20,
+      "long": 60
+    },
+    "url": "/api/equipamentos/machadinha"
+  },
+  {
+    "index": "dardo",
+    "name": "Dardo",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Simples",
+    "weapon_range": "Corpo a Corpo",
+    "category_range": "Simples Corpo a Corpo",
+    "cost": {
+      "quantity": 5,
+      "unit": "pp"
+    },
+    "damage": {
+      "damage_dice": "1d6",
+      "damage_type": {
+        "index": "perfuracao",
+        "name": "Perfuração",
+        "url": "/api/tipos-de-dano/perfuracao"
+      }
+    },
+    "range": {
+      "normal": 5
+    },
+    "weight": 2,
+    "properties": [
+      {
+        "index": "arremesso",
+        "name": "Arremesso",
+        "url": "/api/propriedades-de-armas/arremesso"
+      },
+      {
+        "index": "monge",
+        "name": "Monge",
+        "url": "/api/propriedades-de-armas/monge"
+      }
+    ],
+    "throw_range": {
+      "normal": 30,
+      "long": 120
+    },
+    "url": "/api/equipamentos/dardo"
+  },
+  {
+    "index": "martelo-leve",
+    "name": "Martelo Leve",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Simples",
+    "weapon_range": "Corpo a Corpo",
+    "category_range": "Simples Corpo a Corpo",
+    "cost": {
+      "quantity": 2,
+      "unit": "po"
+    },
+    "damage": {
+      "damage_dice": "1d4",
+      "damage_type": {
+        "index": "concussao",
+        "name": "Concussão",
+        "url": "/api/tipos-de-dano/concussao"
+      }
+    },
+    "range": {
+      "normal": 5
+    },
+    "weight": 2,
+    "properties": [
+      {
+        "index": "leve",
+        "name": "Leve",
+        "url": "/api/propriedades-de-armas/leve"
+      },
+      {
+        "index": "arremesso",
+        "name": "Arremesso",
+        "url": "/api/propriedades-de-armas/arremesso"
+      },
+      {
+        "index": "monge",
+        "name": "Monge",
+        "url": "/api/propriedades-de-armas/monge"
+      }
+    ],
+    "throw_range": {
+      "normal": 20,
+      "long": 60
+    },
+    "url": "/api/equipamentos/martelo-leve"
+  },
+  {
+    "index": "maca",
+    "name": "Maça",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Simples",
+    "weapon_range": "Corpo a Corpo",
+    "category_range": "Simples Corpo a Corpo",
+    "cost": {
+      "quantity": 5,
+      "unit": "po"
+    },
+    "damage": {
+      "damage_dice": "1d6",
+      "damage_type": {
+        "index": "concussao",
+        "name": "Concussão",
+        "url": "/api/tipos-de-dano/concussao"
+      }
+    },
+    "range": {
+      "normal": 5
+    },
+    "weight": 4,
+    "properties": [
+      {
+        "index": "monge",
+        "name": "Monge",
+        "url": "/api/propriedades-de-armas/monge"
+      }
+    ],
+    "url": "/api/equipamentos/maca"
+  },
+  {
+    "index": "bordao",
+    "name": "Bordão",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Simples",
+    "weapon_range": "Corpo a Corpo",
+    "category_range": "Simples Corpo a Corpo",
+    "cost": {
+      "quantity": 2,
+      "unit": "pp"
+    },
+    "damage": {
+      "damage_dice": "1d6",
+      "damage_type": {
+        "index": "concussao",
+        "name": "Concussão",
+        "url": "/api/tipos-de-dano/concussao"
+      }
+    },
+    "range": {
+      "normal": 5
+    },
+    "weight": 4,
+    "properties": [
+      {
+        "index": "versatil",
+        "name": "Versátil",
+        "url": "/api/propriedades-de-armas/versatil"
+      },
+      {
+        "index": "monge",
+        "name": "Monge",
+        "url": "/api/propriedades-de-armas/monge"
+      }
+    ],
+    "two_handed_damage": {
+      "damage_dice": "1d8",
+      "damage_type": {
+        "index": "concussao",
+        "name": "Concussão",
+        "url": "/api/tipos-de-dano/concussao"
+      }
+    },
+    "url": "/api/equipamentos/bordao"
+  },
+  {
+    "index": "foice",
+    "name": "Foice",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Simples",
+    "weapon_range": "Corpo a Corpo",
+    "category_range": "Simples Corpo a Corpo",
+    "cost": {
+      "quantity": 1,
+      "unit": "po"
+    },
+    "damage": {
+      "damage_dice": "1d4",
+      "damage_type": {
+        "index": "corte",
+        "name": "Corte",
+        "url": "/api/tipos-de-dano/corte"
+      }
+    },
+    "range": {
+      "normal": 5
+    },
+    "weight": 2,
+    "properties": [
+      {
+        "index": "leve",
+        "name": "Leve",
+        "url": "/api/propriedades-de-armas/leve"
+      },
+      {
+        "index": "monge",
+        "name": "Monge",
+        "url": "/api/propriedades-de-armas/monge"
+      }
+    ],
+    "url": "/api/equipamentos/foice"
+  },
+  {
+    "index": "lanca",
+    "name": "Lança",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Simples",
+    "weapon_range": "Corpo a Corpo",
+    "category_range": "Simples Corpo a Corpo",
+    "cost": {
+      "quantity": 1,
+      "unit": "po"
+    },
+    "damage": {
+      "damage_dice": "1d6",
+      "damage_type": {
+        "index": "perfuracao",
+        "name": "Perfuração",
+        "url": "/api/tipos-de-dano/perfuracao"
+      }
+    },
+    "range": {
+      "normal": 5
+    },
+    "weight": 3,
+    "properties": [
+      {
+        "index": "arremesso",
+        "name": "Arremesso",
+        "url": "/api/propriedades-de-armas/arremesso"
+      },
+      {
+        "index": "versatil",
+        "name": "Versátil",
+        "url": "/api/propriedades-de-armas/versatil"
+      },
+      {
+        "index": "monge",
+        "name": "Monge",
+        "url": "/api/propriedades-de-armas/monge"
+      }
+    ],
+    "throw_range": {
+      "normal": 20,
+      "long": 60
+    },
+    "two_handed_damage": {
+      "damage_dice": "1d8",
+      "damage_type": {
+        "index": "perfuracao",
+        "name": "Perfuração",
+        "url": "/api/tipos-de-dano/perfuracao"
+      }
+    },
+    "url": "/api/equipamentos/lanca"
+  },
+  {
+    "index": "besta-leve",
+    "name": "Besta Leve",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Simples",
+    "weapon_range": "À Distância",
+    "category_range": "Simples À Distância",
+    "cost": {
+      "quantity": 25,
+      "unit": "po"
+    },
+    "damage": {
+      "damage_dice": "1d8",
+      "damage_type": {
+        "index": "perfuracao",
+        "name": "Perfuração",
+        "url": "/api/tipos-de-dano/perfuracao"
+      }
+    },
+    "range": {
+      "normal": 80,
+      "long": 320
+    },
+    "weight": 5,
+    "properties": [
+      {
+        "index": "municao",
+        "name": "Munição",
+        "url": "/api/propriedades-de-armas/municao"
+      },
+      {
+        "index": "carregamento",
+        "name": "Carregamento",
+        "url": "/api/propriedades-de-armas/carregamento"
+      },
+      {
+        "index": "duas-maos",
+        "name": "Duas Mãos",
+        "url": "/api/propriedades-de-armas/duas-maos"
+      }
+    ],
+    "url": "/api/equipamentos/besta-leve"
+  },
+  {
+    "index": "dardo",
+    "name": "Dardo",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Simples",
+    "weapon_range": "À Distância",
+    "category_range": "Simples À Distância",
+    "cost": {
+      "quantity": 5,
+      "unit": "pc"
+    },
+    "damage": {
+      "damage_dice": "1d4",
+      "damage_type": {
+        "index": "perfuracao",
+        "name": "Perfuração",
+        "url": "/api/tipos-de-dano/perfuracao"
+      }
+    },
+    "range": {
+      "normal": 20,
+      "long": 60
+    },
+    "weight": 0.25,
+    "properties": [
+      {
+        "index": "acuidade",
+        "name": "Acuidade",
+        "url": "/api/propriedades-de-armas/acuidade"
+      },
+      {
+        "index": "arremesso",
+        "name": "Arremesso",
+        "url": "/api/propriedades-de-armas/arremesso"
+      }
+    ],
+    "throw_range": {
+      "normal": 20,
+      "long": 60
+    },
+    "url": "/api/equipamentos/dardo"
+  },
+  {
+    "index": "arco-curto",
+    "name": "Arco Curto",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Simples",
+    "weapon_range": "À Distância",
+    "category_range": "Simples À Distância",
+    "cost": {
+      "quantity": 25,
+      "unit": "po"
+    },
+    "damage": {
+      "damage_dice": "1d6",
+      "damage_type": {
+        "index": "perfuracao",
+        "name": "Perfuração",
+        "url": "/api/tipos-de-dano/perfuracao"
+      }
+    },
+    "range": {
+      "normal": 80,
+      "long": 320
+    },
+    "weight": 2,
+    "properties": [
+      {
+        "index": "municao",
+        "name": "Munição",
+        "url": "/api/propriedades-de-armas/municao"
+      },
+      {
+        "index": "duas-maos",
+        "name": "Duas Mãos",
+        "url": "/api/propriedades-de-armas/duas-maos"
+      }
+    ],
+    "url": "/api/equipamentos/arco-curto"
+  },
+  {
+    "index": "funda",
+    "name": "Funda",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Simples",
+    "weapon_range": "À Distância",
+    "category_range": "Simples À Distância",
+    "cost": {
+      "quantity": 1,
+      "unit": "pp"
+    },
+    "damage": {
+      "damage_dice": "1d4",
+      "damage_type": {
+        "index": "concussao",
+        "name": "Concussão",
+        "url": "/api/tipos-de-dano/concussao"
+      }
+    },
+    "range": {
+      "normal": 30,
+      "long": 120
+    },
+    "weight": 0,
+    "properties": [
+      {
+        "index": "municao",
+        "name": "Munição",
+        "url": "/api/propriedades-de-armas/municao"
+      }
+    ],
+    "url": "/api/equipamentos/funda"
+  },
+  {
+    "index": "machado-de-batalha",
+    "name": "Machado de Batalha",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Marcial",
+    "weapon_range": "Corpo a Corpo",
+    "category_range": "Marcial Corpo a Corpo",
+    "cost": {
+      "quantity": 10,
+      "unit": "po"
+    },
+    "damage": {
+      "damage_dice": "1d8",
+      "damage_type": {
+        "index": "corte",
+        "name": "Corte",
+        "url": "/api/tipos-de-dano/corte"
+      }
+    },
+    "range": {
+      "normal": 5
+    },
+    "weight": 4,
+    "properties": [
+      {
+        "index": "versatil",
+        "name": "Versátil",
+        "url": "/api/propriedades-de-armas/versatil"
+      }
+    ],
+    "two_handed_damage": {
+      "damage_dice": "1d10",
+      "damage_type": {
+        "index": "corte",
+        "name": "Corte",
+        "url": "/api/tipos-de-dano/corte"
+      }
+    },
+    "url": "/api/equipamentos/machado-de-batalha"
+  },
+  {
+    "index": "mangual",
+    "name": "Mangual",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Marcial",
+    "weapon_range": "Corpo a Corpo",
+    "category_range": "Marcial Corpo a Corpo",
+    "cost": {
+      "quantity": 10,
+      "unit": "po"
+    },
+    "damage": {
+      "damage_dice": "1d8",
+      "damage_type": {
+        "index": "concussao",
+        "name": "Concussão",
+        "url": "/api/tipos-de-dano/concussao"
+      }
+    },
+    "range": {
+      "normal": 5
+    },
+    "weight": 2,
+    "properties": [],
+    "url": "/api/equipamentos/mangual"
+  },
+  {
+    "index": "glaive",
+    "name": "Glaive",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Marcial",
+    "weapon_range": "Corpo a Corpo",
+    "category_range": "Marcial Corpo a Corpo",
+    "cost": {
+      "quantity": 20,
+      "unit": "po"
+    },
+    "damage": {
+      "damage_dice": "1d10",
+      "damage_type": {
+        "index": "corte",
+        "name": "Corte",
+        "url": "/api/tipos-de-dano/corte"
+      }
+    },
+    "range": {
+      "normal": 5
+    },
+    "weight": 6,
+    "properties": [
+      {
+        "index": "pesada",
+        "name": "Pesada",
+        "url": "/api/propriedades-de-armas/pesada"
+      },
+      {
+        "index": "alcance",
+        "name": "Alcance",
+        "url": "/api/propriedades-de-armas/alcance"
+      },
+      {
+        "index": "duas-maos",
+        "name": "Duas Mãos",
+        "url": "/api/propriedades-de-armas/duas-maos"
+      }
+    ],
+    "url": "/api/equipamentos/glaive"
+  },
+  {
+    "index": "grande-machado",
+    "name": "Grande Machado",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Marcial",
+    "weapon_range": "Corpo a Corpo",
+    "category_range": "Marcial Corpo a Corpo",
+    "cost": {
+      "quantity": 30,
+      "unit": "po"
+    },
+    "damage": {
+      "damage_dice": "1d12",
+      "damage_type": {
+        "index": "corte",
+        "name": "Corte",
+        "url": "/api/tipos-de-dano/corte"
+      }
+    },
+    "range": {
+      "normal": 5
+    },
+    "weight": 7,
+    "properties": [
+      {
+        "index": "pesada",
+        "name": "Pesada",
+        "url": "/api/propriedades-de-armas/pesada"
+      },
+      {
+        "index": "duas-maos",
+        "name": "Duas Mãos",
+        "url": "/api/propriedades-de-armas/duas-maos"
+      }
+    ],
+    "url": "/api/equipamentos/grande-machado"
+  },
+  {
+    "index": "espada-grande",
+    "name": "Espada Grande",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Marcial",
+    "weapon_range": "Corpo a Corpo",
+    "category_range": "Marcial Corpo a Corpo",
+    "cost": {
+      "quantity": 50,
+      "unit": "po"
+    },
+    "damage": {
+      "damage_dice": "2d6",
+      "damage_type": {
+        "index": "corte",
+        "name": "Corte",
+        "url": "/api/tipos-de-dano/corte"
+      }
+    },
+    "range": {
+      "normal": 5
+    },
+    "weight": 6,
+    "properties": [
+      {
+        "index": "pesada",
+        "name": "Pesada",
+        "url": "/api/propriedades-de-armas/pesada"
+      },
+      {
+        "index": "duas-maos",
+        "name": "Duas Mãos",
+        "url": "/api/propriedades-de-armas/duas-maos"
+      }
+    ],
+    "url": "/api/equipamentos/espada-grande"
+  },
+  {
+    "index": "alabarda",
+    "name": "Alabarda",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Marcial",
+    "weapon_range": "Corpo a Corpo",
+    "category_range": "Marcial Corpo a Corpo",
+    "cost": {
+      "quantity": 20,
+      "unit": "po"
+    },
+    "damage": {
+      "damage_dice": "1d10",
+      "damage_type": {
+        "index": "corte",
+        "name": "Corte",
+        "url": "/api/tipos-de-dano/corte"
+      }
+    },
+    "range": {
+      "normal": 5
+    },
+    "weight": 6,
+    "properties": [
+      {
+        "index": "pesada",
+        "name": "Pesada",
+        "url": "/api/propriedades-de-armas/pesada"
+      },
+      {
+        "index": "alcance",
+        "name": "Alcance",
+        "url": "/api/propriedades-de-armas/alcance"
+      },
+      {
+        "index": "duas-maos",
+        "name": "Duas Mãos",
+        "url": "/api/propriedades-de-armas/duas-maos"
+      }
+    ],
+    "url": "/api/equipamentos/alabarda"
+  },
+  {
+    "index": "lança-cavalaria",
+    "name": "Lança Cavalaria",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Marcial",
+    "weapon_range": "Corpo a Corpo",
+    "category_range": "Marcial Corpo a Corpo",
+    "cost": {
+      "quantity": 10,
+      "unit": "po"
+    },
+    "damage": {
+      "damage_dice": "1d12",
+      "damage_type": {
+        "index": "perfuracao",
+        "name": "Perfuração",
+        "url": "/api/tipos-de-dano/perfuracao"
+      }
+    },
+    "range": {
+      "normal": 5
+    },
+    "weight": 6,
+    "properties": [
+      {
+        "index": "alcance",
+        "name": "Alcance",
+        "url": "/api/propriedades-de-armas/alcance"
+      },
+      {
+        "index": "especial",
+        "name": "Especial",
+        "url": "/api/propriedades-de-armas/especial"
+      }
+    ],
+    "special": [
+      "Você tem desvantagem quando usa uma lança cavalaria para atacar um alvo a 1,5 metro de você. Além disso, uma lança cavalaria requer duas mãos para ser empunhada quando você não está montado."
+    ],
+    "url": "/api/equipamentos/lanca-cavalaria"
+  },
+  {
+    "index": "espada-longa",
+    "name": "Espada Longa",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Marcial",
+    "weapon_range": "Corpo a Corpo",
+    "category_range": "Marcial Corpo a Corpo",
+    "cost": {
+      "quantity": 15,
+      "unit": "po"
+    },
+    "damage": {
+      "damage_dice": "1d8",
+      "damage_type": {
+        "index": "corte",
+        "name": "Corte",
+        "url": "/api/tipos-de-dano/corte"
+      }
+    },
+    "range": {
+      "normal": 5
+    },
+    "weight": 3,
+    "properties": [
+      {
+        "index": "versatil",
+        "name": "Versátil",
+        "url": "/api/propriedades-de-armas/versatil"
+      }
+    ],
+    "two_handed_damage": {
+      "damage_dice": "1d10",
+      "damage_type": {
+        "index": "corte",
+        "name": "Corte",
+        "url": "/api/tipos-de-dano/corte"
+      }
+    },
+    "url": "/api/equipamentos/espada-longa"
+  },
+  {
+    "index": "marreta",
+    "name": "Marreta",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Marcial",
+    "weapon_range": "Corpo a Corpo",
+    "category_range": "Marcial Corpo a Corpo",
+    "cost": {
+      "quantity": 10,
+      "unit": "po"
+    },
+    "damage": {
+      "damage_dice": "2d6",
+      "damage_type": {
+        "index": "concussao",
+        "name": "Concussão",
+        "url": "/api/tipos-de-dano/concussao"
+      }
+    },
+    "range": {
+      "normal": 5
+    },
+    "weight": 10,
+    "properties": [
+      {
+        "index": "pesada",
+        "name": "Pesada",
+        "url": "/api/propriedades-de-armas/pesada"
+      },
+      {
+        "index": "duas-maos",
+        "name": "Duas Mãos",
+        "url": "/api/propriedades-de-armas/duas-maos"
+      }
+    ],
+    "url": "/api/equipamentos/marreta"
+  },
+  {
+    "index": "estrela-da-manha",
+    "name": "Estrela da Manhã",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Marcial",
+    "weapon_range": "Corpo a Corpo",
+    "category_range": "Marcial Corpo a Corpo",
+    "cost": {
+      "quantity": 15,
+      "unit": "po"
+    },
+    "damage": {
+      "damage_dice": "1d8",
+      "damage_type": {
+        "index": "perfuracao",
+        "name": "Perfuração",
+        "url": "/api/tipos-de-dano/perfuracao"
+      }
+    },
+    "range": {
+      "normal": 5
+    },
+    "weight": 4,
+    "properties": [],
+    "url": "/api/equipamentos/estrela-da-manha"
+  },
+  {
+    "index": "pique",
+    "name": "Pique",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Marcial",
+    "weapon_range": "Corpo a Corpo",
+    "category_range": "Marcial Corpo a Corpo",
+    "cost": {
+      "quantity": 5,
+      "unit": "po"
+    },
+    "damage": {
+      "damage_dice": "1d10",
+      "damage_type": {
+        "index": "perfuracao",
+        "name": "Perfuração",
+        "url": "/api/tipos-de-dano/perfuracao"
+      }
+    },
+    "range": {
+      "normal": 5
+    },
+    "weight": 18,
+    "properties": [
+      {
+        "index": "pesada",
+        "name": "Pesada",
+        "url": "/api/propriedades-de-armas/pesada"
+      },
+      {
+        "index": "alcance",
+        "name": "Alcance",
+        "url": "/api/propriedades-de-armas/alcance"
+      },
+      {
+        "index": "duas-maos",
+        "name": "Duas Mãos",
+        "url": "/api/propriedades-de-armas/duas-maos"
+      }
+    ],
+    "url": "/api/equipamentos/pique"
+  },
+  {
+    "index": "florete",
+    "name": "Florete",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Marcial",
+    "weapon_range": "Corpo a Corpo",
+    "category_range": "Marcial Corpo a Corpo",
+    "cost": {
+      "quantity": 25,
+      "unit": "po"
+    },
+    "damage": {
+      "damage_dice": "1d8",
+      "damage_type": {
+        "index": "perfuracao",
+        "name": "Perfuração",
+        "url": "/api/tipos-de-dano/perfuracao"
+      }
+    },
+    "range": {
+      "normal": 5
+    },
+    "weight": 2,
+    "properties": [
+      {
+        "index": "acuidade",
+        "name": "Acuidade",
+        "url": "/api/propriedades-de-armas/acuidade"
+      }
+    ],
+    "url": "/api/equipamentos/florete"
+  },
+  {
+    "index": "cimitarra",
+    "name": "Cimitarra",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Marcial",
+    "weapon_range": "Corpo a Corpo",
+    "category_range": "Marcial Corpo a Corpo",
+    "cost": {
+      "quantity": 25,
+      "unit": "po"
+    },
+    "damage": {
+      "damage_dice": "1d6",
+      "damage_type": {
+        "index": "corte",
+        "name": "Corte",
+        "url": "/api/tipos-de-dano/corte"
+      }
+    },
+    "range": {
+      "normal": 5
+    },
+    "weight": 3,
+    "properties": [
+      {
+        "index": "acuidade",
+        "name": "Acuidade",
+        "url": "/api/propriedades-de-armas/acuidade"
+      },
+      {
+        "index": "leve",
+        "name": "Leve",
+        "url": "/api/propriedades-de-armas/leve"
+      }
+    ],
+    "url": "/api/equipamentos/cimitarra"
+  },
+  {
+    "index": "espada-curta",
+    "name": "Espada Curta",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Marcial",
+    "weapon_range": "Corpo a Corpo",
+    "category_range": "Marcial Corpo a Corpo",
+    "cost": {
+      "quantity": 10,
+      "unit": "po"
+    },
+    "damage": {
+      "damage_dice": "1d6",
+      "damage_type": {
+        "index": "perfuracao",
+        "name": "Perfuração",
+        "url": "/api/tipos-de-dano/perfuracao"
+      }
+    },
+    "range": {
+      "normal": 5
+    },
+    "weight": 2,
+    "properties": [
+      {
+        "index": "acuidade",
+        "name": "Acuidade",
+        "url": "/api/propriedades-de-armas/acuidade"
+      },
+      {
+        "index": "leve",
+        "name": "Leve",
+        "url": "/api/propriedades-de-armas/leve"
+      },
+      {
+        "index": "monge",
+        "name": "Monge",
+        "url": "/api/propriedades-de-armas/monge"
+      }
+    ],
+    "url": "/api/equipamentos/espada-curta"
+  },
+  {
+    "index": "tridente",
+    "name": "Tridente",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Marcial",
+    "weapon_range": "Corpo a Corpo",
+    "category_range": "Marcial Corpo a Corpo",
+    "cost": {
+      "quantity": 5,
+      "unit": "po"
+    },
+    "damage": {
+      "damage_dice": "1d6",
+      "damage_type": {
+        "index": "perfuracao",
+        "name": "Perfuração",
+        "url": "/api/tipos-de-dano/perfuracao"
+      }
+    },
+    "range": {
+      "normal": 5
+    },
+    "weight": 4,
+    "properties": [
+      {
+        "index": "arremesso",
+        "name": "Arremesso",
+        "url": "/api/propriedades-de-armas/arremesso"
+      },
+      {
+        "index": "versatil",
+        "name": "Versátil",
+        "url": "/api/propriedades-de-armas/versatil"
+      }
+    ],
+    "throw_range": {
+      "normal": 20,
+      "long": 60
+    },
+    "two_handed_damage": {
+      "damage_dice": "1d8",
+      "damage_type": {
+        "index": "perfuracao",
+        "name": "Perfuração",
+        "url": "/api/tipos-de-dano/perfuracao"
+      }
+    },
+    "url": "/api/equipamentos/tridente"
+  },
+  {
+    "index": "picareta-de-guerra",
+    "name": "Picareta de Guerra",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Marcial",
+    "weapon_range": "Corpo a Corpo",
+    "category_range": "Marcial Corpo a Corpo",
+    "cost": {
+      "quantity": 5,
+      "unit": "po"
+    },
+    "damage": {
+      "damage_dice": "1d8",
+      "damage_type": {
+        "index": "perfuracao",
+        "name": "Perfuração",
+        "url": "/api/tipos-de-dano/perfuracao"
+      }
+    },
+    "range": {
+      "normal": 5
+    },
+    "weight": 2,
+    "properties": [],
+    "url": "/api/equipamentos/picareta-de-guerra"
+  },
+  {
+    "index": "martelo-de-guerra",
+    "name": "Martelo de Guerra",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Marcial",
+    "weapon_range": "Corpo a Corpo",
+    "category_range": "Marcial Corpo a Corpo",
+    "cost": {
+      "quantity": 15,
+      "unit": "po"
+    },
+    "damage": {
+      "damage_dice": "1d8",
+      "damage_type": {
+        "index": "concussao",
+        "name": "Concussão",
+        "url": "/api/tipos-de-dano/concussao"
+      }
+    },
+    "range": {
+      "normal": 5
+    },
+    "weight": 2,
+    "properties": [
+      {
+        "index": "versatil",
+        "name": "Versátil",
+        "url": "/api/propriedades-de-armas/versatil"
+      }
+    ],
+    "two_handed_damage": {
+      "damage_dice": "1d10",
+      "damage_type": {
+        "index": "concussao",
+        "name": "Concussão",
+        "url": "/api/tipos-de-dano/concussao"
+      }
+    },
+    "url": "/api/equipamentos/martelo-de-guerra"
+  },
+  {
+    "index": "chicote",
+    "name": "Chicote",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Marcial",
+    "weapon_range": "Corpo a Corpo",
+    "category_range": "Marcial Corpo a Corpo",
+    "cost": {
+      "quantity": 2,
+      "unit": "po"
+    },
+    "damage": {
+      "damage_dice": "1d4",
+      "damage_type": {
+        "index": "corte",
+        "name": "Corte",
+        "url": "/api/tipos-de-dano/corte"
+      }
+    },
+    "range": {
+      "normal": 5
+    },
+    "weight": 3,
+    "properties": [
+      {
+        "index": "acuidade",
+        "name": "Acuidade",
+        "url": "/api/propriedades-de-armas/acuidade"
+      },
+      {
+        "index": "alcance",
+        "name": "Alcance",
+        "url": "/api/propriedades-de-armas/alcance"
+      }
+    ],
+    "url": "/api/equipamentos/chicote"
+  },
+  {
+    "index": "zarabatana",
+    "name": "Zarabatana",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Marcial",
+    "weapon_range": "À Distância",
+    "category_range": "Marcial À Distância",
+    "cost": {
+      "quantity": 10,
+      "unit": "po"
+    },
+    "damage": {
+      "damage_dice": "1",
+      "damage_type": {
+        "index": "perfuracao",
+        "name": "Perfuração",
+        "url": "/api/tipos-de-dano/perfuracao"
+      }
+    },
+    "range": {
+      "normal": 25,
+      "long": 100
+    },
+    "weight": 1,
+    "properties": [
+      {
+        "index": "municao",
+        "name": "Munição",
+        "url": "/api/propriedades-de-armas/municao"
+      },
+      {
+        "index": "carregamento",
+        "name": "Carregamento",
+        "url": "/api/propriedades-de-armas/carregamento"
+      }
+    ],
+    "url": "/api/equipamentos/zarabatana"
+  },
+  {
+    "index": "besta-de-mao",
+    "name": "Besta de Mão",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Marcial",
+    "weapon_range": "À Distância",
+    "category_range": "Marcial À Distância",
+    "cost": {
+      "quantity": 75,
+      "unit": "po"
+    },
+    "damage": {
+      "damage_dice": "1d6",
+      "damage_type": {
+        "index": "perfuracao",
+        "name": "Perfuração",
+        "url": "/api/tipos-de-dano/perfuracao"
+      }
+    },
+    "range": {
+      "normal": 30,
+      "long": 120
+    },
+    "weight": 3,
+    "properties": [
+      {
+        "index": "municao",
+        "name": "Munição",
+        "url": "/api/propriedades-de-armas/municao"
+      },
+      {
+        "index": "leve",
+        "name": "Leve",
+        "url": "/api/propriedades-de-armas/leve"
+      },
+      {
+        "index": "carregamento",
+        "name": "Carregamento",
+        "url": "/api/propriedades-de-armas/carregamento"
+      }
+    ],
+    "url": "/api/equipamentos/besta-de-mao"
+  },
+  {
+    "index": "besta-pesada",
+    "name": "Besta Pesada",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Marcial",
+    "weapon_range": "À Distância",
+    "category_range": "Marcial À Distância",
+    "cost": {
+      "quantity": 50,
+      "unit": "po"
+    },
+    "damage": {
+      "damage_dice": "1d10",
+      "damage_type": {
+        "index": "perfuracao",
+        "name": "Perfuração",
+        "url": "/api/tipos-de-dano/perfuracao"
+      }
+    },
+    "range": {
+      "normal": 100,
+      "long": 400
+    },
+    "weight": 18,
+    "properties": [
+      {
+        "index": "municao",
+        "name": "Munição",
+        "url": "/api/propriedades-de-armas/municao"
+      },
+      {
+        "index": "pesada",
+        "name": "Pesada",
+        "url": "/api/propriedades-de-armas/pesada"
+      },
+      {
+        "index": "carregamento",
+        "name": "Carregamento",
+        "url": "/api/propriedades-de-armas/carregamento"
+      },
+      {
+        "index": "duas-maos",
+        "name": "Duas Mãos",
+        "url": "/api/propriedades-de-armas/duas-maos"
+      }
+    ],
+    "url": "/api/equipamentos/besta-pesada"
+  },
+  {
+    "index": "arco-longo",
+    "name": "Arco Longo",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Marcial",
+    "weapon_range": "À Distância",
+    "category_range": "Marcial À Distância",
+    "cost": {
+      "quantity": 50,
+      "unit": "po"
+    },
+    "damage": {
+      "damage_dice": "1d8",
+      "damage_type": {
+        "index": "perfuracao",
+        "name": "Perfuração",
+        "url": "/api/tipos-de-dano/perfuracao"
+      }
+    },
+    "range": {
+      "normal": 150,
+      "long": 600
+    },
+    "weight": 2,
+    "properties": [
+      {
+        "index": "municao",
+        "name": "Munição",
+        "url": "/api/propriedades-de-armas/municao"
+      },
+      {
+        "index": "pesada",
+        "name": "Pesada",
+        "url": "/api/propriedades-de-armas/pesada"
+      },
+      {
+        "index": "duas-maos",
+        "name": "Duas Mãos",
+        "url": "/api/propriedades-de-armas/duas-maos"
+      }
+    ],
+    "url": "/api/equipamentos/arco-longo"
+  },
+  {
+    "index": "rede",
+    "name": "Rede",
+    "equipment_category": {
+      "index": "arma",
+      "name": "Arma",
+      "url": "/api/categorias-de-equipamento/arma"
+    },
+    "weapon_category": "Marcial",
+    "weapon_range": "À Distância",
+    "category_range": "Marcial À Distância",
+    "cost": {
+      "quantity": 1,
+      "unit": "po"
+    },
+    "range": {
+      "normal": 5,
+      "long": 15
+    },
+    "weight": 3,
+    "properties": [
+      {
+        "index": "arremesso",
+        "name": "Arremesso",
+        "url": "/api/propriedades-de-armas/arremesso"
+      },
+      {
+        "index": "especial",
+        "name": "Especial",
+        "url": "/api/propriedades-de-armas/especial"
+      }
+    ],
+    "special": [
+      "Uma criatura de tamanho Grande ou menor atingida por uma rede fica impedida até ser libertada. Uma rede não tem efeito em criaturas sem forma ou criaturas Enormes ou maiores. Uma criatura pode usar sua ação para fazer um teste de Força CD 10, libertando-se ou libertando outra criatura ao alcance em um sucesso. Causar 5 pontos de dano cortante à rede (CA 10) também liberta a criatura sem causar dano a ela, terminando o efeito e destruindo a rede. Quando você usa uma ação, ação bônus ou reação para atacar com uma rede, você pode fazer apenas um ataque, independentemente do número de ataques que você possa normalmente fazer."
+    ],
+    "throw_range": {
+      "normal": 5,
+      "long": 15
+    },
+    "url": "/api/equipamentos/rede"
+  },
+  {
+    "index": "armadura-acolchoada",
+    "name": "Armadura Acolchoada",
+    "equipment_category": {
+      "index": "armadura",
+      "name": "Armadura",
+      "url": "/api/categorias-de-equipamento/armadura"
+    },
+    "armor_category": "Leve",
+    "armor_class": {
+      "base": 11,
+      "dex_bonus": true
+    },
+    "str_minimum": 0,
+    "stealth_disadvantage": true,
+    "weight": 8,
+    "cost": {
+      "quantity": 5,
+      "unit": "po"
+    },
+    "url": "/api/equipamentos/armadura-acolchoada"
+  },
+  {
+    "index": "armadura-de-couro",
+    "name": "Armadura de Couro",
+    "equipment_category": {
+      "index": "armadura",
+      "name": "Armadura",
+      "url": "/api/categorias-de-equipamento/armadura"
+    },
+    "armor_category": "Leve",
+    "armor_class": {
+      "base": 11,
+      "dex_bonus": true
+    },
+    "str_minimum": 0,
+    "stealth_disadvantage": false,
+    "weight": 10,
+    "cost": {
+      "quantity": 10,
+      "unit": "po"
+    },
+    "url": "/api/equipamentos/armadura-de-couro"
+  },
+  {
+    "index": "armadura-de-couro-batido",
+    "name": "Armadura de Couro Batido",
+    "equipment_category": {
+      "index": "armadura",
+      "name": "Armadura",
+      "url": "/api/categorias-de-equipamento/armadura"
+    },
+    "armor_category": "Leve",
+    "armor_class": {
+      "base": 12,
+      "dex_bonus": true
+    },
+    "str_minimum": 0,
+    "stealth_disadvantage": false,
+    "weight": 13,
+    "cost": {
+      "quantity": 45,
+      "unit": "po"
+    },
+    "url": "/api/equipamentos/armadura-de-couro-batido"
+  },
+  {
+    "index": "armadura-de-pele",
+    "name": "Armadura de Pele",
+    "equipment_category": {
+      "index": "armadura",
+      "name": "Armadura",
+      "url": "/api/categorias-de-equipamento/armadura"
+    },
+    "armor_category": "Média",
+    "armor_class": {
+      "base": 12,
+      "dex_bonus": true,
+      "max_bonus": 2
+    },
+    "str_minimum": 0,
+    "stealth_disadvantage": false,
+    "weight": 12,
+    "cost": {
+      "quantity": 10,
+      "unit": "po"
+    },
+    "url": "/api/equipamentos/armadura-de-pele"
+  },
+  {
+    "index": "cota-de-malha",
+    "name": "Cota de Malha",
+    "equipment_category": {
+      "index": "armadura",
+      "name": "Armadura",
+      "url": "/api/categorias-de-equipamento/armadura"
+    },
+    "armor_category": "Média",
+    "armor_class": {
+      "base": 13,
+      "dex_bonus": true,
+      "max_bonus": 2
+    },
+    "str_minimum": 0,
+    "stealth_disadvantage": false,
+    "weight": 20,
+    "cost": {
+      "quantity": 50,
+      "unit": "po"
+    },
+    "url": "/api/equipamentos/cota-de-malha"
+  },
+  {
+    "index": "armadura-de-escamas",
+    "name": "Armadura de Escamas",
+    "equipment_category": {
+      "index": "armadura",
+      "name": "Armadura",
+      "url": "/api/categorias-de-equipamento/armadura"
+    },
+    "armor_category": "Média",
+    "armor_class": {
+      "base": 14,
+      "dex_bonus": true,
+      "max_bonus": 2
+    },
+    "str_minimum": 0,
+    "stealth_disadvantage": true,
+    "weight": 45,
+    "cost": {
+      "quantity": 50,
+      "unit": "po"
+    },
+    "url": "/api/equipamentos/armadura-de-escamas"
+  },
+  {
+    "index": "peitoral",
+    "name": "Peitoral",
+    "equipment_category": {
+      "index": "armadura",
+      "name": "Armadura",
+      "url": "/api/categorias-de-equipamento/armadura"
+    },
+    "armor_category": "Média",
+    "armor_class": {
+      "base": 14,
+      "dex_bonus": true,
+      "max_bonus": 2
+    },
+    "str_minimum": 0,
+    "stealth_disadvantage": false,
+    "weight": 20,
+    "cost": {
+      "quantity": 400,
+      "unit": "po"
+    },
+    "url": "/api/equipamentos/peitoral"
+  },
+  {
+    "index": "armadura-meia-placa",
+    "name": "Armadura Meia-Placa",
+    "equipment_category": {
+      "index": "armadura",
+      "name": "Armadura",
+      "url": "/api/categorias-de-equipamento/armadura"
+    },
+    "armor_category": "Média",
+    "armor_class": {
+      "base": 15,
+      "dex_bonus": true,
+      "max_bonus": 2
+    },
+    "str_minimum": 0,
+    "stealth_disadvantage": true,
+    "weight": 40,
+    "cost": {
+      "quantity": 750,
+      "unit": "po"
+    },
+    "url": "/api/equipamentos/armadura-meia-placa"
+  },
+  {
+    "index": "armadura-de-anel",
+    "name": "Armadura de Anel",
+    "equipment_category": {
+      "index": "armadura",
+      "name": "Armadura",
+      "url": "/api/categorias-de-equipamento/armadura"
+    },
+    "armor_category": "Pesada",
+    "armor_class": {
+      "base": 14,
+      "dex_bonus": false
+    },
+    "str_minimum": 0,
+    "stealth_disadvantage": true,
+    "weight": 40,
+    "cost": {
+      "quantity": 30,
+      "unit": "po"
+    },
+    "url": "/api/equipamentos/armadura-de-anel"
+  },
+  {
+    "index": "cota-de-malha-pesada",
+    "name": "Cota de Malha Pesada",
+    "equipment_category": {
+      "index": "armadura",
+      "name": "Armadura",
+      "url": "/api/categorias-de-equipamento/armadura"
+    },
+    "armor_category": "Pesada",
+    "armor_class": {
+      "base": 16,
+      "dex_bonus": false
+    },
+    "str_minimum": 13,
+    "stealth_disadvantage": true,
+    "weight": 55,
+    "cost": {
+      "quantity": 75,
+      "unit": "po"
+    },
+    "url": "/api/equipamentos/cota-de-malha-pesada"
+  },
+  {
+    "index": "cota-de-talas",
+    "name": "Cota de Talas",
+    "equipment_category": {
+      "index": "armadura",
+      "name": "Armadura",
+      "url": "/api/categorias-de-equipamento/armadura"
+    },
+    "armor_category": "Pesada",
+    "armor_class": {
+      "base": 17,
+      "dex_bonus": false
+    },
+    "str_minimum": 15,
+    "stealth_disadvantage": true,
+    "weight": 60,
+    "cost": {
+      "quantity": 200,
+      "unit": "po"
+    },
+    "url": "/api/equipamentos/cota-de-talas"
+  },
+  {
+    "index": "armadura-de-placas",
+    "name": "Armadura de Placas",
+    "equipment_category": {
+      "index": "armadura",
+      "name": "Armadura",
+      "url": "/api/categorias-de-equipamento/armadura"
+    },
+    "armor_category": "Pesada",
+    "armor_class": {
+      "base": 18,
+      "dex_bonus": false
+    },
+    "str_minimum": 15,
+    "stealth_disadvantage": true,
+    "weight": 65,
+    "cost": {
+      "quantity": 1500,
+      "unit": "po"
+    },
+    "url": "/api/equipamentos/armadura-de-placas"
+  },
+  {
+    "index": "escudo",
+    "name": "Escudo",
+    "equipment_category": {
+      "index": "armadura",
+      "name": "Armadura",
+      "url": "/api/categorias-de-equipamento/armadura"
+    },
+    "armor_category": "Escudo",
+    "armor_class": {
+      "base": 2,
+      "dex_bonus": false
+    },
+    "str_minimum": 0,
+    "stealth_disadvantage": false,
+    "weight": 6,
+    "cost": {
+      "quantity": 10,
+      "unit": "po"
+    },
+    "url": "/api/equipamentos/escudo"
+  },
+  {
+    "index": "abaco",
+    "name": "Ábaco",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 2,
+      "unit": "po"
+    },
+    "weight": 2,
+    "url": "/api/equipamentos/abaco"
+  },
+  {
+    "index": "acido-frasco",
+    "name": "Ácido (frasco)",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 25,
+      "unit": "po"
+    },
+    "weight": 1,
+    "desc": [
+      "Como uma ação, você pode derramar o conteúdo deste frasco em uma criatura a até 1,5 metro de você ou arremessar o frasco até 6 metros, quebrando-o com o impacto. Em qualquer caso, faça um ataque à distância contra uma criatura ou objeto, tratando o ácido como uma arma improvisada.",
+      "Em um acerto, o alvo sofre 2d6 de dano ácido."
+    ],
+    "url": "/api/equipamentos/acido-frasco"
+  },
+  {
+    "index": "fogo-alquimico-frasco",
+    "name": "Fogo Alquímico (frasco)",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 50,
+      "unit": "po"
+    },
+    "desc": [
+      "Este fluido pegajoso e adesivo se inflama quando exposto ao ar.",
+      "Como uma ação, você pode arremessar este frasco até 6 metros, quebrando-o com o impacto. Faça um ataque à distância contra uma criatura ou objeto, tratando o fogo alquímico como uma arma improvisada.",
+      "Em um acerto, o alvo sofre 1d4 de dano de fogo no início de cada um dos turnos dele. Uma criatura pode terminar este dano usando sua ação para fazer um teste de Destreza CD 10 para extinguir as chamas."
+    ],
+    "weight": 1,
+    "url": "/api/equipamentos/fogo-alquimico-frasco"
+  },
+  {
+    "index": "caixa-de-esmolas",
+    "name": "Caixa de Esmolas",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 0,
+      "unit": "pc"
+    },
+    "weight": 0,
+    "desc": ["Uma pequena caixa para esmolas, tipicamente encontrada na mochila do sacerdote."],
+    "url": "/api/equipamentos/caixa-de-esmolas"
+  },
+  {
+    "index": "flecha",
+    "name": "Flecha",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "municao",
+      "name": "Munição",
+      "url": "/api/categorias-de-equipamento/municao"
+    },
+    "quantity": 20,
+    "cost": {
+      "quantity": 1,
+      "unit": "po"
+    },
+    "weight": 1,
+    "url": "/api/equipamentos/flecha"
+  },
+  {
+    "index": "bloco-de-incenso",
+    "name": "Bloco de Incenso",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 0,
+      "unit": "pc"
+    },
+    "weight": 0,
+    "desc": ["Um bloco de incenso, tipicamente encontrado na mochila do sacerdote."],
+    "url": "/api/equipamentos/bloco-de-incenso"
+  },
+  {
+    "index": "agulha-de-zarabatana",
+    "name": "Agulha de Zarabatana",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "municao",
+      "name": "Munição",
+      "url": "/api/categorias-de-equipamento/municao"
+    },
+    "quantity": 50,
+    "cost": {
+      "quantity": 1,
+      "unit": "po"
+    },
+    "weight": 1,
+    "url": "/api/equipamentos/agulha-de-zarabatana"
+  },
+  {
+    "index": "incensario",
+    "name": "Incensário",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 0,
+      "unit": "pc"
+    },
+    "weight": 0,
+    "desc": ["Um incensário, tipicamente encontrado na mochila do sacerdote."],
+    "url": "/api/equipamentos/incensario"
+  },
+  {
+    "index": "virote-de-besta",
+    "name": "Virote de Besta",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "municao",
+      "name": "Munição",
+      "url": "/api/categorias-de-equipamento/municao"
+    },
+    "quantity": 20,
+    "cost": {
+      "quantity": 1,
+      "unit": "po"
+    },
+    "weight": 1.5,
+    "url": "/api/equipamentos/virote-de-besta"
+  },
+  {
+    "index": "bala-de-funda",
+    "name": "Bala de Funda",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "municao",
+      "name": "Munição",
+      "url": "/api/categorias-de-equipamento/municao"
+    },
+    "quantity": 20,
+    "cost": {
+      "quantity": 4,
+      "unit": "pc"
+    },
+    "weight": 1.5,
+    "url": "/api/equipamentos/bala-de-funda"
+  },
+  {
+    "index": "amuleto",
+    "name": "Amuleto",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "simbolos-sagrados",
+      "name": "Símbolos Sagrados",
+      "url": "/api/categorias-de-equipamento/simbolos-sagrados"
+    },
+    "cost": {
+      "quantity": 5,
+      "unit": "po"
+    },
+    "weight": 1,
+    "desc": [
+      "Um símbolo sagrado é uma representação de um deus ou panteão. Pode ser um amuleto que exibe um símbolo representando uma divindade, o mesmo símbolo cuidadosamente gravado ou incrustado como um emblema em um escudo, ou uma pequena caixa contendo um fragmento de uma relíquia sagrada.",
+      "O Apêndice B lista os símbolos comumente associados a muitos deuses no multiverso. Um clérigo ou paladino pode usar um símbolo sagrado como foco de conjuração. Para usar o símbolo dessa forma, o conjurador deve segurá-lo na mão, usá-lo visivelmente ou portá-lo em um escudo."
+    ],
+    "url": "/api/equipamentos/amuleto"
+  },
+  {
+    "index": "antitoxina-frasco",
+    "name": "Antitoxina (frasco)",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 50,
+      "unit": "po"
+    },
+    "weight": 0,
+    "desc": [
+      "Uma criatura que bebe este frasco de líquido ganha vantagem em testes de resistência contra veneno por 1 hora. Não confere nenhum benefício a mortos-vivos ou construtos."
+    ],
+    "url": "/api/equipamentos/antitoxina-frasco"
+  },
+  {
+    "index": "cristal",
+    "name": "Cristal",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "foco-arcano",
+      "name": "Foco Arcano",
+      "url": "/api/categorias-de-equipamento/foco-arcano"
+    },
+    "cost": {
+      "quantity": 10,
+      "unit": "po"
+    },
+    "weight": 1,
+    "desc": [
+      "Um foco arcano é um item especial — um orbe, um cristal, uma haste, um bastão especialmente construído, uma varinha ou item similar — projetado para canalizar o poder de feitiços arcanos. Um feiticeiro, bruxo ou mago pode usar tal item como um foco de conjuração."
+    ],
+    "url": "/api/equipamentos/cristal"
+  },
+  {
+    "index": "orbe",
+    "name": "Orbe",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "foco-arcano",
+      "name": "Foco Arcano",
+      "url": "/api/categorias-de-equipamento/foco-arcano"
+    },
+    "cost": {
+      "quantity": 20,
+      "unit": "po"
+    },
+    "weight": 3,
+    "desc": [
+      "Um foco arcano é um item especial — um orbe, um cristal, uma haste, um bastão especialmente construído, uma varinha ou item similar — projetado para canalizar o poder de feitiços arcanos. Um feiticeiro, bruxo ou mago pode usar tal item como um foco de conjuração."
+    ],
+    "url": "/api/equipamentos/orbe"
+  },
+  {
+    "index": "haste",
+    "name": "Haste",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "foco-arcano",
+      "name": "Foco Arcano",
+      "url": "/api/categorias-de-equipamento/foco-arcano"
+    },
+    "cost": {
+      "quantity": 10,
+      "unit": "po"
+    },
+    "weight": 2,
+    "desc": [
+      "Um foco arcano é um item especial — um orbe, um cristal, uma haste, um bastão especialmente construído, uma varinha ou item similar — projetado para canalizar o poder de feitiços arcanos. Um feiticeiro, bruxo ou mago pode usar tal item como um foco de conjuração."
+    ],
+    "url": "/api/equipamentos/haste"
+  },
+  {
+    "index": "bastao",
+    "name": "Bastão",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "foco-arcano",
+      "name": "Foco Arcano",
+      "url": "/api/categorias-de-equipamento/foco-arcano"
+    },
+    "cost": {
+      "quantity": 5,
+      "unit": "po"
+    },
+    "weight": 4,
+    "desc": [
+      "Um foco arcano é um item especial — um orbe, um cristal, uma haste, um bastão especialmente construído, uma varinha ou item similar — projetado para canalizar o poder de feitiços arcanos. Um feiticeiro, bruxo ou mago pode usar tal item como um foco de conjuração."
+    ],
+    "url": "/api/equipamentos/bastao"
+  },
+  {
+    "index": "varinha",
+    "name": "Varinha",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "foco-arcano",
+      "name": "Foco Arcano",
+      "url": "/api/categorias-de-equipamento/foco-arcano"
+    },
+    "cost": {
+      "quantity": 10,
+      "unit": "po"
+    },
+    "weight": 1,
+    "desc": [
+      "Um foco arcano é um item especial — um orbe, um cristal, uma haste, um bastão especialmente construído, uma varinha ou item similar — projetado para canalizar o poder de feitiços arcanos. Um feiticeiro, bruxo ou mago pode usar tal item como um foco de conjuração."
+    ],
+    "url": "/api/equipamentos/varinha"
+  },
+  {
+    "index": "mochila",
+    "name": "Mochila",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 2,
+      "unit": "po"
+    },
+    "weight": 5,
+    "url": "/api/equipamentos/mochila"
+  },
+  {
+    "index": "esferas-de-aco-saco-de-1000",
+    "name": "Esferas de Aço (saco de 1.000)",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 1,
+      "unit": "po"
+    },
+    "weight": 2,
+    "desc": [
+      "Como uma ação, você pode derramar essas pequenas esferas metálicas de sua bolsa para cobrir uma área nivelada e quadrada de 3 metros de lado.",
+      "Uma criatura se movendo através da área coberta deve ser bem-sucedida em um teste de resistência de Destreza CD 10 ou cairá no chão.",
+      "Uma criatura se movendo através da área em metade da velocidade não precisa fazer o teste."
+    ],
+    "url": "/api/equipamentos/esferas-de-aco-saco-de-1000"
+  },
+  {
+    "index": "barril",
+    "name": "Barril",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 2,
+      "unit": "po"
+    },
+    "weight": 70,
+    "url": "/api/equipamentos/barril"
+  },
+  {
+    "index": "cesta",
+    "name": "Cesta",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 4,
+      "unit": "pp"
+    },
+    "weight": 2,
+    "url": "/api/equipamentos/cesta"
+  },
+  {
+    "index": "colchao",
+    "name": "Colchão",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 1,
+      "unit": "po"
+    },
+    "weight": 7,
+    "url": "/api/equipamentos/colchao"
+  },
+  {
+    "index": "sino",
+    "name": "Sino",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 1,
+      "unit": "po"
+    },
+    "weight": 0,
+    "url": "/api/equipamentos/sino"
+  },
+  {
+    "index": "cobertor",
+    "name": "Cobertor",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 5,
+      "unit": "pp"
+    },
+    "weight": 3,
+    "url": "/api/equipamentos/cobertor"
+  },
+  {
+    "index": "roldana-e-polias",
+    "name": "Roldana e Polias",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 1,
+      "unit": "po"
+    },
+    "weight": 5,
+    "desc": [
+      "Um conjunto de polias com um cabo enfiado nelas e um gancho para prender objetos, uma roldana e polias permitem que você levante até quatro vezes o peso que normalmente conseguiria."
+    ],
+    "url": "/api/equipamentos/roldana-e-polias"
+  },
+  {
+    "index": "livro",
+    "name": "Livro",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 25,
+      "unit": "po"
+    },
+    "weight": 5,
+    "desc": [
+      "Um livro pode conter poesia, relatos históricos, informações relativas a um campo específico de conhecimento, diagramas e anotações sobre engenhocas gnômicas, ou praticamente qualquer outra coisa que possa ser representada usando texto ou imagens. Um livro de feitiços é um grimório (descrito mais adiante nesta seção)."
+    ],
+    "url": "/api/equipamentos/livro"
+  },
+  {
+    "index": "garrafa-vidro",
+    "name": "Garrafa, Vidro",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 2,
+      "unit": "po"
+    },
+    "weight": 2,
+    "url": "/api/equipamentos/garrafa-vidro"
+  },
+  {
+    "index": "balde",
+    "name": "Balde",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 5,
+      "unit": "pc"
+    },
+    "weight": 2,
+    "url": "/api/equipamentos/balde"
+  },
+  {
+    "index": "estalagmites",
+    "name": "Estrepes",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 5,
+      "unit": "pc"
+    },
+    "weight": 2,
+    "desc": [
+      "Como uma ação, você pode espalhar um saco de estrepes para cobrir uma área quadrada de 1,5 metro de lado.",
+      "Qualquer criatura que entrar na área deve ser bem-sucedida em um teste de resistência de Destreza CD 15 ou parar de se mover naquele turno e sofrer 1 de dano perfurante.",
+      "Sofrer esse dano reduz a velocidade de caminhada da criatura em 3 metros até que ela recupere pelo menos 1 ponto de vida.",
+      "Uma criatura se movendo através da área em metade da velocidade não precisa fazer o teste."
+    ],
+    "url": "/api/equipamentos/estalagmites"
+  },
+  {
+    "index": "vela",
+    "name": "Vela",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 1,
+      "unit": "pc"
+    },
+    "weight": 0,
+    "desc": [
+      "Por 1 hora, uma vela emite luz brilhante em um raio de 1,5 metro e luz fraca por mais 1,5 metro."
+    ],
+    "url": "/api/equipamentos/vela"
+  },
+  {
+    "index": "estojo-virote-de-besta",
+    "name": "Estojo, Virote de Besta",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 1,
+      "unit": "po"
+    },
+    "weight": 1,
+    "desc": ["Este estojo de madeira pode conter até vinte virotes de besta."],
+    "url": "/api/equipamentos/estojo-virote-de-besta"
+  },
+  {
+    "index": "estojo-mapa-ou-pergaminho",
+    "name": "Estojo, Mapa ou Pergaminho",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 1,
+      "unit": "po"
+    },
+    "weight": 1,
+    "desc": [
+      "Este estojo cilíndrico de couro pode conter até dez folhas de papel enroladas ou cinco folhas de pergaminho enroladas."
+    ],
+    "url": "/api/equipamentos/estojo-mapa-ou-pergaminho"
+  },
+  {
+    "index": "corrente-3-metros",
+    "name": "Corrente (3 metros)",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 5,
+      "unit": "po"
+    },
+    "weight": 10,
+    "desc": [
+      "Uma corrente tem 10 pontos de vida. Pode ser quebrada com um teste de Força CD 20 bem-sucedido."
+    ],
+    "url": "/api/equipamentos/corrente-3-metros"
+  },
+  {
+    "index": "giz-1-pedaco",
+    "name": "Giz (1 pedaço)",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 1,
+      "unit": "pc"
+    },
+    "weight": 0,
+    "url": "/api/equipamentos/giz-1-pedaco"
+  },
+  {
+    "index": "bau",
+    "name": "Baú",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 5,
+      "unit": "po"
+    },
+    "weight": 25,
+    "url": "/api/equipamentos/bau"
+  },
+  {
+    "index": "roupas-comuns",
+    "name": "Roupas, Comuns",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 5,
+      "unit": "pp"
+    },
+    "weight": 3,
+    "url": "/api/equipamentos/roupas-comuns"
+  },
+  {
+    "index": "roupas-fantasia",
+    "name": "Roupas, Fantasia",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 5,
+      "unit": "po"
+    },
+    "weight": 4,
+    "url": "/api/equipamentos/roupas-fantasia"
+  },
+  {
+    "index": "roupas-finas",
+    "name": "Roupas, Finas",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 15,
+      "unit": "po"
+    },
+    "weight": 6,
+    "url": "/api/equipamentos/roupas-finas"
+  },
+  {
+    "index": "roupas-de-viajante",
+    "name": "Roupas, de Viajante",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 2,
+      "unit": "po"
+    },
+    "weight": 4,
+    "url": "/api/equipamentos/roupas-de-viajante"
+  },
+  {
+    "index": "bolsa-de-componentes",
+    "name": "Bolsa de Componentes",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 25,
+      "unit": "po"
+    },
+    "weight": 2,
+    "desc": [
+      "Uma bolsa de componentes é uma pequena bolsa de couro impermeável que possui compartimentos para guardar todos os componentes materiais e outros itens especiais que você precisa para lançar seus feitiços, exceto aqueles componentes que têm um custo específico (conforme indicado na descrição de um feitiço)."
+    ],
+    "url": "/api/equipamentos/bolsa-de-componentes"
+  },
+  {
+    "index": "pe-de-cabra",
+    "name": "Pé de Cabra",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 2,
+      "unit": "po"
+    },
+    "weight": 5,
+    "desc": [
+      "Usar um pé de cabra concede vantagem em testes de Força onde a alavancagem do pé de cabra pode ser aplicada."
+    ],
+    "url": "/api/equipamentos/pe-de-cabra"
+  },
+  {
+    "index": "ramo-de-visco",
+    "name": "Ramo de Visco",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamentos-druidicos"
+    },
+    "gear_category": {
+      "index": "foco-druidico",
+      "name": "Foco Druídico",
+      "url": "/api/categorias-de-equipamento/foco-druidico"
+    },
+    "cost": {
+      "quantity": 1,
+      "unit": "po"
+    },
+    "weight": 0,
+    "desc": [
+      "Um foco druídico pode ser um ramo de visco ou azevinho, uma varinha ou cetro feito de teixo ou outra madeira especial, um bastão retirado inteiramente de uma árvore viva ou um objeto totêmico que incorpora penas, peles, ossos e dentes de animais sagrados. Um druida pode usar tal objeto como foco de conjuração."
+    ],
+    "url": "/api/equipamentos/ramo-de-visco"
+  },
+  {
+    "index": "totem",
+    "name": "Totem",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamentos-druidicos"
+    },
+    "gear_category": {
+      "index": "foco-druidico",
+      "name": "Foco Druídico",
+      "url": "/api/categorias-de-equipamento/foco-druidico"
+    },
+    "cost": {
+      "quantity": 1,
+      "unit": "po"
+    },
+    "weight": 0,
+    "desc": [
+      "Um foco druídico pode ser um ramo de visco ou azevinho, uma varinha ou cetro feito de teixo ou outra madeira especial, um bastão retirado inteiramente de uma árvore viva ou um objeto totêmico que incorpora penas, peles, ossos e dentes de animais sagrados. Um druida pode usar tal objeto como foco de conjuração."
+    ],
+    "url": "/api/equipamentos/totem"
+  },
+  {
+    "index": "bastao-de-madeira",
+    "name": "Bastão de Madeira",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamentos-druidicos"
+    },
+    "gear_category": {
+      "index": "foco-druidico",
+      "name": "Foco Druídico",
+      "url": "/api/categorias-de-equipamento/foco-druidico"
+    },
+    "cost": {
+      "quantity": 5,
+      "unit": "po"
+    },
+    "weight": 4,
+    "desc": [
+      "Um foco druídico pode ser um ramo de visco ou azevinho, uma varinha ou cetro feito de teixo ou outra madeira especial, um bastão retirado inteiramente de uma árvore viva ou um objeto totêmico que incorpora penas, peles, ossos e dentes de animais sagrados. Um druida pode usar tal objeto como foco de conjuração."
+    ],
+    "url": "/api/equipamentos/bastao-de-madeira"
+  },
+  {
+    "index": "varinha-de-teixo",
+    "name": "Varinha de Teixo",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamentos-druidicos"
+    },
+    "gear_category": {
+      "index": "foco-druidico",
+      "name": "Foco Druídico",
+      "url": "/api/categorias-de-equipamento/foco-druidico"
+    },
+    "cost": {
+      "quantity": 10,
+      "unit": "po"
+    },
+    "weight": 1,
+    "desc": [
+      "Um foco druídico pode ser um ramo de visco ou azevinho, uma varinha ou cetro feito de teixo ou outra madeira especial, um bastão retirado inteiramente de uma árvore viva ou um objeto totêmico que incorpora penas, peles, ossos e dentes de animais sagrados. Um druida pode usar tal objeto como foco de conjuração."
+    ],
+    "url": "/api/equipamentos/varinha-de-teixo"
+  },
+  {
+    "index": "emblema",
+    "name": "Emblema",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Símbolos Sagrados",
+      "url": "/api/categorias-de-equipamento/simbolos-sagrados"
+    },
+    "gear_category": {
+      "index": "simbolos-sagrados",
+      "name": "Símbolos Sagrados",
+      "url": "/api/categorias-de-equipamento/simbolos-sagrados"
+    },
+    "cost": {
+      "quantity": 5,
+      "unit": "po"
+    },
+    "weight": 0,
+    "desc": [
+      "Um símbolo sagrado é uma representação de um deus ou panteão. Pode ser um amuleto que exibe um símbolo representando uma divindade, o mesmo símbolo cuidadosamente gravado ou incrustado como um emblema em um escudo, ou uma pequena caixa contendo um fragmento de uma relíquia sagrada.",
+      "O Apêndice B lista os símbolos comumente associados a muitos deuses no multiverso. Um clérigo ou paladino pode usar um símbolo sagrado como foco de conjuração. Para usar o símbolo dessa forma, o conjurador deve segurá-lo na mão, usá-lo visivelmente ou portá-lo em um escudo."
+    ],
+    "url": "/api/equipamentos/emblema"
+  },
+  {
+    "index": "equipamento-de-pesca",
+    "name": "Equipamento de Pesca",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 1,
+      "unit": "po"
+    },
+    "weight": 4,
+    "desc": [
+      "Este kit inclui uma vara de madeira, linha de seda, flutuadores de cortiça, anzóis de aço, chumbadas de chumbo, iscas de veludo e redes estreitas."
+    ],
+    "url": "/api/equipamentos/equipamento-de-pesca"
+  },
+  {
+    "index": "frasco-ou-cantil",
+    "name": "Frasco ou Cantil",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 2,
+      "unit": "pc"
+    },
+    "weight": 1,
+    "url": "/api/equipamentos/frasco-ou-cantil"
+  },
+  {
+    "index": "gancho-de-escalada",
+    "name": "Gancho de Escalada",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 2,
+      "unit": "po"
+    },
+    "weight": 4,
+    "url": "/api/equipamentos/gancho-de-escalada"
+  },
+  {
+    "index": "martelo",
+    "name": "Martelo",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 1,
+      "unit": "po"
+    },
+    "weight": 3,
+    "url": "/api/equipamentos/martelo"
+  },
+  {
+    "index": "marreta",
+    "name": "Marreta",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 2,
+      "unit": "po"
+    },
+    "weight": 10,
+    "url": "/api/equipamentos/marreta"
+  },
+  {
+    "index": "agua-benta-frasco",
+    "name": "Água Benta (frasco)",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 25,
+      "unit": "po"
+    },
+    "weight": 1,
+    "desc": [
+      "Como uma ação, você pode derramar o conteúdo deste frasco em uma criatura a até 1,5 metro de você ou arremessá-lo até 6 metros, quebrando-o com o impacto. Em qualquer caso, faça um ataque à distância contra uma criatura alvo, tratando a água benta como uma arma improvisada.",
+      "Se o alvo for um demônio ou morto-vivo, ele sofre 2d6 de dano radiante.",
+      "Um clérigo ou paladino pode criar água benta realizando um ritual especial.",
+      "O ritual leva 1 hora para ser realizado, usa 25 po em pó de prata e requer que o conjurador gaste um espaço de magia de 1º nível."
+    ],
+    "url": "/api/equipamentos/agua-benta-frasco"
+  },
+  {
+    "index": "ampulheta",
+    "name": "Ampulheta",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 25,
+      "unit": "po"
+    },
+    "weight": 1,
+    "url": "/api/equipamentos/ampulheta"
+  },
+  {
+    "index": "armadilha-de-caca",
+    "name": "Armadilha de Caça",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 5,
+      "unit": "po"
+    },
+    "desc": [
+      "Quando você usa sua ação para armá-la, esta armadilha forma um anel de aço com dentes serrilhados que se fecha quando uma criatura pisa em uma placa de pressão no centro. A armadilha é fixada por uma corrente pesada a um objeto imóvel, como uma árvore ou uma estaca cravada no chão.",
+      "Uma criatura que pisa na placa deve ser bem-sucedida em um teste de resistência de Destreza CD 13 ou sofrer 1d4 de dano perfurante e parar de se mover. Daí em diante, até que a criatura se liberte da armadilha, seu movimento é limitado pelo comprimento da corrente (normalmente 1 metro de comprimento).",
+      "Uma criatura pode usar sua ação para fazer um teste de Força CD 13, libertando-se ou libertando outra criatura ao seu alcance em um sucesso. Cada teste fracassado causa 1 de dano perfurante à criatura presa."
+    ],
+    "weight": 25,
+    "url": "/api/equipamentos/armadilha-de-caca"
+  },
+  {
+    "index": "tinta-frasco-de-1-onca",
+    "name": "Tinta (frasco de 1 onça)",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 10,
+      "unit": "po"
+    },
+    "weight": 0,
+    "url": "/api/equipamentos/tinta-frasco-de-1-onca"
+  },
+  {
+    "index": "pena-de-tinta",
+    "name": "Pena de Tinta",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 2,
+      "unit": "pc"
+    },
+    "weight": 0,
+    "url": "/api/equipamentos/pena-de-tinta"
+  },
+  {
+    "index": "jarro-ou-caneca",
+    "name": "Jarro ou Caneca",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 2,
+      "unit": "pc"
+    },
+    "weight": 4,
+    "url": "/api/equipamentos/jarro-ou-caneca"
+  },
+  {
+    "index": "kit-de-escalada",
+    "name": "Kit de Escalada",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/kits"
+    },
+    "gear_category": {
+      "index": "kits",
+      "name": "Kits",
+      "url": "/api/categorias-de-equipamento/kits"
+    },
+    "cost": {
+      "quantity": 25,
+      "unit": "po"
+    },
+    "weight": 12,
+    "desc": [
+      "Um kit de escalada inclui pitons especiais, pontas para botas, luvas e um arnês. Você pode usar o kit de escalada como uma ação para se ancorar; quando o fizer, você não pode cair mais de 7,5 metros do ponto onde se ancorou, e não pode escalar mais de 7,5 metros de distância desse ponto sem desfazer a âncora."
+    ],
+    "url": "/api/equipamentos/kit-de-escalada"
+  },
+  {
+    "index": "kit-de-disfarce",
+    "name": "Kit de Disfarce",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/kits"
+    },
+    "gear_category": {
+      "index": "kits",
+      "name": "Kits",
+      "url": "/api/categorias-de-equipamento/kits"
+    },
+    "cost": {
+      "quantity": 25,
+      "unit": "po"
+    },
+    "weight": 3,
+    "desc": [
+      "Esta bolsa de cosméticos, tinturas de cabelo e pequenos adereços permite que você crie disfarces que mudam sua aparência física. Proficiência com este kit permite que você adicione seu bônus de proficiência a quaisquer testes de habilidade que fizer para criar um disfarce visual."
+    ],
+    "url": "/api/equipamentos/kit-de-disfarce"
+  },
+  {
+    "index": "kit-de-falsificacao",
+    "name": "Kit de Falsificação",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/kits"
+    },
+    "gear_category": {
+      "index": "kits",
+      "name": "Kits",
+      "url": "/api/categorias-de-equipamento/kits"
+    },
+    "cost": {
+      "quantity": 15,
+      "unit": "po"
+    },
+    "weight": 5,
+    "desc": [
+      "Esta pequena caixa contém uma variedade de papéis e pergaminhos, penas e tintas, selos e lacre, folhas de ouro e prata, e outros suprimentos necessários para criar falsificações convincentes de documentos físicos. Proficiência com este kit permite que você adicione seu bônus de proficiência a quaisquer testes de habilidade que fizer para criar uma falsificação física de um documento."
+    ],
+    "url": "/api/equipamentos/kit-de-falsificacao"
+  },
+  {
+    "index": "kit-de-herbalismo",
+    "name": "Kit de Herbalismo",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/kits"
+    },
+    "gear_category": {
+      "index": "kits",
+      "name": "Kits",
+      "url": "/api/categorias-de-equipamento/kits"
+    },
+    "cost": {
+      "quantity": 5,
+      "unit": "po"
+    },
+    "weight": 3,
+    "desc": [
+      "Este kit contém uma variedade de instrumentos como tesouras, pilão e almofariz, bolsas e frascos usados por herbalistas para criar remédios e poções. Proficiência com este kit permite que você adicione seu bônus de proficiência a quaisquer testes de habilidade que fizer para identificar ou aplicar ervas. Além disso, proficiência com este kit é necessária para criar antitoxinas e poções de cura."
+    ],
+    "url": "/api/equipamentos/kit-de-herbalismo"
+  },
+  {
+    "index": "kit-de-curandeiro",
+    "name": "Kit de Curandeiro",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Kits",
+      "url": "/api/categorias-de-equipamento/kits"
+    },
+    "gear_category": {
+      "index": "kits",
+      "name": "Kits",
+      "url": "/api/categorias-de-equipamento/kits"
+    },
+    "cost": {
+      "quantity": 5,
+      "unit": "po"
+    },
+    "weight": 3,
+    "desc": [
+      "Este kit é uma bolsa de couro contendo bandagens, pomadas e talas. O kit tem dez usos. Como uma ação, você pode gastar um uso do kit para estabilizar uma criatura que tenha 0 pontos de vida, sem precisar fazer um teste de Sabedoria (Medicina)."
+    ],
+    "url": "/api/equipamentos/kit-de-curandeiro"
+  },
+  {
+    "index": "kit-de-camping",
+    "name": "Kit de Camping",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Kits",
+      "url": "/api/categorias-de-equipamento/kits"
+    },
+    "gear_category": {
+      "index": "kits",
+      "name": "Kits",
+      "url": "/api/categorias-de-equipamento/kits"
+    },
+    "cost": {
+      "quantity": 2,
+      "unit": "pp"
+    },
+    "weight": 1,
+    "desc": [
+      "Esta caixa de lata contém um copo e talheres simples. A caixa se fecha com uma presilha, e um lado pode ser usado como panela de cozinha e o outro como prato ou tigela rasa."
+    ],
+    "url": "/api/equipamentos/kit-de-camping"
+  },
+  {
+    "index": "kit-de-venenoso",
+    "name": "Kit de Venenoso",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Kits",
+      "url": "/api/categorias-de-equipamento/kits"
+    },
+    "gear_category": {
+      "index": "kits",
+      "name": "Kits",
+      "url": "/api/categorias-de-equipamento/kits"
+    },
+    "cost": {
+      "quantity": 50,
+      "unit": "po"
+    },
+    "weight": 2,
+    "desc": [
+      "Um kit de venenoso inclui os frascos, produtos químicos e outros equipamentos necessários para a criação de venenos. Proficiência com este kit permite que você adicione seu bônus de proficiência a quaisquer testes de habilidade que fizer para criar ou usar venenos."
+    ],
+    "url": "/api/equipamentos/kit-de-venenoso"
+  },
+  {
+    "index": "escada-3-metros",
+    "name": "Escada (3 metros)",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 1,
+      "unit": "pp"
+    },
+    "weight": 25,
+    "url": "/api/equipamentos/escada-3-metros"
+  },
+  {
+    "index": "lampada",
+    "name": "Lâmpada",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 5,
+      "unit": "pp"
+    },
+    "weight": 1,
+    "desc": [
+      "Uma lâmpada emite luz brilhante em um raio de 4,5 metros e luz fraca por mais 9 metros. Uma vez acesa, ela queima por 6 horas com um frasco (1 litro) de óleo."
+    ],
+    "url": "/api/equipamentos/lampada"
+  },
+  {
+    "index": "lanterna-de-foco",
+    "name": "Lanterna de Foco",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 10,
+      "unit": "po"
+    },
+    "weight": 2,
+    "desc": [
+      "Uma lanterna de foco emite luz brilhante em um cone de 18 metros e luz fraca por mais 18 metros. Uma vez acesa, ela queima por 6 horas com um frasco (1 litro) de óleo."
+    ],
+    "url": "/api/equipamentos/lanterna-de-foco"
+  },
+  {
+    "index": "lanterna-encapuzada",
+    "name": "Lanterna Encoberta",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 5,
+      "unit": "po"
+    },
+    "weight": 2,
+    "desc": [
+      "Uma lanterna encoberta emite luz brilhante em um raio de 9 metros e luz fraca por mais 9 metros. Uma vez acesa, ela queima por 6 horas com um frasco (1 litro) de óleo. Como uma ação, você pode abaixar o capuz, reduzindo a luz para luz fraca em um raio de 1,5 metro."
+    ],
+    "url": "/api/equipamentos/lanterna-encapuzada"
+  },
+  {
+    "index": "pequeno-saco-de-areia",
+    "name": "Pequeno Saco de Areia",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento do Estudioso",
+      "url": "/api/categorias-de-equipamento/equipamento-do-estudioso"
+    },
+    "gear_category": {
+      "index": "equipamento-do-estudioso",
+      "name": "Equipamento do Estudioso",
+      "url": "/api/categorias-de-equipamento/equipamento-do-estudioso"
+    },
+    "cost": {
+      "quantity": 0,
+      "unit": "pc"
+    },
+    "weight": 0,
+    "desc": ["Um pequeno saco de areia, tipicamente encontrado na mochila do estudioso."],
+    "url": "/api/equipamentos/pequeno-saco-de-areia"
+  },
+  {
+    "index": "fechadura",
+    "name": "Fechadura",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento do Estudioso",
+      "url": "/api/categorias-de-equipamento/equipamento-do-estudioso"
+    },
+    "gear_category": {
+      "index": "equipamento-do-estudioso",
+      "name": "Equipamento do Estudioso",
+      "url": "/api/categorias-de-equipamento/equipamento-do-estudioso"
+    },
+    "cost": {
+      "quantity": 10,
+      "unit": "po"
+    },
+    "weight": 1,
+    "desc": [
+      "Uma chave é fornecida com a fechadura. Sem a chave, uma criatura proficiente com ferramentas de ladrão pode arrombar esta fechadura com um teste de Destreza CD 15 bem-sucedido. Seu Mestre pode decidir que fechaduras melhores estão disponíveis por preços mais altos."
+    ],
+    "url": "/api/equipamentos/fechadura"
+  },
+  {
+    "index": "lupa",
+    "name": "Lupa",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento do Estudioso",
+      "url": "/api/categorias-de-equipamento/equipamento-do-estudioso"
+    },
+    "gear_category": {
+      "index": "equipamento-do-estudioso",
+      "name": "Equipamento do Estudioso",
+      "url": "/api/categorias-de-equipamento/equipamento-do-estudioso"
+    },
+    "cost": {
+      "quantity": 100,
+      "unit": "po"
+    },
+    "weight": 0,
+    "desc": [
+      "Esta lente permite uma visão mais próxima de pequenos objetos. Também é útil como substituto para pederneira e aço ao acender fogueiras. Acender uma fogueira com uma lupa requer luz tão brilhante quanto a luz solar para focar, isca para acender e cerca de 5 minutos para que a fogueira pegue fogo.",
+      "Uma lupa concede vantagem em qualquer teste de habilidade feito para avaliar ou inspecionar um item que seja pequeno ou altamente detalhado."
+    ],
+    "url": "/api/equipamentos/lupa"
+  },
+  {
+    "index": "algemas",
+    "name": "Algemas",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento do Estudioso",
+      "url": "/api/categorias-de-equipamento/equipamento-do-estudioso"
+    },
+    "gear_category": {
+      "index": "equipamento-do-estudioso",
+      "name": "Equipamento do Estudioso",
+      "url": "/api/categorias-de-equipamento/equipamento-do-estudioso"
+    },
+    "cost": {
+      "quantity": 2,
+      "unit": "po"
+    },
+    "weight": 6,
+    "desc": [
+      "Estas restrições metálicas podem prender uma criatura Pequena ou Média. Escapar das algemas requer um teste de Destreza CD 20 bem-sucedido. Quebrá-las requer um teste de Força CD 20 bem-sucedido.",
+      "Cada conjunto de algemas vem com uma chave. Sem a chave, uma criatura proficiente com ferramentas de ladrão pode arrombar a fechadura das algemas com um teste de Destreza CD 15 bem-sucedido. Algemas têm 15 pontos de vida."
+    ],
+    "url": "/api/equipamentos/algemas"
+  },
+  {
+    "index": "espelho-de-aco",
+    "name": "Espelho de Aço",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento do Estudioso",
+      "url": "/api/categorias-de-equipamento/equipamento-do-estudioso"
+    },
+    "gear_category": {
+      "index": "equipamento-do-estudioso",
+      "name": "Equipamento do Estudioso",
+      "url": "/api/categorias-de-equipamento/equipamento-do-estudioso"
+    },
+    "cost": {
+      "quantity": 5,
+      "unit": "po"
+    },
+    "weight": 0.5,
+    "url": "/api/equipamentos/espelho-de-aco"
+  },
+  {
+    "index": "oleo-frasco",
+    "name": "Óleo (frasco)",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento do Estudioso",
+      "url": "/api/categorias-de-equipamento/equipamento-do-estudioso"
+    },
+    "gear_category": {
+      "index": "equipamento-do-estudioso",
+      "name": "Equipamento do Estudioso",
+      "url": "/api/categorias-de-equipamento/equipamento-do-estudioso"
+    },
+    "cost": {
+      "quantity": 1,
+      "unit": "pp"
+    },
+    "weight": 1,
+    "desc": [
+      "Óleo geralmente vem em um frasco de barro que contém 1 litro.",
+      "Como uma ação, você pode derramar o óleo deste frasco em uma criatura a até 1,5 metro de você ou arremessá-lo até 6 metros, quebrando-o com o impacto. Faça um ataque à distância contra uma criatura ou objeto alvo, tratando o óleo como uma arma improvisada.",
+      "Em um acerto, o alvo fica coberto de óleo. Se o alvo sofrer qualquer dano de fogo antes que o óleo seque (após 1 minuto), o alvo sofre 5 de dano de fogo adicional do óleo em chamas.",
+      "Você também pode derramar um frasco de óleo no chão para cobrir uma área quadrada de 1,5 metro de lado, desde que a superfície seja nivelada.",
+      "Se aceso, o óleo queima por 2 rodadas e causa 5 de dano de fogo a qualquer criatura que entrar na área ou terminar seu turno na área. Uma criatura pode sofrer esse dano apenas uma vez por turno."
+    ],
+    "url": "/api/equipamentos/oleo-frasco"
+  },
+  {
+    "index": "papel-uma-folha",
+    "name": "Papel (uma folha)",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento do Estudioso",
+      "url": "/api/categorias-de-equipamento/equipamento-do-estudioso"
+    },
+    "gear_category": {
+      "index": "equipamento-do-estudioso",
+      "name": "Equipamento do Estudioso",
+      "url": "/api/categorias-de-equipamento/equipamento-do-estudioso"
+    },
+    "cost": {
+      "quantity": 2,
+      "unit": "pp"
+    },
+    "weight": 0,
+    "url": "/api/equipamentos/papel-uma-folha"
+  },
+  {
+    "index": "pergaminho-uma-folha",
+    "name": "Pergaminho (uma folha)",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento do Estudioso",
+      "url": "/api/categorias-de-equipamento/equipamento-do-estudioso"
+    },
+    "gear_category": {
+      "index": "equipamento-do-estudioso",
+      "name": "Equipamento do Estudioso",
+      "url": "/api/categorias-de-equipamento/equipamento-do-estudioso"
+    },
+    "cost": {
+      "quantity": 1,
+      "unit": "pp"
+    },
+    "weight": 0,
+    "url": "/api/equipamentos/pergaminho-uma-folha"
+  },
+  {
+    "index": "perfume-frasco",
+    "name": "Perfume (frasco)",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento do Estudioso",
+      "url": "/api/categorias-de-equipamento/equipamento-do-estudioso"
+    },
+    "gear_category": {
+      "index": "equipamento-do-estudioso",
+      "name": "Equipamento do Estudioso",
+      "url": "/api/categorias-de-equipamento/equipamento-do-estudioso"
+    },
+    "cost": {
+      "quantity": 5,
+      "unit": "po"
+    },
+    "weight": 0,
+    "url": "/api/equipamentos/perfume-frasco"
+  },
+  {
+    "index": "picareta-do-mineiro",
+    "name": "Picareta do Mineiro",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento do Estudioso",
+      "url": "/api/categorias-de-equipamento/equipamento-do-estudioso"
+    },
+    "gear_category": {
+      "index": "equipamento-do-estudioso",
+      "name": "Equipamento do Estudioso",
+      "url": "/api/categorias-de-equipamento/equipamento-do-estudioso"
+    },
+    "cost": {
+      "quantity": 2,
+      "unit": "po"
+    },
+    "weight": 10,
+    "url": "/api/equipamentos/picareta-do-mineiro"
+  },
+  {
+    "index": "piton",
+    "name": "Piton",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 5,
+      "unit": "pc"
+    },
+    "weight": 0.25,
+    "url": "/api/equipamentos/piton"
+  },
+  {
+    "index": "veneno-basico-frasco",
+    "name": "Veneno Básico (frasco)",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 100,
+      "unit": "po"
+    },
+    "weight": 0,
+    "desc": [
+      "Você pode usar o veneno neste frasco para cobrir uma arma cortante ou perfurante ou até três peças de munição. Aplicar o veneno leva uma ação. Uma criatura atingida pela arma ou munição envenenada deve fazer um teste de resistência de Constituição CD 10 ou sofrer 1d4 de dano de veneno. Uma vez aplicado, o veneno mantém sua potência por 1 minuto antes de secar."
+    ],
+    "url": "/api/equipamentos/veneno-basico-frasco"
+  },
+  {
+    "index": "vara-3-metros",
+    "name": "Vara (3 metros)",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 5,
+      "unit": "pc"
+    },
+    "weight": 7,
+    "url": "/api/equipamentos/vara-3-metros"
+  },
+  {
+    "index": "panela-ferro",
+    "name": "Panela, ferro",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 2,
+      "unit": "po"
+    },
+    "weight": 10,
+    "url": "/api/equipamentos/panela-ferro"
+  },
+  {
+    "index": "bolsa",
+    "name": "Bolsa",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 5,
+      "unit": "pp"
+    },
+    "weight": 1,
+    "desc": [
+      "Uma bolsa de tecido ou couro pode conter até 20 balas de funda ou 50 agulhas de zarabatana, entre outras coisas. Uma bolsa compartimentada para guardar componentes de feitiços é chamada de bolsa de componentes (descrita anteriormente nesta seção)."
+    ],
+    "url": "/api/equipamentos/bolsa"
+  },
+  {
+    "index": "aljava",
+    "name": "Aljava",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 1,
+      "unit": "po"
+    },
+    "weight": 1,
+    "desc": ["Uma aljava pode conter até 20 flechas."],
+    "url": "/api/equipamentos/aljava"
+  },
+  {
+    "index": "ariete-portatil",
+    "name": "Ariete Portátil",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 4,
+      "unit": "po"
+    },
+    "weight": 35,
+    "desc": [
+      "Você pode usar um ariete portátil para arrombar portas. Ao fazer isso, você ganha um bônus de +4 no teste de Força. Um outro personagem pode ajudá-lo a usar o ariete, dando-lhe vantagem neste teste."
+    ],
+    "url": "/api/equipamentos/ariete-portatil"
+  },
+  {
+    "index": "provisoes-1-dia",
+    "name": "Provisões (1 dia)",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 5,
+      "unit": "pp"
+    },
+    "weight": 2,
+    "desc": [
+      "As provisões consistem em alimentos secos adequados para viagens prolongadas, incluindo carne seca, frutas secas, biscoitos duros e nozes."
+    ],
+    "url": "/api/equipamentos/provisoes-1-dia"
+  },
+  {
+    "index": "reliquia",
+    "name": "Relíquia",
+    "equipment_category": {
+      "index": "simbolos-sagrados",
+      "name": "Símbolos Sagrados",
+      "url": "/api/categorias-de-equipamento/simbolos-sagrados"
+    },
+    "gear_category": {
+      "index": "simbolos-sagrados",
+      "name": "Símbolos Sagrados",
+      "url": "/api/categorias-de-equipamento/simbolos-sagrados"
+    },
+    "cost": {
+      "quantity": 5,
+      "unit": "po"
+    },
+    "weight": 2,
+    "desc": [
+      "Um símbolo sagrado é uma representação de um deus ou panteão. Pode ser um amuleto que exibe um símbolo representando uma divindade, o mesmo símbolo cuidadosamente gravado ou incrustado como um emblema em um escudo, ou uma pequena caixa contendo um fragmento de uma relíquia sagrada.",
+      "O Apêndice B lista os símbolos comumente associados a muitos deuses no multiverso. Um clérigo ou paladino pode usar um símbolo sagrado como foco de conjuração. Para usar o símbolo dessa forma, o conjurador deve segurá-lo na mão, usá-lo visivelmente ou portá-lo em um escudo."
+    ],
+    "url": "/api/equipamentos/reliquia"
+  },
+  {
+    "index": "tunica",
+    "name": "Túnica",
+    "equipment_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 1,
+      "unit": "po"
+    },
+    "weight": 4,
+    "url": "/api/equipamentos/tunica"
+  },
+  {
+    "index": "corda-de-canhamo-15-metros",
+    "name": "Corda de Cânhamo (15 metros)",
+    "equipment_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 1,
+      "unit": "po"
+    },
+    "weight": 10,
+    "desc": [
+      "Corda, seja feita de cânhamo ou seda, tem 2 pontos de vida e pode ser arrebentada com um teste de Força CD 17."
+    ],
+    "url": "/api/equipamentos/corda-de-canhamo-15-metros"
+  },
+  {
+    "index": "corda-de-seda-15-metros",
+    "name": "Corda de Seda (15 metros)",
+    "equipment_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 10,
+      "unit": "po"
+    },
+    "weight": 5,
+    "desc": [
+      "Corda, seja feita de cânhamo ou seda, tem 2 pontos de vida e pode ser arrebentada com um teste de Força CD 17."
+    ],
+    "url": "/api/equipamentos/corda-de-seda-15-metros"
+  },
+  {
+    "index": "saco",
+    "name": "Saco",
+    "equipment_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 1,
+      "unit": "pc"
+    },
+    "weight": 0.5,
+    "url": "/api/equipamentos/saco"
+  },
+  {
+    "index": "balanca-do-mercador",
+    "name": "Balança do Mercador",
+    "equipment_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 5,
+      "unit": "po"
+    },
+    "weight": 3,
+    "desc": [
+      "Uma balança inclui uma pequena balança, pratos e um conjunto adequado de pesos de até 1 kg. Com ela, você pode medir o peso exato de pequenos objetos, como metais preciosos brutos ou mercadorias, para ajudar a determinar seu valor."
+    ],
+    "url": "/api/equipamentos/balanca-do-mercador"
+  },
+  {
+    "index": "lacre",
+    "name": "Lacre",
+    "equipment_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 5,
+      "unit": "pp"
+    },
+    "weight": 0,
+    "url": "/api/equipamentos/lacre"
+  },
+  {
+    "index": "pa",
+    "name": "Pá",
+    "equipment_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 2,
+      "unit": "po"
+    },
+    "weight": 5,
+    "url": "/api/equipamentos/pa"
+  },
+  {
+    "index": "apito-de-sinalizacao",
+    "name": "Apito de Sinalização",
+    "equipment_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 5,
+      "unit": "pc"
+    },
+    "weight": 0,
+    "url": "/api/equipamentos/apito-de-sinalizacao"
+  },
+  {
+    "index": "anel-sinete",
+    "name": "Anel Sinete",
+    "equipment_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 5,
+      "unit": "po"
+    },
+    "weight": 0,
+    "url": "/api/equipamentos/anel-sinete"
+  },
+  {
+    "index": "faca-pequena",
+    "name": "Faca Pequena",
+    "equipment_category": {
+      "index": "equipamento-do-estudioso",
+      "name": "Equipamento do Estudioso",
+      "url": "/api/categorias-de-equipamento/equipamento-do-estudioso"
+    },
+    "gear_category": {
+      "index": "equipamento-do-estudioso",
+      "name": "Equipamento do Estudioso",
+      "url": "/api/categorias-de-equipamento/equipamento-do-estudioso"
+    },
+    "cost": {
+      "quantity": 0,
+      "unit": "pc"
+    },
+    "weight": 0,
+    "desc": ["Uma faca pequena, tipicamente encontrada na mochila do estudioso."],
+    "url": "/api/equipamentos/faca-pequena"
+  },
+  {
+    "index": "sabao",
+    "name": "Sabão",
+    "equipment_category": {
+      "index": "equipamento-do-estudioso",
+      "name": "Equipamento do Estudioso",
+      "url": "/api/categorias-de-equipamento/equipamento-do-estudioso"
+    },
+    "gear_category": {
+      "index": "equipamento-do-estudioso",
+      "name": "Equipamento do Estudioso",
+      "url": "/api/categorias-de-equipamento/equipamento-do-estudioso"
+    },
+    "cost": {
+      "quantity": 2,
+      "unit": "pc"
+    },
+    "weight": 0,
+    "url": "/api/equipamentos/sabao"
+  },
+  {
+    "index": "grimorio",
+    "name": "Grimório",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 50,
+      "unit": "po"
+    },
+    "weight": 3,
+    "desc": [
+      "Essencial para magos, um grimório é um tomo encadernado em couro com 100 páginas de velino em branco adequadas para registrar feitiços."
+    ],
+    "url": "/api/equipamentos/grimorio"
+  },
+  {
+    "index": "espigao-ferro",
+    "name": "Espigão, ferro",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 1,
+      "unit": "pp"
+    },
+    "weight": 5,
+    "url": "/api/equipamentos/espigao-ferro"
+  },
+  {
+    "index": "luneta",
+    "name": "Luneta",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 1000,
+      "unit": "po"
+    },
+    "weight": 1,
+    "desc": [
+      "Objetos vistos através de uma luneta são ampliados para o dobro de seu tamanho."
+    ],
+    "url": "/api/equipamentos/luneta"
+  },
+  {
+    "index": "barbante-3-metros",
+    "name": "Barbante (3 metros)",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 0,
+      "unit": "pc"
+    },
+    "weight": 0,
+    "desc": [
+      "Um barbante de 3 metros de comprimento, tipicamente encontrado na mochila do ladrão."
+    ],
+    "url": "/api/equipamentos/barbante-3-metros"
+  },
+  {
+    "index": "barraca-duas-pessoas",
+    "name": "Barraca, duas pessoas",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 2,
+      "unit": "po"
+    },
+    "weight": 20,
+    "desc": [
+      "Um abrigo simples e portátil de lona, uma barraca acomoda duas pessoas."
+    ],
+    "url": "/api/equipamentos/barraca-duas-pessoas"
+  },
+  {
+    "index": "isqueiro",
+    "name": "Isqueiro",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 5,
+      "unit": "pp"
+    },
+    "weight": 1,
+    "desc": [
+      "Este pequeno recipiente contém pederneira, aço e isca (geralmente pano seco embebido em óleo leve) usado para acender fogo. Usá-lo para acender uma tocha — ou qualquer outra coisa com combustível abundante e exposto — leva uma ação.",
+      "Acender qualquer outro fogo leva 1 minuto."
+    ],
+    "url": "/api/equipamentos/isqueiro"
+  },
+  {
+    "index": "tocha",
+    "name": "Tocha",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 1,
+      "unit": "pc"
+    },
+    "weight": 1,
+    "desc": [
+      "Uma tocha queima por 1 hora, fornecendo luz brilhante em um raio de 6 metros e luz fraca por mais 6 metros. Se você fizer um ataque corpo a corpo com uma tocha acesa e acertar, ela causa 1 de dano de fogo."
+    ],
+    "url": "/api/equipamentos/tocha"
+  },
+  {
+    "index": "vestes",
+    "name": "Vestes",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 0,
+      "unit": "pc"
+    },
+    "weight": 0,
+    "desc": ["Vestuário religioso, tipicamente encontrado na mochila do sacerdote."],
+    "url": "/api/equipamentos/vestes"
+  },
+  {
+    "index": "frasco",
+    "name": "Frasco",
+    "equipment_category": {
+      "index": "equipamento-de-aventura",
+      "name": "Equipamento de Aventura",
+      "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 1,
+      "unit": "po"
+    },
+    "weight": 0,
+    "url": "/api/equipamentos/frasco"
+  },
+  {
+    "index": "cantil",
+    "name": "Cantil",
+    "equipment_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 2,
+      "unit": "pp"
+    },
+    "weight": 5,
+    "url": "/api/equipamentos/cantil"
+  },
+  {
+    "index": "pedra-amolar",
+    "name": "Pedra de Amolar",
+    "equipment_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "gear_category": {
+      "index": "equipamento-padrao",
+      "name": "Equipamento Padrão",
+      "url": "/api/categorias-de-equipamento/equipamento-padrao"
+    },
+    "cost": {
+      "quantity": 1,
+      "unit": "pc"
+    },
+    "weight": 1,
+    "url": "/api/equipamentos/pedra-amolar"
+  },
+  {
+    "index": "mochila-ladrao",
+    "name": "Mochila do Ladrão",
+    "equipment_category": {
+      "index": "mochilas",
+      "name": "Mochilas",
+      "url": "/api/categorias-de-equipamento/mochilas"
+    },
+    "gear_category": {
+      "index": "mochilas",
+      "name": "Mochilas",
+      "url": "/api/categorias-de-equipamento/mochilas"
+    },
+    "cost": {
+      "quantity": 16,
+      "unit": "po"
+    },
+    "contents": [
+      {
+        "item": {
+          "index": "mochila",
+          "name": "Mochila",
+          "url": "/api/equipamentos/mochila"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "esferas-de-metal-saco-de-1000",
+          "name": "Esferas de Metal (saco de 1.000)",
+          "url": "/api/equipamentos/esferas-de-metal-saco-de-1000"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "barbante-3-metros",
+          "name": "Barbante (3 metros)",
+          "url": "/api/equipamentos/barbante-3-metros"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "sino",
+          "name": "Sino",
+          "url": "/api/equipamentos/sino"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "vela",
+          "name": "Vela",
+          "url": "/api/equipamentos/vela"
+        },
+        "quantity": 5
+      },
+      {
+        "item": {
+          "index": "pe-de-cabra",
+          "name": "Pé de Cabra",
+          "url": "/api/equipamentos/pe-de-cabra"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "martelo",
+          "name": "Martelo",
+          "url": "/api/equipamentos/martelo"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "piton",
+          "name": "Piton",
+          "url": "/api/equipamentos/piton"
+        },
+        "quantity": 10
+      },
+      {
+        "item": {
+          "index": "lanterna-encapuzada",
+          "name": "Lanterna Encoberta",
+          "url": "/api/equipamentos/lanterna-encapuzada"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "oleo-frasco",
+          "name": "Óleo (frasco)",
+          "url": "/api/equipamentos/oleo-frasco"
+        },
+        "quantity": 2
+      },
+      {
+        "item": {
+          "index": "provisoes-1-dia",
+          "name": "Provisões (1 dia)",
+          "url": "/api/equipamentos/provisoes-1-dia"
+        },
+        "quantity": 5
+      },
+      {
+        "item": {
+          "index": "isqueiro",
+          "name": "Isqueiro",
+          "url": "/api/equipamentos/isqueiro"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "cantil",
+          "name": "Cantil",
+          "url": "/api/equipamentos/cantil"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "corda-de-canhamo-15-metros",
+          "name": "Corda de Cânhamo (15 metros)",
+          "url": "/api/equipamentos/corda-de-canhamo-15-metros"
+        },
+        "quantity": 1
+      }
+    ],
+    "url": "/api/equipamentos/mochila-ladrao"
+  },
+  {
+    "index": "mochila-diplomata",
+    "name": "Mochila do Diplomata",
+    "equipment_category": {
+      "index": "mochilas",
+      "name": "Mochilas",
+      "url": "/api/categorias-de-equipamento/mochilas"
+    },
+    "gear_category": {
+      "index": "mochilas",
+      "name": "Mochilas",
+      "url": "/api/categorias-de-equipamento/mochilas"
+    },
+    "cost": {
+      "quantity": 39,
+      "unit": "po"
+    },
+    "contents": [
+      {
+        "item": {
+          "index": "bau",
+          "name": "Baú",
+          "url": "/api/equipamentos/bau"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "estojo-mapa-ou-pergaminho",
+          "name": "Estojo, Mapa ou Pergaminho",
+          "url": "/api/equipamentos/estojo-mapa-ou-pergaminho"
+        },
+        "quantity": 2
+      },
+      {
+        "item": {
+          "index": "roupas-finas",
+          "name": "Roupas, Finas",
+          "url": "/api/equipamentos/roupas-finas"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "tinta-frasco-de-1-onca",
+          "name": "Tinta (frasco de 1 onça)",
+          "url": "/api/equipamentos/tinta-frasco-de-1-onca"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "pena-de-tinta",
+          "name": "Pena de Tinta",
+          "url": "/api/equipamentos/pena-de-tinta"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "lampada",
+          "name": "Lâmpada",
+          "url": "/api/equipamentos/lampada"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "oleo-frasco",
+          "name": "Óleo (frasco)",
+          "url": "/api/equipamentos/oleo-frasco"
+        },
+        "quantity": 2
+      },
+      {
+        "item": {
+          "index": "papel-uma-folha",
+          "name": "Papel (uma folha)",
+          "url": "/api/equipamentos/papel-uma-folha"
+        },
+        "quantity": 5
+      },
+      {
+        "item": {
+          "index": "perfume-frasco",
+          "name": "Perfume (frasco)",
+          "url": "/api/equipamentos/perfume-frasco"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "lacre",
+          "name": "Lacre",
+          "url": "/api/equipamentos/lacre"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "sabao",
+          "name": "Sabão",
+          "url": "/api/equipamentos/sabao"
+        },
+        "quantity": 1
+      }
+    ],
+    "url": "/api/equipamentos/mochila-diplomata"
+  },
+  {
+    "index": "mochila-do-aventureiro-de-masmorras",
+    "name": "Mochila do Aventureiro de Masmorras",
+    "equipment_category": {
+      "index": "mochilas",
+      "name": "Mochilas",
+      "url": "/api/categorias-de-equipamento/mochilas"
+    },
+    "gear_category": {
+      "index": "mochilas",
+      "name": "Mochilas",
+      "url": "/api/categorias-de-equipamento/mochilas"
+    },
+    "cost": {
+      "quantity": 12,
+      "unit": "po"
+    },
+    "contents": [
+      {
+        "item": {
+          "index": "mochila",
+          "name": "Mochila",
+          "url": "/api/equipamentos/mochila"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "pe-de-cabra",
+          "name": "Pé de Cabra",
+          "url": "/api/equipamentos/pe-de-cabra"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "martelo",
+          "name": "Martelo",
+          "url": "/api/equipamentos/martelo"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "piton",
+          "name": "Piton",
+          "url": "/api/equipamentos/piton"
+        },
+        "quantity": 10
+      },
+      {
+        "item": {
+          "index": "tocha",
+          "name": "Tocha",
+          "url": "/api/equipamentos/tocha"
+        },
+        "quantity": 10
+      },
+      {
+        "item": {
+          "index": "isqueiro",
+          "name": "Isqueiro",
+          "url": "/api/equipamentos/isqueiro"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "provisoes-1-dia",
+          "name": "Provisões (1 dia)",
+          "url": "/api/equipamentos/provisoes-1-dia"
+        },
+        "quantity": 10
+      },
+      {
+        "item": {
+          "index": "cantil",
+          "name": "Cantil",
+          "url": "/api/equipamentos/cantil"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "corda-de-canhamo-15-metros",
+          "name": "Corda de Cânhamo (15 metros)",
+          "url": "/api/equipamentos/corda-de-canhamo-15-metros"
+        },
+        "quantity": 1
+      }
+    ],
+    "url": "/api/equipamentos/mochila-do-aventureiro-de-masmorras"
+  },
+  {
+    "index": "mochila-do-artista",
+    "name": "Mochila do Artista",
+    "equipment_category": {
+      "index": "mochilas",
+      "name": "Mochilas",
+      "url": "/api/categorias-de-equipamento/mochilas"
+    },
+    "gear_category": {
+      "index": "mochilas",
+      "name": "Mochilas",
+      "url": "/api/categorias-de-equipamento/mochilas"
+    },
+    "cost": {
+      "quantity": 40,
+      "unit": "po"
+    },
+    "contents": [
+      {
+        "item": {
+          "index": "mochila",
+          "name": "Mochila",
+          "url": "/api/equipamentos/mochila"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "saco-de-dormir",
+          "name": "Saco de Dormir",
+          "url": "/api/equipamentos/saco-de-dormir"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "roupas-fantasia",
+          "name": "Roupas, Fantasia",
+          "url": "/api/equipamentos/roupas-fantasia"
+        },
+        "quantity": 2
+      },
+      {
+        "item": {
+          "index": "vela",
+          "name": "Vela",
+          "url": "/api/equipamentos/vela"
+        },
+        "quantity": 5
+      },
+      {
+        "item": {
+          "index": "provisoes-1-dia",
+          "name": "Provisões (1 dia)",
+          "url": "/api/equipamentos/provisoes-1-dia"
+        },
+        "quantity": 5
+      },
+      {
+        "item": {
+          "index": "cantil",
+          "name": "Cantil",
+          "url": "/api/equipamentos/cantil"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "kit-de-disfarce",
+          "name": "Kit de Disfarce",
+          "url": "/api/equipamentos/kit-de-disfarce"
+        },
+        "quantity": 1
+      }
+    ],
+    "url": "/api/equipamentos/mochila-do-artista"
+  },
+  {
+    "index": "mochila-do-explorador",
+    "name": "Mochila do Explorador",
+    "equipment_category": {
+      "index": "mochilas",
+      "name": "Mochilas",
+      "url": "/api/categorias-de-equipamento/mochilas"
+    },
+    "gear_category": {
+      "index": "mochilas",
+      "name": "Mochilas",
+      "url": "/api/categorias-de-equipamento/mochilas"
+    },
+    "cost": {
+      "quantity": 10,
+      "unit": "po"
+    },
+    "contents": [
+      {
+        "item": {
+          "index": "mochila",
+          "name": "Mochila",
+          "url": "/api/equipamentos/mochila"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "saco-de-dormir",
+          "name": "Saco de Dormir",
+          "url": "/api/equipamentos/saco-de-dormir"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "kit-de-camping",
+          "name": "Kit de Camping",
+          "url": "/api/equipamentos/kit-de-camping"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "isqueiro",
+          "name": "Isqueiro",
+          "url": "/api/equipamentos/isqueiro"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "tocha",
+          "name": "Tocha",
+          "url": "/api/equipamentos/tocha"
+        },
+        "quantity": 10
+      },
+      {
+        "item": {
+          "index": "provisoes-1-dia",
+          "name": "Provisões (1 dia)",
+          "url": "/api/equipamentos/provisoes-1-dia"
+        },
+        "quantity": 10
+      },
+      {
+        "item": {
+          "index": "cantil",
+          "name": "Cantil",
+          "url": "/api/equipamentos/cantil"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "corda-de-canhamo-15-metros",
+          "name": "Corda de Cânhamo (15 metros)",
+          "url": "/api/equipamentos/corda-de-canhamo-15-metros"
+        },
+        "quantity": 1
+      }
+    ],
+    "url": "/api/equipamentos/mochila-do-explorador"
+  },
+  {
+    "index": "mochila-do-sacerdote",
+    "name": "Mochila do Sacerdote",
+    "equipment_category": {
+      "index": "mochilas",
+      "name": "Mochilas",
+      "url": "/api/categorias-de-equipamento/mochilas"
+    },
+    "gear_category": {
+      "index": "mochilas",
+      "name": "Mochilas",
+      "url": "/api/categorias-de-equipamento/mochilas"
+    },
+    "cost": {
+      "quantity": 19,
+      "unit": "po"
+    },
+    "contents": [
+      {
+        "item": {
+          "index": "mochila",
+          "name": "Mochila",
+          "url": "/api/equipamentos/mochila"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "cobertor",
+          "name": "Cobertor",
+          "url": "/api/equipamentos/cobertor"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "vela",
+          "name": "Vela",
+          "url": "/api/equipamentos/vela"
+        },
+        "quantity": 10
+      },
+      {
+        "item": {
+          "index": "isqueiro",
+          "name": "Isqueiro",
+          "url": "/api/equipamentos/isqueiro"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "provisoes-1-dia",
+          "name": "Provisões (1 dia)",
+          "url": "/api/equipamentos/provisoes-1-dia"
+        },
+        "quantity": 2
+      },
+      {
+        "item": {
+          "index": "cantil",
+          "name": "Cantil",
+          "url": "/api/equipamentos/cantil"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "caixa-de-esmolas",
+          "name": "Caixa de Esmolas",
+          "url": "/api/equipamentos/caixa-de-esmolas"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "bloco-de-incenso",
+          "name": "Bloco de Incenso",
+          "url": "/api/equipamentos/bloco-de-incenso"
+        },
+        "quantity": 2
+      },
+      {
+        "item": {
+          "index": "turibulo",
+          "name": "Turíbulo",
+          "url": "/api/equipamentos/turibulo"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "vestes",
+          "name": "Vestes",
+          "url": "/api/equipamentos/vestes"
+        },
+        "quantity": 1
+      }
+    ],
+    "url": "/api/equipamentos/mochila-do-sacerdote"
+  },
+  {
+    "index": "mochila-do-estudioso",
+    "name": "Mochila do Estudioso",
+    "equipment_category": {
+      "index": "mochilas",
+      "name": "Mochilas",
+      "url": "/api/categorias-de-equipamento/mochilas"
+    },
+    "gear_category": {
+      "index": "mochilas",
+      "name": "Mochilas",
+      "url": "/api/categorias-de-equipamento/mochilas"
+    },
+    "cost": {
+      "quantity": 40,
+      "unit": "po"
+    },
+    "contents": [
+      {
+        "item": {
+          "index": "mochila",
+          "name": "Mochila",
+          "url": "/api/equipamentos/mochila"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "livro",
+          "name": "Livro",
+          "url": "/api/equipamentos/livro"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "tinta-frasco-de-1-onca",
+          "name": "Tinta (frasco de 1 onça)",
+          "url": "/api/equipamentos/tinta-frasco-de-1-onca"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "pena-de-tinta",
+          "name": "Pena de Tinta",
+          "url": "/api/equipamentos/pena-de-tinta"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "pergaminho-uma-folha",
+          "name": "Pergaminho (uma folha)",
+          "url": "/api/equipamentos/pergaminho-uma-folha"
+        },
+        "quantity": 10
+      },
+      {
+        "item": {
+          "index": "pequeno-saco-de-areia",
+          "name": "Pequeno Saco de Areia",
+          "url": "/api/equipamentos/pequeno-saco-de-areia"
+        },
+        "quantity": 1
+      },
+      {
+        "item": {
+          "index": "faca-pequena",
+          "name": "Faca Pequena",
+          "url": "/api/equipamentos/faca-pequena"
+        },
+        "quantity": 1
+      }
+    ],
+    "url": "/api/equipamentos/mochila-do-estudioso"
+  },
+  {
+    "index": "suprimentos-de-alquimista",
+    "name": "Suprimentos de Alquimista",
+    "equipment_category": {
+      "index": "ferramentas",
+      "name": "Ferramentas",
+      "url": "/api/categorias-de-equipamento/ferramentas"
+    },
+    "tool_category": "Ferramentas de Artesão",
+    "cost": {
+      "quantity": 50,
+      "unit": "po"
+    },
+    "weight": 8,
+    "desc": [
+      "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou comércio. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada uma fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite que você adicione seu bônus de proficiência a quaisquer testes de habilidade que fizer usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão requer uma proficiência separada."
+    ],
+    "url": "/api/equipamentos/suprimentos-de-alquimista"
+  },
+  {
+    "index": "suprimentos-de-cervejeiro",
+    "name": "Suprimentos de Cervejeiro",
+    "equipment_category": {
+      "index": "ferramentas",
+      "name": "Ferramentas",
+      "url": "/api/categorias-de-equipamento/ferramentas"
+    },
+    "tool_category": "Ferramentas de Artesão",
+    "cost": {
+      "quantity": 20,
+      "unit": "po"
+    },
+    "weight": 9,
+    "desc": [
+      "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou comércio. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada uma fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite que você adicione seu bônus de proficiência a quaisquer testes de habilidade que fizer usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão requer uma proficiência separada."
+    ],
+    "url": "/api/equipamentos/suprimentos-de-cervejeiro"
+  },
+  {
+    "index": "suprimentos-de-caligrafo",
+    "name": "Suprimentos de Calígrafo",
+    "equipment_category": {
+      "index": "ferramentas",
+      "name": "Ferramentas",
+      "url": "/api/categorias-de-equipamento/ferramentas"
+    },
+    "tool_category": "Ferramentas de Artesão",
+    "cost": {
+      "quantity": 10,
+      "unit": "po"
+    },
+    "weight": 5,
+    "desc": [
+      "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou comércio. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada uma fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite que você adicione seu bônus de proficiência a quaisquer testes de habilidade que fizer usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão requer uma proficiência separada."
+    ],
+    "url": "/api/equipamentos/suprimentos-de-caligrafo"
+  },
+  {
+    "index": "ferramentas-de-carpinteiro",
+    "name": "Ferramentas de Carpinteiro",
+    "equipment_category": {
+      "index": "ferramentas",
+      "name": "Ferramentas",
+      "url": "/api/categorias-de-equipamento/ferramentas"
+    },
+    "tool_category": "Ferramentas de Artesão",
+    "cost": {
+      "quantity": 8,
+      "unit": "po"
+    },
+    "weight": 6,
+    "desc": [
+      "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou comércio. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada uma fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite que você adicione seu bônus de proficiência a qualquer teste de habilidade que fizer usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão requer uma proficiência separada."
+    ],
+    "url": "/api/equipamentos/ferramentas-de-carpinteiro"
+  },
+  {
+    "index": "ferramentas-de-cartografo",
+    "name": "Ferramentas de Cartógrafo",
+    "equipment_category": {
+      "index": "ferramentas",
+      "name": "Ferramentas",
+      "url": "/api/categorias-de-equipamento/ferramentas"
+    },
+    "tool_category": "Ferramentas de Artesão",
+    "cost": {
+      "quantity": 15,
+      "unit": "po"
+    },
+    "weight": 6,
+    "desc": [
+      "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou comércio. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada uma fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite que você adicione seu bônus de proficiência a qualquer teste de habilidade que fizer usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão requer uma proficiência separada."
+    ],
+    "url": "/api/equipamentos/ferramentas-de-cartografo"
+  },
+  {
+    "index": "ferramentas-de-sapateiro",
+    "name": "Ferramentas de Sapateiro",
+    "equipment_category": {
+      "index": "ferramentas",
+      "name": "Ferramentas",
+      "url": "/api/categorias-de-equipamento/ferramentas"
+    },
+    "tool_category": "Ferramentas de Artesão",
+    "cost": {
+      "quantity": 5,
+      "unit": "po"
+    },
+    "weight": 5,
+    "desc": [
+      "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou comércio. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada uma fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite que você adicione seu bônus de proficiência a qualquer teste de habilidade que fizer usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão requer uma proficiência separada."
+    ],
+    "url": "/api/equipamentos/ferramentas-de-sapateiro"
+  },
+  {
+    "index": "utensilios-de-cozinheiro",
+    "name": "Utensílios de Cozinheiro",
+    "equipment_category": {
+      "index": "ferramentas",
+      "name": "Ferramentas",
+      "url": "/api/categorias-de-equipamento/ferramentas"
+    },
+    "tool_category": "Ferramentas de Artesão",
+    "cost": {
+      "quantity": 1,
+      "unit": "po"
+    },
+    "weight": 8,
+    "desc": [
+      "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou comércio. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada uma fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite que você adicione seu bônus de proficiência a qualquer teste de habilidade que fizer usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão requer uma proficiência separada."
+    ],
+    "url": "/api/equipamentos/utensilios-de-cozinheiro"
+  },
+  {
+    "index": "ferramentas-de-vidreiro",
+    "name": "Ferramentas de Vidreiro",
+    "equipment_category": {
+      "index": "ferramentas",
+      "name": "Ferramentas",
+      "url": "/api/categorias-de-equipamento/ferramentas"
+    },
+    "tool_category": "Ferramentas de Artesão",
+    "cost": {
+      "quantity": 30,
+      "unit": "po"
+    },
+    "weight": 5,
+    "desc": [
+      "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou comércio. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada uma fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite que você adicione seu bônus de proficiência a qualquer teste de habilidade que fizer usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão requer uma proficiência separada."
+    ],
+    "url": "/api/equipamentos/ferramentas-de-vidreiro"
+  },
+  {
+    "index": "ferramentas-de-joalheiro",
+    "name": "Ferramentas de Joalheiro",
+    "equipment_category": {
+      "index": "ferramentas",
+      "name": "Ferramentas",
+      "url": "/api/categorias-de-equipamento/ferramentas"
+    },
+    "tool_category": "Ferramentas de Artesão",
+    "cost": {
+      "quantity": 25,
+      "unit": "po"
+    },
+    "weight": 2,
+    "desc": [
+      "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou comércio. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada uma fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite que você adicione seu bônus de proficiência a qualquer teste de habilidade que fizer usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão requer uma proficiência separada."
+    ],
+    "url": "/api/equipamentos/ferramentas-de-joalheiro"
+  },
+  {
+    "index": "ferramentas-de-couro",
+    "name": "Ferramentas de Coureiro",
+    "equipment_category": {
+      "index": "ferramentas",
+      "name": "Ferramentas",
+      "url": "/api/categorias-de-equipamento/ferramentas"
+    },
+    "tool_category": "Ferramentas de Artesão",
+    "cost": {
+      "quantity": 5,
+      "unit": "po"
+    },
+    "weight": 5,
+    "desc": [
+      "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou comércio. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada uma fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite que você adicione seu bônus de proficiência a qualquer teste de habilidade que fizer usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão requer uma proficiência separada."
+    ],
+    "url": "/api/equipamentos/ferramentas-de-couro"
+  },
+  {
+    "index": "ferramentas-de-pedreiro",
+    "name": "Ferramentas de Pedreiro",
+    "equipment_category": {
+      "index": "ferramentas",
+      "name": "Ferramentas",
+      "url": "/api/categorias-de-equipamento/ferramentas"
+    },
+    "tool_category": "Ferramentas de Artesão",
+    "cost": {
+      "quantity": 10,
+      "unit": "po"
+    },
+    "weight": 8,
+    "desc": [
+      "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou comércio. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada uma fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite que você adicione seu bônus de proficiência a qualquer teste de habilidade que fizer usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão requer uma proficiência separada."
+    ],
+    "url": "/api/equipamentos/ferramentas-de-pedreiro"
+  },
+  {
+    "index": "suprimentos-de-pintor",
+    "name": "Suprimentos de Pintor",
+    "equipment_category": {
+      "index": "ferramentas",
+      "name": "Ferramentas",
+      "url": "/api/categorias-de-equipamento/ferramentas"
+    },
+    "tool_category": "Ferramentas de Artesão",
+    "cost": {
+      "quantity": 10,
+      "unit": "po"
+    },
+    "weight": 5,
+    "desc": [
+      "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou comércio. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada uma fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite que você adicione seu bônus de proficiência a qualquer teste de habilidade que fizer usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão requer uma proficiência separada."
+    ],
+    "url": "/api/equipamentos/suprimentos-de-pintor"
+  },
+  {
+    "index": "ferramentas-de-oleiro",
+    "name": "Ferramentas de Oleiro",
+    "equipment_category": {
+      "index": "ferramentas",
+      "name": "Ferramentas",
+      "url": "/api/categorias-de-equipamento/ferramentas"
+    },
+    "tool_category": "Ferramentas de Artesão",
+    "cost": {
+      "quantity": 10,
+      "unit": "po"
+    },
+    "weight": 3,
+    "desc": [
+      "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou comércio. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada uma fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite que você adicione seu bônus de proficiência a qualquer teste de habilidade que fizer usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão requer uma proficiência separada."
+    ],
+    "url": "/api/equipamentos/ferramentas-de-oleiro"
+  },
+  {
+    "index": "ferramentas-de-ferreiro",
+    "name": "Ferramentas de Ferreiro",
+    "equipment_category": {
+      "index": "ferramentas",
+      "name": "Ferramentas",
+      "url": "/api/categorias-de-equipamento/ferramentas"
+    },
+    "tool_category": "Ferramentas de Artesão",
+    "cost": {
+      "quantity": 20,
+      "unit": "po"
+    },
+    "weight": 8,
+    "desc": [
+      "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou comércio. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada uma fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite que você adicione seu bônus de proficiência a qualquer teste de habilidade que fizer usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão requer uma proficiência separada."
+    ],
+    "url": "/api/equipamentos/ferramentas-de-ferreiro"
+  },
+  {
+    "index": "ferramentas-de-sucateiro",
+    "name": "Ferramentas de Sucateiro",
+    "equipment_category": {
+      "index": "ferramentas",
+      "name": "Ferramentas",
+      "url": "/api/categorias-de-equipamento/ferramentas"
+    },
+    "tool_category": "Ferramentas de Artesão",
+    "cost": {
+      "quantity": 50,
+      "unit": "po"
+    },
+    "weight": 10,
+    "desc": [
+      "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou comércio. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada uma fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite que você adicione seu bônus de proficiência a qualquer teste de habilidade que fizer usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão requer uma proficiência separada."
+    ],
+    "url": "/api/equipamentos/ferramentas-de-sucateiro"
+  },
+  {
+    "index": "ferramentas-de-tecelao",
+    "name": "Ferramentas de Tecelão",
+    "equipment_category": {
+      "index": "ferramentas",
+      "name": "Ferramentas",
+      "url": "/api/categorias-de-equipamento/ferramentas"
+    },
+    "tool_category": "Ferramentas de Artesão",
+    "cost": {
+      "quantity": 1,
+      "unit": "po"
+    },
+    "weight": 5,
+    "desc": [
+      "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou comércio. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada uma fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite que você adicione seu bônus de proficiência a qualquer teste de habilidade que fizer usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão requer uma proficiência separada."
+    ],
+    "url": "/api/equipamentos/ferramentas-de-tecelao"
+  },
+  {
+    "index": "ferramentas-de-entalhador",
+    "name": "Ferramentas de Entalhador",
+    "equipment_category": {
+      "index": "ferramentas",
+      "name": "Ferramentas",
+      "url": "/api/categorias-de-equipamento/ferramentas"
+    },
+    "tool_category": "Ferramentas de Artesão",
+    "cost": {
+      "quantity": 1,
+      "unit": "po"
+    },
+    "weight": 5,
+    "desc": [
+      "Estas ferramentas especiais incluem os itens necessários para exercer um ofício ou comércio. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada uma fornecendo itens relacionados a um único ofício. Proficiência com um conjunto de ferramentas de artesão permite que você adicione seu bônus de proficiência a qualquer teste de habilidade que fizer usando as ferramentas em seu ofício. Cada tipo de ferramenta de artesão requer uma proficiência separada."
+    ],
+    "url": "/api/equipamentos/ferramentas-de-entalhador"
+  },
+  {
+    "index": "conjunto-de-dados",
+    "name": "Conjunto de Dados",
+    "equipment_category": {
+      "index": "ferramentas",
+      "name": "Ferramentas",
+      "url": "/api/categorias-de-equipamento/ferramentas"
+    },
+    "tool_category": "Conjuntos de Jogos",
+    "cost": {
+      "quantity": 1,
+      "unit": "pp"
+    },
+    "weight": 0,
+    "desc": [
+      "Este item engloba uma ampla variedade de peças de jogos, incluindo dados e baralhos de cartas (para jogos como Ante do Dragão de Três Cabeças). Alguns exemplos comuns aparecem na tabela de Ferramentas, mas outros tipos de conjuntos de jogos existem. Se você for proficiente com um conjunto de jogos, pode adicionar seu bônus de proficiência a testes de habilidade que fizer para jogar um jogo com esse conjunto. Cada tipo de conjunto de jogos requer uma proficiência separada."
+    ],
+    "url": "/api/equipamentos/conjunto-de-dados"
+  },
+  {
+    "index": "baralho-de-cartas",
+    "name": "Baralho de Cartas",
+    "equipment_category": {
+      "index": "ferramentas",
+      "name": "Ferramentas",
+      "url": "/api/categorias-de-equipamento/ferramentas"
+    },
+    "tool_category": "Conjuntos de Jogos",
+    "cost": {
+      "quantity": 5,
+      "unit": "pp"
+    },
+    "weight": 0,
+    "desc": [
+      "Este item engloba uma ampla variedade de peças de jogos, incluindo dados e baralhos de cartas (para jogos como Ante do Dragão de Três Cabeças). Alguns exemplos comuns aparecem na tabela de Ferramentas, mas outros tipos de conjuntos de jogos existem. Se você for proficiente com um conjunto de jogos, pode adicionar seu bônus de proficiência a testes de habilidade que fizer para jogar um jogo com esse conjunto. Cada tipo de conjunto de jogos requer uma proficiência separada."
+    ],
+    "url": "/api/equipamentos/baralho-de-cartas"
+  },
+  {
+    "index": "gaita-de-foles",
+    "name": "Gaita de Foles",
+    "equipment_category": {
+      "index": "ferramentas",
+      "name": "Ferramentas",
+      "url": "/api/categorias-de-equipamento/ferramentas"
+    },
+    "tool_category": "Instrumento Musical",
+    "cost": {
+      "quantity": 30,
+      "unit": "po"
+    },
+    "weight": 6,
+    "desc": [
+      "Vários dos tipos mais comuns de instrumentos musicais são mostrados na tabela como exemplos. Se você tiver proficiência com um determinado instrumento musical, pode adicionar seu bônus de proficiência a quaisquer testes de habilidade que fizer para tocar música com o instrumento. Um bardo pode usar um instrumento musical como foco de conjuração. Cada tipo de instrumento musical requer uma proficiência separada."
+    ],
+    "url": "/api/equipamentos/gaita-de-foles"
+  },
+  {
+    "index": "tambor",
+    "name": "Tambor",
+    "equipment_category": {
+      "index": "ferramentas",
+      "name": "Ferramentas",
+      "url": "/api/categorias-de-equipamento/ferramentas"
+    },
+    "tool_category": "Instrumento Musical",
+    "cost": {
+      "quantity": 6,
+      "unit": "po"
+    },
+    "weight": 3,
+    "desc": [
+      "Vários dos tipos mais comuns de instrumentos musicais são mostrados na tabela como exemplos. Se você tiver proficiência com um determinado instrumento musical, pode adicionar seu bônus de proficiência a quaisquer testes de habilidade que fizer para tocar música com o instrumento. Um bardo pode usar um instrumento musical como foco de conjuração. Cada tipo de instrumento musical requer uma proficiência separada."
+    ],
+    "url": "/api/equipamentos/tambor"
+  },
+  {
+    "index": "saltério",
+    "name": "Saltério",
+    "equipment_category": {
+      "index": "ferramentas",
+      "name": "Ferramentas",
+      "url": "/api/categorias-de-equipamento/ferramentas"
+    },
+    "tool_category": "Instrumento Musical",
+    "cost": {
+      "quantity": 25,
+      "unit": "po"
+    },
+    "weight": 10,
+    "desc": [
+      "Vários dos tipos mais comuns de instrumentos musicais são mostrados na tabela como exemplos. Se você tiver proficiência com um determinado instrumento musical, pode adicionar seu bônus de proficiência a quaisquer testes de habilidade que fizer para tocar música com o instrumento. Um bardo pode usar um instrumento musical como foco de conjuração. Cada tipo de instrumento musical requer uma proficiência separada."
+    ],
+    "url": "/api/equipamentos/salterio"
+  },
+  {
+    "index": "flauta",
+    "name": "Flauta",
+    "equipment_category": {
+      "index": "ferramentas",
+      "name": "Ferramentas",
+      "url": "/api/categorias-de-equipamento/ferramentas"
+    },
+    "tool_category": "Instrumento Musical",
+    "cost": {
+      "quantity": 2,
+      "unit": "po"
+    },
+    "weight": 1,
+    "desc": [
+      "Vários dos tipos mais comuns de instrumentos musicais são mostrados na tabela como exemplos. Se você tiver proficiência com um determinado instrumento musical, pode adicionar seu bônus de proficiência a quaisquer testes de habilidade que fizer para tocar música com o instrumento. Um bardo pode usar um instrumento musical como foco de conjuração. Cada tipo de instrumento musical requer uma proficiência separada."
+    ],
+    "url": "/api/equipamentos/flauta"
+  },
+  {
+    "index": "alaude",
+    "name": "Alaúde",
+    "equipment_category": {
+      "index": "ferramentas",
+      "name": "Ferramentas",
+      "url": "/api/categorias-de-equipamento/ferramentas"
+    },
+    "tool_category": "Instrumento Musical",
+    "cost": {
+      "quantity": 35,
+      "unit": "po"
+    },
+    "weight": 2,
+    "desc": [
+      "Vários dos tipos mais comuns de instrumentos musicais são mostrados na tabela como exemplos. Se você tiver proficiência com um determinado instrumento musical, pode adicionar seu bônus de proficiência a quaisquer testes de habilidade que fizer para tocar música com o instrumento. Um bardo pode usar um instrumento musical como foco de conjuração. Cada tipo de instrumento musical requer uma proficiência separada."
+    ],
+    "url": "/api/equipamentos/alaude"
+  },
+  {
+    "index": "lira",
+    "name": "Lira",
+    "equipment_category": {
+      "index": "ferramentas",
+      "name": "Ferramentas",
+      "url": "/api/categorias-de-equipamento/ferramentas"
+    },
+    "tool_category": "Instrumento Musical",
+    "cost": {
+      "quantity": 30,
+      "unit": "po"
+    },
+    "weight": 2,
+    "desc": [
+      "Vários dos tipos mais comuns de instrumentos musicais são mostrados na tabela como exemplos. Se você tiver proficiência com um determinado instrumento musical, pode adicionar seu bônus de proficiência a quaisquer testes de habilidade que fizer para tocar música com o instrumento. Um bardo pode usar um instrumento musical como foco de conjuração. Cada tipo de instrumento musical requer uma proficiência separada."
+    ],
+    "url": "/api/equipamentos/lira"
+  },
+  {
+    "index": "trompa",
+    "name": "Trompa",
+    "equipment_category": {
+      "index": "ferramentas",
+      "name": "Ferramentas",
+      "url": "/api/categorias-de-equipamento/ferramentas"
+    },
+    "tool_category": "Instrumento Musical",
+    "cost": {
+      "quantity": 3,
+      "unit": "po"
+    },
+    "weight": 2,
+    "desc": [
+      "Vários dos tipos mais comuns de instrumentos musicais são mostrados na tabela como exemplos. Se você tiver proficiência com um determinado instrumento musical, pode adicionar seu bônus de proficiência a quaisquer testes de habilidade que fizer para tocar música com o instrumento. Um bardo pode usar um instrumento musical como foco de conjuração. Cada tipo de instrumento musical requer uma proficiência separada."
+    ],
+    "url": "/api/equipamentos/trompa"
+  },
+  {
+    "index": "flauta-de-pan",
+    "name": "Flauta de Pan",
+    "equipment_category": {
+      "index": "ferramentas",
+      "name": "Ferramentas",
+      "url": "/api/categorias-de-equipamento/ferramentas"
+    },
+    "tool_category": "Instrumento Musical",
+    "cost": {
+      "quantity": 12,
+      "unit": "po"
+    },
+    "weight": 2,
+    "desc": [
+      "Vários dos tipos mais comuns de instrumentos musicais são mostrados na tabela como exemplos. Se você tiver proficiência com um determinado instrumento musical, pode adicionar seu bônus de proficiência a quaisquer testes de habilidade que fizer para tocar música com o instrumento. Um bardo pode usar um instrumento musical como foco de conjuração. Cada tipo de instrumento musical requer uma proficiência separada."
+    ],
+    "url": "/api/equipamentos/flauta-de-pan"
+  },
+  {
+    "index": "xalma",
+    "name": "Xalma",
+    "equipment_category": {
+      "index": "ferramentas",
+      "name": "Ferramentas",
+      "url": "/api/categorias-de-equipamento/ferramentas"
+    },
+    "tool_category": "Instrumento Musical",
+    "cost": {
+      "quantity": 2,
+      "unit": "po"
+    },
+    "weight": 1,
+    "desc": [
+      "Vários dos tipos mais comuns de instrumentos musicais são mostrados na tabela como exemplos. Se você tiver proficiência com um determinado instrumento musical, pode adicionar seu bônus de proficiência a quaisquer testes de habilidade que fizer para tocar música com o instrumento. Um bardo pode usar um instrumento musical como foco de conjuração. Cada tipo de instrumento musical requer uma proficiência separada."
+    ],
+    "url": "/api/equipamentos/xalma"
+  },
+  {
+    "index": "viola",
+    "name": "Viola",
+    "equipment_category": {
+      "index": "ferramentas",
+      "name": "Ferramentas",
+      "url": "/api/categorias-de-equipamento/ferramentas"
+    },
+    "tool_category": "Instrumento Musical",
+    "cost": {
+      "quantity": 30,
+      "unit": "po"
+    },
+    "weight": 1,
+    "desc": [
+      "Vários dos tipos mais comuns de instrumentos musicais são mostrados na tabela como exemplos. Se você tiver proficiência com um determinado instrumento musical, pode adicionar seu bônus de proficiência a quaisquer testes de habilidade que fizer para tocar música com o instrumento. Um bardo pode usar um instrumento musical como foco de conjuração. Cada tipo de instrumento musical requer uma proficiência separada."
+    ],
+    "url": "/api/equipamentos/viola"
+  },
+  {
+    "index": "ferramentas-de-navegador",
+    "name": "Ferramentas de Navegador",
+    "equipment_category": {
+      "index": "ferramentas",
+      "name": "Ferramentas",
+      "url": "/api/categorias-de-equipamento/ferramentas"
+    },
+    "tool_category": "Outras Ferramentas",
+    "cost": {
+      "quantity": 25,
+      "unit": "po"
+    },
+    "weight": 2,
+    "desc": [
+      "Este conjunto de instrumentos é usado para navegação no mar. Proficiência com as ferramentas de navegador permite que você trace o curso de um navio e siga cartas de navegação. Além disso, essas ferramentas permitem que você adicione seu bônus de proficiência a qualquer teste de habilidade que fizer para evitar se perder no mar."
+    ],
+    "url": "/api/equipamentos/ferramentas-de-navegador"
+  },
+  {
+    "index": "ferramentas-de-ladrao",
+    "name": "Ferramentas de Ladrão",
+    "equipment_category": {
+      "index": "ferramentas",
+      "name": "Ferramentas",
+      "url": "/api/categorias-de-equipamento/ferramentas"
+    },
+    "tool_category": "Outras Ferramentas",
+    "cost": {
+      "quantity": 25,
+      "unit": "po"
+    },
+    "weight": 1,
+    "desc": [
+      "Este conjunto de ferramentas inclui uma pequena lima, um conjunto de gazuas, um pequeno espelho montado em um cabo de metal, um par de tesouras de lâmina estreita e um alicate. Proficiência com essas ferramentas permite que você adicione seu bônus de proficiência a qualquer teste de habilidade que fizer para desarmar armadilhas ou abrir fechaduras."
+    ],
+    "url": "/api/equipamentos/ferramentas-de-ladrao"
+  },
+  {
+    "index": "camelo",
+    "name": "Camelo",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Montarias e Outros Animais",
+    "cost": {
+      "quantity": 50,
+      "unit": "po"
+    },
+    "speed": {
+      "quantity": 15,
+      "unit": "m/rodada"
+    },
+    "capacity": "220 kg",
+    "url": "/api/equipamentos/camelo"
+  },
+  {
+    "index": "burro",
+    "name": "Burro",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Montarias e Outros Animais",
+    "cost": {
+      "quantity": 8,
+      "unit": "po"
+    },
+    "speed": {
+      "quantity": 12,
+      "unit": "m/rodada"
+    },
+    "capacity": "190 kg",
+    "url": "/api/equipamentos/burro"
+  },
+  {
+    "index": "mula",
+    "name": "Mula",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Montarias e Outros Animais",
+    "cost": {
+      "quantity": 8,
+      "unit": "po"
+    },
+    "speed": {
+      "quantity": 12,
+      "unit": "m/rodada"
+    },
+    "capacity": "190 kg",
+    "url": "/api/equipamentos/mula"
+  },
+  {
+    "index": "elefante",
+    "name": "Elefante",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Montarias e Outros Animais",
+    "cost": {
+      "quantity": 200,
+      "unit": "po"
+    },
+    "speed": {
+      "quantity": 12,
+      "unit": "m/rodada"
+    },
+    "capacity": "600 kg",
+    "url": "/api/equipamentos/elefante"
+  },
+  {
+    "index": "cavalo-de-carga",
+    "name": "Cavalo de Carga",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Montarias e Outros Animais",
+    "cost": {
+      "quantity": 50,
+      "unit": "po"
+    },
+    "speed": {
+      "quantity": 12,
+      "unit": "m/rodada"
+    },
+    "capacity": "245 kg",
+    "url": "/api/equipamentos/cavalo-de-carga"
+  },
+  {
+    "index": "cavalo-de-montaria",
+    "name": "Cavalo de Montaria",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Montarias e Outros Animais",
+    "cost": {
+      "quantity": 75,
+      "unit": "po"
+    },
+    "speed": {
+      "quantity": 18,
+      "unit": "m/rodada"
+    },
+    "capacity": "220 kg",
+    "url": "/api/equipamentos/cavalo-de-montaria"
+  },
+  {
+    "index": "mastim",
+    "name": "Mastim",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Montarias e Outros Animais",
+    "cost": {
+      "quantity": 25,
+      "unit": "po"
+    },
+    "speed": {
+      "quantity": 12,
+      "unit": "m/rodada"
+    },
+    "capacity": "90 kg",
+    "url": "/api/equipamentos/mastim"
+  },
+  {
+    "index": "ponei",
+    "name": "Pônei",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Montarias e Outros Animais",
+    "cost": {
+      "quantity": 30,
+      "unit": "po"
+    },
+    "speed": {
+      "quantity": 12,
+      "unit": "m/rodada"
+    },
+    "capacity": "100 kg",
+    "url": "/api/equipamentos/ponei"
+  },
+  {
+    "index": "cavalo-de-guerra",
+    "name": "Cavalo de Guerra",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Montarias e Outros Animais",
+    "cost": {
+      "quantity": 400,
+      "unit": "po"
+    },
+    "speed": {
+      "quantity": 18,
+      "unit": "m/rodada"
+    },
+    "capacity": "245 kg",
+    "url": "/api/equipamentos/cavalo-de-guerra"
+  },
+  {
+    "index": "armadura-para-montaria-almofadada",
+    "name": "Armadura para Montaria: Almofadada",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Equipamento de Montaria",
+    "cost": {
+      "quantity": 20,
+      "unit": "po"
+    },
+    "weight": 16,
+    "desc": [
+      "A armadura para montaria é projetada para proteger a cabeça, pescoço, peito e corpo de um animal. Qualquer tipo de armadura mostrada na tabela de Armaduras pode ser adquirida como armadura para montaria. O custo é quatro vezes o da armadura equivalente feita para humanoides, e pesa o dobro."
+    ],
+    "url": "/api/equipamentos/armadura-para-montaria-almofadada"
+  },
+  {
+    "index": "armadura-para-montaria-de-couro",
+    "name": "Armadura para Montaria: Couro",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Equipamento de Montaria",
+    "cost": {
+      "quantity": 40,
+      "unit": "po"
+    },
+    "weight": 20,
+    "desc": [
+      "A armadura para montaria é projetada para proteger a cabeça, pescoço, peito e corpo de um animal. Qualquer tipo de armadura mostrada na tabela de Armaduras pode ser adquirida como armadura para montaria. O custo é quatro vezes o da armadura equivalente feita para humanoides, e pesa o dobro."
+    ],
+    "url": "/api/equipamentos/armadura-para-montaria-de-couro"
+  },
+  {
+    "index": "armadura-para-montaria-de-couro-batido",
+    "name": "Armadura para Montaria: Couro Batido",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Equipamento de Montaria",
+    "cost": {
+      "quantity": 180,
+      "unit": "po"
+    },
+    "weight": 26,
+    "desc": [
+      "A armadura para montaria é projetada para proteger a cabeça, pescoço, peito e corpo de um animal. Qualquer tipo de armadura mostrada na tabela de Armaduras pode ser adquirida como armadura para montaria. O custo é quatro vezes o da armadura equivalente feita para humanoides, e pesa o dobro."
+    ],
+    "url": "/api/equipamentos/armadura-para-montaria-de-couro-batido"
+  },
+  {
+    "index": "armadura-para-montaria-de-pele",
+    "name": "Armadura para Montaria: Pele",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Equipamento de Montaria",
+    "cost": {
+      "quantity": 40,
+      "unit": "po"
+    },
+    "weight": 24,
+    "desc": [
+      "A armadura para montaria é projetada para proteger a cabeça, pescoço, peito e corpo de um animal. Qualquer tipo de armadura mostrada na tabela de Armaduras pode ser adquirida como armadura para montaria. O custo é quatro vezes o da armadura equivalente feita para humanoides, e pesa o dobro."
+    ],
+    "url": "/api/equipamentos/armadura-para-montaria-de-pele"
+  },
+  {
+    "index": "armadura-para-montaria-camisa-de-malha",
+    "name": "Armadura para Montaria: Camisa de Malha",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Equipamento de Montaria",
+    "cost": {
+      "quantity": 200,
+      "unit": "po"
+    },
+    "weight": 40,
+    "desc": [
+      "A armadura para montaria é projetada para proteger a cabeça, pescoço, peito e corpo de um animal. Qualquer tipo de armadura mostrada na tabela de Armaduras pode ser adquirida como armadura para montaria. O custo é quatro vezes o da armadura equivalente feita para humanoides, e pesa o dobro."
+    ],
+    "url": "/api/equipamentos/armadura-para-montaria-camisa-de-malha"
+  },
+  {
+    "index": "armadura-para-montaria-de-escamas",
+    "name": "Armadura para Montaria: Cota de Escamas",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Equipamento de Montaria",
+    "cost": {
+      "quantity": 200,
+      "unit": "po"
+    },
+    "weight": 90,
+    "desc": [
+      "A armadura para montaria é projetada para proteger a cabeça, pescoço, peito e corpo de um animal. Qualquer tipo de armadura mostrada na tabela de Armaduras pode ser adquirida como armadura para montaria. O custo é quatro vezes o da armadura equivalente feita para humanoides, e pesa o dobro."
+    ],
+    "url": "/api/equipamentos/armadura-para-montaria-de-escamas"
+  },
+  {
+    "index": "armadura-para-montaria-peitoral",
+    "name": "Armadura para Montaria: Peitoral",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Equipamento de Montaria",
+    "cost": {
+      "quantity": 1600,
+      "unit": "po"
+    },
+    "weight": 40,
+    "desc": [
+      "A armadura para montaria é projetada para proteger a cabeça, pescoço, peito e corpo de um animal. Qualquer tipo de armadura mostrada na tabela de Armaduras pode ser adquirida como armadura para montaria. O custo é quatro vezes o da armadura equivalente feita para humanoides, e pesa o dobro."
+    ],
+    "url": "/api/equipamentos/armadura-para-montaria-peitoral"
+  },
+  {
+    "index": "armadura-para-montaria-meia-armadura",
+    "name": "Armadura para Montaria: Meia Armadura",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Equipamento de Montaria",
+    "cost": {
+      "quantity": 3000,
+      "unit": "po"
+    },
+    "weight": 80,
+    "desc": [
+      "A armadura para montaria é projetada para proteger a cabeça, pescoço, peito e corpo de um animal. Qualquer tipo de armadura mostrada na tabela de Armaduras pode ser adquirida como armadura para montaria. O custo é quatro vezes o da armadura equivalente feita para humanoides, e pesa o dobro."
+    ],
+    "url": "/api/equipamentos/armadura-para-montaria-meia-armadura"
+  },
+  {
+    "index": "armadura-para-montaria-de-anel",
+    "name": "Armadura para Montaria: Malha de Anel",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Equipamento de Montaria",
+    "cost": {
+      "quantity": 12,
+      "unit": "po"
+    },
+    "weight": 80,
+    "desc": [
+      "A armadura para montaria é projetada para proteger a cabeça, pescoço, peito e corpo de um animal. Qualquer tipo de armadura mostrada na tabela de Armaduras pode ser adquirida como armadura para montaria. O custo é quatro vezes o da armadura equivalente feita para humanoides, e pesa o dobro."
+    ],
+    "url": "/api/equipamentos/armadura-para-montaria-de-anel"
+  },
+  {
+    "index": "armadura-para-montaria-cota-de-malha",
+    "name": "Armadura para Montaria: Cota de Malha",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Equipamento de Montaria",
+    "cost": {
+      "quantity": 300,
+      "unit": "po"
+    },
+    "weight": 110,
+    "desc": [
+      "A armadura para montaria é projetada para proteger a cabeça, pescoço, peito e corpo de um animal. Qualquer tipo de armadura mostrada na tabela de Armaduras pode ser adquirida como armadura para montaria. O custo é quatro vezes o da armadura equivalente feita para humanoides, e pesa o dobro."
+    ],
+    "url": "/api/equipamentos/armadura-para-montaria-cota-de-malha"
+  },
+  {
+    "index": "armadura-para-montaria-de-bracura",
+    "name": "Armadura para Montaria: Brunea",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Equipamento de Montaria",
+    "cost": {
+      "quantity": 800,
+      "unit": "po"
+    },
+    "weight": 120,
+    "desc": [
+      "A armadura para montaria é projetada para proteger a cabeça, pescoço, peito e corpo de um animal. Qualquer tipo de armadura mostrada na tabela de Armaduras pode ser adquirida como armadura para montaria. O custo é quatro vezes o da armadura equivalente feita para humanoides, e pesa o dobro."
+    ],
+    "url": "/api/equipamentos/armadura-para-montaria-de-bracura"
+  },
+  {
+    "index": "armadura-para-montaria-de-placas",
+    "name": "Armadura para Montaria: Placas",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Equipamento de Montaria",
+    "cost": {
+      "quantity": 6000,
+      "unit": "po"
+    },
+    "weight": 130,
+    "desc": [
+      "A armadura para montaria é projetada para proteger a cabeça, pescoço, peito e corpo de um animal. Qualquer tipo de armadura mostrada na tabela de Armaduras pode ser adquirida como armadura para montaria. O custo é quatro vezes o da armadura equivalente feita para humanoides, e pesa o dobro."
+    ],
+    "url": "/api/equipamentos/armadura-para-montaria-de-placas"
+  },
+  {
+    "index": "brida-e-freio",
+    "name": "Brida e Freio",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Equipamento de Montaria",
+    "cost": {
+      "quantity": 2,
+      "unit": "po"
+    },
+    "weight": 1,
+    "url": "/api/equipamentos/brida-e-freio"
+  },
+  {
+    "index": "carruagem",
+    "name": "Carruagem",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Veículos",
+    "cost": {
+      "quantity": 100,
+      "unit": "po"
+    },
+    "weight": 600,
+    "url": "/api/equipamentos/carruagem"
+  },
+  {
+    "index": "carroca",
+    "name": "Carroça",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Veículos",
+    "cost": {
+      "quantity": 15,
+      "unit": "po"
+    },
+    "weight": 200,
+    "url": "/api/equipamentos/carroca"
+  },
+  {
+    "index": "biga",
+    "name": "Biga",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Veículos",
+    "cost": {
+      "quantity": 250,
+      "unit": "po"
+    },
+    "weight": 45,
+    "url": "/api/equipamentos/biga"
+  },
+  {
+    "index": "alimentacao-para-animais-1-dia",
+    "name": "Alimentação para Animais (1 dia)",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Equipamento de Montaria",
+    "cost": {
+      "quantity": 5,
+      "unit": "pc"
+    },
+    "weight": 4.5,
+    "url": "/api/equipamentos/alimentacao-para-animais-1-dia"
+  },
+  {
+    "index": "sela-exotica",
+    "name": "Sela, Exótica",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Equipamento de Montaria",
+    "cost": {
+      "quantity": 60,
+      "unit": "po"
+    },
+    "weight": 23,
+    "desc": [
+      "Uma sela exótica é necessária para montar qualquer montaria aquática ou voadora."
+    ],
+    "url": "/api/equipamentos/sela-exotica"
+  },
+  {
+    "index": "sela-militar",
+    "name": "Sela, Militar",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Equipamento de Montaria",
+    "cost": {
+      "quantity": 20,
+      "unit": "po"
+    },
+    "weight": 14,
+    "desc": [
+      "Uma sela militar dá apoio ao cavaleiro, ajudando-o a manter-se no lugar em uma montaria ativa em batalha. Ela concede vantagem em qualquer teste que você fizer para permanecer montado."
+    ],
+    "url": "/api/equipamentos/sela-militar"
+  },
+  {
+    "index": "sela-de-carga",
+    "name": "Sela, de Carga",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Equipamento de Montaria",
+    "cost": {
+      "quantity": 5,
+      "unit": "po"
+    },
+    "weight": 7,
+    "url": "/api/equipamentos/sela-de-carga"
+  },
+  {
+    "index": "sela-de-montaria",
+    "name": "Sela, de Montaria",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Equipamento de Montaria",
+    "cost": {
+      "quantity": 10,
+      "unit": "po"
+    },
+    "weight": 11,
+    "url": "/api/equipamentos/sela-de-montaria"
+  },
+  {
+    "index": "alforjes",
+    "name": "Alforjes",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Equipamento de Montaria",
+    "cost": {
+      "quantity": 4,
+      "unit": "po"
+    },
+    "weight": 4,
+    "url": "/api/equipamentos/alforjes"
+  },
+  {
+    "index": "treno",
+    "name": "Treno",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Veículos",
+    "cost": {
+      "quantity": 20,
+      "unit": "po"
+    },
+    "weight": 136,
+    "url": "/api/equipamentos/treno"
+  },
+  {
+    "index": "estabulagem-1-dia",
+    "name": "Estabulagem (1 dia)",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Serviços de Montaria",
+    "cost": {
+      "quantity": 5,
+      "unit": "pp"
+    },
+    "weight": 0,
+    "url": "/api/equipamentos/estabulagem-1-dia"
+  },
+  {
+    "index": "carroca",
+    "name": "Carroça",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Veículos",
+    "cost": {
+      "quantity": 35,
+      "unit": "po"
+    },
+    "weight": 180,
+    "url": "/api/equipamentos/carroca"
+  },
+  {
+    "index": "gale",
+    "name": "Galé",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Veículos Aquáticos",
+    "cost": {
+      "quantity": 30000,
+      "unit": "po"
+    },
+    "speed": {
+      "quantity": 6,
+      "unit": "km/h"
+    },
+    "url": "/api/equipamentos/gale"
+  },
+  {
+    "index": "barcaca",
+    "name": "Barcaça",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Veículos Aquáticos",
+    "cost": {
+      "quantity": 3000,
+      "unit": "po"
+    },
+    "speed": {
+      "quantity": 1.5,
+      "unit": "km/h"
+    },
+    "desc": [
+      "Barcaças e barcos a remo são usados em lagos e rios. Se estiver descendo rio abaixo, adicione a velocidade da correnteza (tipicamente 5 km/h) à velocidade do veículo. Esses veículos não podem ser remados contra uma correnteza significativa, mas podem ser puxados rio acima por animais de carga nas margens. Um barco a remo pesa 45 kg, caso os aventureiros o carreguem por terra."
+    ],
+    "url": "/api/equipamentos/barcaca"
+  },
+  {
+    "index": "dracar",
+    "name": "Dracar",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Veículos Aquáticos",
+    "cost": {
+      "quantity": 10000,
+      "unit": "po"
+    },
+    "speed": {
+      "quantity": 4.5,
+      "unit": "km/h"
+    },
+    "url": "/api/equipamentos/dracar"
+  },
+  {
+    "index": "barco-a-remo",
+    "name": "Barco a Remo",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Veículos Aquáticos",
+    "cost": {
+      "quantity": 50,
+      "unit": "po"
+    },
+    "speed": {
+      "quantity": 2,
+      "unit": "km/h"
+    },
+    "desc": [
+      "Barcaças e barcos a remo são usados em lagos e rios. Se estiver descendo rio abaixo, adicione a velocidade da correnteza (tipicamente 5 km/h) à velocidade do veículo. Esses veículos não podem ser remados contra uma correnteza significativa, mas podem ser puxados rio acima por animais de carga nas margens. Um barco a remo pesa 45 kg, caso os aventureiros o carreguem por terra."
+    ],
+    "url": "/api/equipamentos/barco-a-remo"
+  },
+  {
+    "index": "navio-a-vela",
+    "name": "Navio à Vela",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Veículos Aquáticos",
+    "cost": {
+      "quantity": 10000,
+      "unit": "po"
+    },
+    "speed": {
+      "quantity": 3,
+      "unit": "km/h"
+    },
+    "url": "/api/equipamentos/navio-a-vela"
+  },
+  {
+    "index": "navio-de-guerra",
+    "name": "Navio de Guerra",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Veículos Aquáticos",
+    "cost": {
+      "quantity": 25000,
+      "unit": "po"
+    },
+    "speed": {
+      "quantity": 4,
+      "unit": "km/h"
+    },
+    "url": "/api/equipamentos/navio-de-guerra"
+  }
+]

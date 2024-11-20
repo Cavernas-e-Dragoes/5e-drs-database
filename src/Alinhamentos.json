@@ -1,0 +1,65 @@
+[
+  {
+    "index": "ordeiro-bom",
+    "name": "Ordeiro e Bom",
+    "abbreviation": "OB",
+    "desc": "Ordeiro e bom (OB) é o alinhamento das criaturas que sempre fazem a coisa certa, como a sociedade espera. Dragões de ouro, paladinos e a maioria dos anões são ordeiros e bons.",
+    "url": "/api/alinhamentos/ordeiro-bom"
+  },
+  {
+    "index": "neutro-bom",
+    "name": "Neutro e Bom",
+    "abbreviation": "NB",
+    "desc": "Neutro e bom (NB) é o alinhamento das pessoas que se esforçam ao máximo para ajudar os outros. Muitos celestiais, alguns gigantes das nuvens e a maioria dos gnomos são neutros e bons.",
+    "url": "/api/alinhamentos/neutro-bom"
+  },
+  {
+    "index": "caotico-bom",
+    "name": "Caótico e Bom",
+    "abbreviation": "CB",
+    "desc": "Caótico e bom (CB) é o alinhamento das criaturas que agem conforme própria consciência, com pouca consideração pelo que os outros esperam. Dragões de cobre, muitos elfos e unicórnios são caóticos e bons.",
+    "url": "/api/alinhamentos/caotico-bom"
+  },
+  {
+    "index": "ordeiro-neutro",
+    "name": "Ordeiro e Neutro",
+    "abbreviation": "ON",
+    "desc": "Ordeiro e neutro (ON) é o alinhamento dos indivíduos que agem de acordo com a lei, a tradição ou com base em códigos pessoais. Muitos monges e alguns magos são ordeiros e neutros.",
+    "url": "/api/alinhamentos/ordeiro-neutro"
+  },
+  {
+    "index": "neutro",
+    "name": "Neutro",
+    "abbreviation": "N",
+    "desc": "Neutro (N) é o alinhamento de todos aqueles que preferem se distanciar das questões morais e não tomar partido, fazendo o que parece ser o melhor no momento. Homens-lagarto, a maioria dos druidas e muitos humanos são neutros.",
+    "url": "/api/alinhamentos/neutro"
+  },
+  {
+    "index": "caotico-neutro",
+    "name": "Caótico e Neutro",
+    "abbreviation": "CN",
+    "desc": "Caótico e neutro (CN) é o alinhamento de todos os que seguem seus caprichos, valorizando a liberdade pessoal acima de tudo. Muitos bárbaros e ladinos, e alguns bardos, são caóticos e neutros.",
+    "url": "/api/alinhamentos/caotico-neutro"
+  },
+  {
+    "index": "ordeiro-mau",
+    "name": "Ordeiro e Mau",
+    "abbreviation": "OM",
+    "desc": "Ordeiro e mau (OM) é o alinhamento das criaturas que tomam o que querem metodicamente, dentro dos limites de um código de tradição, lealdade ou ordem. Diabos, dragões azuis e hobgoblins são ordeiros e maus.",
+    "url": "/api/alinhamentos/ordeiro-mau"
+  },
+  {
+    "index": "neutro-mau",
+    "name": "Neutro e Mau",
+    "abbreviation": "NM",
+    "desc": "Neutro e mau (NM) é o alinhamento daqueles que fazem o possível para saírem impunes, sem demonstrar compaixão ou escrúpulos. Muitos drow, alguns gigantes das nuvens e goblins são neutros e maus.",
+    "url": "/api/alinhamentos/neutro-mau"
+  },
+  {
+    "index": "caotico-mau",
+    "name": "Caótico e Mau",
+    "abbreviation": "CM",
+    "desc": "Caótico e mau (CM) é o alinhamento de todos os que agem com violência arbitrária, estimulada por ganância, ódio ou sede de sangue. Demônios, dragões vermelhos e orcs são caóticos e maus.",
+    "url": "/api/alinhamentos/caotico-mau"
+  }
+]

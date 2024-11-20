@@ -1,0 +1,163 @@
+[
+  {
+    "index": "for",
+    "name": "FOR",
+    "full_name": "Força",
+    "desc": [
+      "Força mede o poder corporal, treinamento atlético e o quanto você pode exercer de força física bruta.",
+      "Um teste de Força pode modelar qualquer tentativa de levantar, empurrar, puxar ou quebrar algo, forçar seu corpo através de um espaço ou aplicar força bruta em uma situação. A perícia Atletismo reflete aptidão em certos tipos de testes de Força."
+    ],
+    "skills": [
+      {
+        "name": "Atletismo",
+        "index": "atletismo",
+        "url": "/api/pericias/atletismo"
+      }
+    ],
+    "url": "/api/valores-de-atributo/for"
+  },
+  {
+    "index": "des",
+    "name": "DES",
+    "full_name": "Destreza",
+    "desc": [
+      "Destreza mede agilidade, reflexos e equilíbrio.",
+      "Um teste de Destreza pode modelar qualquer tentativa de se mover agilmente, rapidamente ou silenciosamente, ou evitar cair em um terreno traiçoeiro. As perícias Acrobacia, Prestidigitação e Furtividade refletem aptidão em certos tipos de testes de Destreza."
+    ],
+    "skills": [
+      {
+        "name": "Acrobacia",
+        "index": "acrobacia",
+        "url": "/api/pericias/acrobacia"
+      },
+      {
+        "name": "Prestidigitação",
+        "index": "prestidigitacao",
+        "url": "/api/pericias/prestidigitacao"
+      },
+      {
+        "name": "Furtividade",
+        "index": "furtividade",
+        "url": "/api/pericias/furtividade"
+      }
+    ],
+    "url": "/api/valores-de-atributo/des"
+  },
+  {
+    "index": "con",
+    "name": "CON",
+    "full_name": "Constituição",
+    "desc": [
+      "Constituição mede saúde, vigor e força vital.",
+      "Testes de Constituição são incomuns, e nenhuma perícia se aplica a eles, pois a resistência que esse atributo representa é em grande parte passiva, não envolvendo um esforço específico por parte de um personagem ou monstro."
+    ],
+    "skills": [],
+    "url": "/api/valores-de-atributo/con"
+  },
+  {
+    "index": "int",
+    "name": "INT",
+    "full_name": "Inteligência",
+    "desc": [
+      "Inteligência mede acuidade mental, precisão de memória e a capacidade de raciocínio.",
+      "Um teste de Inteligência entra em jogo quando você precisa recorrer à lógica, educação, memória ou raciocínio dedutivo. As perícias Arcanismo, História, Investigação, Natureza e Religião refletem aptidão em certos tipos de testes de Inteligência."
+    ],
+    "skills": [
+      {
+        "name": "Arcanismo",
+        "index": "arcanismo",
+        "url": "/api/pericias/arcanismo"
+      },
+      {
+        "name": "História",
+        "index": "historia",
+        "url": "/api/pericias/historia"
+      },
+      {
+        "name": "Investigação",
+        "index": "investigacao",
+        "url": "/api/pericias/investigacao"
+      },
+      {
+        "name": "Natureza",
+        "index": "natureza",
+        "url": "/api/pericias/natureza"
+      },
+      {
+        "name": "Religião",
+        "index": "religiao",
+        "url": "/api/pericias/religiao"
+      }
+    ],
+    "url": "/api/valores-de-atributo/int"
+  },
+  {
+    "index": "sab",
+    "name": "SAB",
+    "full_name": "Sabedoria",
+    "desc": [
+      "Sabedoria reflete o quão sintonizado você está com o mundo ao seu redor e representa percepção e intuição.",
+      "Um teste de Sabedoria pode refletir um esforço para ler a linguagem corporal, entender os sentimentos de alguém, notar coisas sobre o ambiente ou cuidar de uma pessoa ferida. As perícias Intuição, Lidar com Animais, Medicina, Percepção e Sobrevivência refletem aptidão em certos tipos de testes de Sabedoria."
+    ],
+    "skills": [
+      {
+        "name": "Intuição",
+        "index": "intuicao",
+        "url": "/api/pericias/intuicao"
+      },
+      {
+        "name": "Lidar com Animais",
+        "index": "lidar-com-animais",
+        "url": "/api/pericias/lidar-com-animais"
+      },
+      {
+        "name": "Medicina",
+        "index": "medicina",
+        "url": "/api/pericias/medicina"
+      },
+      {
+        "name": "Percepção",
+        "index": "percepcao",
+        "url": "/api/pericias/percepcao"
+      },
+      {
+        "name": "Sobrevivência",
+        "index": "sobrevivencia",
+        "url": "/api/pericias/sobrevivencia"
+      }
+    ],
+    "url": "/api/valores-de-atributo/sab"
+  },
+  {
+    "index": "car",
+    "name": "CAR",
+    "full_name": "Carisma",
+    "desc": [
+      "Carisma mede sua capacidade de interagir efetivamente com os outros. Inclui fatores como confiança e eloquência, e pode representar uma personalidade charmosa ou dominante.",
+      "Um teste de Carisma pode surgir quando você tenta influenciar ou entreter os outros, causar uma impressão ou contar uma mentira convincente, ou navegar em uma situação social complicada. As perícias Atuação, Enganação, Intimidação e Persuasão refletem aptidão em certos tipos de testes de Carisma."
+    ],
+    "skills": [
+      {
+        "name": "Atuação",
+        "index": "atuacao",
+        "url": "/api/pericias/atuacao"
+      },
+      {
+        "name": "Enganação",
+        "index": "enganacao",
+        "url": "/api/pericias/enganacao"
+      },
+      {
+        "name": "Intimidação",
+        "index": "intimidacao",
+        "url": "/api/pericias/intimidacao"
+      },
+      {
+        "name": "Persuasão",
+        "index": "persuasao",
+        "url": "/api/pericias/persuasao"
+      }
+    ],
+    "url": "/api/valores-de-atributo/car"
+  }
+]

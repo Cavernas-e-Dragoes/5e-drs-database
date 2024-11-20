@@ -1,0 +1,317 @@
+[
+  {
+    "index": "acolito",
+    "name": "Acólito",
+    "starting_proficiencies": [
+      {
+        "index": "pericia-intuicao",
+        "name": "Perícia: Intuição",
+        "url": "/api/proficiencias/pericia-intuicao"
+      },
+      {
+        "index": "pericia-religiao",
+        "name": "Perícia: Religião",
+        "url": "/api/proficiencias/pericia-religiao"
+      }
+    ],
+    "language_options": {
+      "choose": 2,
+      "type": "idiomas",
+      "from": {
+        "option_set_type": "resource_list",
+        "resource_list_url": "/api/idiomas"
+      }
+    },
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "roupas-comuns",
+          "name": "Roupas Comuns",
+          "url": "/api/equipamentos/roupas-comuns"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "algibeira",
+          "name": "Algibeira",
+          "url": "/api/equipamentos/algibeira"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "equipment_category",
+          "equipment_category": {
+            "index": "simbolos-sagrados",
+            "name": "Símbolos Sagrados",
+            "url": "/api/categorias-de-equipamentos/simbolos-sagrados"
+          }
+        }
+      }
+    ],
+    "feature": {
+      "name": "Abrigo dos Fiéis",
+      "desc": [
+        "Como um acólito, você recebe o respeito daqueles que partilham de sua fé, e é capaz de conduzir as cerimônias religiosas de sua divindade. Você e seus companheiros de aventuras podem contar com a cura e os cuidados gratuitos de um templo, santuário, outro local ou representante da sua fé, embora precisem fornecer quaisquer componentes materiais necessários para a execução de magias. Aqueles que compartilham da sua religião podem sustentá-lo (mas somente a você) em um estilo de vida modesto.",
+        "Você também pode ter laços com algum templo específico dedicado à sua divindade ou panteão, onde pode encontrar abrigo. Isso poderia ser o templo onde você costumava servir, se ainda mantiver boas relações com ele, ou um templo onde encontrou um novo lar. Enquanto estiver próximo ao seu templo, você pode solicitar assistência aos sacerdotes, desde que o auxílio não seja perigoso e você mantenha uma boa reputação com seu templo."
+      ]
+    },
+    "personality_traits": {
+      "choose": 2,
+      "type": "traços_de_personalidade",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "string",
+            "string": "Idolatro um herói específico da minha fé e sempre me refiro aos seus feitos e exemplos."
+          },
+          {
+            "option_type": "string",
+            "string": "Consigo encontrar um terreno comum entre os inimigos mais ferozes, empatizando com eles e sempre trabalhando pela paz."
+          },
+          {
+            "option_type": "string",
+            "string": "Vejo presságios em cada evento e ação. Os deuses tentam falar conosco, só precisamos ouvir."
+          },
+          {
+            "option_type": "string",
+            "string": "Nada pode abalar minha atitude otimista."
+          },
+          {
+            "option_type": "string",
+            "string": "Cito (ou cito erroneamente) textos sagrados e provérbios em quase todas as situações."
+          },
+          {
+            "option_type": "string",
+            "string": "Sou tolerante (ou intolerante) com outras fés e respeito (ou condeno) a adoração de outros deuses."
+          },
+          {
+            "option_type": "string",
+            "string": "Já desfrutei de boa comida, bebida e alta sociedade entre a elite do meu templo. Viver de forma simples me incomoda."
+          },
+          {
+            "option_type": "string",
+            "string": "Passei tanto tempo no templo que tenho pouca experiência prática lidando com pessoas do mundo exterior."
+          }
+        ]
+      }
+    },
+    "ideals": {
+      "choose": 1,
+      "type": "ideais",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "ideal",
+            "desc": "Tradição. As antigas tradições de adoração e sacrifício devem ser preservadas e mantidas.",
+            "alignments": [
+              {
+                "index": "ordeiro-bom",
+                "name": "Ordeiro e Bom",
+                "url": "/api/alinhamentos/ordeiro-bom"
+              },
+              {
+                "index": "ordeiro-neutro",
+                "name": "Ordeiro e Neutro",
+                "url": "/api/alinhamentos/ordeiro-neutro"
+              },
+              {
+                "index": "ordeiro-mau",
+                "name": "Ordeiro e Mau",
+                "url": "/api/alinhamentos/ordeiro-mau"
+              }
+            ]
+          },
+          {
+            "option_type": "ideal",
+            "desc": "Caridade. Sempre tento ajudar aqueles em necessidade, não importa o custo pessoal.",
+            "alignments": [
+              {
+                "index": "ordeiro-bom",
+                "name": "Ordeiro e Bom",
+                "url": "/api/alinhamentos/ordeiro-bom"
+              },
+              {
+                "index": "neutro-bom",
+                "name": "Neutro e Bom",
+                "url": "/api/alinhamentos/neutro-bom"
+              },
+              {
+                "index": "caotico-bom",
+                "name": "Caótico e Bom",
+                "url": "/api/alinhamentos/caotico-bom"
+              }
+            ]
+          },
+          {
+            "option_type": "ideal",
+            "desc": "Mudança. Devemos ajudar a trazer as mudanças que os deuses estão constantemente operando no mundo.",
+            "alignments": [
+              {
+                "index": "caotico-bom",
+                "name": "Caótico e Bom",
+                "url": "/api/alinhamentos/caotico-bom"
+              },
+              {
+                "index": "caotico-neutro",
+                "name": "Caótico e Neutro",
+                "url": "/api/alinhamentos/caotico-neutro"
+              },
+              {
+                "index": "caotico-mau",
+                "name": "Caótico e Mau",
+                "url": "/api/alinhamentos/caotico-mau"
+              }
+            ]
+          },
+          {
+            "option_type": "ideal",
+            "desc": "Fé. Confio que minha divindade guiará minhas ações. Tenho fé de que, se eu trabalhar duro, tudo dará certo.",
+            "alignments": [
+              {
+                "index": "ordeiro-bom",
+                "name": "Ordeiro e Bom",
+                "url": "/api/alinhamentos/ordeiro-bom"
+              },
+              {
+                "index": "ordeiro-neutro",
+                "name": "Ordeiro e Neutro",
+                "url": "/api/alinhamentos/ordeiro-neutro"
+              },
+              {
+                "index": "ordeiro-mau",
+                "name": "Ordeiro e Mau",
+                "url": "/api/alinhamentos/ordeiro-mau"
+              }
+            ]
+          },
+          {
+            "option_type": "ideal",
+            "desc": "Aspiração. Busco provar-me digno do favor do meu deus, correspondendo minhas ações aos seus ensinamentos.",
+            "alignments": [
+              {
+                "index": "ordeiro-bom",
+                "name": "Ordeiro e Bom",
+                "url": "/api/alinhamentos/ordeiro-bom"
+              },
+              {
+                "index": "neutro-bom",
+                "name": "Neutro e Bom",
+                "url": "/api/alinhamentos/neutro-bom"
+              },
+              {
+                "index": "caotico-bom",
+                "name": "Caótico e Bom",
+                "url": "/api/alinhamentos/caotico-bom"
+              },
+              {
+                "index": "ordeiro-neutro",
+                "name": "Ordeiro e Neutro",
+                "url": "/api/alinhamentos/ordeiro-neutro"
+              },
+              {
+                "index": "neutro",
+                "name": "Neutro",
+                "url": "/api/alinhamentos/neutro"
+              },
+              {
+                "index": "caotico-neutro",
+                "name": "Caótico e Neutro",
+                "url": "/api/alinhamentos/caotico-neutro"
+              },
+              {
+                "index": "ordeiro-mau",
+                "name": "Ordeiro e Mau",
+                "url": "/api/alinhamentos/ordeiro-mau"
+              },
+              {
+                "index": "neutro-mau",
+                "name": "Neutro e Mau",
+                "url": "/api/alinhamentos/neutro-mau"
+              },
+              {
+                "index": "caotico-mau",
+                "name": "Caótico e Mau",
+                "url": "/api/alinhamentos/caotico-mau"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "bonds": {
+      "choose": 1,
+      "type": "vinculos",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "string",
+            "string": "Eu morreria para recuperar um antigo relicário de minha fé perdido há muito tempo."
+          },
+          {
+            "option_type": "string",
+            "string": "Um dia, vingarei-me da hierarquia corrupta do templo que me chamou de herege."
+          },
+          {
+            "option_type": "string",
+            "string": "Devo minha vida ao sacerdote que me acolheu quando meus pais morreram."
+          },
+          {
+            "option_type": "string",
+            "string": "Tudo o que faço é pelo povo comum."
+          },
+          {
+            "option_type": "string",
+            "string": "Farei qualquer coisa para proteger o templo onde servi."
+          },
+          {
+            "option_type": "string",
+            "string": "Procuro preservar um texto sagrado que meus inimigos consideram herético e desejam destruir."
+          }
+        ]
+      }
+    },
+    "flaws": {
+      "choose": 1,
+      "type": "defeitos",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "string",
+            "string": "Julgo os outros severamente e a mim mesmo com ainda mais rigor."
+          },
+          {
+            "option_type": "string",
+            "string": "Confio demais naqueles que detêm poder na hierarquia do meu templo."
+          },
+          {
+            "option_type": "string",
+            "string": "Minha piedade às vezes me leva a confiar cegamente naqueles que professam fé no meu deus."
+          },
+          {
+            "option_type": "string",
+            "string": "Sou inflexível em meu pensamento."
+          },
+          {
+            "option_type": "string",
+            "string": "Sou desconfiado de estranhos e espero o pior deles."
+          },
+          {
+            "option_type": "string",
+            "string": "Uma vez que defino um objetivo, fico obcecado por ele em detrimento de todo o resto na minha vida."
+          }
+        ]
+      }
+    },
+    "url": "/api/antecedentes/acolito"
+  }
+]

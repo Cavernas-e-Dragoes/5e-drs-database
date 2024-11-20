@@ -1,0 +1,1076 @@
+[
+  {
+    "index": "anao",
+    "name": "Anão",
+    "speed": 7.5,
+    "ability_bonuses": [
+      {
+        "ability_score": {
+          "index": "con",
+          "name": "CON",
+          "url": "/api/valores-de-atributo/con"
+        },
+        "bonus": 2
+      }
+    ],
+    "alignment": "A maior parte dos anões é ordeira, acreditando fortemente nos benefícios de uma sociedade organizada. Eles também tendem ao bem, possuindo um forte senso de honestidade e a crença de que todos merecem compartilhar os benefícios da ordem e da justiça.",
+    "age": "Anões amadurecem na mesma velocidade que os humanos, mas são considerados jovens até os 50 anos. Vivem em média 350 anos.",
+    "size": "Médio",
+    "size_description": "Anões crescem até 1,5 metro e pesam em torno de 75 quilos. Seu tamanho é Médio.",
+    "starting_proficiencies": [
+      {
+        "index": "machados-de-batalha",
+        "name": "Machados de batalha",
+        "url": "/api/proficiencias/machados-de-batalha"
+      },
+      {
+        "index": "machadinhas",
+        "name": "Machadinhas",
+        "url": "/api/proficiencias/machadinhas"
+      },
+      {
+        "index": "martelos-leves",
+        "name": "Martelos leves",
+        "url": "/api/proficiencias/martelos-leves"
+      },
+      {
+        "index": "martelos-de-guerra",
+        "name": "Martelos de guerra",
+        "url": "/api/proficiencias/martelos-de-guerra"
+      }
+    ],
+    "starting_proficiency_options": {
+      "desc": "Você é proficiente em uma das ferramentas de artesão, à sua escolha: ferramentas de ferraria, suprimentos de cervejeiro ou ferramentas de alvenaria.",
+      "choose": 1,
+      "type": "proficiencias",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "ferramentas-de-ferraria",
+              "name": "Ferramentas de ferraria",
+              "url": "/api/proficiencias/ferramentas-de-ferraria"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "suprimentos-de-cervejeiro",
+              "name": "Suprimentos de cervejeiro",
+              "url": "/api/proficiencias/suprimentos-de-cervejeiro"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "ferramentas-de-alvenaria",
+              "name": "Ferramentas de alvenaria",
+              "url": "/api/proficiencias/ferramentas-de-alvenaria"
+            }
+          }
+        ]
+      }
+    },
+    "languages": [
+      {
+        "index": "comum",
+        "name": "Comum",
+        "url": "/api/idiomas/comum"
+      },
+      {
+        "index": "anao",
+        "name": "Anão",
+        "url": "/api/idiomas/anao"
+      }
+    ],
+    "language_desc": "Você fala, lê e escreve os idiomas Comum e Anão. O idioma Anão é repleto de consoantes fortes e sons guturais. Esse traço vocal contamina, com sotaque peculiar, todos os idiomas que o anão vier a falar.",
+    "traits": [
+      {
+        "index": "visao-no-escuro",
+        "name": "Visão no Escuro",
+        "url": "/api/tracos/visao-no-escuro"
+      },
+      {
+        "index": "resistencia-a-toxinas",
+        "name": "Resistência a Toxinas",
+        "url": "/api/tracos/resistencia-a-toxinas"
+      },
+      {
+        "index": "treinamento-anao-em-combate",
+        "name": "Treinamento Anão em Combate",
+        "url": "/api/tracos/treinamento-anao-em-combate"
+      },
+      {
+        "index": "proficiencia-com-ferramentas",
+        "name": "Proficiência com Ferramentas",
+        "url": "/api/tracos/proficiencia-com-ferramentas"
+      },
+      {
+        "index": "conhecimento-de-pedras",
+        "name": "Conhecimento de Pedras",
+        "url": "/api/tracos/conhecimento-de-pedras"
+      }
+    ],
+    "subraces": [
+      {
+        "index": "anao-da-colina",
+        "name": "Anão da Colina",
+        "url": "/api/subracas/anao-da-colina"
+      }
+    ],
+    "url": "/api/racas/anao"
+  },
+  {
+    "index": "elfo",
+    "name": "Elfo",
+    "speed": 9,
+    "ability_bonuses": [
+      {
+        "ability_score": {
+          "index": "des",
+          "name": "DES",
+          "url": "/api/valores-de-atributo/des"
+        },
+        "bonus": 2
+      }
+    ],
+    "age": "Apesar de os elfos atingirem a maturidade física praticamente na mesma idade que os humanos, sua compreensão da vida adulta vai além do crescimento físico, abarcando também vivência e maturidade. Um elfo normalmente reivindica sua maioridade e seu nome adulto com cerca de 100 anos, podendo viver até os 750 anos de idade.",
+    "alignment": "Elfos amam a liberdade, a variedade e a autoexpressão, por isso têm uma forte inclinação para os aspectos mais sutis do caos. Eles valorizam e protegem tanto a sua própria liberdade quanto a de terceiros, sendo mais frequentemente bons do que maus.",
+    "size": "Médio",
+    "size_description": "Os elfos são esguios e sua altura varia entre 1,5 e 1,8 metro. Seu tamanho é Médio.",
+    "starting_proficiencies": [
+      {
+        "index": "pericia-percepcao",
+        "name": "Perícia: Percepção",
+        "url": "/api/proficiencias/pericia-percepcao"
+      }
+    ],
+    "languages": [
+      {
+        "index": "comum",
+        "name": "Comum",
+        "url": "/api/idiomas/comum"
+      },
+      {
+        "index": "elfico",
+        "name": "Élfico",
+        "url": "/api/idiomas/elfico"
+      }
+    ],
+    "language_desc": "Você fala, lê e escreve Comum e Élfico. O Élfico é ﬂuido, com entonações sutis e gramática complexa. A literatura élfica é rica e variada, com canções e poemas famosos entre outras raças. Muitos bardos aprendem essa língua para poderem adicionar canções élficas ao seu repertório.",
+    "traits": [
+      {
+        "index": "visao-no-escuro",
+        "name": "Visão no Escuro",
+        "url": "/api/tracos/visao-no-escuro"
+      },
+      {
+        "index": "ancestralidade-feerica",
+        "name": "Ancestralidade Feérica",
+        "url": "/api/tracos/ancestralidade-feerica"
+      },
+      {
+        "index": "transe",
+        "name": "Transe",
+        "url": "/api/tracos/transe"
+      },
+      {
+        "index": "sentidos-agucados",
+        "name": "Sentidos Aguçados",
+        "url": "/api/tracos/sentidos-agucados"
+      }
+    ],
+    "subraces": [
+      {
+        "index": "alto-elfo",
+        "name": "Alto-Elfo",
+        "url": "/api/subracas/alto-elfo"
+      }
+    ],
+    "url": "/api/racas/elfo"
+  },
+  {
+    "index": "pequenino",
+    "name": "Pequenino",
+    "speed": 7.5,
+    "ability_bonuses": [
+      {
+        "ability_score": {
+          "index": "des",
+          "name": "DES",
+          "url": "/api/valores-de-atributo/des"
+        },
+        "bonus": 2
+      }
+    ],
+    "age": "Um pequenino atinge a idade adulta aos 20 anos, e pode chegar a até dois séculos e meio de idade.",
+    "alignment": "A maioria dos pequeninos são ordeiros e bons. Como regra geral, são bondosos e gentis, detestam ver o sofrimento alheio e são intolerantes a todo tipo de opressão. Também são muito organizados e tradicionalistas, apoiando-se em suas comunidades e no conforto de suas antigas tradições.",
+    "size": "Pequeno",
+    "size_description": "Membros da raça medem cerca de 90 centímetros de altura, e pesam aproximadamente 18 quilos. Seu tamanho é Pequeno.",
+    "starting_proficiencies": [],
+    "languages": [
+      {
+        "index": "comum",
+        "name": "Comum",
+        "url": "/api/idiomas/comum"
+      },
+      {
+        "index": "pequenino",
+        "name": "Pequenino",
+        "url": "/api/idiomas/pequenino"
+      }
+    ],
+    "language_desc": "Você pode falar, ler e escrever o idioma Comum e Pequenino. Este último (conhecido entre os pequeninos como Diminuto) não é secreto, mas os pequeninos relutam em compartilhá-lo. Como escrevem muito pouco, não possuem uma literatura vasta. Sua tradição oral, no entanto, é muito forte. Quase todos os pequeninos utilizam o idioma Comum para conversar com as pessoas das terras que habitam ou pelas quais estão de passagem.",
+    "traits": [
+      {
+        "index": "sortudo",
+        "name": "Sortudo",
+        "url": "/api/tracos/sortudo"
+      },
+      {
+        "index": "corajoso",
+        "name": "Corajoso",
+        "url": "/api/tracos/corajoso"
+      },
+      {
+        "index": "agilidade-pequenina",
+        "name": "Agilidade Pequenina",
+        "url": "/api/tracos/agilidade-pequenina"
+      }
+    ],
+    "subraces": [
+      {
+        "index": "pes-ligeiros",
+        "name": "Pés-Ligeiros",
+        "url": "/api/subracas/pes-ligeiros"
+      }
+    ],
+    "url": "/api/racas/pequenino"
+  },
+  {
+    "index": "humano",
+    "name": "Humano",
+    "speed": 9,
+    "ability_bonuses": [
+      {
+        "ability_score": {
+          "index": "for",
+          "name": "FOR",
+          "url": "/api/valores-de-atributo/for"
+        },
+        "bonus": 1
+      },
+      {
+        "ability_score": {
+          "index": "des",
+          "name": "DES",
+          "url": "/api/valores-de-atributo/des"
+        },
+        "bonus": 1
+      },
+      {
+        "ability_score": {
+          "index": "con",
+          "name": "CON",
+          "url": "/api/valores-de-atributo/con"
+        },
+        "bonus": 1
+      },
+      {
+        "ability_score": {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/valores-de-atributo/int"
+        },
+        "bonus": 1
+      },
+      {
+        "ability_score": {
+          "index": "sab",
+          "name": "SAB",
+          "url": "/api/valores-de-atributo/sab"
+        },
+        "bonus": 1
+      },
+      {
+        "ability_score": {
+          "index": "car",
+          "name": "CAR",
+          "url": "/api/valores-de-atributo/car"
+        },
+        "bonus": 1
+      }
+    ],
+    "age": "Os humanos atingem a idade adulta no final da adolescência e vivem menos de um século.",
+    "alignment": "Os humanos não tendem a nenhum alinhamento em particular; o melhor e o pior podem ser encontrados entre eles.",
+    "size": "Médio",
+    "size_description": "Os humanos variam amplamente em altura e peso, mas seu tamanho é Médio.",
+    "starting_proficiencies": [],
+    "languages": [
+      {
+        "index": "comum",
+        "name": "Comum",
+        "url": "/api/idiomas/comum"
+      }
+    ],
+    "language_options": {
+      "choose": 1,
+      "type": "idiomas",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "anao",
+              "name": "Anão",
+              "url": "/api/idiomas/anao"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "elfico",
+              "name": "Élfico",
+              "url": "/api/idiomas/elfico"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "gigante",
+              "name": "Gigante",
+              "url": "/api/idiomas/gigante"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "gnomico",
+              "name": "Gnômico",
+              "url": "/api/idiomas/gnomico"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "goblin",
+              "name": "Goblin",
+              "url": "/api/idiomas/goblin"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "halfling",
+              "name": "Halfling",
+              "url": "/api/idiomas/halfling"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "orc",
+              "name": "Orc",
+              "url": "/api/idiomas/orc"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "abissal",
+              "name": "Abissal",
+              "url": "/api/idiomas/abissal"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "celestial",
+              "name": "Celestial",
+              "url": "/api/idiomas/celestial"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "draconico",
+              "name": "Dracônico",
+              "url": "/api/idiomas/draconico"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "profundo",
+              "name": "Profundo",
+              "url": "/api/idiomas/profundo"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "infernal",
+              "name": "Infernal",
+              "url": "/api/idiomas/infernal"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "primordial",
+              "name": "Primordial",
+              "url": "/api/idiomas/primordial"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "silvestre",
+              "name": "Silvestre",
+              "url": "/api/idiomas/silvestre"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "subcomum",
+              "name": "Subcomum",
+              "url": "/api/idiomas/subcomum"
+            }
+          }
+        ]
+      }
+    },
+    "language_desc": "Você pode falar, ler e escrever Comum e um idioma adicional de sua escolha.",
+    "traits": [],
+    "subraces": [],
+    "url": "/api/racas/humano"
+  },
+  {
+    "index": "draconato",
+    "name": "Draconato",
+    "speed": 9,
+    "ability_bonuses": [
+      {
+        "ability_score": {
+          "index": "for",
+          "name": "FOR",
+          "url": "/api/valores-de-atributo/for"
+        },
+        "bonus": 2
+      },
+      {
+        "ability_score": {
+          "index": "car",
+          "name": "CAR",
+          "url": "/api/valores-de-atributo/car"
+        },
+        "bonus": 1
+      }
+    ],
+    "age": "Draconatos jovens crescem rapidamente. Eles começam a andar horas após o nascimento, chegando ao tamanho e estrutura de uma criança humana de 10 anos aos 3, e a maioridade aos 15. Costumam viver em torno de 80 anos.",
+    "alignment": "Draconatos tendem aos extremos, fazendo uma escolha consciente entre um lado ou outro na guerra cósmica do bem contra o mal. A maioria dos draconatos são bons, porém, aqueles que se aliam a Tiamat podem se tornar vilões terríveis.",
+    "size": "Médio",
+    "size_description": "Draconatos são mais altos e pesados que humanos, chegando facilmente a 1,8 metro de altura e pesando em média 110 quilos. Seu tamanho é Médio.",
+    "starting_proficiencies": [],
+    "languages": [
+      {
+        "index": "comum",
+        "name": "Comum",
+        "url": "/api/idiomas/comum"
+      },
+      {
+        "index": "draconico",
+        "name": "Dracônico",
+        "url": "/api/idiomas/draconico"
+      }
+    ],
+    "language_desc": "Você pode falar, ler e escrever Comum e Dracônico. Dracônico é considerado um dos idiomas mais antigos, e costuma ser utilizado nos estudos arcanos. É uma língua que soa áspera para a maioria das criaturas não dracônicas, e inclui numerosas consoantes duras e sibilantes.",
+    "traits": [
+      {
+        "index": "heranca-draconica",
+        "name": "Herança Dracônica",
+        "url": "/api/tracos/heranca-draconica"
+      },
+      {
+        "index": "ataque-de-sopro",
+        "name": "Ataque de Sopro",
+        "url": "/api/tracos/ataque-de-sopro"
+      },
+      {
+        "index": "resistencia-a-dano",
+        "name": "Resistência a Dano",
+        "url": "/api/tracos/resistencia-a-dano"
+      }
+    ],
+    "subraces": [],
+    "url": "/api/racas/draconato"
+  },
+  {
+    "index": "gnomo",
+    "name": "Gnomo",
+    "speed": 7.5,
+    "ability_bonuses": [
+      {
+        "ability_score": {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/valores-de-atributo/int"
+        },
+        "bonus": 2
+      }
+    ],
+    "alignment": "Gnomos costumam ser bons. Aqueles que tendem para a ordem são sábios, engenheiros, pesquisadores, eruditos, investigadores ou inventores. Aqueles que se inclinam para o caos são menestréis, trapaceiros, andarilhos ou joalheiros sofisticados. De um modo geral são bondosos, e até mesmo os trapaceiros entre eles são mais brincalhões do que maliciosos.",
+    "age": "Um gnomo atinge a idade adulta no mesmo ritmo que os humanos, e espera-se que, em sua maioria, amadureçam por volta dos 40 anos. Eles podem viver de 350 a 500 anos.",
+    "size": "Pequeno",
+    "size_description": "Gnomos têm entre 0,9 e 1,2 metro de altura e pesam em torno de 18 quilos. Seu tamanho é Pequeno.",
+    "starting_proficiencies": [],
+    "languages": [
+      {
+        "index": "comum",
+        "name": "Comum",
+        "url": "/api/idiomas/comum"
+      },
+      {
+        "index": "gnomico",
+        "name": "Gnômico",
+        "url": "/api/idiomas/gnomico"
+      }
+    ],
+    "language_desc": "Você fala, lê e escreve o idioma Comum e Gnômico. Este último, que usa o alfabeto Anão, é renomado por seus tratados técnicos e por seus almanaques sobre o mundo natural.",
+    "traits": [
+      {
+        "index": "visao-no-escuro",
+        "name": "Visão no Escuro",
+        "url": "/api/tracos/visao-no-escuro"
+      },
+      {
+        "index": "astucia-de-gnomo",
+        "name": "Astúcia de Gnomo",
+        "url": "/api/tracos/astucia-de-gnomo"
+      }
+    ],
+    "subraces": [
+      {
+        "index": "gnomo-das-rochas",
+        "name": "Gnomo das Rochas",
+        "url": "/api/subracas/gnomo-das-rochas"
+      }
+    ],
+    "url": "/api/racas/gnomo"
+  },
+  {
+    "index": "meio-elfo",
+    "name": "Meio-Elfo",
+    "speed": 9,
+    "ability_bonuses": [
+      {
+        "ability_score": {
+          "index": "car",
+          "name": "CAR",
+          "url": "/api/valores-de-atributo/car"
+        },
+        "bonus": 2
+      }
+    ],
+    "ability_bonus_options": {
+      "choose": 2,
+      "type": "ability_bonuses",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "ability_bonus",
+            "ability_score": {
+              "index": "for",
+              "name": "FOR",
+              "url": "/api/valores-de-atributo/for"
+            },
+            "bonus": 1
+          },
+          {
+            "option_type": "ability_bonus",
+            "ability_score": {
+              "index": "des",
+              "name": "DES",
+              "url": "/api/valores-de-atributo/des"
+            },
+            "bonus": 1
+          },
+          {
+            "option_type": "ability_bonus",
+            "ability_score": {
+              "index": "con",
+              "name": "CON",
+              "url": "/api/valores-de-atributo/con"
+            },
+            "bonus": 1
+          },
+          {
+            "option_type": "ability_bonus",
+            "ability_score": {
+              "index": "int",
+              "name": "INT",
+              "url": "/api/valores-de-atributo/int"
+            },
+            "bonus": 1
+          },
+          {
+            "option_type": "ability_bonus",
+            "ability_score": {
+              "index": "sab",
+              "name": "SAB",
+              "url": "/api/valores-de-atributo/sab"
+            },
+            "bonus": 1
+          }
+        ]
+      }
+    },
+    "age": "Meio-elfos amadurecem na mesma idade dos humanos, atingindo a idade adulta perto dos 20 anos. No entanto, vivem muito mais do que os humanos, ultrapassando com frequência os 180 anos.",
+    "alignment": "Meio-elfos compartilham a inclinação caótica da sua herança élfica. Valorizam tanto a liberdade pessoal quanto a expressão criativa, não demonstrando apreço por líderes nem o desejo de ter seguidores. As regras os irritam, por isso não gostam de receber ordens e, às vezes, provam-se indignos de confiança.",
+    "size": "Médio",
+    "size_description": "Meio-elfos chegam à mesma estatura dos humanos, entre 1,5 e 1,8 metros. Seu tamanho é Médio.",
+    "starting_proficiencies": [],
+    "starting_proficiency_options": {
+      "choose": 2,
+      "type": "proficiencias",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "pericia-acrobacia",
+              "name": "Perícia: Acrobacia",
+              "url": "/api/proficiencias/pericia-acrobacia"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "pericia-adestrar-animais",
+              "name": "Perícia: Adestrar Animais",
+              "url": "/api/proficiencias/pericia-adestrar-animais"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "pericia-arcanismo",
+              "name": "Perícia: Arcanismo",
+              "url": "/api/proficiencias/pericia-arcanismo"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "pericia-atletismo",
+              "name": "Perícia: Atletismo",
+              "url": "/api/proficiencias/pericia-atletismo"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "pericia-atuacao",
+              "name": "Perícia: Atuação",
+              "url": "/api/proficiencias/pericia-atuacao"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "pericia-enganacao",
+              "name": "Perícia: Enganação",
+              "url": "/api/proficiencias/pericia-enganacao"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "pericia-furtividade",
+              "name": "Perícia: Furtividade",
+              "url": "/api/proficiencias/pericia-furtividade"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "pericia-historia",
+              "name": "Perícia: História",
+              "url": "/api/proficiencias/pericia-historia"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "pericia-intimidacao",
+              "name": "Perícia: Intimidação",
+              "url": "/api/proficiencias/pericia-intimidacao"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "pericia-intuicao",
+              "name": "Perícia: Intuição",
+              "url": "/api/proficiencias/pericia-intuicao"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "pericia-investigacao",
+              "name": "Perícia: Investigação",
+              "url": "/api/proficiencias/pericia-investigacao"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "pericia-medicina",
+              "name": "Perícia: Medicina",
+              "url": "/api/proficiencias/pericia-medicina"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "pericia-natureza",
+              "name": "Perícia: Natureza",
+              "url": "/api/proficiencias/pericia-natureza"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "pericia-percepcao",
+              "name": "Perícia: Percepção",
+              "url": "/api/proficiencias/pericia-percepcao"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "pericia-persuasao",
+              "name": "Perícia: Persuasão",
+              "url": "/api/proficiencias/pericia-persuasao"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "pericia-prestidigitacao",
+              "name": "Perícia: Prestidigitação",
+              "url": "/api/proficiencias/pericia-prestidigitacao"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "pericia-religiao",
+              "name": "Perícia: Religião",
+              "url": "/api/proficiencias/pericia-religiao"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "pericia-sobrevivencia",
+              "name": "Perícia: Sobrevivência",
+              "url": "/api/proficiencias/pericia-sobrevivencia"
+            }
+          }
+        ]
+      }
+    },
+    "languages": [
+      {
+        "index": "comum",
+        "name": "Comum",
+        "url": "/api/idiomas/comum"
+      },
+      {
+        "index": "elfico",
+        "name": "Élfico",
+        "url": "/api/idiomas/elfico"
+      }
+    ],
+    "language_options": {
+      "choose": 1,
+      "type": "idiomas",
+      "from": {
+        "option_set_type": "options_array",
+        "options": [
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "anao",
+              "name": "Anão",
+              "url": "/api/idiomas/anao"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "gigante",
+              "name": "Gigante",
+              "url": "/api/idiomas/gigante"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "gnomico",
+              "name": "Gnômico",
+              "url": "/api/idiomas/gnomico"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "goblin",
+              "name": "Goblin",
+              "url": "/api/idiomas/goblin"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "halfling",
+              "name": "Halfling",
+              "url": "/api/idiomas/halfling"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "orc",
+              "name": "Orc",
+              "url": "/api/idiomas/orc"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "abissal",
+              "name": "Abissal",
+              "url": "/api/idiomas/abissal"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "celestial",
+              "name": "Celestial",
+              "url": "/api/idiomas/celestial"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "draconico",
+              "name": "Dracônico",
+              "url": "/api/idiomas/draconico"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "profundo",
+              "name": "Profundo",
+              "url": "/api/idiomas/profundo"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "infernal",
+              "name": "Infernal",
+              "url": "/api/idiomas/infernal"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "primordial",
+              "name": "Primordial",
+              "url": "/api/idiomas/primordial"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "silvestre",
+              "name": "Silvestre",
+              "url": "/api/idiomas/silvestre"
+            }
+          },
+          {
+            "option_type": "reference",
+            "item": {
+              "index": "subcomum",
+              "name": "Subcomum",
+              "url": "/api/idiomas/subcomum"
+            }
+          }
+        ]
+      }
+    },
+    "language_desc": "Você pode falar, ler e escrever Comum, Élfico e um idioma adicional à sua escolha.",
+    "traits": [
+      {
+        "index": "visao-no-escuro",
+        "name": "Visão no Escuro",
+        "url": "/api/tracos/visao-no-escuro"
+      },
+      {
+        "index": "ancestralidade-feerica",
+        "name": "Ancestralidade Feérica",
+        "url": "/api/tracos/ancestralidade-feerica"
+      },
+      {
+        "index": "versatilidade-com-pericias",
+        "name": "Versatilidade com Perícias",
+        "url": "/api/tracos/versatilidade-com-pericias"
+      }
+    ],
+    "subraces": [],
+    "url": "/api/racas/meio-elfo"
+  },
+  {
+    "index": "meio-orc",
+    "name": "Meio-Orc",
+    "speed": 9,
+    "ability_bonuses": [
+      {
+        "ability_score": {
+          "index": "for",
+          "name": "FOR",
+          "url": "/api/valores-de-atributo/for"
+        },
+        "bonus": 2
+      },
+      {
+        "ability_score": {
+          "index": "con",
+          "name": "CON",
+          "url": "/api/valores-de-atributo/con"
+        },
+        "bonus": 1
+      }
+    ],
+    "age": "Meio-orcs amadurecem mais rápido que os humanos e envelhecem mais rapidamente também.",
+    "alignment": "Meio-orcs tendem ao caos e não são inclinados ao bem.",
+    "size": "Médio",
+    "size_description": "Meio-orcs são maiores e mais encorpados que os humanos, variando entre 1,5 e 1,9 metro de altura. Seu tamanho é Médio.",
+    "starting_proficiencies": [
+      {
+        "index": "pericia-intimidacao",
+        "name": "Perícia: Intimidação",
+        "url": "/api/proficiencias/pericia-intimidacao"
+      }
+    ],
+    "languages": [
+      {
+        "index": "comum",
+        "name": "Comum",
+        "url": "/api/idiomas/comum"
+      },
+      {
+        "index": "orc",
+        "name": "Orc",
+        "url": "/api/idiomas/orc"
+      }
+    ],
+    "language_desc": "Você fala, lê e escreve Comum e Orc.",
+    "traits": [
+      {
+        "index": "visao-no-escuro",
+        "name": "Visão no Escuro",
+        "url": "/api/tracos/visao-no-escuro"
+      },
+      {
+        "index": "ameacador",
+        "name": "Ameaçador",
+        "url": "/api/tracos/ameacador"
+      },
+      {
+        "index": "vigor-implacavel",
+        "name": "Vigor Implacável",
+        "url": "/api/tracos/vigor-implacavel"
+      },
+      {
+        "index": "ataques-selvagens",
+        "name": "Ataques Selvagens",
+        "url": "/api/tracos/ataques-selvagens"
+      }
+    ],
+    "subraces": [],
+    "url": "/api/racas/meio-orc"
+  },
+  {
+    "index": "tiferino",
+    "name": "Tiferino",
+    "speed": 9,
+    "ability_bonuses": [
+      {
+        "ability_score": {
+          "index": "int",
+          "name": "INT",
+          "url": "/api/valores-de-atributo/int"
+        },
+        "bonus": 1
+      },
+      {
+        "ability_score": {
+          "index": "car",
+          "name": "CAR",
+          "url": "/api/valores-de-atributo/car"
+        },
+        "bonus": 2
+      }
+    ],
+    "age": "Tiferinos amadurecem no mesmo ritmo que os humanos, mas vivem alguns anos a mais.",
+    "alignment": "Tiferinos podem não ter uma tendência inata para o mal, mas muitos acabam seguindo esse caminho. Maus ou não, uma natureza independente os inclina na direção do alinhamento caótico.",
+    "size": "Médio",
+    "size_description": "Tiferinos têm aproximadamente o mesmo tamanho e porte físico dos humanos. Seu tamanho é Médio.",
+    "starting_proficiencies": [],
+    "languages": [
+      {
+        "index": "comum",
+        "name": "Comum",
+        "url": "/api/idiomas/comum"
+      },
+      {
+        "index": "infernal",
+        "name": "Infernal",
+        "url": "/api/idiomas/infernal"
+      }
+    ],
+    "language_desc": "Você fala, lê e escreve Comum e Infernal.",
+    "traits": [
+      {
+        "index": "visao-no-escuro",
+        "name": "Visão no Escuro",
+        "url": "/api/tracos/visao-no-escuro"
+      },
+      {
+        "index": "resistencia-infernal",
+        "name": "Resistência Infernal",
+        "url": "/api/tracos/resistencia-infernal"
+      },
+      {
+        "index": "legado-infernal",
+        "name": "Legado Infernal",
+        "url": "/api/tracos/legado-infernal"
+      }
+    ],
+    "subraces": [],
+    "url": "/api/racas/tiferino"
+  }
+]

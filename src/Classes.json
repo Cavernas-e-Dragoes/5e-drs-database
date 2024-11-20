@@ -1,219 +1,79 @@
-{
-  "index": "barbaro",
-  "name": "Bárbaro",
-  "hit_die": 12,
-  "proficiency_choices": [
-    {
-      "desc": "Escolha duas entre Atletismo, Intimidação, Lidar com Animais, Natureza, Percepção e Sobrevivência",
-      "choose": 2,
-      "type": "proficiencias",
-      "from": {
-        "option_set_type": "options_array",
-        "options": [
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "pericia-lidar-com-animais",
-              "name": "Perícia: Lidar com Animais",
-              "url": "/api/proficiencias/pericia-lidar-com-animais"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "pericia-atletismo",
-              "name": "Perícia: Atletismo",
-              "url": "/api/proficiencias/pericia-atletismo"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "pericia-intimidacao",
-              "name": "Perícia: Intimidação",
-              "url": "/api/proficiencias/pericia-intimidacao"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "pericia-natureza",
-              "name": "Perícia: Natureza",
-              "url": "/api/proficiencias/pericia-natureza"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "pericia-percepcao",
-              "name": "Perícia: Percepção",
-              "url": "/api/proficiencias/pericia-percepcao"
-            }
-          },
-          {
-            "option_type": "reference",
-            "item": {
-              "index": "pericia-sobrevivencia",
-              "name": "Perícia: Sobrevivência",
-              "url": "/api/proficiencias/pericia-sobrevivencia"
-            }
-          }
-        ]
-      }
-    }
-  ],
-  "proficiencies": [
-    {
-      "index": "armadura-leve",
-      "name": "Armadura Leve",
-      "url": "/api/proficiencias/armadura-leve"
-    },
-    {
-      "index": "armadura-media",
-      "name": "Armadura Média",
-      "url": "/api/proficiencias/armadura-media"
-    },
-    {
-      "index": "escudos",
-      "name": "Escudos",
-      "url": "/api/proficiencias/escudos"
-    },
-    {
-      "index": "armas-simples",
-      "name": "Armas Simples",
-      "url": "/api/proficiencias/armas-simples"
-    },
-    {
-      "index": "armas-marciais",
-      "name": "Armas Marciais",
-      "url": "/api/proficiencias/armas-marciais"
-    },
-    {
-      "index": "teste-resistencia-for",
-      "name": "Teste de Resistência: FOR",
-      "url": "/api/proficiencias/teste-resistencia-for"
-    },
-    {
-      "index": "teste-resistencia-con",
-      "name": "Teste de Resistência: CON",
-      "url": "/api/proficiencias/teste-resistencia-con"
-    }
-  ],
-  "saving_throws": [
-    {
-      "index": "for",
-      "name": "FOR",
-      "url": "/api/atributos/for"
-    },
-    {
-      "index": "con",
-      "name": "CON",
-      "url": "/api/atributos/con"
-    }
-  ],
-  "starting_equipment": [
-    {
-      "equipment": {
-        "index": "kit-explorador",
-        "name": "Kit de Explorador",
-        "url": "/api/equipamento/kit-explorador"
-      },
-      "quantity": 1
-    },
-    {
-      "equipment": {
-        "index": "azagaia",
-        "name": "Azagaia",
-        "url": "/api/equipamento/azagaia"
-      },
-      "quantity": 4
-    }
-  ],
-  "starting_equipment_options": [
-    {
-      "desc": "(a) um machado grande ou (b) qualquer arma marcial de combate corpo a corpo",
-      "choose": 1,
-      "type": "equipamento",
-      "from": {
-        "option_set_type": "options_array",
-        "options": [
-          {
-            "option_type": "counted_reference",
-            "count": 1,
-            "of": {
-              "index": "machado-grande",
-              "name": "Machado Grande",
-              "url": "/api/equipamento/machado-grande"
-            }
-          },
-          {
-            "option_type": "choice",
-            "choice": {
-              "desc": "qualquer arma marcial de combate corpo a corpo",
-              "choose": 1,
-              "type": "equipamento",
-              "from": {
-                "option_set_type": "categoria_equipamento",
-                "equipment_category": {
-                  "index": "arma-marcial-de-combate-corpo-a-corpo",
-                  "name": "Armas Marciais de Corpo-a-Corpo",
-                  "url": "/api/categoria-equipamento/arma-marcial-combate-corpo-a-corpo"
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    {
-      "desc": "(a) duas machadinhas ou (b) qualquer arma simples",
-      "choose": 1,
-      "type": "equipamento",
-      "from": {
-        "option_set_type": "options_array",
-        "options": [
-          {
-            "option_type": "counted_reference",
-            "count": 2,
-            "of": {
-              "index": "machadinha",
-              "name": "Machadinha",
-              "url": "/api/equipamento/machadinha"
-            }
-          },
-          {
-            "option_type": "choice",
-            "choice": {
-              "desc": "qualquer arma simples",
-              "choose": 1,
-              "type": "equipamento",
-              "from": {
-                "option_set_type": "categoria_equipamento",
-                "equipment_category": {
-                  "index": "armas-simples",
-                  "name": "Armas Simples",
-                  "url": "/api/categoria_equipamento/armas-simples"
-                }
-              }
-            }
-          }
-        ]
-      }
-    }
-  ],
-  "class_levels": "/api/classes/barbaro/niveis",
-  "multi_classing": {
-    "prerequisites": [
+[
+  {
+    "index": "barbaro",
+    "name": "Bárbaro",
+    "hit_die": 12,
+    "proficiency_choices": [
       {
-        "ability_score": {
-          "index": "for",
-          "name": "FOR",
-          "url": "/api/atributos/for"
-        },
-        "minimum_score": 13
+        "desc": "Escolha duas entre Atletismo, Intimidação, Lidar com Animais, Natureza, Percepção e Sobrevivência",
+        "choose": 2,
+        "type": "proficiencias",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-lidar-com-animais",
+                "name": "Perícia: Lidar com Animais",
+                "url": "/api/proficiencias/pericia-lidar-com-animais"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-atletismo",
+                "name": "Perícia: Atletismo",
+                "url": "/api/proficiencias/pericia-atletismo"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-intimidacao",
+                "name": "Perícia: Intimidação",
+                "url": "/api/proficiencias/pericia-intimidacao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-natureza",
+                "name": "Perícia: Natureza",
+                "url": "/api/proficiencias/pericia-natureza"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-percepcao",
+                "name": "Perícia: Percepção",
+                "url": "/api/proficiencias/pericia-percepcao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-sobrevivencia",
+                "name": "Perícia: Sobrevivência",
+                "url": "/api/proficiencias/pericia-sobrevivencia"
+              }
+            }
+          ]
+        }
       }
     ],
     "proficiencies": [
+      {
+        "index": "armadura-leve",
+        "name": "Armadura Leve",
+        "url": "/api/proficiencias/armadura-leve"
+      },
+      {
+        "index": "armadura-media",
+        "name": "Armadura Média",
+        "url": "/api/proficiencias/armadura-media"
+      },
       {
         "index": "escudos",
         "name": "Escudos",
@@ -228,15 +88,3770 @@
         "index": "armas-marciais",
         "name": "Armas Marciais",
         "url": "/api/proficiencias/armas-marciais"
+      },
+      {
+        "index": "teste-resistencia-for",
+        "name": "Teste de Resistência: FOR",
+        "url": "/api/proficiencias/teste-resistencia-for"
+      },
+      {
+        "index": "teste-resistencia-con",
+        "name": "Teste de Resistência: CON",
+        "url": "/api/proficiencias/teste-resistencia-con"
       }
-    ]
+    ],
+    "saving_throws": [
+      {
+        "index": "for",
+        "name": "FOR",
+        "url": "/api/atributos/for"
+      },
+      {
+        "index": "con",
+        "name": "CON",
+        "url": "/api/atributos/con"
+      }
+    ],
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "kit-explorador",
+          "name": "Kit de Explorador",
+          "url": "/api/equipamentos/kit-explorador"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "azagaia",
+          "name": "Azagaia",
+          "url": "/api/equipamentos/azagaia"
+        },
+        "quantity": 4
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "desc": "(a) um machado grande ou (b) qualquer arma marcial de combate corpo a corpo",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "machado-grande",
+                "name": "Machado Grande",
+                "url": "/api/equipamentos/machado-grande"
+              }
+            },
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "qualquer arma marcial de combate corpo a corpo",
+                "choose": 1,
+                "type": "equipamento",
+                "from": {
+                  "option_set_type": "categoria_equipamento",
+                  "equipment_category": {
+                    "index": "arma-marcial-de-combate-corpo-a-corpo",
+                    "name": "Armas Marciais de Corpo-a-Corpo",
+                    "url": "/api/categoria-equipamento/arma-marcial-combate-corpo-a-corpo"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) duas machadinhas ou (b) qualquer arma simples",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 2,
+              "of": {
+                "index": "machadinha",
+                "name": "Machadinha",
+                "url": "/api/equipamentos/machadinha"
+              }
+            },
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "qualquer arma simples",
+                "choose": 1,
+                "type": "equipamento",
+                "from": {
+                  "option_set_type": "categoria_equipamento",
+                  "equipment_category": {
+                    "index": "armas-simples",
+                    "name": "Armas Simples",
+                    "url": "/api/categoria_equipamento/armas-simples"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "class_levels": "/api/classes/barbaro/niveis",
+    "multi_classing": {
+      "prerequisites": [
+        {
+          "ability_score": {
+            "index": "for",
+            "name": "FOR",
+            "url": "/api/atributos/for"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": [
+        {
+          "index": "escudos",
+          "name": "Escudos",
+          "url": "/api/proficiencias/escudos"
+        },
+        {
+          "index": "armas-simples",
+          "name": "Armas Simples",
+          "url": "/api/proficiencias/armas-simples"
+        },
+        {
+          "index": "armas-marciais",
+          "name": "Armas Marciais",
+          "url": "/api/proficiencias/armas-marciais"
+        }
+      ]
+    },
+    "subclasses": [
+      {
+        "index": "berserker",
+        "name": "Berserker",
+        "url": "/api/subclasses/berserker"
+      }
+    ],
+    "url": "/api/classes/barbaro"
   },
-  "subclasses": [
-    {
-      "index": "berserker",
-      "name": "Berserker",
-      "url": "/api/subclasses/berserker"
-    }
-  ],
-  "url": "/api/classes/barbaro"
-}
+  {
+    "index": "bardo",
+    "name": "Bardo",
+    "hit_die": 8,
+    "proficiency_choices": [
+      {
+        "desc": "Escolha três perícias à sua escolha",
+        "choose": 3,
+        "type": "proficiencias",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-acrobacia",
+                "name": "Perícia: Acrobacia",
+                "url": "/api/proficiencias/pericia-acrobacia"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-adestrar-animais",
+                "name": "Perícia: Adestrar Animais",
+                "url": "/api/proficiencias/pericia-adestrar-animais"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-arcanismo",
+                "name": "Perícia: Arcanismo",
+                "url": "/api/proficiencias/pericia-arcanismo"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-atletismo",
+                "name": "Perícia: Atletismo",
+                "url": "/api/proficiencias/pericia-atletismo"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-atuacao",
+                "name": "Perícia: Atuação",
+                "url": "/api/proficiencias/pericia-atuacao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-enganacao",
+                "name": "Perícia: Enganação",
+                "url": "/api/proficiencias/pericia-enganacao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-historia",
+                "name": "Perícia: História",
+                "url": "/api/proficiencias/pericia-historia"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-intimidacao",
+                "name": "Perícia: Intimidação",
+                "url": "/api/proficiencias/pericia-intimidacao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-intuicao",
+                "name": "Perícia: Intuição",
+                "url": "/api/proficiencias/pericia-intuicao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-investigacao",
+                "name": "Perícia: Investigação",
+                "url": "/api/proficiencias/pericia-investigacao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-medicina",
+                "name": "Perícia: Medicina",
+                "url": "/api/proficiencias/pericia-medicina"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-natureza",
+                "name": "Perícia: Natureza",
+                "url": "/api/proficiencias/pericia-natureza"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-percepcao",
+                "name": "Perícia: Percepção",
+                "url": "/api/proficiencias/pericia-percepcao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-persuasao",
+                "name": "Perícia: Persuasão",
+                "url": "/api/proficiencias/pericia-persuasao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-prestidigitacao",
+                "name": "Perícia: Prestidigitação",
+                "url": "/api/proficiencias/pericia-prestidigitacao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-religiao",
+                "name": "Perícia: Religião",
+                "url": "/api/proficiencias/pericia-religiao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-sobrevivencia",
+                "name": "Perícia: Sobrevivência",
+                "url": "/api/proficiencias/pericia-sobrevivencia"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-furtividade",
+                "name": "Perícia: Furtividade",
+                "url": "/api/proficiencias/pericia-furtividade"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "Três instrumentos musicais à sua escolha",
+        "choose": 3,
+        "type": "proficiencias",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "gaita-de-fole",
+                "name": "Gaita de Fole",
+                "url": "/api/proficiencias/gaita-de-fole"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "tambor",
+                "name": "Tambor",
+                "url": "/api/proficiencias/tambor"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "dulcimer",
+                "name": "Dulcimer",
+                "url": "/api/proficiencias/dulcimer"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "flauta",
+                "name": "Flauta",
+                "url": "/api/proficiencias/flauta"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "alaude",
+                "name": "Alaúde",
+                "url": "/api/proficiencias/alaude"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "lira",
+                "name": "Lira",
+                "url": "/api/proficiencias/lira"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "trompa",
+                "name": "Trompa",
+                "url": "/api/proficiencias/trompa"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "flauta-de-pan",
+                "name": "Flauta de Pan",
+                "url": "/api/proficiencias/flauta-de-pan"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "xalma",
+                "name": "Xalma",
+                "url": "/api/proficiencias/xalma"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "viola",
+                "name": "Viola",
+                "url": "/api/proficiencias/viola"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "proficiencies": [
+      {
+        "index": "armadura-leve",
+        "name": "Armadura Leve",
+        "url": "/api/proficiencias/armadura-leve"
+      },
+      {
+        "index": "armas-simples",
+        "name": "Armas Simples",
+        "url": "/api/proficiencias/armas-simples"
+      },
+      {
+        "index": "espada-longa",
+        "name": "Espada Longa",
+        "url": "/api/proficiencias/espada-longa"
+      },
+      {
+        "index": "rapieira",
+        "name": "Rapieira",
+        "url": "/api/proficiencias/rapieira"
+      },
+      {
+        "index": "espada-curta",
+        "name": "Espada Curta",
+        "url": "/api/proficiencias/espada-curta"
+      },
+      {
+        "index": "besta-de-mao",
+        "name": "Besta de Mão",
+        "url": "/api/proficiencias/besta-de-mao"
+      },
+      {
+        "index": "teste-resistencia-des",
+        "name": "Teste de Resistência: DES",
+        "url": "/api/proficiencias/teste-resistencia-des"
+      },
+      {
+        "index": "teste-resistencia-car",
+        "name": "Teste de Resistência: CAR",
+        "url": "/api/proficiencias/teste-resistencia-car"
+      }
+    ],
+    "saving_throws": [
+      {
+        "index": "des",
+        "name": "DES",
+        "url": "/api/atributos/des"
+      },
+      {
+        "index": "car",
+        "name": "CAR",
+        "url": "/api/atributos/car"
+      }
+    ],
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "armadura-de-couro",
+          "name": "Armadura de Couro",
+          "url": "/api/equipamentos/armadura-de-couro"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "adaga",
+          "name": "Adaga",
+          "url": "/api/equipamentos/adaga"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "desc": "(a) uma rapieira, (b) uma espada longa ou (c) qualquer arma simples",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "rapieira",
+                "name": "Rapieira",
+                "url": "/api/equipamentos/rapieira"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "espada-longa",
+                "name": "Espada Longa",
+                "url": "/api/equipamentos/espada-longa"
+              }
+            },
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "qualquer arma simples",
+                "choose": 1,
+                "type": "equipamento",
+                "from": {
+                  "option_set_type": "categoria_equipamento",
+                  "equipment_category": {
+                    "index": "armas-simples",
+                    "name": "Armas Simples",
+                    "url": "/api/categoria-equipamento/armas-simples"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) um kit de diplomata ou (b) um kit de artista",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "kit-diplomata",
+                "name": "Kit de Diplomata",
+                "url": "/api/equipamentos/kit-diplomata"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "kit-artista",
+                "name": "Kit de Artista",
+                "url": "/api/equipamentos/kit-artista"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) um alaúde ou (b) qualquer outro instrumento musical",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "alaude",
+                "name": "Alaúde",
+                "url": "/api/equipamentos/alaude"
+              }
+            },
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "qualquer outro instrumento musical",
+                "choose": 1,
+                "type": "equipamento",
+                "from": {
+                  "option_set_type": "categoria_equipamento",
+                  "equipment_category": {
+                    "index": "instrumentos-musicais",
+                    "name": "Instrumentos Musicais",
+                    "url": "/api/categoria-equipamento/instrumentos-musicais"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "class_levels": "/api/classes/bardo/niveis",
+    "multi_classing": {
+      "prerequisites": [
+        {
+          "ability_score": {
+            "index": "car",
+            "name": "CAR",
+            "url": "/api/atributos/car"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": [
+        {
+          "index": "armadura-leve",
+          "name": "Armadura Leve",
+          "url": "/api/proficiencias/armadura-leve"
+        }
+      ]
+    },
+    "subclasses": [
+      {
+        "index": "lore",
+        "name": "Conhecimento",
+        "url": "/api/subclasses/conhecimento"
+      }
+    ],
+    "spellcasting": {
+      "level": 1,
+      "spellcasting_ability": {
+        "index": "car",
+        "name": "CAR",
+        "url": "/api/atributos/car"
+      },
+      "info": [
+        {
+          "name": "Truques",
+          "desc": [
+            "Você conhece dois truques à sua escolha da lista de truques de bardo. Você aprende truques de bardo adicionais de sua escolha em níveis mais altos, conforme mostrado na coluna de Truques Conhecidos na tabela do Bardo."
+          ]
+        },
+        {
+          "name": "Espaços de Magias",
+          "desc": [
+            "A tabela do Bardo mostra quantos espaços de magia você tem para conjurar suas magias de 1º nível ou superior. Para conjurar uma dessas magias, você deve gastar um espaço de magia do nível da magia ou superior. Você recupera todos os espaços de magia gastos quando termina um descanso longo."
+          ]
+        }
+      ]
+    },
+    "url": "/api/classes/bardo"
+  },
+  {
+    "index": "clerigo",
+    "name": "Clérigo",
+    "hit_die": 8,
+    "proficiency_choices": [
+      {
+        "desc": "Escolha duas entre História, Intuição, Medicina, Persuasão e Religião",
+        "choose": 2,
+        "type": "proficiencias",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-historia",
+                "name": "Perícia: História",
+                "url": "/api/proficiencias/pericia-historia"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-intuicao",
+                "name": "Perícia: Intuição",
+                "url": "/api/proficiencias/pericia-intuicao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-medicina",
+                "name": "Perícia: Medicina",
+                "url": "/api/proficiencias/pericia-medicina"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-persuasao",
+                "name": "Perícia: Persuasão",
+                "url": "/api/proficiencias/pericia-persuasao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-religiao",
+                "name": "Perícia: Religião",
+                "url": "/api/proficiencias/pericia-religiao"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "proficiencies": [
+      {
+        "index": "armadura-leve",
+        "name": "Armadura Leve",
+        "url": "/api/proficiencias/armadura-leve"
+      },
+      {
+        "index": "armadura-media",
+        "name": "Armadura Média",
+        "url": "/api/proficiencias/armadura-media"
+      },
+      {
+        "index": "escudos",
+        "name": "Escudos",
+        "url": "/api/proficiencias/escudos"
+      },
+      {
+        "index": "armas-simples",
+        "name": "Armas Simples",
+        "url": "/api/proficiencias/armas-simples"
+      },
+      {
+        "index": "teste-resistencia-sab",
+        "name": "Teste de Resistência: SAB",
+        "url": "/api/proficiencias/teste-resistencia-sab"
+      },
+      {
+        "index": "teste-resistencia-car",
+        "name": "Teste de Resistência: CAR",
+        "url": "/api/proficiencias/teste-resistencia-car"
+      }
+    ],
+    "saving_throws": [
+      {
+        "index": "sab",
+        "name": "SAB",
+        "url": "/api/atributos/sab"
+      },
+      {
+        "index": "car",
+        "name": "CAR",
+        "url": "/api/atributos/car"
+      }
+    ],
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "escudo",
+          "name": "Escudo",
+          "url": "/api/equipamentos/escudo"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "desc": "(a) uma maça ou (b) um martelo de guerra (se proficiente)",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "maca",
+                "name": "Maça",
+                "url": "/api/equipamentos/maca"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "martelo-de-guerra",
+                "name": "Martelo de Guerra",
+                "url": "/api/equipamentos/martelo-de-guerra"
+              },
+              "prerequisites": [
+                {
+                  "type": "proficiencia",
+                  "proficiency": {
+                    "index": "martelos-de-guerra",
+                    "name": "Martelos de Guerra",
+                    "url": "/api/proficiencias/martelos-de-guerra"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) lórica de escamas, (b) armadura de couro ou (c) uma cota de malha (se proficiente)",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "lorica-de-escamas",
+                "name": "Lórica de Escamas",
+                "url": "/api/equipamentos/lorica-de-escamas"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "armadura-de-couro",
+                "name": "Armadura de Couro",
+                "url": "/api/equipamentos/armadura-de-couro"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "cota-de-malha",
+                "name": "Cota de Malha",
+                "url": "/api/equipamentos/cota-de-malha"
+              },
+              "prerequisites": [
+                {
+                  "type": "proficiencia",
+                  "proficiency": {
+                    "index": "cota-de-malha",
+                    "name": "Cota de Malha",
+                    "url": "/api/proficiencias/cota-de-malha"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) uma besta leve e 20 virotes ou (b) qualquer arma simples",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "multiple",
+              "items": [
+                {
+                  "option_type": "counted_reference",
+                  "count": 1,
+                  "of": {
+                    "index": "besta-leve",
+                    "name": "Besta",
+                    "url": "/api/equipamentos/besta-leve"
+                  }
+                },
+                {
+                  "option_type": "counted_reference",
+                  "count": 20,
+                  "of": {
+                    "index": "virote",
+                    "name": "Virote",
+                    "url": "/api/equipamentos/virote"
+                  }
+                }
+              ]
+            },
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "qualquer arma simples",
+                "choose": 1,
+                "type": "equipamento",
+                "from": {
+                  "option_set_type": "categoria_equipamento",
+                  "equipment_category": {
+                    "index": "armas-simples",
+                    "name": "Armas Simples",
+                    "url": "/api/categoria-equipamento/armas-simples"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) um kit de sacerdote ou (b) um kit de aventureiro",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "kit-de-sacerdote",
+                "name": "Kit de Sacerdote",
+                "url": "/api/equipamentos/kit-de-sacerdote"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "kit-de-aventureiro",
+                "name": "Kit de Aventureiro",
+                "url": "/api/equipamentos/kit-de-aventureiro"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "class_levels": "/api/classes/clerigo/niveis",
+    "multi_classing": {
+      "prerequisites": [
+        {
+          "ability_score": {
+            "index": "sab",
+            "name": "SAB",
+            "url": "/api/atributos/sab"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": [
+        {
+          "index": "armadura-leve",
+          "name": "Armadura Leve",
+          "url": "/api/proficiencias/armadura-leve"
+        },
+        {
+          "index": "armadura-media",
+          "name": "Armadura Média",
+          "url": "/api/proficiencias/armadura-media"
+        },
+        {
+          "index": "escudos",
+          "name": "Escudos",
+          "url": "/api/proficiencias/escudos"
+        }
+      ]
+    },
+    "subclasses": [
+      {
+        "index": "dominio-da-vida",
+        "name": "Domínio da Vida",
+        "url": "/api/subclasses/dominio-da-vida"
+      }
+    ],
+    "spellcasting": {
+      "level": 1,
+      "spellcasting_ability": {
+        "index": "sab",
+        "name": "SAB",
+        "url": "/api/atributos/sab"
+      },
+      "info": [
+        {
+          "name": "Truques",
+          "desc": [
+            "Você conhece três truques à sua escolha da lista de magias de clérigo. Você aprende truques adicionais de clérigo de sua escolha em níveis mais altos, conforme mostrado na coluna Truques Conhecidos na tabela O Clérigo."
+          ]
+        },
+        {
+          "name": "Preparando e Conjurando Magias",
+          "desc": [
+            "A tabela O Clérigo mostra quantos espaços de magia você tem para conjurar suas magias de 1º nível ou superior. Para conjurar uma dessas magias, você deve gastar um espaço de magia do nível da magia ou superior. Você recupera todos os espaços de magia gastos quando termina um descanso longo.",
+            "Você prepara a lista de magias de clérigo disponíveis para você conjurar, escolhendo um número de magias de clérigo igual ao seu modificador de Sabedoria + seu nível de clérigo (mínimo de uma magia). As magias devem ser de um nível para o qual você tenha espaços de magia."
+          ]
+        },
+        {
+          "name": "Atributo de Conjuração",
+          "desc": [
+            "Sabedoria é o atributo usado para as magias de clérigo, pois o poder das suas magias vem da sua devoção à sua divindade. Você usa seu modificador de Sabedoria sempre que uma magia se refere ao seu atributo de conjuração.",
+            "Além disso, você usa seu modificador de Sabedoria para definir a CD dos testes de resistência para evitar suas magias de clérigo e para as jogadas de ataque com magias de clérigo."
+          ]
+        },
+        {
+          "name": "Conjuração Ritual",
+          "desc": [
+            "Você pode conjurar uma magia de clérigo como um ritual se essa magia tiver a propriedade ritual e você a tiver preparada."
+          ]
+        },
+        {
+          "name": "Foco de Conjuração",
+          "desc": [
+            "Você pode usar um símbolo sagrado como foco de conjuração para suas magias de clérigo."
+          ]
+        }
+      ]
+    },
+    "url": "/api/classes/clerigo"
+  },
+  {
+    "index": "druida",
+    "name": "Druida",
+    "hit_die": 8,
+    "proficiency_choices": [
+      {
+        "desc": "Escolha duas entre Arcanismo, Adestrar Animais, Intuição, Medicina, Percepção, Natureza, Religião e Sobrevivência",
+        "choose": 2,
+        "type": "proficiencias",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-arcanismo",
+                "name": "Perícia: Arcanismo",
+                "url": "/api/proficiencias/pericia-arcanismo"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-adestrar-animais",
+                "name": "Perícia: Adestrar Animais",
+                "url": "/api/proficiencias/pericia-adestrar-animais"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-intuicao",
+                "name": "Perícia: Intuição",
+                "url": "/api/proficiencias/pericia-intuicao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-medicina",
+                "name": "Perícia: Medicina",
+                "url": "/api/proficiencias/pericia-medicina"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-percepcao",
+                "name": "Perícia: Percepção",
+                "url": "/api/proficiencias/pericia-percepcao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-natureza",
+                "name": "Perícia: Natureza",
+                "url": "/api/proficiencias/pericia-natureza"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-religiao",
+                "name": "Perícia: Religião",
+                "url": "/api/proficiencias/pericia-religiao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-sobrevivencia",
+                "name": "Perícia: Sobrevivência",
+                "url": "/api/proficiencias/pericia-sobrevivencia"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "proficiencies": [
+      {
+        "index": "armadura-leve",
+        "name": "Armadura Leve",
+        "url": "/api/proficiencias/armadura-leve"
+      },
+      {
+        "index": "armadura-media",
+        "name": "Armadura Média",
+        "url": "/api/proficiencias/armadura-media"
+      },
+      {
+        "index": "escudos",
+        "name": "Escudos",
+        "url": "/api/proficiencias/escudos"
+      },
+      {
+        "index": "clavas",
+        "name": "Clavas",
+        "url": "/api/proficiencias/clavas"
+      },
+      {
+        "index": "adagas",
+        "name": "Adagas",
+        "url": "/api/proficiencias/adagas"
+      },
+      {
+        "index": "dardos",
+        "name": "Dardos",
+        "url": "/api/proficiencias/dardos"
+      },
+      {
+        "index": "lanças",
+        "name": "Lanças",
+        "url": "/api/proficiencias/lancas"
+      },
+      {
+        "index": "maças",
+        "name": "Maças",
+        "url": "/api/proficiencias/macas"
+      },
+      {
+        "index": "bordões",
+        "name": "Bordões",
+        "url": "/api/proficiencias/bordoes"
+      },
+      {
+        "index": "cimitarras",
+        "name": "Cimitarras",
+        "url": "/api/proficiencias/cimitarras"
+      },
+      {
+        "index": "foices",
+        "name": "Foices",
+        "url": "/api/proficiencias/foices"
+      },
+      {
+        "index": "bestas-leves",
+        "name": "Bestas Leves",
+        "url": "/api/proficiencias/bestas-leves"
+      },
+      {
+        "index": "teste-resistencia-int",
+        "name": "Teste de Resistência: INT",
+        "url": "/api/proficiencias/teste-resistencia-int"
+      },
+      {
+        "index": "teste-resistencia-sab",
+        "name": "Teste de Resistência: SAB",
+        "url": "/api/proficiencias/teste-resistencia-sab"
+      }
+    ],
+    "saving_throws": [
+      {
+        "index": "int",
+        "name": "INT",
+        "url": "/api/atributos/int"
+      },
+      {
+        "index": "sab",
+        "name": "SAB",
+        "url": "/api/atributos/sab"
+      }
+    ],
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "foco-druidico",
+          "name": "Foco Druídico",
+          "url": "/api/equipamentos/foco-druidico"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "desc": "(a) um escudo ou (b) qualquer arma simples",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "escudo",
+                "name": "Escudo",
+                "url": "/api/equipamentos/escudo"
+              }
+            },
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "qualquer arma simples",
+                "choose": 1,
+                "type": "equipamento",
+                "from": {
+                  "option_set_type": "categoria_equipamento",
+                  "equipment_category": {
+                    "index": "armas-simples",
+                    "name": "Armas Simples",
+                    "url": "/api/categoria-equipamento/armas-simples"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) uma cimitarra ou (b) qualquer arma simples de combate corpo a corpo",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "cimitarra",
+                "name": "Cimitarra",
+                "url": "/api/equipamentos/cimitarra"
+              }
+            },
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "qualquer arma simples de combate corpo a corpo",
+                "choose": 1,
+                "type": "equipamento",
+                "from": {
+                  "option_set_type": "categoria_equipamento",
+                  "equipment_category": {
+                    "index": "armas-simples-corpo-a-corpo",
+                    "name": "Armas Simples de Corpo-a-Corpo",
+                    "url": "/api/categoria-equipamento/armas-simples-corpo-a-corpo"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "foco druidico",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "categoria_equipamento",
+          "equipment_category": {
+            "index": "focos-druidicos",
+            "name": "Focos Druídicos",
+            "url": "/api/categoria-equipamento/focos-druidicos"
+          }
+        }
+      }
+    ],
+    "class_levels": "/api/classes/druida/niveis",
+    "multi_classing": {
+      "prerequisites": [
+        {
+          "ability_score": {
+            "index": "sab",
+            "name": "SAB",
+            "url": "/api/atributos/sab"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": [
+        {
+          "index": "armadura-leve",
+          "name": "Armadura Leve",
+          "url": "/api/proficiencias/armadura-leve"
+        },
+        {
+          "index": "armadura-media",
+          "name": "Armadura Média",
+          "url": "/api/proficiencias/armadura-media"
+        },
+        {
+          "index": "escudos",
+          "name": "Escudos",
+          "url": "/api/proficiencias/escudos"
+        }
+      ]
+    },
+    "subclasses": [
+      {
+        "index": "terra",
+        "name": "Círculo da Terra",
+        "url": "/api/subclasses/terra"
+      }
+    ],
+    "spellcasting": {
+      "level": 1,
+      "spellcasting_ability": {
+        "index": "sab",
+        "name": "SAB",
+        "url": "/api/atributos/sab"
+      },
+      "info": [
+        {
+          "name": "Truques",
+          "desc": [
+            "No 1° nível, você conhece dois truques à sua escolha da lista de truques de druida. Você aprende truques adicionais de druida de sua escolha em níveis mais altos, conforme mostrado na coluna Truques Conhecidos na tabela O Druida."
+          ]
+        },
+        {
+          "name": "Preparando e Conjurando Magias",
+          "desc": [
+            "A tabela O Druida mostra quantos espaços de magia você tem para conjurar suas magias de 1º nível ou superior. Para conjurar uma dessas magias de druida, você deve gastar um espaço de magia do nível da magia ou superior. Você recupera todos os espaços de magia gastos quando termina um descanso longo.",
+            "Você prepara a lista de magias de druida disponíveis para você conjurar, escolhendo um número de magias de druida igual ao seu modificador de Sabedoria + seu nível de druida (no mínimo uma magia). As magias precisam ser de um nível para o qual você tenha espaços de magia.",
+            "Por exemplo, se você é um druida de 3º nível, possui quatro espaços de magia de 1º nível e dois de 2º nível. Com Sabedoria 16, sua lista de magias preparadas pode incluir seis magias de 1º ou 2º nível, em qualquer combinação. Se você preparar a magia de 1º nível curar ferimentos, poderá conjurá-la usando um espaço de 1º ou 2º nível. Conjurar a magia não a remove da sua lista de magias preparadas.",
+            "Você também pode mudar sua lista de magias preparadas quando termina um descanso longo. Preparar uma nova lista de magias de druida exige tempo para orar e meditar: pelo menos 1 minuto por nível da magia para cada magia em sua lista."
+          ]
+        },
+        {
+          "name": "Habilidade de Conjuração",
+          "desc": [
+            "Sabedoria é sua habilidade de conjuração para suas magias de druida, já que sua magia provém da sua devoção e sintonia com a natureza. Você usa seu modificador de Sabedoria sempre que uma magia se refere à sua habilidade de conjuração. Além disso, você usa seu modificador de Sabedoria para definir a CD dos testes de resistência para uma magia de druida que você conjura e para a jogada de ataque com uma.",
+            "CD para evitar magia = 8 + seu bônus de proficiência + seu modificador de Sabedoria",
+            "Modificador de ataque com magia = seu bônus de proficiência + seu modificador de Sabedoria"
+          ]
+        },
+        {
+          "name": "Conjuração de Rituais",
+          "desc": [
+            "Você pode conjurar uma magia de druida como um ritual se essa magia tiver o descritor ritual e você a tiver preparada."
+          ]
+        },
+        {
+          "name": "Foco de Conjuração",
+          "desc": [
+            "Você pode usar um foco druídico (consulte o capítulo 5, 'Equipamento') como foco de conjuração para suas magias de druida."
+          ]
+        }
+      ]
+    },
+    "spells": "/api/classes/druida/magias",
+    "url": "/api/classes/druida"
+  },
+  {
+    "index": "guerreiro",
+    "name": "Guerreiro",
+    "hit_die": 10,
+    "proficiency_choices": [
+      {
+        "desc": "Escolha duas entre Acrobacia, Atletismo, História, Intimidação, Intuição, Lidar com Animais, Percepção e Sobrevivência",
+        "choose": 2,
+        "type": "proficiencias",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-acrobacia",
+                "name": "Perícia: Acrobacia",
+                "url": "/api/proficiencias/pericia-acrobacia"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-atletismo",
+                "name": "Perícia: Atletismo",
+                "url": "/api/proficiencias/pericia-atletismo"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-historia",
+                "name": "Perícia: História",
+                "url": "/api/proficiencias/pericia-historia"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-intimidacao",
+                "name": "Perícia: Intimidação",
+                "url": "/api/proficiencias/pericia-intimidacao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-intuicao",
+                "name": "Perícia: Intuição",
+                "url": "/api/proficiencias/pericia-intuicao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-lidar-com-animais",
+                "name": "Perícia: Lidar com Animais",
+                "url": "/api/proficiencias/pericia-lidar-com-animais"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-percepcao",
+                "name": "Perícia: Percepção",
+                "url": "/api/proficiencias/pericia-percepcao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-sobrevivencia",
+                "name": "Perícia: Sobrevivência",
+                "url": "/api/proficiencias/pericia-sobrevivencia"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "proficiencies": [
+      {
+        "index": "armadura-leve",
+        "name": "Armadura Leve",
+        "url": "/api/proficiencias/armadura-leve"
+      },
+      {
+        "index": "armadura-media",
+        "name": "Armadura Média",
+        "url": "/api/proficiencias/armadura-media"
+      },
+      {
+        "index": "armadura-pesada",
+        "name": "Armadura Pesada",
+        "url": "/api/proficiencias/armadura-pesada"
+      },
+      {
+        "index": "escudos",
+        "name": "Escudos",
+        "url": "/api/proficiencias/escudos"
+      },
+      {
+        "index": "armas-simples",
+        "name": "Armas Simples",
+        "url": "/api/proficiencias/armas-simples"
+      },
+      {
+        "index": "armas-marcial",
+        "name": "Armas Marciais",
+        "url": "/api/proficiencias/armas-marcial"
+      },
+      {
+        "index": "teste-resistencia-for",
+        "name": "Teste de Resistência: FOR",
+        "url": "/api/proficiencias/teste-resistencia-for"
+      },
+      {
+        "index": "teste-resistencia-con",
+        "name": "Teste de Resistência: CON",
+        "url": "/api/proficiencias/teste-resistencia-con"
+      }
+    ],
+    "saving_throws": [
+      {
+        "index": "for",
+        "name": "FOR",
+        "url": "/api/atributos/for"
+      },
+      {
+        "index": "con",
+        "name": "CON",
+        "url": "/api/atributos/con"
+      }
+    ],
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "cota-de-malha",
+          "name": "Cota de Malha",
+          "url": "/api/equipamentos/cota-de-malha"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "desc": "(a) uma arma marcial e um escudo ou (b) duas armas marciais",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "multiple",
+              "items": [
+                {
+                  "option_type": "counted_reference",
+                  "count": 1,
+                  "of": {
+                    "index": "escudo",
+                    "name": "Escudo",
+                    "url": "/api/equipamentos/escudo"
+                  }
+                },
+                {
+                  "option_type": "choice",
+                  "choice": {
+                    "desc": "uma arma marcial",
+                    "choose": 1,
+                    "type": "equipamento",
+                    "from": {
+                      "option_set_type": "categoria_equipamento",
+                      "equipment_category": {
+                        "index": "armas-marcial",
+                        "name": "Armas Marciais",
+                        "url": "/api/categoria-equipamento/armas-marcial"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "duas armas marciais",
+                "choose": 2,
+                "type": "equipamento",
+                "from": {
+                  "option_set_type": "categoria_equipamento",
+                  "equipment_category": {
+                    "index": "armas-marcial",
+                    "name": "Armas Marciais",
+                    "url": "/api/categoria-equipamento/armas-marcial"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) uma besta leve e 20 virotes ou (b) duas machadinhas",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "multiple",
+              "items": [
+                {
+                  "option_type": "counted_reference",
+                  "count": 1,
+                  "of": {
+                    "index": "besta-leve",
+                    "name": "Besta Leve",
+                    "url": "/api/equipamentos/besta-leve"
+                  }
+                },
+                {
+                  "option_type": "counted_reference",
+                  "count": 20,
+                  "of": {
+                    "index": "virote",
+                    "name": "Virote",
+                    "url": "/api/equipamentos/virote"
+                  }
+                }
+              ]
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 2,
+              "of": {
+                "index": "machadinha",
+                "name": "Machadinha",
+                "url": "/api/equipamentos/machadinha"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) um kit de aventureiro ou (b) um kit de explorador de masmorras",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "kit-de-aventureiro",
+                "name": "Kit de Aventureiro",
+                "url": "/api/equipamentos/kit-de-aventureiro"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "kit-de-explorador-de-masmorras",
+                "name": "Kit de Explorador de Masmorras",
+                "url": "/api/equipamentos/kit-de-explorador-de-masmorras"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "class_levels": "/api/classes/guerreiro/niveis",
+    "multi_classing": {
+      "prerequisites": [
+        {
+          "ability_score": {
+            "index": "for",
+            "name": "FOR",
+            "url": "/api/atributos/for"
+          },
+          "minimum_score": 13
+        },
+        {
+          "ability_score": {
+            "index": "des",
+            "name": "DES",
+            "url": "/api/atributos/des"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": [
+        {
+          "index": "armadura-leve",
+          "name": "Armadura Leve",
+          "url": "/api/proficiencias/armadura-leve"
+        },
+        {
+          "index": "armadura-media",
+          "name": "Armadura Média",
+          "url": "/api/proficiencias/armadura-media"
+        },
+        {
+          "index": "armadura-pesada",
+          "name": "Armadura Pesada",
+          "url": "/api/proficiencias/armadura-pesada"
+        },
+        {
+          "index": "escudos",
+          "name": "Escudos",
+          "url": "/api/proficiencias/escudos"
+        },
+        {
+          "index": "armas-simples",
+          "name": "Armas Simples",
+          "url": "/api/proficiencias/armas-simples"
+        },
+        {
+          "index": "armas-marcial",
+          "name": "Armas Marciais",
+          "url": "/api/proficiencias/armas-marcial"
+        }
+      ]
+    },
+    "subclasses": [
+      {
+        "index": "campeao",
+        "name": "Campeão",
+        "url": "/api/subclasses/campeao"
+      }
+    ],
+    "url": "/api/classes/guerreiro"
+  },
+  {
+    "index": "monge",
+    "name": "Monge",
+    "hit_die": 8,
+    "proficiency_choices": [
+      {
+        "desc": "Escolha duas entre Acrobacia, Atletismo, Furtividade, História, Intuição e Religião",
+        "choose": 2,
+        "type": "proficiencias",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-acrobacia",
+                "name": "Perícia: Acrobacia",
+                "url": "/api/proficiencias/pericia-acrobacia"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-atletismo",
+                "name": "Perícia: Atletismo",
+                "url": "/api/proficiencias/pericia-atletismo"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-furtividade",
+                "name": "Perícia: Furtividade",
+                "url": "/api/proficiencias/pericia-furtividade"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-historia",
+                "name": "Perícia: História",
+                "url": "/api/proficiencias/pericia-historia"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-intuicao",
+                "name": "Perícia: Intuição",
+                "url": "/api/proficiencias/pericia-intuicao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-religiao",
+                "name": "Perícia: Religião",
+                "url": "/api/proficiencias/pericia-religiao"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "proficiencies": [
+      {
+        "index": "armas-simples",
+        "name": "Armas Simples",
+        "url": "/api/proficiencias/armas-simples"
+      },
+      {
+        "index": "espadas-curtas",
+        "name": "Espadas Curtas",
+        "url": "/api/proficiencias/espadas-curtas"
+      },
+      {
+        "index": "ferramenta-artesao",
+        "name": "Ferramenta de Artesão",
+        "url": "/api/proficiencias/ferramenta-artesao"
+      },
+      {
+        "index": "instrumento-musical",
+        "name": "Instrumento Musical",
+        "url": "/api/proficiencias/instrumento-musical"
+      },
+      {
+        "index": "teste-resistencia-for",
+        "name": "Teste de Resistência: FOR",
+        "url": "/api/proficiencias/teste-resistencia-for"
+      },
+      {
+        "index": "teste-resistencia-des",
+        "name": "Teste de Resistência: DES",
+        "url": "/api/proficiencias/teste-resistencia-des"
+      }
+    ],
+    "saving_throws": [
+      {
+        "index": "for",
+        "name": "FOR",
+        "url": "/api/atributos/for"
+      },
+      {
+        "index": "des",
+        "name": "DES",
+        "url": "/api/atributos/des"
+      }
+    ],
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "dardo",
+          "name": "Dardo",
+          "url": "/api/equipamentos/dardo"
+        },
+        "quantity": 10
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "desc": "(a) uma espada curta ou (b) qualquer arma simples",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "espada-curta",
+                "name": "Espada Curta",
+                "url": "/api/equipamentos/espada-curta"
+              }
+            },
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "qualquer arma simples",
+                "choose": 1,
+                "type": "equipamento",
+                "from": {
+                  "option_set_type": "categoria_equipamento",
+                  "equipment_category": {
+                    "index": "armas-simples",
+                    "name": "Armas Simples",
+                    "url": "/api/categoria-equipamento/armas-simples"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) um kit de explorador de masmorras ou (b) um kit de aventureiro",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "kit-de-explorador-de-masmorras",
+                "name": "Kit de Explorador de Masmorras",
+                "url": "/api/equipamentos/kit-de-explorador-de-masmorras"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "kit-de-aventureiro",
+                "name": "Kit de Aventureiro",
+                "url": "/api/equipamentos/kit-de-aventureiro"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "class_levels": "/api/classes/monge/niveis",
+    "multi_classing": {
+      "prerequisites": [
+        {
+          "ability_score": {
+            "index": "des",
+            "name": "DES",
+            "url": "/api/atributos/des"
+          },
+          "minimum_score": 13
+        },
+        {
+          "ability_score": {
+            "index": "sab",
+            "name": "SAB",
+            "url": "/api/atributos/sab"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": [
+        {
+          "index": "armas-simples",
+          "name": "Armas Simples",
+          "url": "/api/proficiencias/armas-simples"
+        },
+        {
+          "index": "espadas-curtas",
+          "name": "Espadas Curtas",
+          "url": "/api/proficiencias/espadas-curtas"
+        }
+      ]
+    },
+    "subclasses": [
+      {
+        "index": "caminho-da-mao-aberta",
+        "name": "Caminho da Mão Aberta",
+        "url": "/api/subclasses/caminho-da-mao-aberta"
+      }
+    ],
+    "url": "/api/classes/monge"
+  },
+  {
+    "index": "paladino",
+    "name": "Paladino",
+    "hit_die": 10,
+    "proficiency_choices": [
+      {
+        "desc": "Escolha duas entre Atletismo, Intuição, Intimidação, Medicina, Persuasão e Religião",
+        "choose": 2,
+        "type": "proficiencias",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-atletismo",
+                "name": "Perícia: Atletismo",
+                "url": "/api/proficiencias/pericia-atletismo"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-intuicao",
+                "name": "Perícia: Intuição",
+                "url": "/api/proficiencias/pericia-intuicao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-intimidacao",
+                "name": "Perícia: Intimidação",
+                "url": "/api/proficiencias/pericia-intimidacao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-medicina",
+                "name": "Perícia: Medicina",
+                "url": "/api/proficiencias/pericia-medicina"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-persuasao",
+                "name": "Perícia: Persuasão",
+                "url": "/api/proficiencias/pericia-persuasao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-religiao",
+                "name": "Perícia: Religião",
+                "url": "/api/proficiencias/pericia-religiao"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "proficiencies": [
+      {
+        "index": "todas-armaduras",
+        "name": "Todas as armaduras",
+        "url": "/api/proficiencias/todas-armaduras"
+      },
+      {
+        "index": "escudos",
+        "name": "Escudos",
+        "url": "/api/proficiencias/escudos"
+      },
+      {
+        "index": "armas-simples",
+        "name": "Armas simples",
+        "url": "/api/proficiencias/armas-simples"
+      },
+      {
+        "index": "armas-marcial",
+        "name": "Armas marciais",
+        "url": "/api/proficiencias/armas-marcial"
+      },
+      {
+        "index": "salvaguarda-sab",
+        "name": "Salvaguarda: SAB",
+        "url": "/api/proficiencias/salvaguarda-sab"
+      },
+      {
+        "index": "salvaguarda-car",
+        "name": "Salvaguarda: CAR",
+        "url": "/api/proficiencias/salvaguarda-car"
+      }
+    ],
+    "saving_throws": [
+      {
+        "index": "sab",
+        "name": "SAB",
+        "url": "/api/valores-de-atributo/sab"
+      },
+      {
+        "index": "car",
+        "name": "CAR",
+        "url": "/api/valores-de-atributo/car"
+      }
+    ],
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "cota-de-malha",
+          "name": "Cota de malha",
+          "url": "/api/equipamentos/cota-de-malha"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "desc": "(a) uma arma marcial e um escudo ou (b) duas armas marciais",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "multiple",
+              "items": [
+                {
+                  "option_type": "choice",
+                  "choice": {
+                    "desc": "uma arma marcial",
+                    "choose": 1,
+                    "type": "equipamento",
+                    "from": {
+                      "option_set_type": "categoria-de-equipamento",
+                      "equipment_category": {
+                        "name": "Armas marciais",
+                        "index": "armas-marcial",
+                        "url": "/api/categorias-de-equipamento/armas-marcial"
+                      }
+                    }
+                  }
+                },
+                {
+                  "option_type": "counted_reference",
+                  "count": 1,
+                  "of": {
+                    "index": "escudo",
+                    "name": "Escudo",
+                    "url": "/api/equipamentos/escudo"
+                  }
+                }
+              ]
+            },
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "duas armas marciais",
+                "choose": 2,
+                "type": "equipamento",
+                "from": {
+                  "option_set_type": "categoria-de-equipamento",
+                  "equipment_category": {
+                    "index": "armas-marcial",
+                    "name": "Armas marciais",
+                    "url": "/api/categorias-de-equipamento/armas-marcial"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) cinco azagaias ou (b) qualquer arma simples de combate corpo a corpo",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 5,
+              "of": {
+                "index": "azagaia",
+                "name": "Azagaia",
+                "url": "/api/equipamentos/azagaia"
+              }
+            },
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "qualquer arma simples de combate corpo a corpo",
+                "choose": 1,
+                "type": "equipamento",
+                "from": {
+                  "option_set_type": "categoria-de-equipamento",
+                  "equipment_category": {
+                    "index": "armas-simples",
+                    "name": "Armas simples",
+                    "url": "/api/categorias-de-equipamento/armas-simples"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) um kit de sacerdote ou (b) um kit de aventureiro",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "kit-de-sacerdote",
+                "name": "Kit de Sacerdote",
+                "url": "/api/equipamentos/kit-de-sacerdote"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "kit-de-aventureiro",
+                "name": "Kit de Aventureiro",
+                "url": "/api/equipamentos/kit-de-aventureiro"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "símbolo sagrado",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "categoria-de-equipamento",
+          "equipment_category": {
+            "index": "simbolos-sagrados",
+            "name": "Símbolos Sagrados",
+            "url": "/api/categorias-de-equipamento/simbolos-sagrados"
+          }
+        }
+      }
+    ],
+    "class_levels": "/api/classes/paladino/niveis",
+    "multi_classing": {
+      "prerequisites": [
+        {
+          "ability_score": {
+            "index": "for",
+            "name": "FOR",
+            "url": "/api/valores-de-atributo/for"
+          },
+          "minimum_score": 13
+        },
+        {
+          "ability_score": {
+            "index": "car",
+            "name": "CAR",
+            "url": "/api/valores-de-atributo/car"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": [
+        {
+          "index": "armadura-leve",
+          "name": "Armadura Leve",
+          "url": "/api/proficiencias/armadura-leve"
+        },
+        {
+          "index": "armadura-media",
+          "name": "Armadura Média",
+          "url": "/api/proficiencias/armadura-media"
+        },
+        {
+          "index": "escudos",
+          "name": "Escudos",
+          "url": "/api/proficiencias/escudos"
+        },
+        {
+          "index": "armas-simples",
+          "name": "Armas Simples",
+          "url": "/api/proficiencias/armas-simples"
+        },
+        {
+          "index": "armas-marcial",
+          "name": "Armas Marciais",
+          "url": "/api/proficiencias/armas-marcial"
+        }
+      ]
+    },
+    "subclasses": [
+      {
+        "index": "juramento-da-devocao",
+        "name": "Juramento da Devoção",
+        "url": "/api/subclasses/juramento-da-devocao"
+      }
+    ],
+    "spellcasting": {
+      "level": 2,
+      "spellcasting_ability": {
+        "index": "car",
+        "name": "CAR",
+        "url": "/api/valores-de-atributo/car"
+      },
+      "info": [
+        {
+          "name": "Preparando e Conjurando Magias",
+          "desc": [
+            "A tabela O Paladino mostra quantos espaços de magia você possui para conjurar suas magias. Para conjurar uma de suas magias de paladino de 1º círculo ou superior, você deve gastar um espaço de magia do círculo correspondente ou superior. Você recupera todos os espaços de magia gastos quando termina um descanso longo.",
+            "Você prepara a lista de magias de paladino que estão disponíveis para você conjurar, escolhendo-as da lista de magias de paladino. Ao fazer isso, escolha um número de magias de paladino igual ao seu modificador de Carisma + metade do seu nível de paladino, arredondado para baixo (mínimo de uma magia). As magias devem ser de um círculo para o qual você tenha espaços de magia.",
+            "Por exemplo, se você é um paladino de 5º nível, possui quatro espaços de magia de 1º círculo e dois de 2º círculo. Com um Carisma de 14, sua lista de magias preparadas pode incluir quatro magias de 1º ou 2º círculo, em qualquer combinação. Se você preparar a magia de 1º círculo curar ferimentos, poderá conjurá-la usando um espaço de 1º ou de 2º círculo. Conjurar a magia não a remove da sua lista de magias preparadas.",
+            "Você pode mudar sua lista de magias preparadas quando termina um descanso longo. Preparar uma nova lista de magias de paladino requer tempo gasto em oração e meditação: pelo menos 1 minuto por círculo de magia para cada magia na sua lista."
+          ]
+        },
+        {
+          "name": "Atributo de Conjuração",
+          "desc": [
+            "Carisma é o seu atributo de conjuração para suas magias de paladino, já que seu poder deriva da força de suas convicções. Você usa seu Carisma sempre que uma magia se referir ao seu atributo de conjuração. Além disso, você usa seu modificador de Carisma ao definir a CD para evitar suas magias de paladino e ao fazer uma jogada de ataque com uma.",
+            "CD para evitar magia = 8 + seu bônus de proficiência + seu modificador de Carisma.",
+            "Modificador de ataque mágico = seu bônus de proficiência + seu modificador de Carisma."
+          ]
+        },
+        {
+          "name": "Foco de Conjuração",
+          "desc": [
+            "Você pode usar um símbolo sagrado como foco de conjuração para suas magias de paladino."
+          ]
+        }
+      ]
+    },
+    "spells": "/api/classes/paladino/magias",
+    "url": "/api/classes/paladino"
+  },
+  {
+    "index": "guardiao",
+    "name": "Guardião",
+    "hit_die": 10,
+    "proficiency_choices": [
+      {
+        "desc": "Escolha três entre Atletismo, Furtividade, Intuição, Investigação, Natureza, Percepção e Sobrevivência",
+        "choose": 3,
+        "type": "proficiencias",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-atletismo",
+                "name": "Perícia: Atletismo",
+                "url": "/api/proficiencias/pericia-atletismo"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-furtividade",
+                "name": "Perícia: Furtividade",
+                "url": "/api/proficiencias/pericia-furtividade"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-intuicao",
+                "name": "Perícia: Intuição",
+                "url": "/api/proficiencias/pericia-intuicao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-investigacao",
+                "name": "Perícia: Investigação",
+                "url": "/api/proficiencias/pericia-investigacao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-natureza",
+                "name": "Perícia: Natureza",
+                "url": "/api/proficiencias/pericia-natureza"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-percepcao",
+                "name": "Perícia: Percepção",
+                "url": "/api/proficiencias/pericia-percepcao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-sobrevivencia",
+                "name": "Perícia: Sobrevivência",
+                "url": "/api/proficiencias/pericia-sobrevivencia"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "proficiencies": [
+      {
+        "index": "armaduras-leves",
+        "name": "Armaduras leves",
+        "url": "/api/proficiencias/armaduras-leves"
+      },
+      {
+        "index": "armaduras-medias",
+        "name": "Armaduras médias",
+        "url": "/api/proficiencias/armaduras-medias"
+      },
+      {
+        "index": "escudos",
+        "name": "Escudos",
+        "url": "/api/proficiencias/escudos"
+      },
+      {
+        "index": "armas-simples",
+        "name": "Armas simples",
+        "url": "/api/proficiencias/armas-simples"
+      },
+      {
+        "index": "armas-marcial",
+        "name": "Armas marciais",
+        "url": "/api/proficiencias/armas-marcial"
+      }
+    ],
+    "saving_throws": [
+      {
+        "index": "for",
+        "name": "FOR",
+        "url": "/api/valores-de-atributo/for"
+      },
+      {
+        "index": "des",
+        "name": "DES",
+        "url": "/api/valores-de-atributo/des"
+      }
+    ],
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "cota-de-escamas",
+          "name": "Cota de escamas",
+          "url": "/api/equipamentos/cota-de-escamas"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "desc": "(a) uma espada longa ou (b) duas espadas curtas",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "espada-longa",
+                "name": "Espada longa",
+                "url": "/api/equipamentos/espada-longa"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 2,
+              "of": {
+                "index": "espada-curta",
+                "name": "Espada curta",
+                "url": "/api/equipamentos/espada-curta"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) um pacote de explorador ou (b) um pacote de aventureiro",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "pacote-de-explorador",
+                "name": "Pacote de explorador",
+                "url": "/api/equipamentos/pacote-de-explorador"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "pacote-de-aventureiro",
+                "name": "Pacote de aventureiro",
+                "url": "/api/equipamentos/pacote-de-aventureiro"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "um arco longo e uma aljava com 20 flechas",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "multiple",
+          "items": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "arco-longo",
+                "name": "Arco longo",
+                "url": "/api/equipamentos/arco-longo"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "aljava",
+                "name": "Aljava",
+                "url": "/api/equipamentos/aljava"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 20,
+              "of": {
+                "index": "flecha",
+                "name": "Flecha",
+                "url": "/api/equipamentos/flecha"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "class_levels": "/api/classes/guardiao/niveis",
+    "multi_classing": {
+      "prerequisites": [
+        {
+          "ability_score": {
+            "index": "des",
+            "name": "DES",
+            "url": "/api/valores-de-atributo/des"
+          },
+          "minimum_score": 13
+        },
+        {
+          "ability_score": {
+            "index": "sab",
+            "name": "SAB",
+            "url": "/api/valores-de-atributo/sab"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": [
+        {
+          "index": "armaduras-leves",
+          "name": "Armadura Leve",
+          "url": "/api/proficiencias/armaduras-leves"
+        },
+        {
+          "index": "armaduras-medias",
+          "name": "Armadura Média",
+          "url": "/api/proficiencias/armaduras-medias"
+        },
+        {
+          "index": "escudos",
+          "name": "Escudos",
+          "url": "/api/proficiencias/escudos"
+        },
+        {
+          "index": "armas-simples",
+          "name": "Armas Simples",
+          "url": "/api/proficiencias/armas-simples"
+        },
+        {
+          "index": "armas-marcial",
+          "name": "Armas Marciais",
+          "url": "/api/proficiencias/armas-marcial"
+        }
+      ]
+    },
+    "subclasses": [
+      {
+        "index": "caçador",
+        "name": "Caçador",
+        "url": "/api/subclasses/cacador"
+      }
+    ],
+    "spellcasting": {
+      "level": 2,
+      "spellcasting_ability": {
+        "index": "sab",
+        "name": "SAB",
+        "url": "/api/valores-de-atributo/sab"
+      },
+      "info": [
+        {
+          "name": "Espaços de Magia",
+          "desc": [
+            "A tabela Guardião mostra quantos espaços de magia você possui para conjurar suas magias de 1º nível ou superior. Para conjurar uma dessas magias, você deve gastar um espaço do nível correspondente ou superior. Você recupera todos os espaços de magia quando termina um descanso longo.",
+            "Por exemplo, se você conhece a magia de 1º nível Amizade Animal e possui um espaço de magia de 1º nível e um de 2º nível, poderá conjurar Amizade Animal usando qualquer um dos espaços."
+          ]
+        },
+        {
+          "name": "Magias Conhecidas de 1º Nível e Superior",
+          "desc": [
+            "Você conhece duas magias de 1º nível de sua escolha da lista de magias de guardião.",
+            "A coluna Magias Conhecidas da tabela Guardião mostra quando você aprende novas magias de guardião de sua escolha. Cada uma dessas magias deve ser de um nível para o qual você tenha espaços de magia. Por exemplo, quando você atinge o 5º nível nesta classe, poderá aprender uma nova magia de 1º ou 2º nível.",
+            "Além disso, ao ganhar um nível nesta classe, você pode escolher uma das magias de guardião que conhece e substituí-la por outra magia da lista de magias de guardião, que também deve ser de um nível para o qual você tenha espaços de magia."
+          ]
+        },
+        {
+          "name": "Habilidade de Conjuração",
+          "desc": [
+            "Sabedoria é sua habilidade de conjuração para suas magias de guardião, pois sua magia deriva de seu vínculo com a natureza. Você usa sua Sabedoria sempre que uma magia se refere à sua habilidade de conjuração. Além disso, você usa seu modificador de Sabedoria para definir a CD dos testes de resistência para uma magia de guardião que você conjura e quando realiza uma jogada de ataque com uma.",
+            "CD para resistência de magia = 8 + seu bônus de proficiência + seu modificador de Sabedoria.",
+            "Modificador de ataque com magia = seu bônus de proficiência + seu modificador de Sabedoria."
+          ]
+        }
+      ]
+    },
+    "spells": "/api/classes/guardiao/magias",
+    "url": "/api/classes/guardiao"
+  },
+  {
+    "index": "ladino",
+    "name": "Ladino",
+    "hit_die": 8,
+    "proficiency_choices": [
+      {
+        "desc": "Escolha quatro entre Acrobacia, Atletismo, Atuação, Enganação, Furtividade, Intimidação, Intuição, Investigação, Percepção, Persuasão e Prestidigitação",
+        "choose": 4,
+        "type": "proficiencias",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-acrobacia",
+                "name": "Perícia: Acrobacia",
+                "url": "/api/proficiencias/pericia-acrobacia"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-atletismo",
+                "name": "Perícia: Atletismo",
+                "url": "/api/proficiencias/pericia-atletismo"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-atuacao",
+                "name": "Perícia: Atuação",
+                "url": "/api/proficiencias/pericia-atuacao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-enganacao",
+                "name": "Perícia: Enganação",
+                "url": "/api/proficiencias/pericia-enganacao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-furtividade",
+                "name": "Perícia: Furtividade",
+                "url": "/api/proficiencias/pericia-furtividade"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-intimidacao",
+                "name": "Perícia: Intimidação",
+                "url": "/api/proficiencias/pericia-intimidacao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-intuicao",
+                "name": "Perícia: Intuição",
+                "url": "/api/proficiencias/pericia-intuicao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-investigacao",
+                "name": "Perícia: Investigação",
+                "url": "/api/proficiencias/pericia-investigacao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-percepcao",
+                "name": "Perícia: Percepção",
+                "url": "/api/proficiencias/pericia-percepcao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-persuasao",
+                "name": "Perícia: Persuasão",
+                "url": "/api/proficiencias/pericia-persuasao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-prestidigitacao",
+                "name": "Perícia: Prestidigitação",
+                "url": "/api/proficiencias/pericia-prestidigitacao"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "proficiencies": [
+      {
+        "index": "armaduras-leves",
+        "name": "Armaduras leves",
+        "url": "/api/proficiencias/armaduras-leves"
+      },
+      {
+        "index": "armas-simples",
+        "name": "Armas simples",
+        "url": "/api/proficiencias/armas-simples"
+      },
+      {
+        "index": "bestas-de-mao",
+        "name": "Bestas de mão",
+        "url": "/api/proficiencias/bestas-de-mao"
+      },
+      {
+        "index": "espadas-longas",
+        "name": "Espadas longas",
+        "url": "/api/proficiencias/espadas-longas"
+      },
+      {
+        "index": "rapieiras",
+        "name": "Rapieiras",
+        "url": "/api/proficiencias/rapieiras"
+      },
+      {
+        "index": "espadas-curtas",
+        "name": "Espadas curtas",
+        "url": "/api/proficiencias/espadas-curtas"
+      },
+      {
+        "index": "ferramentas-de-ladrao",
+        "name": "Ferramentas de ladrão",
+        "url": "/api/proficiencias/ferramentas-de-ladrao"
+      }
+    ],
+    "saving_throws": [
+      {
+        "index": "des",
+        "name": "DES",
+        "url": "/api/valores-de-atributo/des"
+      },
+      {
+        "index": "int",
+        "name": "INT",
+        "url": "/api/valores-de-atributo/int"
+      }
+    ],
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "armadura-de-couro",
+          "name": "Armadura de couro",
+          "url": "/api/equipamentos/armadura-de-couro"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "adaga",
+          "name": "Adaga",
+          "url": "/api/equipamentos/adaga"
+        },
+        "quantity": 2
+      },
+      {
+        "equipment": {
+          "index": "ferramentas-de-ladrao",
+          "name": "Ferramentas de ladrão",
+          "url": "/api/equipamentos/ferramentas-de-ladrao"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "desc": "(a) uma rapieira ou (b) uma espada longa",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "rapieira",
+                "name": "Rapieira",
+                "url": "/api/equipamentos/rapieira"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "espada-longa",
+                "name": "Espada longa",
+                "url": "/api/equipamentos/espada-longa"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) um arco curto e uma aljava com 20 flechas ou (b) uma espada curta",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "multiple",
+              "items": [
+                {
+                  "option_type": "counted_reference",
+                  "count": 1,
+                  "of": {
+                    "index": "arco-curto",
+                    "name": "Arco curto",
+                    "url": "/api/equipamentos/arco-curto"
+                  }
+                },
+                {
+                  "option_type": "counted_reference",
+                  "count": 20,
+                  "of": {
+                    "index": "flecha",
+                    "name": "Flecha",
+                    "url": "/api/equipamentos/flecha"
+                  }
+                }
+              ]
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "espada-curta",
+                "name": "Espada curta",
+                "url": "/api/equipamentos/espada-curta"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) um pacote de assaltante, (b) um pacote de explorador ou (c) um pacote de aventureiro",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "pacote-de-assaltante",
+                "name": "Pacote de assaltante",
+                "url": "/api/equipamentos/pacote-de-assaltante"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "pacote-de-explorador",
+                "name": "Pacote de explorador",
+                "url": "/api/equipamentos/pacote-de-explorador"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "pacote-de-aventureiro",
+                "name": "Pacote de aventureiro",
+                "url": "/api/equipamentos/pacote-de-aventureiro"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "class_levels": "/api/classes/ladino/niveis",
+    "multi_classing": {
+      "prerequisites": [
+        {
+          "ability_score": {
+            "index": "des",
+            "name": "DES",
+            "url": "/api/valores-de-atributo/des"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": [
+        {
+          "index": "armaduras-leves",
+          "name": "Armadura Leve",
+          "url": "/api/proficiencias/armaduras-leves"
+        },
+        {
+          "index": "ferramentas-de-ladrao",
+          "name": "Ferramentas de Ladrão",
+          "url": "/api/proficiencias/ferramentas-de-ladrao"
+        }
+      ],
+      "proficiency_choices": [
+        {
+          "choose": 1,
+          "type": "proficiencias",
+          "from": {
+            "option_set_type": "options_array",
+            "options": [
+              {
+                "option_type": "reference",
+                "item": {
+                  "index": "pericia-acrobacia",
+                  "name": "Perícia: Acrobacia",
+                  "url": "/api/proficiencias/pericia-acrobacia"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "index": "pericia-atletismo",
+                  "name": "Perícia: Atletismo",
+                  "url": "/api/proficiencias/pericia-atletismo"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "index": "pericia-enganacao",
+                  "name": "Perícia: Enganação",
+                  "url": "/api/proficiencias/pericia-enganacao"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "index": "pericia-intimidacao",
+                  "name": "Perícia: Intimidação",
+                  "url": "/api/proficiencias/pericia-intimidacao"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "subclasses": [
+      {
+        "index": "ladrao",
+        "name": "Ladrão",
+        "url": "/api/subclasses/ladrao"
+      }
+    ],
+    "url": "/api/classes/ladino"
+  },
+  {
+    "index": "feiticeiro",
+    "name": "Feiticeiro",
+    "hit_die": 6,
+    "proficiency_choices": [
+      {
+        "desc": "Escolha duas entre Arcanismo, Enganação, Intuição, Intimidação, Persuasão e Religião",
+        "choose": 2,
+        "type": "proficiencias",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-arcanismo",
+                "name": "Perícia: Arcanismo",
+                "url": "/api/proficiencias/pericia-arcanismo"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-enganacao",
+                "name": "Perícia: Enganação",
+                "url": "/api/proficiencias/pericia-enganacao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-intuicao",
+                "name": "Perícia: Intuição",
+                "url": "/api/proficiencias/pericia-intuicao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-intimidacao",
+                "name": "Perícia: Intimidação",
+                "url": "/api/proficiencias/pericia-intimidacao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-persuasao",
+                "name": "Perícia: Persuasão",
+                "url": "/api/proficiencias/pericia-persuasao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-religiao",
+                "name": "Perícia: Religião",
+                "url": "/api/proficiencias/pericia-religiao"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "proficiencies": [
+      {
+        "index": "adagas",
+        "name": "Adagas",
+        "url": "/api/proficiencias/adagas"
+      },
+      {
+        "index": "dardos",
+        "name": "Dardos",
+        "url": "/api/proficiencias/dardos"
+      },
+      {
+        "index": "fundas",
+        "name": "Fundas",
+        "url": "/api/proficiencias/fundas"
+      },
+      {
+        "index": "bastoes",
+        "name": "Bastões",
+        "url": "/api/proficiencias/bastoes"
+      },
+      {
+        "index": "bestas-leves",
+        "name": "Bestas Leves",
+        "url": "/api/proficiencias/bestas-leves"
+      },
+      {
+        "index": "salvaguarda-constituicao",
+        "name": "Salvaguarda: Constituição",
+        "url": "/api/proficiencias/salvaguarda-constituicao"
+      },
+      {
+        "index": "salvaguarda-carisma",
+        "name": "Salvaguarda: Carisma",
+        "url": "/api/proficiencias/salvaguarda-carisma"
+      }
+    ],
+    "saving_throws": [
+      {
+        "index": "CON",
+        "name": "CON",
+        "url": "/api/valores-de-atributo/CON"
+      },
+      {
+        "index": "CAR",
+        "name": "CAR",
+        "url": "/api/valores-de-atributo/CAR"
+      }
+    ],
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "adaga",
+          "name": "Adaga",
+          "url": "/api/equipamentos/adaga"
+        },
+        "quantity": 2
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "desc": "(a) uma besta leve e 20 virotes ou (b) qualquer arma simples",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "multiple",
+              "items": [
+                {
+                  "option_type": "counted_reference",
+                  "count": 1,
+                  "of": {
+                    "index": "besta-leve",
+                    "name": "Besta Leve",
+                    "url": "/api/equipamentos/besta-leve"
+                  }
+                },
+                {
+                  "option_type": "counted_reference",
+                  "count": 20,
+                  "of": {
+                    "index": "virote-de-besta",
+                    "name": "Virote de Besta",
+                    "url": "/api/equipamentos/virote-de-besta"
+                  }
+                }
+              ]
+            },
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "qualquer arma simples",
+                "choose": 1,
+                "type": "equipamento",
+                "from": {
+                  "option_set_type": "equipment_category",
+                  "equipment_category": {
+                    "index": "armas-simples",
+                    "name": "Armas Simples",
+                    "url": "/api/categorias-de-equipamento/armas-simples"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) uma bolsa de componentes ou (b) um foco arcano",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "bolsa-de-componentes",
+                "name": "Bolsa de Componentes",
+                "url": "/api/equipamentos/bolsa-de-componentes"
+              }
+            },
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "foco arcano",
+                "choose": 1,
+                "type": "equipamento",
+                "from": {
+                  "option_set_type": "equipment_category",
+                  "equipment_category": {
+                    "index": "focos-arcanos",
+                    "name": "Focos Arcanos",
+                    "url": "/api/categorias-de-equipamento/focos-arcanos"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) um kit de explorador de masmorras ou (b) um kit de aventureiro",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "kit-de-explorador-de-masmorras",
+                "name": "Kit de Explorador de Masmorras",
+                "url": "/api/equipamentos/kit-de-explorador-de-masmorras"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "kit-de-aventureiro",
+                "name": "Kit de Aventureiro",
+                "url": "/api/equipamentos/kit-de-aventureiro"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "class_levels": "/api/classes/feiticeiro/niveis",
+    "multi_classing": {
+      "prerequisites": [
+        {
+          "ability_score": {
+            "index": "CAR",
+            "name": "CAR",
+            "url": "/api/valores-de-atributo/CAR"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": []
+    },
+    "subclasses": [
+      {
+        "index": "draconico",
+        "name": "Dracônico",
+        "url": "/api/subclasses/draconico"
+      }
+    ],
+    "spellcasting": {
+      "level": 1,
+      "spellcasting_ability": {
+        "index": "CAR",
+        "name": "CAR",
+        "url": "/api/valores-de-atributo/CAR"
+      },
+      "info": [
+        {
+          "name": "Truques",
+          "desc": [
+            "No 1º nível, você conhece quatro truques à sua escolha da lista de magias de feiticeiro. Você aprende truques adicionais de feiticeiro à sua escolha em níveis mais altos, conforme mostrado na coluna Truques Conhecidos da tabela do Feiticeiro."
+          ]
+        },
+        {
+          "name": "Espaços de Magia",
+          "desc": [
+            "A tabela do Feiticeiro mostra quantos espaços de magia você tem para conjurar suas magias de 1º nível e superiores. Para conjurar uma dessas magias de feiticeiro, você deve gastar um espaço de magia do nível da magia ou superior. Você recupera todos os espaços de magia gastos quando termina um descanso longo.",
+            "Por exemplo, se você conhece a magia de 1º nível mãos flamejantes e tem um espaço de magia de 1º nível e um de 2º nível disponíveis, você pode conjurar mãos flamejantes usando qualquer um dos espaços."
+          ]
+        },
+        {
+          "name": "Magias Conhecidas de 1º Nível e Superiores",
+          "desc": [
+            "Você conhece duas magias de 1º nível à sua escolha da lista de magias de feiticeiro.",
+            "A coluna Magias Conhecidas da tabela do Feiticeiro mostra quando você aprende mais magias de feiticeiro à sua escolha. Cada uma dessas magias deve ser de um nível para o qual você tenha espaços de magia. Por exemplo, quando você atinge o 3º nível nesta classe, você pode aprender uma nova magia de 1º ou 2º nível.",
+            "Além disso, quando você ganha um nível nesta classe, você pode escolher uma das magias de feiticeiro que conhece e substituí-la por outra magia da lista de magias de feiticeiro, que também deve ser de um nível para o qual você tenha espaços de magia."
+          ]
+        },
+        {
+          "name": "Habilidade de Conjuração",
+          "desc": [
+            "Carisma é sua habilidade de conjuração para suas magias de feiticeiro, já que o poder de sua magia depende de sua capacidade de impor sua vontade ao mundo. Você usa seu Carisma sempre que uma magia se refere à sua habilidade de conjuração. Além disso, você usa seu modificador de Carisma ao definir a CD para os testes de resistência de uma magia de feiticeiro que você conjura e ao fazer uma jogada de ataque com uma.",
+            "CD para testes de resistência de magia = 8 + seu bônus de proficiência + seu modificador de Carisma.",
+            "Modificador de ataque de magia = seu bônus de proficiência + seu modificador de Carisma."
+          ]
+        },
+        {
+          "name": "Foco de Conjuração",
+          "desc": [
+            "Você pode usar um foco arcano como foco de conjuração para suas magias de feiticeiro."
+          ]
+        }
+      ]
+    },
+    "spells": "/api/classes/feiticeiro/magias",
+    "url": "/api/classes/feiticeiro"
+  },
+  {
+    "index": "bruxo",
+    "name": "Bruxo",
+    "hit_die": 8,
+    "proficiency_choices": [
+      {
+        "desc": "Escolha duas entre Arcanismo, Enganação, História, Intimidação, Investigação, Natureza e Religião",
+        "choose": 2,
+        "type": "proficiencias",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-arcanismo",
+                "name": "Perícia: Arcanismo",
+                "url": "/api/proficiencias/pericia-arcanismo"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-enganacao",
+                "name": "Perícia: Enganação",
+                "url": "/api/proficiencias/pericia-enganacao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-historia",
+                "name": "Perícia: História",
+                "url": "/api/proficiencias/pericia-historia"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-intimidacao",
+                "name": "Perícia: Intimidação",
+                "url": "/api/proficiencias/pericia-intimidacao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-investigacao",
+                "name": "Perícia: Investigação",
+                "url": "/api/proficiencias/pericia-investigacao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-natureza",
+                "name": "Perícia: Natureza",
+                "url": "/api/proficiencias/pericia-natureza"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-religiao",
+                "name": "Perícia: Religião",
+                "url": "/api/proficiencias/pericia-religiao"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "proficiencies": [
+      {
+        "index": "armaduras-leves",
+        "name": "Armaduras Leves",
+        "url": "/api/proficiencias/armaduras-leves"
+      },
+      {
+        "index": "armas-simples",
+        "name": "Armas Simples",
+        "url": "/api/proficiencias/armas-simples"
+      },
+      {
+        "index": "salvaguarda-sabedoria",
+        "name": "Salvaguarda: Sabedoria",
+        "url": "/api/proficiencias/salvaguarda-sabedoria"
+      },
+      {
+        "index": "salvaguarda-carisma",
+        "name": "Salvaguarda: Carisma",
+        "url": "/api/proficiencias/salvaguarda-carisma"
+      }
+    ],
+    "saving_throws": [
+      {
+        "index": "SAB",
+        "name": "SAB",
+        "url": "/api/valores-de-atributo/SAB"
+      },
+      {
+        "index": "CAR",
+        "name": "CAR",
+        "url": "/api/valores-de-atributo/CAR"
+      }
+    ],
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "adaga",
+          "name": "Adaga",
+          "url": "/api/equipamentos/adaga"
+        },
+        "quantity": 2
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "desc": "(a) uma besta leve e 20 virotes ou (b) qualquer arma simples",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "multiple",
+              "items": [
+                {
+                  "option_type": "counted_reference",
+                  "count": 1,
+                  "of": {
+                    "index": "besta-leve",
+                    "name": "Besta Leve",
+                    "url": "/api/equipamentos/besta-leve"
+                  }
+                },
+                {
+                  "option_type": "counted_reference",
+                  "count": 20,
+                  "of": {
+                    "index": "virote-de-besta",
+                    "name": "Virote de Besta",
+                    "url": "/api/equipamentos/virote-de-besta"
+                  }
+                }
+              ]
+            },
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "qualquer arma simples",
+                "choose": 1,
+                "type": "equipamento",
+                "from": {
+                  "option_set_type": "equipment_category",
+                  "equipment_category": {
+                    "index": "armas-simples",
+                    "name": "Armas Simples",
+                    "url": "/api/categorias-de-equipamento/armas-simples"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) um pacote de estudioso ou (b) um pacote de explorador",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "pacote-de-estudioso",
+                "name": "Pacote de Estudioso",
+                "url": "/api/equipamentos/pacote-de-estudioso"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "pacote-de-explorador",
+                "name": "Pacote de Explorador",
+                "url": "/api/equipamentos/pacote-de-explorador"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "class_levels": "/api/classes/bruxo/niveis",
+    "multi_classing": {
+      "prerequisites": [
+        {
+          "ability_score": {
+            "index": "CAR",
+            "name": "CAR",
+            "url": "/api/valores-de-atributo/CAR"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": [
+        {
+          "index": "armaduras-leves",
+          "name": "Armaduras Leves",
+          "url": "/api/proficiencias/armaduras-leves"
+        },
+        {
+          "index": "armas-simples",
+          "name": "Armas Simples",
+          "url": "/api/proficiencias/armas-simples"
+        }
+      ]
+    },
+    "subclasses": [
+      {
+        "index": "o-arquivista",
+        "name": "O Arquivista",
+        "url": "/api/subclasses/o-arquivista"
+      }
+    ],
+    "spellcasting": {
+      "level": 1,
+      "spellcasting_ability": {
+        "index": "CAR",
+        "name": "CAR",
+        "url": "/api/valores-de-atributo/CAR"
+      },
+      "info": [
+        {
+          "name": "Truques",
+          "desc": [
+            "No 1º nível, você conhece dois truques à sua escolha da lista de magias de bruxo. Você aprende truques adicionais de bruxo à sua escolha em níveis mais altos, conforme mostrado na coluna Truques Conhecidos da tabela O Bruxo."
+          ]
+        },
+        {
+          "name": "Espaços de Magia",
+          "desc": [
+            "A tabela O Bruxo mostra quantos espaços de magia você tem para conjurar suas magias de 1º nível e superiores. Para conjurar uma dessas magias de bruxo, você deve gastar um espaço de magia do nível da magia ou superior. Você recupera todos os espaços de magia gastos quando termina um descanso curto ou longo.",
+            "Por exemplo, se você conhece a magia de 1º nível raio de bruxa e tem um espaço de magia de 1º nível e um de 2º nível disponíveis, você pode conjurar raio de bruxa usando qualquer um dos espaços."
+          ]
+        },
+        {
+          "name": "Magias Conhecidas de 1º Nível e Superiores",
+          "desc": [
+            "No 1º nível, você conhece duas magias de 1º nível à sua escolha da lista de magias de bruxo.",
+            "A coluna Magias Conhecidas da tabela O Bruxo mostra quando você aprende mais magias de bruxo à sua escolha. Cada uma dessas magias deve ser de um nível para o qual você tenha espaços de magia. Por exemplo, quando você atinge o 3º nível nesta classe, você pode aprender uma nova magia de 1º ou 2º nível.",
+            "Além disso, quando você ganha um nível nesta classe, você pode escolher uma das magias de bruxo que conhece e substituí-la por outra magia da lista de magias de bruxo, que também deve ser de um nível para o qual você tenha espaços de magia."
+          ]
+        },
+        {
+          "name": "Habilidade de Conjuração",
+          "desc": [
+            "Carisma é sua habilidade de conjuração para suas magias de bruxo, já que seu poder mágico deriva de sua capacidade de comandar a força de vontade de seu patrono. Você usa seu Carisma sempre que uma magia se refere à sua habilidade de conjuração. Além disso, você usa seu modificador de Carisma ao definir a CD para os testes de resistência de uma magia de bruxo que você conjura e ao fazer uma jogada de ataque com uma.",
+            "CD para testes de resistência de magia = 8 + seu bônus de proficiência + seu modificador de Carisma.",
+            "Modificador de ataque de magia = seu bônus de proficiência + seu modificador de Carisma."
+          ]
+        },
+        {
+          "name": "Foco de Conjuração",
+          "desc": [
+            "Você pode usar um foco arcano como foco de conjuração para suas magias de bruxo."
+          ]
+        }
+      ]
+    },
+    "spells": "/api/classes/bruxo/magias",
+    "url": "/api/classes/bruxo"
+  },
+  {
+    "index": "mago",
+    "name": "Mago",
+    "hit_die": 6,
+    "proficiency_choices": [
+      {
+        "desc": "Escolha duas entre Arcanismo, História, Intuição, Investigação, Medicina e Religião",
+        "choose": 2,
+        "type": "proficiencias",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-arcanismo",
+                "name": "Perícia: Arcanismo",
+                "url": "/api/proficiencias/pericia-arcanismo"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-historia",
+                "name": "Perícia: História",
+                "url": "/api/proficiencias/pericia-historia"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-intuicao",
+                "name": "Perícia: Intuição",
+                "url": "/api/proficiencias/pericia-intuicao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-investigacao",
+                "name": "Perícia: Investigação",
+                "url": "/api/proficiencias/pericia-investigacao"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-medicina",
+                "name": "Perícia: Medicina",
+                "url": "/api/proficiencias/pericia-medicina"
+              }
+            },
+            {
+              "option_type": "reference",
+              "item": {
+                "index": "pericia-religiao",
+                "name": "Perícia: Religião",
+                "url": "/api/proficiencias/pericia-religiao"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "proficiencies": [
+      {
+        "index": "armas-simples",
+        "name": "Armas Simples",
+        "url": "/api/proficiencias/armas-simples"
+      },
+      {
+        "index": "salvaguarda-inteligencia",
+        "name": "Salvaguarda: Inteligência",
+        "url": "/api/proficiencias/salvaguarda-inteligencia"
+      },
+      {
+        "index": "salvaguarda-sabedoria",
+        "name": "Salvaguarda: Sabedoria",
+        "url": "/api/proficiencias/salvaguarda-sabedoria"
+      }
+    ],
+    "saving_throws": [
+      {
+        "index": "INT",
+        "name": "INT",
+        "url": "/api/valores-de-atributo/INT"
+      },
+      {
+        "index": "SAB",
+        "name": "SAB",
+        "url": "/api/valores-de-atributo/SAB"
+      }
+    ],
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "adaga",
+          "name": "Adaga",
+          "url": "/api/equipamentos/adaga"
+        },
+        "quantity": 1
+      }
+    ],
+    "starting_equipment_options": [
+      {
+        "desc": "(a) um bastão ou (b) uma adaga",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "bastao",
+                "name": "Bastão",
+                "url": "/api/equipamentos/bastao"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "adaga",
+                "name": "Adaga",
+                "url": "/api/equipamentos/adaga"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) uma bolsa de componentes ou (b) um foco arcano",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "bolsa-de-componentes",
+                "name": "Bolsa de Componentes",
+                "url": "/api/equipamentos/bolsa-de-componentes"
+              }
+            },
+            {
+              "option_type": "choice",
+              "choice": {
+                "desc": "foco arcano",
+                "choose": 1,
+                "type": "equipamento",
+                "from": {
+                  "option_set_type": "equipment_category",
+                  "equipment_category": {
+                    "index": "focos-arcanos",
+                    "name": "Focos Arcanos",
+                    "url": "/api/categorias-de-equipamento/focos-arcanos"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "desc": "(a) um pacote de estudioso ou (b) um pacote de explorador",
+        "choose": 1,
+        "type": "equipamento",
+        "from": {
+          "option_set_type": "options_array",
+          "options": [
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "pacote-de-estudioso",
+                "name": "Pacote de Estudioso",
+                "url": "/api/equipamentos/pacote-de-estudioso"
+              }
+            },
+            {
+              "option_type": "counted_reference",
+              "count": 1,
+              "of": {
+                "index": "pacote-de-explorador",
+                "name": "Pacote de Explorador",
+                "url": "/api/equipamentos/pacote-de-explorador"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "class_levels": "/api/classes/mago/niveis",
+    "multi_classing": {
+      "prerequisites": [
+        {
+          "ability_score": {
+            "index": "INT",
+            "name": "INT",
+            "url": "/api/valores-de-atributo/INT"
+          },
+          "minimum_score": 13
+        }
+      ],
+      "proficiencies": [
+        {
+          "index": "armas-simples",
+          "name": "Armas Simples",
+          "url": "/api/proficiencias/armas-simples"
+        }
+      ]
+    },
+    "subclasses": [
+      {
+        "index": "evocacao",
+        "name": "Evocação",
+        "url": "/api/subclasses/evocacao"
+      }
+    ],
+    "spellcasting": {
+      "level": 1,
+      "spellcasting_ability": {
+        "index": "INT",
+        "name": "INT",
+        "url": "/api/valores-de-atributo/INT"
+      },
+      "info": [
+        {
+          "name": "Truques",
+          "desc": [
+            "No 1º nível, você conhece três truques à sua escolha da lista de magias de mago. Você aprende truques adicionais de mago à sua escolha em níveis mais altos, conforme mostrado na coluna Truques Conhecidos da tabela O Mago."
+          ]
+        },
+        {
+          "name": "Livro de Magias",
+          "desc": [
+            "No 1º nível, você possui um livro de magias contendo seis magias de 1º nível à sua escolha da lista de magias de mago. Seu livro de magias é o repositório das magias de mago que você conhece, exceto os truques, que estão fixados em sua mente."
+          ]
+        },
+        {
+          "name": "Preparando e Conjurando Magias",
+          "desc": [
+            "A tabela O Mago mostra quantos espaços de magia você tem para conjurar suas magias de 1º nível e superiores. Para conjurar uma dessas magias de mago, você deve gastar um espaço de magia do nível da magia ou superior. Você recupera todos os espaços de magia gastos quando termina um descanso longo.",
+            "Você prepara a lista de magias de mago que estão disponíveis para você conjurar. Para isso, escolha um número de magias de mago do seu livro de magias igual ao seu modificador de Inteligência + seu nível de mago (mínimo de uma magia). As magias devem ser de um nível para o qual você tenha espaços de magia.",
+            "Por exemplo, se você é um mago de 3º nível, você tem quatro espaços de magia de 1º nível e dois de 2º nível. Com uma Inteligência de 16, sua lista de magias preparadas pode incluir seis magias de 1º ou 2º nível, em qualquer combinação, escolhidas do seu livro de magias. Se você preparar a magia de 1º nível míssil mágico, você pode conjurá-la usando um espaço de magia de 1º ou de 2º nível. Conjurar a magia não a remove de sua lista de magias preparadas.",
+            "Você pode alterar sua lista de magias preparadas quando terminar um descanso longo. Preparar uma nova lista de magias de mago requer tempo gasto estudando seu livro de magias e memorizando as conjurações e gestos necessários para conjurar a magia: pelo menos 1 minuto por nível da magia para cada magia na sua lista."
+          ]
+        },
+        {
+          "name": "Habilidade de Conjuração",
+          "desc": [
+            "Inteligência é sua habilidade de conjuração para suas magias de mago, já que você aprende suas magias através de estudo e memorização dedicados. Você usa sua Inteligência sempre que uma magia se refere à sua habilidade de conjuração. Além disso, você usa seu modificador de Inteligência ao definir a CD para os testes de resistência de uma magia de mago que você conjura e ao fazer uma jogada de ataque com uma.",
+            "CD para testes de resistência de magia = 8 + seu bônus de proficiência + seu modificador de Inteligência.",
+            "Modificador de ataque de magia = seu bônus de proficiência + seu modificador de Inteligência."
+          ]
+        },
+        {
+          "name": "Conjuração de Rituais",
+          "desc": [
+            "Você pode conjurar uma magia de mago como um ritual se essa magia tiver o descritor de ritual e você tiver a magia em seu livro de magias. Você não precisa ter a magia preparada."
+          ]
+        },
+        {
+          "name": "Foco de Conjuração",
+          "desc": [
+            "Você pode usar um foco arcano como foco de conjuração para suas magias de mago."
+          ]
+        }
+      ]
+    },
+    "spells": "/api/classes/mago/magias",
+    "url": "/api/classes/mago"
+  }
+]

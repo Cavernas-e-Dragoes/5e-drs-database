@@ -1,0 +1,156 @@
+[
+  {
+    "index": "cego",
+    "name": "Cego",
+    "desc": [
+      "- Uma criatura cega não pode ver e falha automaticamente em qualquer teste de habilidade que exija visão.",
+      "- Jogadas de ataque contra a criatura têm vantagem, e as jogadas de ataque da criatura têm desvantagem."
+    ],
+    "url": "/api/condicoes/cego"
+  },
+  {
+    "index": "enfeitiçado",
+    "name": "Enfeitiçado",
+    "desc": [
+      "- Uma criatura enfeitiçada não pode atacar o enfeitiçador ou direcionar o enfeitiçador com habilidades ou efeitos mágicos prejudiciais.",
+      "- O enfeitiçador tem vantagem em qualquer teste de habilidade para interagir socialmente com a criatura."
+    ],
+    "url": "/api/condicoes/enfeiticado"
+  },
+  {
+    "index": "ensurdecido",
+    "name": "Ensurdecido",
+    "desc": [
+      "- Uma criatura ensurdecida não pode ouvir e falha automaticamente em qualquer teste de habilidade que exija audição."
+    ],
+    "url": "/api/condicoes/ensurdecido"
+  },
+  {
+    "index": "amedrontado",
+    "name": "Amedrontado",
+    "desc": [
+      "- Uma criatura amedrontada tem desvantagem em testes de habilidade e jogadas de ataque enquanto a fonte de seu medo estiver em sua linha de visão.",
+      "- A criatura não pode se mover voluntariamente para mais perto da fonte de seu medo."
+    ],
+    "url": "/api/condicoes/amedrontado"
+  },
+  {
+    "index": "agarrado",
+    "name": "Agarrado",
+    "desc": [
+      "- A velocidade de uma criatura agarrada torna-se 0, e ela não pode se beneficiar de qualquer bônus em sua velocidade.",
+      "- A condição termina se o agarrador ficar incapacitado.",
+      "- A condição também termina se um efeito remover a criatura agarrada do alcance do agarrador ou do efeito de agarrar, como quando uma criatura é arremessada pela magia onda trovejante."
+    ],
+    "url": "/api/condicoes/agarrado"
+  },
+  {
+    "index": "incapacitado",
+    "name": "Incapacitado",
+    "desc": [
+      "- Uma criatura incapacitada não pode realizar ações ou reações."
+    ],
+    "url": "/api/condicoes/incapacitado"
+  },
+  {
+    "index": "invisivel",
+    "name": "Invisível",
+    "desc": [
+      "- Uma criatura invisível é impossível de ser vista sem a ajuda de magia ou um sentido especial. Para fins de se esconder, a criatura é considerada fortemente obscurecida. A localização da criatura pode ser detectada por qualquer som que ela faça ou quaisquer rastros que deixe.",
+      "- Jogadas de ataque contra a criatura têm desvantagem, e as jogadas de ataque da criatura têm vantagem."
+    ],
+    "url": "/api/condicoes/invisivel"
+  },
+  {
+    "index": "paralisado",
+    "name": "Paralisado",
+    "desc": [
+      "- Uma criatura paralisada está incapacitada e não pode se mover ou falar.",
+      "- A criatura falha automaticamente em testes de resistência de Força e Destreza.",
+      "- Jogadas de ataque contra a criatura têm vantagem.",
+      "- Qualquer ataque que acerte a criatura é um acerto crítico se o atacante estiver a 1,5 metro da criatura."
+    ],
+    "url": "/api/condicoes/paralisado"
+  },
+  {
+    "index": "petrificado",
+    "name": "Petrificado",
+    "desc": [
+      "- Uma criatura petrificada é transformada, junto com qualquer objeto não mágico que esteja vestindo ou carregando, em uma substância sólida inanimada (geralmente pedra). Seu peso aumenta em um fator de dez, e ela para de envelhecer.",
+      "- A criatura está incapacitada, não pode se mover ou falar e está inconsciente de seu entorno.",
+      "- Jogadas de ataque contra a criatura têm vantagem.",
+      "- A criatura falha automaticamente em testes de resistência de Força e Destreza.",
+      "- A criatura tem resistência a todos os danos.",
+      "- A criatura é imune a veneno e doenças, embora um veneno ou doença já presente em seu sistema seja suspenso, não neutralizado."
+    ],
+    "url": "/api/condicoes/petrificado"
+  },
+  {
+    "index": "envenenado",
+    "name": "Envenenado",
+    "desc": [
+      "- Uma criatura envenenada tem desvantagem em jogadas de ataque e testes de habilidade."
+    ],
+    "url": "/api/condicoes/envenenado"
+  },
+  {
+    "index": "caido",
+    "name": "Caído",
+    "desc": [
+      "- A única opção de movimento de uma criatura caída é rastejar, a menos que se levante e, assim, termine a condição.",
+      "- A criatura tem desvantagem em jogadas de ataque.",
+      "- Uma jogada de ataque contra a criatura tem vantagem se o atacante estiver a 1,5 metro da criatura. Caso contrário, a jogada de ataque tem desvantagem."
+    ],
+    "url": "/api/condicoes/caido"
+  },
+  {
+    "index": "restrito",
+    "name": "Restrito",
+    "desc": [
+      "- A velocidade de uma criatura restrita torna-se 0, e ela não pode se beneficiar de qualquer bônus em sua velocidade.",
+      "- Jogadas de ataque contra a criatura têm vantagem, e as jogadas de ataque da criatura têm desvantagem.",
+      "- A criatura tem desvantagem em testes de resistência de Destreza."
+    ],
+    "url": "/api/condicoes/restrito"
+  },
+  {
+    "index": "atordoado",
+    "name": "Atordoado",
+    "desc": [
+      "- Uma criatura atordoada está incapacitada, não pode se mover e só pode falar de forma hesitante.",
+      "- A criatura falha automaticamente em testes de resistência de Força e Destreza.",
+      "- Jogadas de ataque contra a criatura têm vantagem."
+    ],
+    "url": "/api/condicoes/atordoado"
+  },
+  {
+    "index": "inconsciente",
+    "name": "Inconsciente",
+    "desc": [
+      "- Uma criatura inconsciente está incapacitada, não pode se mover ou falar e está inconsciente de seu entorno.",
+      "- A criatura solta o que estiver segurando e cai no chão.",
+      "- A criatura falha automaticamente em testes de resistência de Força e Destreza.",
+      "- Jogadas de ataque contra a criatura têm vantagem.",
+      "- Qualquer ataque que acerte a criatura é um acerto crítico se o atacante estiver a 1,5 metro da criatura."
+    ],
+    "url": "/api/condicoes/inconsciente"
+  },
+  {
+    "index": "exaustao",
+    "name": "Exaustão",
+    "desc": [
+      "Algumas habilidades especiais e perigos ambientais, como fome e os efeitos prolongados de temperaturas congelantes ou escaldantes, podem levar a uma condição especial chamada exaustão. A exaustão é medida em seis níveis. Um efeito pode dar a uma criatura um ou mais níveis de exaustão, conforme especificado na descrição do efeito.",
+      "1 - Desvantagem em testes de habilidade",
+      "2 - Velocidade reduzida pela metade",
+      "3 - Desvantagem em jogadas de ataque e testes de resistência",
+      "4 - Pontos de vida máximos reduzidos pela metade",
+      "5 - Velocidade reduzida a 0",
+      "6 - Morte",
+      "Se uma criatura já exausta sofrer outro efeito que cause exaustão, seu nível atual de exaustão aumenta pela quantidade especificada na descrição do efeito.",
+      "Uma criatura sofre os efeitos de seu nível atual de exaustão, bem como todos os níveis inferiores. Por exemplo, uma criatura sofrendo de exaustão de nível 2 tem sua velocidade reduzida pela metade e tem desvantagem em testes de habilidade.",
+      "Um efeito que remove a exaustão reduz seu nível conforme especificado na descrição do efeito, com todos os efeitos de exaustão terminando se o nível de exaustão de uma criatura for reduzido abaixo de 1.",
+      "Terminar um descanso longo reduz o nível de exaustão de uma criatura em 1, desde que a criatura também tenha ingerido comida e bebida."
+    ],
+    "url": "/api/condicoes/exaustao"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "index": "imobilizador",
+    "name": "Imobilizador",
+    "prerequisites": [
+      {
+        "ability_score": {
+          "index": "for",
+          "name": "FOR",
+          "url": "/api/valores-de-atributo/for"
+        },
+        "minimum_score": 13
+      }
+    ],
+    "desc": [
+      "Você desenvolveu as habilidades necessárias para manter sua posição durante um agarramento em combate corpo a corpo. Eis os benefícios ganhos:",
+      "- Você tem vantagem nas jogadas de ataque feitas contra uma criatura que você esteja agarrando.",
+      "- Você pode usar sua ação para tentar imobilizar uma criatura que já tenha agarrado. Para tanto, faça outro teste de agarrar. Se for bem-sucedido, você e a criatura ficam imobilizados até o agarramento terminar."
+    ],
+    "url": "/api/talentos/imobilizador"
+  }
+]

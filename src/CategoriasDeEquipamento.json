@@ -1,0 +1,4100 @@
+[
+  {
+    "index": "arma",
+    "name": "Arma",
+    "equipment": [
+      {
+        "index": "clava",
+        "name": "Clava",
+        "url": "/api/equipamentos/clava"
+      },
+      {
+        "index": "adaga",
+        "name": "Adaga",
+        "url": "/api/equipamentos/adaga"
+      },
+      {
+        "index": "grande-clava",
+        "name": "Grande Clava",
+        "url": "/api/equipamentos/grande-clava"
+      },
+      {
+        "index": "machadinha",
+        "name": "Machadinha",
+        "url": "/api/equipamentos/machadinha"
+      },
+      {
+        "index": "dardo",
+        "name": "Dardo",
+        "url": "/api/equipamentos/dardo"
+      },
+      {
+        "index": "martelo-leve",
+        "name": "Martelo Leve",
+        "url": "/api/equipamentos/martelo-leve"
+      },
+      {
+        "index": "maca",
+        "name": "Maça",
+        "url": "/api/equipamentos/maca"
+      },
+      {
+        "index": "bastao",
+        "name": "Bastão",
+        "url": "/api/equipamentos/bastao"
+      },
+      {
+        "index": "foice",
+        "name": "Foice",
+        "url": "/api/equipamentos/foice"
+      },
+      {
+        "index": "lanca",
+        "name": "Lança",
+        "url": "/api/equipamentos/lanca"
+      },
+      {
+        "index": "besta-leve",
+        "name": "Besta Leve",
+        "url": "/api/equipamentos/besta-leve"
+      },
+      {
+        "index": "dardo-de-sopro",
+        "name": "Dardo de Sopro",
+        "url": "/api/equipamentos/dardo-de-sopro"
+      },
+      {
+        "index": "arco-curto",
+        "name": "Arco Curto",
+        "url": "/api/equipamentos/arco-curto"
+      },
+      {
+        "index": "funda",
+        "name": "Funda",
+        "url": "/api/equipamentos/funda"
+      },
+      {
+        "index": "machado-de-batalha",
+        "name": "Machado de Batalha",
+        "url": "/api/equipamentos/machado-de-batalha"
+      },
+      {
+        "index": "mangual",
+        "name": "Mangual",
+        "url": "/api/equipamentos/mangual"
+      },
+      {
+        "index": "gladio",
+        "name": "Gládio",
+        "url": "/api/equipamentos/gladio"
+      },
+      {
+        "index": "grande-machado",
+        "name": "Grande Machado",
+        "url": "/api/equipamentos/grande-machado"
+      },
+      {
+        "index": "espada-grande",
+        "name": "Espada Grande",
+        "url": "/api/equipamentos/espada-grande"
+      },
+      {
+        "index": "alabarda",
+        "name": "Alabarda",
+        "url": "/api/equipamentos/alabarda"
+      },
+      {
+        "index": "lanca-de-cavalaria",
+        "name": "Lança de Cavalaria",
+        "url": "/api/equipamentos/lanca-de-cavalaria"
+      },
+      {
+        "index": "espada-longa",
+        "name": "Espada Longa",
+        "url": "/api/equipamentos/espada-longa"
+      },
+      {
+        "index": "martelo-de-guerra",
+        "name": "Martelo de Guerra",
+        "url": "/api/equipamentos/martelo-de-guerra"
+      },
+      {
+        "index": "mangual-com-espinhos",
+        "name": "Mangual com Espinhos",
+        "url": "/api/equipamentos/mangual-com-espinhos"
+      },
+      {
+        "index": "pique",
+        "name": "Pique",
+        "url": "/api/equipamentos/pique"
+      },
+      {
+        "index": "florete",
+        "name": "Florete",
+        "url": "/api/equipamentos/florete"
+      },
+      {
+        "index": "cimitarra",
+        "name": "Cimitarra",
+        "url": "/api/equipamentos/cimitarra"
+      },
+      {
+        "index": "espada-curta",
+        "name": "Espada Curta",
+        "url": "/api/equipamentos/espada-curta"
+      },
+      {
+        "index": "tridente",
+        "name": "Tridente",
+        "url": "/api/equipamentos/tridente"
+      },
+      {
+        "index": "pico-de-guerra",
+        "name": "Pico de Guerra",
+        "url": "/api/equipamentos/pico-de-guerra"
+      },
+      {
+        "index": "martelo-de-guerra-pesado",
+        "name": "Martelo de Guerra Pesado",
+        "url": "/api/equipamentos/martelo-de-guerra-pesado"
+      },
+      {
+        "index": "chicote",
+        "name": "Chicote",
+        "url": "/api/equipamentos/chicote"
+      },
+      {
+        "index": "zarabatana",
+        "name": "Zarabatana",
+        "url": "/api/equipamentos/zarabatana"
+      },
+      {
+        "index": "besta-de-mao",
+        "name": "Besta de Mão",
+        "url": "/api/equipamentos/besta-de-mao"
+      },
+      {
+        "index": "besta-pesada",
+        "name": "Besta Pesada",
+        "url": "/api/equipamentos/besta-pesada"
+      },
+      {
+        "index": "arco-longo",
+        "name": "Arco Longo",
+        "url": "/api/equipamentos/arco-longo"
+      },
+      {
+        "index": "rede",
+        "name": "Rede",
+        "url": "/api/equipamentos/rede"
+      },
+      {
+        "index": "machado-do-berserker",
+        "name": "Machado do Berserker",
+        "url": "/api/itens-magicos/machado-do-berserker"
+      },
+      {
+        "index": "adaga-de-veneno",
+        "name": "Adaga de Veneno",
+        "url": "/api/itens-magicos/adaga-de-veneno"
+      },
+      {
+        "index": "espada-dancante",
+        "name": "Espada Dançante",
+        "url": "/api/itens-magicos/espada-dancante"
+      },
+      {
+        "index": "defensor",
+        "name": "Defensor",
+        "url": "/api/itens-magicos/defensor"
+      },
+      {
+        "index": "matador-de-dragoes",
+        "name": "Matador de Dragões",
+        "url": "/api/itens-magicos/matador-de-dragoes"
+      },
+      {
+        "index": "arremessador-anão",
+        "name": "Arremessador Anão",
+        "url": "/api/itens-magicos/arremessador-anao"
+      },
+      {
+        "index": "lingua-de-chama",
+        "name": "Língua de Chama",
+        "url": "/api/itens-magicos/lingua-de-chama"
+      },
+      {
+        "index": "marca-do-gelo",
+        "name": "Marca do Gelo",
+        "url": "/api/itens-magicos/marca-do-gelo"
+      },
+      {
+        "index": "matador-de-gigantes",
+        "name": "Matador de Gigantes",
+        "url": "/api/itens-magicos/matador-de-gigantes"
+      },
+      {
+        "index": "martelo-dos-trovoes",
+        "name": "Martelo dos Trovões",
+        "url": "/api/itens-magicos/martelo-dos-trovoes"
+      },
+      {
+        "index": "vingador-sagrado",
+        "name": "Vingador Sagrado",
+        "url": "/api/itens-magicos/vingador-sagrado"
+      },
+      {
+        "index": "dardo-de-raio",
+        "name": "Dardo de Raio",
+        "url": "/api/itens-magicos/dardo-de-raio"
+      },
+      {
+        "index": "espada-da-sorte",
+        "name": "Espada da Sorte",
+        "url": "/api/itens-magicos/espada-da-sorte"
+      },
+      {
+        "index": "maca-de-disrupcao",
+        "name": "Maça de Disrupção",
+        "url": "/api/itens-magicos/maca-de-disrupcao"
+      },
+      {
+        "index": "maca-de-impacto",
+        "name": "Maça de Impacto",
+        "url": "/api/itens-magicos/maca-de-impacto"
+      },
+      {
+        "index": "maca-de-terror",
+        "name": "Maça de Terror",
+        "url": "/api/itens-magicos/maca-de-terror"
+      },
+      {
+        "index": "ladra-de-vidas",
+        "name": "Ladra de Vidas",
+        "url": "/api/itens-magicos/ladra-de-vidas"
+      },
+      {
+        "index": "arco-do-juramento",
+        "name": "Arco do Juramento",
+        "url": "/api/itens-magicos/arco-do-juramento"
+      },
+      {
+        "index": "cimitarra-de-velocidade",
+        "name": "Cimitarra de Velocidade",
+        "url": "/api/itens-magicos/cimitarra-de-velocidade"
+      },
+      {
+        "index": "espada-solar",
+        "name": "Espada Solar",
+        "url": "/api/itens-magicos/espada-solar"
+      },
+      {
+        "index": "espada-rouba-vidas",
+        "name": "Espada Rouba-Vidas",
+        "url": "/api/itens-magicos/espada-rouba-vidas"
+      },
+      {
+        "index": "espada-afiada",
+        "name": "Espada Afiada",
+        "url": "/api/itens-magicos/espada-afiada"
+      },
+      {
+        "index": "espada-de-ferimento",
+        "name": "Espada de Ferimento",
+        "url": "/api/itens-magicos/espada-de-ferimento"
+      },
+      {
+        "index": "tridente-comando-peixes",
+        "name": "Tridente de Comando dos Peixes",
+        "url": "/api/itens-magicos/tridente-comando-peixes"
+      },
+      {
+        "index": "arma-viciosa",
+        "name": "Arma Viciosa",
+        "url": "/api/itens-magicos/arma-viciosa"
+      },
+      {
+        "index": "espada-vorpal",
+        "name": "Espada Vorpal",
+        "url": "/api/itens-magicos/espada-vorpal"
+      },
+      {
+        "index": "arma-magica",
+        "name": "Arma Mágica, +1, +2 ou +3",
+        "url": "/api/itens-magicos/arma-magica"
+      },
+      {
+        "index": "arma-magica-1",
+        "name": "Arma Mágica, +1",
+        "url": "/api/itens-magicos/arma-magica-1"
+      },
+      {
+        "index": "arma-magica-2",
+        "name": "Arma Mágica, +2",
+        "url": "/api/itens-magicos/arma-magica-2"
+      },
+      {
+        "index": "arma-magica-3",
+        "name": "Arma Mágica, +3",
+        "url": "/api/itens-magicos/arma-magica-3"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/arma"
+  },
+  {
+    "index": "armadura",
+    "name": "Armadura",
+    "equipment": [
+      {
+        "index": "armadura-almofadada",
+        "name": "Armadura Almofadada",
+        "url": "/api/equipamentos/armadura-almofadada"
+      },
+      {
+        "index": "armadura-de-couro",
+        "name": "Armadura de Couro",
+        "url": "/api/equipamentos/armadura-de-couro"
+      },
+      {
+        "index": "armadura-de-couro-rebitada",
+        "name": "Armadura de Couro Rebitada",
+        "url": "/api/equipamentos/armadura-de-couro-rebitada"
+      },
+      {
+        "index": "armadura-de-pele",
+        "name": "Armadura de Pele",
+        "url": "/api/equipamentos/armadura-de-pele"
+      },
+      {
+        "index": "camisa-de-malha",
+        "name": "Camisa de Malha",
+        "url": "/api/equipamentos/camisa-de-malha"
+      },
+      {
+        "index": "cota-de-escamas",
+        "name": "Cota de Escamas",
+        "url": "/api/equipamentos/cota-de-escamas"
+      },
+      {
+        "index": "peitoral",
+        "name": "Peitoral",
+        "url": "/api/equipamentos/peitoral"
+      },
+      {
+        "index": "meia-armadura",
+        "name": "Meia Armadura",
+        "url": "/api/equipamentos/meia-armadura"
+      },
+      {
+        "index": "armadura-de-aneis",
+        "name": "Armadura de Anéis",
+        "url": "/api/equipamentos/armadura-de-aneis"
+      },
+      {
+        "index": "cota-de-malha",
+        "name": "Cota de Malha",
+        "url": "/api/equipamentos/cota-de-malha"
+      },
+      {
+        "index": "armadura-de-braceles",
+        "name": "Armadura de Bráceles",
+        "url": "/api/equipamentos/armadura-de-braceles"
+      },
+      {
+        "index": "armadura-de-placas",
+        "name": "Armadura de Placas",
+        "url": "/api/equipamentos/armadura-de-placas"
+      },
+      {
+        "index": "escudo",
+        "name": "Escudo",
+        "url": "/api/equipamentos/escudo"
+      },
+      {
+        "index": "armadura-de-adamantina",
+        "name": "Armadura de Adamantina",
+        "url": "/api/itens-magicos/armadura-de-adamantina"
+      },
+      {
+        "index": "escudo-animado",
+        "name": "Escudo Animado",
+        "url": "/api/itens-magicos/escudo-animado"
+      },
+      {
+        "index": "armadura",
+        "name": "Armadura, +1, +2 ou +3",
+        "url": "/api/itens-magicos/armadura"
+      },
+      {
+        "index": "armadura-da-invulnerabilidade",
+        "name": "Armadura da Invulnerabilidade",
+        "url": "/api/itens-magicos/armadura-da-invulnerabilidade"
+      },
+      {
+        "index": "armadura-da-resistencia",
+        "name": "Armadura da Resistência",
+        "url": "/api/itens-magicos/armadura-da-resistencia"
+      },
+      {
+        "index": "armadura-da-vulnerabilidade",
+        "name": "Armadura da Vulnerabilidade",
+        "url": "/api/itens-magicos/armadura-da-vulnerabilidade"
+      },
+      {
+        "index": "escudo-anti-flechas",
+        "name": "Escudo Anti-Flechas",
+        "url": "/api/itens-magicos/escudo-anti-flechas"
+      },
+      {
+        "index": "armadura-do-demonio",
+        "name": "Armadura do Demônio",
+        "url": "/api/itens-magicos/armadura-do-demonio"
+      },
+      {
+        "index": "cota-de-escamas-de-dragao",
+        "name": "Cota de Escamas de Dragão",
+        "url": "/api/itens-magicos/cota-de-escamas-de-dragao"
+      },
+      {
+        "index": "placa-anã",
+        "name": "Placa Anã",
+        "url": "/api/itens-magicos/placa-ana"
+      },
+      {
+        "index": "cota-élfica",
+        "name": "Cota Élfica",
+        "url": "/api/itens-magicos/cota-elfica"
+      },
+      {
+        "index": "armadura-de-couro-rebitada-ilusoria",
+        "name": "Armadura de Couro Rebitada Ilusória",
+        "url": "/api/itens-magicos/armadura-de-couro-rebitada-ilusoria"
+      },
+      {
+        "index": "armadura-de-mitral",
+        "name": "Armadura de Mitral",
+        "url": "/api/itens-magicos/armadura-de-mitral"
+      },
+      {
+        "index": "armadura-de-eterealidade",
+        "name": "Armadura de Eterealidade",
+        "url": "/api/itens-magicos/armadura-de-eterealidade"
+      },
+      {
+        "index": "escudo-atrativo-de-misseis",
+        "name": "Escudo Atrativo de Mísseis",
+        "url": "/api/itens-magicos/escudo-atrativo-de-misseis"
+      },
+      {
+        "index": "escudo-protetor-de-magias",
+        "name": "Escudo Protetor de Magias",
+        "url": "/api/itens-magicos/escudo-protetor-de-magias"
+      },
+      {
+        "index": "armadura-1",
+        "name": "Armadura, +1",
+        "url": "/api/itens-magicos/armadura-1"
+      },
+      {
+        "index": "armadura-2",
+        "name": "Armadura, +2",
+        "url": "/api/itens-magicos/armadura-2"
+      },
+      {
+        "index": "armadura-3",
+        "name": "Armadura, +3",
+        "url": "/api/itens-magicos/armadura-3"
+      },
+      {
+        "index": "cota-de-escamas-dragao-negro",
+        "name": "Cota de Escamas de Dragão Negro",
+        "url": "/api/itens-magicos/cota-de-escamas-dragao-negro"
+      },
+      {
+        "index": "cota-de-escamas-dragao-azul",
+        "name": "Cota de Escamas de Dragão Azul",
+        "url": "/api/itens-magicos/cota-de-escamas-dragao-azul"
+      },
+      {
+        "index": "cota-de-escamas-dragao-latao",
+        "name": "Cota de Escamas de Dragão Latão",
+        "url": "/api/itens-magicos/cota-de-escamas-dragao-latao"
+      },
+      {
+        "index": "cota-de-escamas-dragao-bronze",
+        "name": "Cota de Escamas de Dragão Bronze",
+        "url": "/api/itens-magicos/cota-de-escamas-dragao-bronze"
+      },
+      {
+        "index": "cota-de-escamas-dragao-cobre",
+        "name": "Cota de Escamas de Dragão Cobre",
+        "url": "/api/itens-magicos/cota-de-escamas-dragao-cobre"
+      },
+      {
+        "index": "cota-de-escamas-dragao-ouro",
+        "name": "Cota de Escamas de Dragão Ouro",
+        "url": "/api/itens-magicos/cota-de-escamas-dragao-ouro"
+      },
+      {
+        "index": "cota-de-escamas-dragao-verde",
+        "name": "Cota de Escamas de Dragão Verde",
+        "url": "/api/itens-magicos/cota-de-escamas-dragao-verde"
+      },
+      {
+        "index": "cota-de-escamas-dragao-vermelho",
+        "name": "Cota de Escamas de Dragão Vermelho",
+        "url": "/api/itens-magicos/cota-de-escamas-dragao-vermelho"
+      },
+      {
+        "index": "cota-de-escamas-dragao-prata",
+        "name": "Cota de Escamas de Dragão Prata",
+        "url": "/api/itens-magicos/cota-de-escamas-dragao-prata"
+      },
+      {
+        "index": "cota-de-escamas-dragao-branco",
+        "name": "Cota de Escamas de Dragão Branco",
+        "url": "/api/itens-magicos/cota-de-escamas-dragao-branco"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/armadura"
+  },
+  {
+    "index": "equipamento-de-aventura",
+    "name": "Equipamento de Aventura",
+    "equipment": [
+      {
+        "index": "abaco",
+        "name": "Ábaco",
+        "url": "/api/equipamentos/abaco"
+      },
+      {
+        "index": "acido-frasco",
+        "name": "Ácido (frasco)",
+        "url": "/api/equipamentos/acido-frasco"
+      },
+      {
+        "index": "fogo-do-alquimista-frasco",
+        "name": "Fogo do Alquimista (frasco)",
+        "url": "/api/equipamentos/fogo-do-alquimista-frasco"
+      },
+      {
+        "index": "flecha",
+        "name": "Flecha",
+        "url": "/api/equipamentos/flecha"
+      },
+      {
+        "index": "agulha-de-sopro",
+        "name": "Agulha de Sopro",
+        "url": "/api/equipamentos/agulha-de-sopro"
+      },
+      {
+        "index": "virote-de-balestra",
+        "name": "Virote de Balestra",
+        "url": "/api/equipamentos/virote-de-balestra"
+      },
+      {
+        "index": "bala-de-funda",
+        "name": "Bala de Funda",
+        "url": "/api/equipamentos/bala-de-funda"
+      },
+      {
+        "index": "caixa-de-esmolas",
+        "name": "Caixa de Esmolas",
+        "url": "/api/equipamentos/caixa-de-esmolas"
+      },
+      {
+        "index": "amuleto",
+        "name": "Amuleto",
+        "url": "/api/equipamentos/amuleto"
+      },
+      {
+        "index": "antidoto-frasco",
+        "name": "Antídoto (frasco)",
+        "url": "/api/equipamentos/antidoto-frasco"
+      },
+      {
+        "index": "mochila",
+        "name": "Mochila",
+        "url": "/api/equipamentos/mochila"
+      },
+      {
+        "index": "bolinhas-de-metal",
+        "name": "Bolinhas de Metal (saco com 1.000)",
+        "url": "/api/equipamentos/bolinhas-de-metal"
+      },
+      {
+        "index": "barril",
+        "name": "Barril",
+        "url": "/api/equipamentos/barril"
+      },
+      {
+        "index": "cesta",
+        "name": "Cesta",
+        "url": "/api/equipamentos/cesta"
+      },
+      {
+        "index": "saco-de-dormir",
+        "name": "Saco de Dormir",
+        "url": "/api/equipamentos/saco-de-dormir"
+      },
+      {
+        "index": "sino",
+        "name": "Sino",
+        "url": "/api/equipamentos/sino"
+      },
+      {
+        "index": "cobertor",
+        "name": "Cobertor",
+        "url": "/api/equipamentos/cobertor"
+      },
+      {
+        "index": "roldana-e-talho",
+        "name": "Roldana e Talho",
+        "url": "/api/equipamentos/roldana-e-talho"
+      },
+      {
+        "index": "bloco-de-incenso",
+        "name": "Bloco de Incenso",
+        "url": "/api/equipamentos/bloco-de-incenso"
+      },
+      {
+        "index": "livro",
+        "name": "Livro",
+        "url": "/api/equipamentos/livro"
+      },
+      {
+        "index": "garrafa-de-vidro",
+        "name": "Garrafa de Vidro",
+        "url": "/api/equipamentos/garrafa-de-vidro"
+      },
+      {
+        "index": "balde",
+        "name": "Balde",
+        "url": "/api/equipamentos/balde"
+      },
+      {
+        "index": "estrepe",
+        "name": "Estrepe",
+        "url": "/api/equipamentos/estrepe"
+      },
+      {
+        "index": "vela",
+        "name": "Vela",
+        "url": "/api/equipamentos/vela"
+      },
+      {
+        "index": "estojo-de-virotes",
+        "name": "Estojo de Virotes",
+        "url": "/api/equipamentos/estojo-de-virotes"
+      },
+      {
+        "index": "estojo-de-mapa-ou-pergaminho",
+        "name": "Estojo de Mapa ou Pergaminho",
+        "url": "/api/equipamentos/estojo-de-mapa-ou-pergaminho"
+      },
+      {
+        "index": "incensario",
+        "name": "Incensário",
+        "url": "/api/equipamentos/incensario"
+      },
+      {
+        "index": "corrente-3-metros",
+        "name": "Corrente (3 metros)",
+        "url": "/api/equipamentos/corrente-3-metros"
+      },
+      {
+        "index": "giz",
+        "name": "Giz (1 unidade)",
+        "url": "/api/equipamentos/giz"
+      },
+      {
+        "index": "bau",
+        "name": "Baú",
+        "url": "/api/equipamentos/bau"
+      },
+      {
+        "index": "roupas-comuns",
+        "name": "Roupas Comuns",
+        "url": "/api/equipamentos/roupas-comuns"
+      },
+      {
+        "index": "roupas-de-fantasia",
+        "name": "Roupas de Fantasia",
+        "url": "/api/equipamentos/roupas-de-fantasia"
+      },
+      {
+        "index": "roupas-finas",
+        "name": "Roupas Finas",
+        "url": "/api/equipamentos/roupas-finas"
+      },
+      {
+        "index": "roupas-de-viajante",
+        "name": "Roupas de Viajante",
+        "url": "/api/equipamentos/roupas-de-viajante"
+      },
+      {
+        "index": "bolsa-de-componentes",
+        "name": "Bolsa de Componentes",
+        "url": "/api/equipamentos/bolsa-de-componentes"
+      },
+      {
+        "index": "pe-de-cabra",
+        "name": "Pé de Cabra",
+        "url": "/api/equipamentos/pe-de-cabra"
+      },
+      {
+        "index": "emblema",
+        "name": "Emblema",
+        "url": "/api/equipamentos/emblema"
+      },
+      {
+        "index": "kit-de-pesca",
+        "name": "Kit de Pesca",
+        "url": "/api/equipamentos/kit-de-pesca"
+      },
+      {
+        "index": "frasco-ou-caneco",
+        "name": "Frasco ou Caneco",
+        "url": "/api/equipamentos/frasco-ou-caneco"
+      },
+      {
+        "index": "gancho-de-escalada",
+        "name": "Gancho de Escalada",
+        "url": "/api/equipamentos/gancho-de-escalada"
+      },
+      {
+        "index": "martelo",
+        "name": "Martelo",
+        "url": "/api/equipamentos/martelo"
+      },
+      {
+        "index": "marreta",
+        "name": "Marreta",
+        "url": "/api/equipamentos/marreta"
+      },
+      {
+        "index": "agua-benta-frasco",
+        "name": "Água Benta (frasco)",
+        "url": "/api/equipamentos/agua-benta-frasco"
+      },
+      {
+        "index": "ampulheta",
+        "name": "Ampulheta",
+        "url": "/api/equipamentos/ampulheta"
+      },
+      {
+        "index": "armadilha-de-caca",
+        "name": "Armadilha de Caça",
+        "url": "/api/equipamentos/armadilha-de-caca"
+      },
+      {
+        "index": "tinta-frasco",
+        "name": "Tinta (frasco de 30 ml)",
+        "url": "/api/equipamentos/tinta-frasco"
+      },
+      {
+        "index": "caneta-tinteiro",
+        "name": "Caneta Tinteiro",
+        "url": "/api/equipamentos/caneta-tinteiro"
+      },
+      {
+        "index": "jarro-ou-jarra",
+        "name": "Jarro ou Jarra",
+        "url": "/api/equipamentos/jarro-ou-jarra"
+      },
+      {
+        "index": "kit-de-escalada",
+        "name": "Kit de Escalada",
+        "url": "/api/equipamentos/kit-de-escalada"
+      },
+      {
+        "index": "kit-de-disfarc",
+        "name": "Kit de Disfarce",
+        "url": "/api/equipamentos/kit-de-disfarce"
+      },
+      {
+        "index": "kit-de-falsificacao",
+        "name": "Kit de Falsificação",
+        "url": "/api/equipamentos/kit-de-falsificacao"
+      },
+      {
+        "index": "kit-de-herborismo",
+        "name": "Kit de Herborismo",
+        "url": "/api/equipamentos/kit-de-herborismo"
+      },
+      {
+        "index": "kit-de-curandeiro",
+        "name": "Kit de Curandeiro",
+        "url": "/api/equipamentos/kit-de-curandeiro"
+      },
+      {
+        "index": "kit-de-refeicao",
+        "name": "Kit de Refeição",
+        "url": "/api/equipamentos/kit-de-refeicao"
+      },
+      {
+        "index": "kit-de-veneno",
+        "name": "Kit de Venenos",
+        "url": "/api/equipamentos/kit-de-veneno"
+      },
+      {
+        "index": "escada-3-metros",
+        "name": "Escada (3 metros)",
+        "url": "/api/equipamentos/escada-3-metros"
+      },
+      {
+        "index": "lampiao",
+        "name": "Lampião",
+        "url": "/api/equipamentos/lampiao"
+      },
+      {
+        "index": "lanterna-de-foco",
+        "name": "Lanterna de Foco",
+        "url": "/api/equipamentos/lanterna-de-foco"
+      },
+      {
+        "index": "lanterna-com-capuz",
+        "name": "Lanterna com Capuz",
+        "url": "/api/equipamentos/lanterna-com-capuz"
+      },
+      {
+        "index": "saco-pequeno-de-areia",
+        "name": "Saco Pequeno de Areia",
+        "url": "/api/equipamentos/saco-pequeno-de-areia"
+      },
+      {
+        "index": "fechadura",
+        "name": "Fechadura",
+        "url": "/api/equipamentos/fechadura"
+      },
+      {
+        "index": "lupa",
+        "name": "Lupa",
+        "url": "/api/equipamentos/lupa"
+      },
+      {
+        "index": "algemas",
+        "name": "Algemas",
+        "url": "/api/equipamentos/algemas"
+      },
+      {
+        "index": "espelho-de-aco",
+        "name": "Espelho de Aço",
+        "url": "/api/equipamentos/espelho-de-aco"
+      },
+      {
+        "index": "oleo-frasco",
+        "name": "Óleo (frasco)",
+        "url": "/api/equipamentos/oleo-frasco"
+      },
+      {
+        "index": "papel",
+        "name": "Papel (1 folha)",
+        "url": "/api/equipamentos/papel"
+      },
+      {
+        "index": "pergaminho",
+        "name": "Pergaminho (1 folha)",
+        "url": "/api/equipamentos/pergaminho"
+      },
+      {
+        "index": "perfume-frasco",
+        "name": "Perfume (frasco)",
+        "url": "/api/equipamentos/perfume-frasco"
+      },
+      {
+        "index": "picareta-de-mineracao",
+        "name": "Picareta de Mineração",
+        "url": "/api/equipamentos/picareta-de-mineracao"
+      },
+      {
+        "index": "piton",
+        "name": "Piton",
+        "url": "/api/equipamentos/piton"
+      },
+      {
+        "index": "veneno-basico-frasco",
+        "name": "Veneno Básico (frasco)",
+        "url": "/api/equipamentos/veneno-basico-frasco"
+      },
+      {
+        "index": "vara-3-metros",
+        "name": "Vara (3 metros)",
+        "url": "/api/equipamentos/vara-3-metros"
+      },
+      {
+        "index": "panela-de-ferro",
+        "name": "Panela de Ferro",
+        "url": "/api/equipamentos/panela-de-ferro"
+      },
+      {
+        "index": "bolsa",
+        "name": "Bolsa",
+        "url": "/api/equipamentos/bolsa"
+      },
+      {
+        "index": "aljava",
+        "name": "Aljava",
+        "url": "/api/equipamentos/aljava"
+      },
+      {
+        "index": "ariete-portatil",
+        "name": "Ariete Portátil",
+        "url": "/api/equipamentos/ariete-portatil"
+      },
+      {
+        "index": "racao-1-dia",
+        "name": "Ração (1 dia)",
+        "url": "/api/equipamentos/racao-1-dia"
+      },
+      {
+        "index": "relicario",
+        "name": "Relicário",
+        "url": "/api/equipamentos/relicario"
+      },
+      {
+        "index": "vestes",
+        "name": "Vestes",
+        "url": "/api/equipamentos/vestes"
+      },
+      {
+        "index": "corda-de-cânhamo-15-metros",
+        "name": "Corda de Cânhamo (15 metros)",
+        "url": "/api/equipamentos/corda-de-canhamo-15-metros"
+      },
+      {
+        "index": "corda-de-seda-15-metros",
+        "name": "Corda de Seda (15 metros)",
+        "url": "/api/equipamentos/corda-de-seda-15-metros"
+      },
+      {
+        "index": "saco",
+        "name": "Saco",
+        "url": "/api/equipamentos/saco"
+      },
+      {
+        "index": "balanca-de-mercador",
+        "name": "Balança de Mercador",
+        "url": "/api/equipamentos/balanca-de-mercador"
+      },
+      {
+        "index": "lacre",
+        "name": "Lacre",
+        "url": "/api/equipamentos/lacre"
+      },
+      {
+        "index": "pá",
+        "name": "Pá",
+        "url": "/api/equipamentos/pa"
+      },
+      {
+        "index": "apito-de-sinal",
+        "name": "Apito de Sinal",
+        "url": "/api/equipamentos/apito-de-sinal"
+      },
+      {
+        "index": "anel-sinete",
+        "name": "Anel Sinete",
+        "url": "/api/equipamentos/anel-sinete"
+      },
+      {
+        "index": "faca-pequena",
+        "name": "Faca Pequena",
+        "url": "/api/equipamentos/faca-pequena"
+      },
+      {
+        "index": "sabonete",
+        "name": "Sabonete",
+        "url": "/api/equipamentos/sabonete"
+      },
+      {
+        "index": "livro-de-magia",
+        "name": "Livro de Magia",
+        "url": "/api/equipamentos/livro-de-magia"
+      },
+      {
+        "index": "espiga-de-ferro",
+        "name": "Espiga de Ferro",
+        "url": "/api/equipamentos/espiga-de-ferro"
+      },
+      {
+        "index": "luneta",
+        "name": "Luneta",
+        "url": "/api/equipamentos/luneta"
+      },
+      {
+        "index": "cordel-3-metros",
+        "name": "Cordel (3 metros)",
+        "url": "/api/equipamentos/cordel-3-metros"
+      },
+      {
+        "index": "barraca-para-duas-pessoas",
+        "name": "Barraca para Duas Pessoas",
+        "url": "/api/equipamentos/barraca-para-duas-pessoas"
+      },
+      {
+        "index": "caixa-de-fogo",
+        "name": "Caixa de Fogo",
+        "url": "/api/equipamentos/caixa-de-fogo"
+      },
+      {
+        "index": "tocha",
+        "name": "Tocha",
+        "url": "/api/equipamentos/tocha"
+      },
+      {
+        "index": "paramento",
+        "name": "Paramento",
+        "url": "/api/equipamentos/paramento"
+      },
+      {
+        "index": "frasco",
+        "name": "Frasco",
+        "url": "/api/equipamentos/frasco"
+      },
+      {
+        "index": "odre",
+        "name": "Odre",
+        "url": "/api/equipamentos/odre"
+      },
+      {
+        "index": "pedra-de-amolar",
+        "name": "Pedra de Amolar",
+        "url": "/api/equipamentos/pedra-de-amolar"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
+  },
+  {
+    "index": "municao",
+    "name": "Munição",
+    "equipment": [
+      {
+        "index": "flecha",
+        "name": "Flecha",
+        "url": "/api/equipamentos/flecha"
+      },
+      {
+        "index": "agulha-de-sopro",
+        "name": "Agulha de Sopro",
+        "url": "/api/equipamentos/agulha-de-sopro"
+      },
+      {
+        "index": "virote-de-balestra",
+        "name": "Virote de Balestra",
+        "url": "/api/equipamentos/virote-de-balestra"
+      },
+      {
+        "index": "bala-de-funda",
+        "name": "Bala de Funda",
+        "url": "/api/equipamentos/bala-de-funda"
+      },
+      {
+        "index": "municao",
+        "name": "Munição, +1, +2 ou +3",
+        "url": "/api/itens-magicos/municao"
+      },
+      {
+        "index": "flecha-matadora",
+        "name": "Flecha Matadora",
+        "url": "/api/itens-magicos/flecha-matadora"
+      },
+      {
+        "index": "municao-1",
+        "name": "Munição, +1",
+        "url": "/api/itens-magicos/municao-1"
+      },
+      {
+        "index": "municao-2",
+        "name": "Munição, +2",
+        "url": "/api/itens-magicos/municao-2"
+      },
+      {
+        "index": "municao-3",
+        "name": "Munição, +3",
+        "url": "/api/itens-magicos/municao-3"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/municao"
+  },
+  {
+    "index": "ferramentas",
+    "name": "Ferramentas",
+    "equipment": [
+      {
+        "index": "suprimentos-de-alquimista",
+        "name": "Suprimentos de Alquimista",
+        "url": "/api/equipamentos/suprimentos-de-alquimista"
+      },
+      {
+        "index": "suprimentos-de-cervejeiro",
+        "name": "Suprimentos de Cervejeiro",
+        "url": "/api/equipamentos/suprimentos-de-cervejeiro"
+      },
+      {
+        "index": "suprimentos-de-caligrafo",
+        "name": "Suprimentos de Calígrafo",
+        "url": "/api/equipamentos/suprimentos-de-caligrafo"
+      },
+      {
+        "index": "ferramentas-de-carpinteiro",
+        "name": "Ferramentas de Carpinteiro",
+        "url": "/api/equipamentos/ferramentas-de-carpinteiro"
+      },
+      {
+        "index": "ferramentas-de-cartografo",
+        "name": "Ferramentas de Cartógrafo",
+        "url": "/api/equipamentos/ferramentas-de-cartografo"
+      },
+      {
+        "index": "ferramentas-de-sapateiro",
+        "name": "Ferramentas de Sapateiro",
+        "url": "/api/equipamentos/ferramentas-de-sapateiro"
+      },
+      {
+        "index": "utensilios-de-cozinheiro",
+        "name": "Utensílios de Cozinheiro",
+        "url": "/api/equipamentos/utensilios-de-cozinheiro"
+      },
+      {
+        "index": "ferramentas-de-vidreiro",
+        "name": "Ferramentas de Vidreiro",
+        "url": "/api/equipamentos/ferramentas-de-vidreiro"
+      },
+      {
+        "index": "ferramentas-de-joalheiro",
+        "name": "Ferramentas de Joalheiro",
+        "url": "/api/equipamentos/ferramentas-de-joalheiro"
+      },
+      {
+        "index": "ferramentas-de-couro",
+        "name": "Ferramentas de Couro",
+        "url": "/api/equipamentos/ferramentas-de-couro"
+      },
+      {
+        "index": "ferramentas-de-pedreiro",
+        "name": "Ferramentas de Pedreiro",
+        "url": "/api/equipamentos/ferramentas-de-pedreiro"
+      },
+      {
+        "index": "suprimentos-de-pintor",
+        "name": "Suprimentos de Pintor",
+        "url": "/api/equipamentos/suprimentos-de-pintor"
+      },
+      {
+        "index": "ferramentas-de-oleiro",
+        "name": "Ferramentas de Oleiro",
+        "url": "/api/equipamentos/ferramentas-de-oleiro"
+      },
+      {
+        "index": "ferramentas-de-ferreiro",
+        "name": "Ferramentas de Ferreiro",
+        "url": "/api/equipamentos/ferramentas-de-ferreiro"
+      },
+      {
+        "index": "ferramentas-de-conserto",
+        "name": "Ferramentas de Conserto",
+        "url": "/api/equipamentos/ferramentas-de-conserto"
+      },
+      {
+        "index": "ferramentas-de-tecelagem",
+        "name": "Ferramentas de Tecelagem",
+        "url": "/api/equipamentos/ferramentas-de-tecelagem"
+      },
+      {
+        "index": "ferramentas-de-entalhador",
+        "name": "Ferramentas de Entalhador",
+        "url": "/api/equipamentos/ferramentas-de-entalhador"
+      },
+      {
+        "index": "conjunto-de-dados",
+        "name": "Conjunto de Dados",
+        "url": "/api/equipamentos/conjunto-de-dados"
+      },
+      {
+        "index": "conjunto-de-cartas",
+        "name": "Conjunto de Cartas",
+        "url": "/api/equipamentos/conjunto-de-cartas"
+      },
+      {
+        "index": "gaita-de-fole",
+        "name": "Gaita de Fole",
+        "url": "/api/equipamentos/gaita-de-fole"
+      },
+      {
+        "index": "tambor",
+        "name": "Tambor",
+        "url": "/api/equipamentos/tambor"
+      },
+      {
+        "index": "dulcimer",
+        "name": "Dulcimer",
+        "url": "/api/equipamentos/dulcimer"
+      },
+      {
+        "index": "flauta",
+        "name": "Flauta",
+        "url": "/api/equipamentos/flauta"
+      },
+      {
+        "index": "alaude",
+        "name": "Alaúde",
+        "url": "/api/equipamentos/alaude"
+      },
+      {
+        "index": "lira",
+        "name": "Lira",
+        "url": "/api/equipamentos/lira"
+      },
+      {
+        "index": "corno",
+        "name": "Corno",
+        "url": "/api/equipamentos/corno"
+      },
+      {
+        "index": "flauta-de-pan",
+        "name": "Flauta de Pã",
+        "url": "/api/equipamentos/flauta-de-pan"
+      },
+      {
+        "index": "chalumeau",
+        "name": "Chalumeau",
+        "url": "/api/equipamentos/chalumeau"
+      },
+      {
+        "index": "viola",
+        "name": "Viola",
+        "url": "/api/equipamentos/viola"
+      },
+      {
+        "index": "ferramentas-de-navegacao",
+        "name": "Ferramentas de Navegação",
+        "url": "/api/equipamentos/ferramentas-de-navegacao"
+      },
+      {
+        "index": "ferramentas-de-ladrao",
+        "name": "Ferramentas de Ladrão",
+        "url": "/api/equipamentos/ferramentas-de-ladrao"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/ferramentas"
+  },
+  {
+    "index": "montarias-e-veiculos",
+    "name": "Montarias e Veículos",
+    "equipment": [
+      {
+        "index": "mula",
+        "name": "Mula",
+        "url": "/api/equipamentos/mula"
+      },
+      {
+        "index": "elefante",
+        "name": "Elefante",
+        "url": "/api/equipamentos/elefante"
+      },
+      {
+        "index": "cavalo-de-carga",
+        "name": "Cavalo de Carga",
+        "url": "/api/equipamentos/cavalo-de-carga"
+      },
+      {
+        "index": "cavalo-de-montaria",
+        "name": "Cavalo de Montaria",
+        "url": "/api/equipamentos/cavalo-de-montaria"
+      },
+      {
+        "index": "mastim",
+        "name": "Mastim",
+        "url": "/api/equipamentos/mastim"
+      },
+      {
+        "index": "poney",
+        "name": "Pônei",
+        "url": "/api/equipamentos/poney"
+      },
+      {
+        "index": "cavalo-de-guerra",
+        "name": "Cavalo de Guerra",
+        "url": "/api/equipamentos/cavalo-de-guerra"
+      },
+      {
+        "index": "armadura-almofadada",
+        "name": "Armadura Almofadada",
+        "url": "/api/equipamentos/armadura-almofadada"
+      },
+      {
+        "index": "armadura-de-couro",
+        "name": "Armadura de Couro",
+        "url": "/api/equipamentos/armadura-de-couro"
+      },
+      {
+        "index": "armadura-de-couro-rebitada",
+        "name": "Armadura de Couro Rebitada",
+        "url": "/api/equipamentos/armadura-de-couro-rebitada"
+      },
+      {
+        "index": "armadura-de-pele",
+        "name": "Armadura de Pele",
+        "url": "/api/equipamentos/armadura-de-pele"
+      },
+      {
+        "index": "camisa-de-malha",
+        "name": "Camisa de Malha",
+        "url": "/api/equipamentos/camisa-de-malha"
+      },
+      {
+        "index": "cota-de-escamas",
+        "name": "Cota de Escamas",
+        "url": "/api/equipamentos/cota-de-escamas"
+      },
+      {
+        "index": "peitoral",
+        "name": "Peitoral",
+        "url": "/api/equipamentos/peitoral"
+      },
+      {
+        "index": "meia-armadura",
+        "name": "Meia Armadura",
+        "url": "/api/equipamentos/meia-armadura"
+      },
+      {
+        "index": "armadura-de-aneis",
+        "name": "Armadura de Anéis",
+        "url": "/api/equipamentos/armadura-de-aneis"
+      },
+      {
+        "index": "cota-de-malha",
+        "name": "Cota de Malha",
+        "url": "/api/equipamentos/cota-de-malha"
+      },
+      {
+        "index": "armadura-de-braceles",
+        "name": "Armadura de Bráceles",
+        "url": "/api/equipamentos/armadura-de-braceles"
+      },
+      {
+        "index": "armadura-de-placas",
+        "name": "Armadura de Placas",
+        "url": "/api/equipamentos/armadura-de-placas"
+      },
+      {
+        "index": "freio-e-brida",
+        "name": "Freio e Brida",
+        "url": "/api/equipamentos/freio-e-brida"
+      },
+      {
+        "index": "carroca",
+        "name": "Carroça",
+        "url": "/api/equipamentos/carroca"
+      },
+      {
+        "index": "carreta",
+        "name": "Carreta",
+        "url": "/api/equipamentos/carreta"
+      },
+      {
+        "index": "carro-de-guerra",
+        "name": "Carro de Guerra",
+        "url": "/api/equipamentos/carro-de-guerra"
+      },
+      {
+        "index": "comida-para-animais-1-dia",
+        "name": "Comida para Animais (1 dia)",
+        "url": "/api/equipamentos/comida-para-animais-1-dia"
+      },
+      {
+        "index": "sela-exotica",
+        "name": "Sela Exótica",
+        "url": "/api/equipamentos/sela-exotica"
+      },
+      {
+        "index": "sela-militar",
+        "name": "Sela Militar",
+        "url": "/api/equipamentos/sela-militar"
+      },
+      {
+        "index": "sela-de-carga",
+        "name": "Sela de Carga",
+        "url": "/api/equipamentos/sela-de-carga"
+      },
+      {
+        "index": "sela-de-montaria",
+        "name": "Sela de Montaria",
+        "url": "/api/equipamentos/sela-de-montaria"
+      },
+      {
+        "index": "alforjes",
+        "name": "Alforjes",
+        "url": "/api/equipamentos/alforjes"
+      },
+      {
+        "index": "trenó",
+        "name": "Trenó",
+        "url": "/api/equipamentos/treno"
+      },
+      {
+        "index": "estabulacao-1-dia",
+        "name": "Estabulagem (1 dia)",
+        "url": "/api/equipamentos/estabulacao-1-dia"
+      },
+      {
+        "index": "vagao",
+        "name": "Vagão",
+        "url": "/api/equipamentos/vagao"
+      },
+      {
+        "index": "galé",
+        "name": "Galé",
+        "url": "/api/equipamentos/gale"
+      },
+      {
+        "index": "barcaça",
+        "name": "Barcaça",
+        "url": "/api/equipamentos/barcaca"
+      },
+      {
+        "index": "dracar",
+        "name": "Dracar",
+        "url": "/api/equipamentos/dracar"
+      },
+      {
+        "index": "bote",
+        "name": "Bote",
+        "url": "/api/equipamentos/bote"
+      },
+      {
+        "index": "navio-a-vela",
+        "name": "Navio a Vela",
+        "url": "/api/equipamentos/navio-a-vela"
+      },
+      {
+        "index": "navio-de-guerra",
+        "name": "Navio de Guerra",
+        "url": "/api/equipamentos/navio-de-guerra"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+  },
+  {
+    "index": "armas-simples",
+    "name": "Armas Simples",
+    "equipment": [
+      {
+        "index": "clava",
+        "name": "Clava",
+        "url": "/api/equipamentos/clava"
+      },
+      {
+        "index": "adaga",
+        "name": "Adaga",
+        "url": "/api/equipamentos/adaga"
+      },
+      {
+        "index": "grande-clava",
+        "name": "Grande Clava",
+        "url": "/api/equipamentos/grande-clava"
+      },
+      {
+        "index": "machadinha",
+        "name": "Machadinha",
+        "url": "/api/equipamentos/machadinha"
+      },
+      {
+        "index": "dardo",
+        "name": "Dardo",
+        "url": "/api/equipamentos/dardo"
+      },
+      {
+        "index": "martelo-leve",
+        "name": "Martelo Leve",
+        "url": "/api/equipamentos/martelo-leve"
+      },
+      {
+        "index": "moca",
+        "name": "Maça",
+        "url": "/api/equipamentos/moca"
+      },
+      {
+        "index": "bordao",
+        "name": "Bordão",
+        "url": "/api/equipamentos/bordao"
+      },
+      {
+        "index": "foice",
+        "name": "Foice",
+        "url": "/api/equipamentos/foice"
+      },
+      {
+        "index": "lanca",
+        "name": "Lança",
+        "url": "/api/equipamentos/lanca"
+      },
+      {
+        "index": "besta-leve",
+        "name": "Besta Leve",
+        "url": "/api/equipamentos/besta-leve"
+      },
+      {
+        "index": "dardo-de-funda",
+        "name": "Dardo de Funda",
+        "url": "/api/equipamentos/dardo-de-funda"
+      },
+      {
+        "index": "arco-curto",
+        "name": "Arco Curto",
+        "url": "/api/equipamentos/arco-curto"
+      },
+      {
+        "index": "funda",
+        "name": "Funda",
+        "url": "/api/equipamentos/funda"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/armas-simples"
+  },
+  {
+    "index": "armas-marcial",
+    "name": "Armas Marciais",
+    "equipment": [
+      {
+        "index": "machado-de-batalha",
+        "name": "Machado de Batalha",
+        "url": "/api/equipamentos/machado-de-batalha"
+      },
+      {
+        "index": "mangual",
+        "name": "Mangual",
+        "url": "/api/equipamentos/mangual"
+      },
+      {
+        "index": "glaive",
+        "name": "Glaive",
+        "url": "/api/equipamentos/glaive"
+      },
+      {
+        "index": "grande-machado",
+        "name": "Grande Machado",
+        "url": "/api/equipamentos/grande-machado"
+      },
+      {
+        "index": "espada-grande",
+        "name": "Espada Grande",
+        "url": "/api/equipamentos/espada-grande"
+      },
+      {
+        "index": "alabarda",
+        "name": "Alabarda",
+        "url": "/api/equipamentos/alabarda"
+      },
+      {
+        "index": "lanca",
+        "name": "Lança",
+        "url": "/api/equipamentos/lanca"
+      },
+      {
+        "index": "espada-longa",
+        "name": "Espada Longa",
+        "url": "/api/equipamentos/espada-longa"
+      },
+      {
+        "index": "malho",
+        "name": "Malho",
+        "url": "/api/equipamentos/malho"
+      },
+      {
+        "index": "estrela-da-manha",
+        "name": "Estrela da Manhã",
+        "url": "/api/equipamentos/estrela-da-manha"
+      },
+      {
+        "index": "pique",
+        "name": "Pique",
+        "url": "/api/equipamentos/pique"
+      },
+      {
+        "index": "florete",
+        "name": "Florete",
+        "url": "/api/equipamentos/florete"
+      },
+      {
+        "index": "cimitarra",
+        "name": "Cimitarra",
+        "url": "/api/equipamentos/cimitarra"
+      },
+      {
+        "index": "espada-curta",
+        "name": "Espada Curta",
+        "url": "/api/equipamentos/espada-curta"
+      },
+      {
+        "index": "tridente",
+        "name": "Tridente",
+        "url": "/api/equipamentos/tridente"
+      },
+      {
+        "index": "picareta-de-guerra",
+        "name": "Picareta de Guerra",
+        "url": "/api/equipamentos/picareta-de-guerra"
+      },
+      {
+        "index": "martelo-de-guerra",
+        "name": "Martelo de Guerra",
+        "url": "/api/equipamentos/martelo-de-guerra"
+      },
+      {
+        "index": "chicote",
+        "name": "Chicote",
+        "url": "/api/equipamentos/chicote"
+      },
+      {
+        "index": "zarabatana",
+        "name": "Zarabatana",
+        "url": "/api/equipamentos/zarabatana"
+      },
+      {
+        "index": "besta-de-mao",
+        "name": "Besta de Mão",
+        "url": "/api/equipamentos/besta-de-mao"
+      },
+      {
+        "index": "besta-pesada",
+        "name": "Besta Pesada",
+        "url": "/api/equipamentos/besta-pesada"
+      },
+      {
+        "index": "arco-longo",
+        "name": "Arco Longo",
+        "url": "/api/equipamentos/arco-longo"
+      },
+      {
+        "index": "rede",
+        "name": "Rede",
+        "url": "/api/equipamentos/rede"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/armas-marcial"
+  },
+  {
+    "index": "armas-corpo-a-corpo",
+    "name": "Armas de Combate Corpo a Corpo",
+    "equipment": [
+      {
+        "index": "machado-de-batalha",
+        "name": "Machado de Batalha",
+        "url": "/api/equipamentos/machado-de-batalha"
+      },
+      {
+        "index": "clava",
+        "name": "Clava",
+        "url": "/api/equipamentos/clava"
+      },
+      {
+        "index": "adaga",
+        "name": "Adaga",
+        "url": "/api/equipamentos/adaga"
+      },
+      {
+        "index": "mangual",
+        "name": "Mangual",
+        "url": "/api/equipamentos/mangual"
+      },
+      {
+        "index": "glaive",
+        "name": "Glaive",
+        "url": "/api/equipamentos/glaive"
+      },
+      {
+        "index": "grande-machado",
+        "name": "Grande Machado",
+        "url": "/api/equipamentos/grande-machado"
+      },
+      {
+        "index": "grande-clava",
+        "name": "Grande Clava",
+        "url": "/api/equipamentos/grande-clava"
+      },
+      {
+        "index": "espada-grande",
+        "name": "Espada Grande",
+        "url": "/api/equipamentos/espada-grande"
+      },
+      {
+        "index": "alabarda",
+        "name": "Alabarda",
+        "url": "/api/equipamentos/alabarda"
+      },
+      {
+        "index": "machadinha",
+        "name": "Machadinha",
+        "url": "/api/equipamentos/machadinha"
+      },
+      {
+        "index": "dardo",
+        "name": "Dardo",
+        "url": "/api/equipamentos/dardo"
+      },
+      {
+        "index": "lanca",
+        "name": "Lança",
+        "url": "/api/equipamentos/lanca"
+      },
+      {
+        "index": "martelo-leve",
+        "name": "Martelo Leve",
+        "url": "/api/equipamentos/martelo-leve"
+      },
+      {
+        "index": "espada-longa",
+        "name": "Espada Longa",
+        "url": "/api/equipamentos/espada-longa"
+      },
+      {
+        "index": "moca",
+        "name": "Maça",
+        "url": "/api/equipamentos/moca"
+      },
+      {
+        "index": "malho",
+        "name": "Malho",
+        "url": "/api/equipamentos/malho"
+      },
+      {
+        "index": "estrela-da-manha",
+        "name": "Estrela da Manhã",
+        "url": "/api/equipamentos/estrela-da-manha"
+      },
+      {
+        "index": "pique",
+        "name": "Pique",
+        "url": "/api/equipamentos/pique"
+      },
+      {
+        "index": "bordao",
+        "name": "Bordão",
+        "url": "/api/equipamentos/bordao"
+      },
+      {
+        "index": "florete",
+        "name": "Florete",
+        "url": "/api/equipamentos/florete"
+      },
+      {
+        "index": "cimitarra",
+        "name": "Cimitarra",
+        "url": "/api/equipamentos/cimitarra"
+      },
+      {
+        "index": "espada-curta",
+        "name": "Espada Curta",
+        "url": "/api/equipamentos/espada-curta"
+      },
+      {
+        "index": "foice",
+        "name": "Foice",
+        "url": "/api/equipamentos/foice"
+      },
+      {
+        "index": "lanca",
+        "name": "Lança",
+        "url": "/api/equipamentos/lanca"
+      },
+      {
+        "index": "tridente",
+        "name": "Tridente",
+        "url": "/api/equipamentos/tridente"
+      },
+      {
+        "index": "picareta-de-guerra",
+        "name": "Picareta de Guerra",
+        "url": "/api/equipamentos/picareta-de-guerra"
+      },
+      {
+        "index": "martelo-de-guerra",
+        "name": "Martelo de Guerra",
+        "url": "/api/equipamentos/martelo-de-guerra"
+      },
+      {
+        "index": "chicote",
+        "name": "Chicote",
+        "url": "/api/equipamentos/chicote"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/armas-corpo-a-corpo"
+  },
+  {
+    "index": "armas-a-distancia",
+    "name": "Armas de Combate à Distância",
+    "equipment": [
+      {
+        "index": "zarabatana",
+        "name": "Zarabatana",
+        "url": "/api/equipamentos/zarabatana"
+      },
+      {
+        "index": "besta-de-mao",
+        "name": "Besta de Mão",
+        "url": "/api/equipamentos/besta-de-mao"
+      },
+      {
+        "index": "besta-pesada",
+        "name": "Besta Pesada",
+        "url": "/api/equipamentos/besta-pesada"
+      },
+      {
+        "index": "besta-leve",
+        "name": "Besta Leve",
+        "url": "/api/equipamentos/besta-leve"
+      },
+      {
+        "index": "dardo",
+        "name": "Dardo",
+        "url": "/api/equipamentos/dardo"
+      },
+      {
+        "index": "arco-longo",
+        "name": "Arco Longo",
+        "url": "/api/equipamentos/arco-longo"
+      },
+      {
+        "index": "rede",
+        "name": "Rede",
+        "url": "/api/equipamentos/rede"
+      },
+      {
+        "index": "arco-curto",
+        "name": "Arco Curto",
+        "url": "/api/equipamentos/arco-curto"
+      },
+      {
+        "index": "funda",
+        "name": "Funda",
+        "url": "/api/equipamentos/funda"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/armas-a-distancia"
+  },
+  {
+    "index": "armas-simples-corpo-a-corpo",
+    "name": "Armas Simples de Combate Corpo a Corpo",
+    "equipment": [
+      {
+        "index": "clava",
+        "name": "Clava",
+        "url": "/api/equipamentos/clava"
+      },
+      {
+        "index": "adaga",
+        "name": "Adaga",
+        "url": "/api/equipamentos/adaga"
+      },
+      {
+        "index": "grande-clava",
+        "name": "Grande Clava",
+        "url": "/api/equipamentos/grande-clava"
+      },
+      {
+        "index": "machadinha",
+        "name": "Machadinha",
+        "url": "/api/equipamentos/machadinha"
+      },
+      {
+        "index": "dardo",
+        "name": "Dardo",
+        "url": "/api/equipamentos/dardo"
+      },
+      {
+        "index": "martelo-leve",
+        "name": "Martelo Leve",
+        "url": "/api/equipamentos/martelo-leve"
+      },
+      {
+        "index": "moca",
+        "name": "Maça",
+        "url": "/api/equipamentos/moca"
+      },
+      {
+        "index": "bordao",
+        "name": "Bordão",
+        "url": "/api/equipamentos/bordao"
+      },
+      {
+        "index": "foice",
+        "name": "Foice",
+        "url": "/api/equipamentos/foice"
+      },
+      {
+        "index": "lanca",
+        "name": "Lança",
+        "url": "/api/equipamentos/lanca"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/armas-simples-corpo-a-corpo"
+  },
+  {
+    "index": "armas-simples-a-distancia",
+    "name": "Armas Simples de Combate à Distância",
+    "equipment": [
+      {
+        "index": "besta-leve",
+        "name": "Besta Leve",
+        "url": "/api/equipamentos/besta-leve"
+      },
+      {
+        "index": "dardo",
+        "name": "Dardo",
+        "url": "/api/equipamentos/dardo"
+      },
+      {
+        "index": "arco-curto",
+        "name": "Arco Curto",
+        "url": "/api/equipamentos/arco-curto"
+      },
+      {
+        "index": "funda",
+        "name": "Funda",
+        "url": "/api/equipamentos/funda"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/armas-simples-a-distancia"
+  },
+  {
+    "index": "armas-marcial-corpo-a-corpo",
+    "name": "Armas Marciais de Combate Corpo a Corpo",
+    "equipment": [
+      {
+        "index": "machado-de-batalha",
+        "name": "Machado de Batalha",
+        "url": "/api/equipamentos/machado-de-batalha"
+      },
+      {
+        "index": "mangual",
+        "name": "Mangual",
+        "url": "/api/equipamentos/mangual"
+      },
+      {
+        "index": "glaive",
+        "name": "Glaive",
+        "url": "/api/equipamentos/glaive"
+      },
+      {
+        "index": "grande-machado",
+        "name": "Grande Machado",
+        "url": "/api/equipamentos/grande-machado"
+      },
+      {
+        "index": "espada-grande",
+        "name": "Espada Grande",
+        "url": "/api/equipamentos/espada-grande"
+      },
+      {
+        "index": "alabarda",
+        "name": "Alabarda",
+        "url": "/api/equipamentos/alabarda"
+      },
+      {
+        "index": "lanca",
+        "name": "Lança",
+        "url": "/api/equipamentos/lanca"
+      },
+      {
+        "index": "espada-longa",
+        "name": "Espada Longa",
+        "url": "/api/equipamentos/espada-longa"
+      },
+      {
+        "index": "malho",
+        "name": "Malho",
+        "url": "/api/equipamentos/malho"
+      },
+      {
+        "index": "estrela-da-manha",
+        "name": "Estrela da Manhã",
+        "url": "/api/equipamentos/estrela-da-manha"
+      },
+      {
+        "index": "pique",
+        "name": "Pique",
+        "url": "/api/equipamentos/pique"
+      },
+      {
+        "index": "florete",
+        "name": "Florete",
+        "url": "/api/equipamentos/florete"
+      },
+      {
+        "index": "cimitarra",
+        "name": "Cimitarra",
+        "url": "/api/equipamentos/cimitarra"
+      },
+      {
+        "index": "espada-curta",
+        "name": "Espada Curta",
+        "url": "/api/equipamentos/espada-curta"
+      },
+      {
+        "index": "tridente",
+        "name": "Tridente",
+        "url": "/api/equipamentos/tridente"
+      },
+      {
+        "index": "picareta-de-guerra",
+        "name": "Picareta de Guerra",
+        "url": "/api/equipamentos/picareta-de-guerra"
+      },
+      {
+        "index": "martelo-de-guerra",
+        "name": "Martelo de Guerra",
+        "url": "/api/equipamentos/martelo-de-guerra"
+      },
+      {
+        "index": "chicote",
+        "name": "Chicote",
+        "url": "/api/equipamentos/chicote"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/armas-marcial-corpo-a-corpo"
+  },
+  {
+    "index": "armas-marcial-a-distancia",
+    "name": "Armas Marciais de Combate à Distância",
+    "equipment": [
+      {
+        "index": "zarabatana",
+        "name": "Zarabatana",
+        "url": "/api/equipamentos/zarabatana"
+      },
+      {
+        "index": "besta-de-mao",
+        "name": "Besta de Mão",
+        "url": "/api/equipamentos/besta-de-mao"
+      },
+      {
+        "index": "besta-pesada",
+        "name": "Besta Pesada",
+        "url": "/api/equipamentos/besta-pesada"
+      },
+      {
+        "index": "arco-longo",
+        "name": "Arco Longo",
+        "url": "/api/equipamentos/arco-longo"
+      },
+      {
+        "index": "rede",
+        "name": "Rede",
+        "url": "/api/equipamentos/rede"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/armas-marcial-a-distancia"
+  },
+  {
+    "index": "armadura-leve",
+    "name": "Armadura Leve",
+    "equipment": [
+      {
+        "index": "armadura-almofadada",
+        "name": "Armadura Almofadada",
+        "url": "/api/equipamentos/armadura-almofadada"
+      },
+      {
+        "index": "armadura-de-couro",
+        "name": "Armadura de Couro",
+        "url": "/api/equipamentos/armadura-de-couro"
+      },
+      {
+        "index": "armadura-de-couro-rebitada",
+        "name": "Armadura de Couro Rebitada",
+        "url": "/api/equipamentos/armadura-de-couro-rebitada"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/armadura-leve"
+  },
+  {
+    "index": "armadura-media",
+    "name": "Armadura Média",
+    "equipment": [
+      {
+        "index": "armadura-de-pele",
+        "name": "Armadura de Pele",
+        "url": "/api/equipamentos/armadura-de-pele"
+      },
+      {
+        "index": "camisa-de-malha",
+        "name": "Camisa de Malha",
+        "url": "/api/equipamentos/camisa-de-malha"
+      },
+      {
+        "index": "cota-de-escamas",
+        "name": "Cota de Escamas",
+        "url": "/api/equipamentos/cota-de-escamas"
+      },
+      {
+        "index": "peitoral",
+        "name": "Peitoral",
+        "url": "/api/equipamentos/peitoral"
+      },
+      {
+        "index": "meia-armadura",
+        "name": "Meia Armadura",
+        "url": "/api/equipamentos/meia-armadura"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/armadura-media"
+  },
+  {
+    "index": "armadura-pesada",
+    "name": "Armadura Pesada",
+    "equipment": [
+      {
+        "index": "armadura-de-aneis",
+        "name": "Armadura de Anéis",
+        "url": "/api/equipamentos/armadura-de-aneis"
+      },
+      {
+        "index": "cota-de-malha",
+        "name": "Cota de Malha",
+        "url": "/api/equipamentos/cota-de-malha"
+      },
+      {
+        "index": "armadura-de-braceles",
+        "name": "Armadura de Bráceles",
+        "url": "/api/equipamentos/armadura-de-braceles"
+      },
+      {
+        "index": "armadura-de-placas",
+        "name": "Armadura de Placas",
+        "url": "/api/equipamentos/armadura-de-placas"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/armadura-pesada"
+  },
+  {
+    "index": "escudos",
+    "name": "Escudos",
+    "equipment": [
+      {
+        "index": "escudo",
+        "name": "Escudo",
+        "url": "/api/equipamentos/escudo"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/escudos"
+  },
+  {
+    "index": "equipamento-padrao",
+    "name": "Equipamento Padrão",
+    "equipment": [
+      {
+        "index": "abaco",
+        "name": "Ábaco",
+        "url": "/api/equipamentos/abaco"
+      },
+      {
+        "index": "acido-frasco",
+        "name": "Ácido (frasco)",
+        "url": "/api/equipamentos/acido-frasco"
+      },
+      {
+        "index": "fogo-do-alquimista-frasco",
+        "name": "Fogo do Alquimista (frasco)",
+        "url": "/api/equipamentos/fogo-do-alquimista-frasco"
+      },
+      {
+        "index": "flecha",
+        "name": "Flecha",
+        "url": "/api/equipamentos/flecha"
+      },
+      {
+        "index": "agulha-de-zarabatana",
+        "name": "Agulha de Zarabatana",
+        "url": "/api/equipamentos/agulha-de-zarabatana"
+      },
+      {
+        "index": "virote-de-besta",
+        "name": "Virote de Besta",
+        "url": "/api/equipamentos/virote-de-besta"
+      },
+      {
+        "index": "bala-de-funda",
+        "name": "Bala de Funda",
+        "url": "/api/equipamentos/bala-de-funda"
+      },
+      {
+        "index": "caixa-de-esmolas",
+        "name": "Caixa de Esmolas",
+        "url": "/api/equipamentos/caixa-de-esmolas"
+      },
+      {
+        "index": "antitoxina-frasco",
+        "name": "Antitoxina (frasco)",
+        "url": "/api/equipamentos/antitoxina-frasco"
+      },
+      {
+        "index": "mochila",
+        "name": "Mochila",
+        "url": "/api/equipamentos/mochila"
+      },
+      {
+        "index": "esferas-de-aco-saco-de-1000",
+        "name": "Esferas de Aço (saco de 1.000)",
+        "url": "/api/equipamentos/esferas-de-aco-saco-de-1000"
+      },
+      {
+        "index": "barril",
+        "name": "Barril",
+        "url": "/api/equipamentos/barril"
+      },
+      {
+        "index": "cesto",
+        "name": "Cesto",
+        "url": "/api/equipamentos/cesto"
+      },
+      {
+        "index": "saco-de-dormir",
+        "name": "Saco de Dormir",
+        "url": "/api/equipamentos/saco-de-dormir"
+      },
+      {
+        "index": "sino",
+        "name": "Sino",
+        "url": "/api/equipamentos/sino"
+      },
+      {
+        "index": "cobertor",
+        "name": "Cobertor",
+        "url": "/api/equipamentos/cobertor"
+      },
+      {
+        "index": "roldana-e-polias",
+        "name": "Roldana e Polias",
+        "url": "/api/equipamentos/roldana-e-polias"
+      },
+      {
+        "index": "bloco-de-incenso",
+        "name": "Bloco de Incenso",
+        "url": "/api/equipamentos/bloco-de-incenso"
+      },
+      {
+        "index": "livro",
+        "name": "Livro",
+        "url": "/api/equipamentos/livro"
+      },
+      {
+        "index": "garrafa-de-vidro",
+        "name": "Garrafa, Vidro",
+        "url": "/api/equipamentos/garrafa-de-vidro"
+      },
+      {
+        "index": "balde",
+        "name": "Balde",
+        "url": "/api/equipamentos/balde"
+      },
+      {
+        "index": "caltrops",
+        "name": "Caltrops",
+        "url": "/api/equipamentos/caltrops"
+      },
+      {
+        "index": "vela",
+        "name": "Vela",
+        "url": "/api/equipamentos/vela"
+      },
+      {
+        "index": "estojo-de-virote-de-besta",
+        "name": "Estojo de Virote de Besta",
+        "url": "/api/equipamentos/estojo-de-virote-de-besta"
+      },
+      {
+        "index": "estojo-para-mapas-ou-pergaminhos",
+        "name": "Estojo para Mapas ou Pergaminhos",
+        "url": "/api/equipamentos/estojo-para-mapas-ou-pergaminhos"
+      },
+      {
+        "index": "incensario",
+        "name": "Incensário",
+        "url": "/api/equipamentos/incensario"
+      },
+      {
+        "index": "corrente-3-metros",
+        "name": "Corrente (3 metros)",
+        "url": "/api/equipamentos/corrente-3-metros"
+      },
+      {
+        "index": "giz-1-pedaco",
+        "name": "Giz (1 pedaço)",
+        "url": "/api/equipamentos/giz-1-pedaco"
+      },
+      {
+        "index": "bau",
+        "name": "Baú",
+        "url": "/api/equipamentos/bau"
+      },
+      {
+        "index": "roupas-comuns",
+        "name": "Roupas Comuns",
+        "url": "/api/equipamentos/roupas-comuns"
+      },
+      {
+        "index": "roupas-de-fantasia",
+        "name": "Roupas de Fantasia",
+        "url": "/api/equipamentos/roupas-de-fantasia"
+      },
+      {
+        "index": "roupas-finas",
+        "name": "Roupas Finas",
+        "url": "/api/equipamentos/roupas-finas"
+      },
+      {
+        "index": "roupas-de-viajante",
+        "name": "Roupas de Viajante",
+        "url": "/api/equipamentos/roupas-de-viajante"
+      },
+      {
+        "index": "bolsa-de-componentes",
+        "name": "Bolsa de Componentes",
+        "url": "/api/equipamentos/bolsa-de-componentes"
+      },
+      {
+        "index": "pe-de-cabra",
+        "name": "Pé de Cabra",
+        "url": "/api/equipamentos/pe-de-cabra"
+      },
+      {
+        "index": "kit-de-pesca",
+        "name": "Kit de Pesca",
+        "url": "/api/equipamentos/kit-de-pesca"
+      },
+      {
+        "index": "frasco-ou-canetil",
+        "name": "Frasco ou Caneca",
+        "url": "/api/equipamentos/frasco-ou-canetil"
+      },
+      {
+        "index": "gancho-de-escalada",
+        "name": "Gancho de Escalada",
+        "url": "/api/equipamentos/gancho-de-escalada"
+      },
+      {
+        "index": "martelo",
+        "name": "Martelo",
+        "url": "/api/equipamentos/martelo"
+      },
+      {
+        "index": "marreta",
+        "name": "Marreta",
+        "url": "/api/equipamentos/marreta"
+      },
+      {
+        "index": "agua-benta-frasco",
+        "name": "Água Benta (frasco)",
+        "url": "/api/equipamentos/agua-benta-frasco"
+      },
+      {
+        "index": "ampulheta",
+        "name": "Ampulheta",
+        "url": "/api/equipamentos/ampulheta"
+      },
+      {
+        "index": "armadilha-de-caca",
+        "name": "Armadilha de Caça",
+        "url": "/api/equipamentos/armadilha-de-caca"
+      },
+      {
+        "index": "tinta-frasco-de-1-onca",
+        "name": "Tinta (frasco de 1 onça)",
+        "url": "/api/equipamentos/tinta-frasco-de-1-onca"
+      },
+      {
+        "index": "pena-de-tinta",
+        "name": "Pena de Tinta",
+        "url": "/api/equipamentos/pena-de-tinta"
+      },
+      {
+        "index": "jarro-ou-cantil",
+        "name": "Jarro ou Cantil",
+        "url": "/api/equipamentos/jarro-ou-cantil"
+      },
+      {
+        "index": "escada-de-3-metros",
+        "name": "Escada (3 metros)",
+        "url": "/api/equipamentos/escada-de-3-metros"
+      },
+      {
+        "index": "lampiao",
+        "name": "Lampião",
+        "url": "/api/equipamentos/lampiao"
+      },
+      {
+        "index": "lanterna-de-refletor",
+        "name": "Lanterna de Refletor",
+        "url": "/api/equipamentos/lanterna-de-refletor"
+      },
+      {
+        "index": "lanterna-com-capuz",
+        "name": "Lanterna com Capuz",
+        "url": "/api/equipamentos/lanterna-com-capuz"
+      },
+      {
+        "index": "saco-de-areia",
+        "name": "Saco de Areia",
+        "url": "/api/equipamentos/saco-de-areia"
+      },
+      {
+        "index": "fechadura",
+        "name": "Fechadura",
+        "url": "/api/equipamentos/fechadura"
+      },
+      {
+        "index": "lupa",
+        "name": "Lupa",
+        "url": "/api/equipamentos/lupa"
+      },
+      {
+        "index": "algemas",
+        "name": "Algemas",
+        "url": "/api/equipamentos/algemas"
+      },
+      {
+        "index": "espelho-de-aco",
+        "name": "Espelho de Aço",
+        "url": "/api/equipamentos/espelho-de-aco"
+      },
+      {
+        "index": "oleo-frasco",
+        "name": "Óleo (frasco)",
+        "url": "/api/equipamentos/oleo-frasco"
+      },
+      {
+        "index": "papel-folha",
+        "name": "Papel (folha)",
+        "url": "/api/equipamentos/papel-folha"
+      },
+      {
+        "index": "pergaminho-folha",
+        "name": "Pergaminho (folha)",
+        "url": "/api/equipamentos/pergaminho-folha"
+      },
+      {
+        "index": "perfume-frasco",
+        "name": "Perfume (frasco)",
+        "url": "/api/equipamentos/perfume-frasco"
+      },
+      {
+        "index": "picareta-de-minerador",
+        "name": "Picareta de Minerador",
+        "url": "/api/equipamentos/picareta-de-minerador"
+      },
+      {
+        "index": "piton",
+        "name": "Piton",
+        "url": "/api/equipamentos/piton"
+      },
+      {
+        "index": "veneno-basico-frasco",
+        "name": "Veneno Básico (frasco)",
+        "url": "/api/equipamentos/veneno-basico-frasco"
+      },
+      {
+        "index": "vara-3-metros",
+        "name": "Vara (3 metros)",
+        "url": "/api/equipamentos/vara-3-metros"
+      },
+      {
+        "index": "panela-de-ferro",
+        "name": "Panela de Ferro",
+        "url": "/api/equipamentos/panela-de-ferro"
+      },
+      {
+        "index": "bolsa",
+        "name": "Bolsa",
+        "url": "/api/equipamentos/bolsa"
+      },
+      {
+        "index": "aljava",
+        "name": "Aljava",
+        "url": "/api/equipamentos/aljava"
+      },
+      {
+        "index": "ariete-portatil",
+        "name": "Ariete Portátil",
+        "url": "/api/equipamentos/ariete-portatil"
+      },
+      {
+        "index": "racoes-1-dia",
+        "name": "Rações (1 dia)",
+        "url": "/api/equipamentos/racoes-1-dia"
+      },
+      {
+        "index": "vestes",
+        "name": "Vestes",
+        "url": "/api/equipamentos/vestes"
+      },
+      {
+        "index": "corda-de-cania-15-metros",
+        "name": "Corda de Cânhamo (15 metros)",
+        "url": "/api/equipamentos/corda-de-cania-15-metros"
+      },
+      {
+        "index": "corda-de-seda-15-metros",
+        "name": "Corda de Seda (15 metros)",
+        "url": "/api/equipamentos/corda-de-seda-15-metros"
+      },
+      {
+        "index": "saco",
+        "name": "Saco",
+        "url": "/api/equipamentos/saco"
+      },
+      {
+        "index": "balanca-de-mercador",
+        "name": "Balança de Mercador",
+        "url": "/api/equipamentos/balanca-de-mercador"
+      },
+      {
+        "index": "cera-lacre",
+        "name": "Cera Lacre",
+        "url": "/api/equipamentos/cera-lacre"
+      },
+      {
+        "index": "pá",
+        "name": "Pá",
+        "url": "/api/equipamentos/pa"
+      },
+      {
+        "index": "apito",
+        "name": "Apito",
+        "url": "/api/equipamentos/apito"
+      },
+      {
+        "index": "anel-sinete",
+        "name": "Anel Sinete",
+        "url": "/api/equipamentos/anel-sinete"
+      },
+      {
+        "index": "faca-pequena",
+        "name": "Faca Pequena",
+        "url": "/api/equipamentos/faca-pequena"
+      },
+      {
+        "index": "sabao",
+        "name": "Sabão",
+        "url": "/api/equipamentos/sabao"
+      },
+      {
+        "index": "grimorio",
+        "name": "Grimório",
+        "url": "/api/equipamentos/grimorio"
+      },
+      {
+        "index": "espeto-de-ferro",
+        "name": "Espeto de Ferro",
+        "url": "/api/equipamentos/espeto-de-ferro"
+      },
+      {
+        "index": "telescopio",
+        "name": "Telescópio",
+        "url": "/api/equipamentos/telescopio"
+      },
+      {
+        "index": "cordao-3-metros",
+        "name": "Cordão (3 metros)",
+        "url": "/api/equipamentos/cordao-3-metros"
+      },
+      {
+        "index": "barraca-para-duas-pessoas",
+        "name": "Barraca para Duas Pessoas",
+        "url": "/api/equipamentos/barraca-para-duas-pessoas"
+      },
+      {
+        "index": "pederneira",
+        "name": "Pederneira",
+        "url": "/api/equipamentos/pederneira"
+      },
+      {
+        "index": "tocha",
+        "name": "Tocha",
+        "url": "/api/equipamentos/tocha"
+      },
+      {
+        "index": "frasco",
+        "name": "Frasco",
+        "url": "/api/equipamentos/frasco"
+      },
+      {
+        "index": "cantil",
+        "name": "Cantil",
+        "url": "/api/equipamentos/cantil"
+      },
+      {
+        "index": "pedra-de-amolar",
+        "name": "Pedra de Amolar",
+        "url": "/api/equipamentos/pedra-de-amolar"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/equipamento-padrao"
+  },
+  {
+    "index": "kits",
+    "name": "Kits",
+    "equipment": [
+      {
+        "index": "kit-de-escalada",
+        "name": "Kit de Escalada",
+        "url": "/api/equipamentos/kit-de-escalada"
+      },
+      {
+        "index": "kit-de-disfarce",
+        "name": "Kit de Disfarce",
+        "url": "/api/equipamentos/kit-de-disfarce"
+      },
+      {
+        "index": "kit-de-falsificacao",
+        "name": "Kit de Falsificação",
+        "url": "/api/equipamentos/kit-de-falsificacao"
+      },
+      {
+        "index": "kit-de-herborismo",
+        "name": "Kit de Herborismo",
+        "url": "/api/equipamentos/kit-de-herborismo"
+      },
+      {
+        "index": "kit-de-curandeiro",
+        "name": "Kit de Curandeiro",
+        "url": "/api/equipamentos/kit-de-curandeiro"
+      },
+      {
+        "index": "kit-de-refeicao",
+        "name": "Kit de Refeição",
+        "url": "/api/equipamentos/kit-de-refeicao"
+      },
+      {
+        "index": "kit-de-venenos",
+        "name": "Kit de Venenos",
+        "url": "/api/equipamentos/kit-de-venenos"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/kits"
+  },
+  {
+    "index": "pacotes-de-equipamento",
+    "name": "Pacotes de Equipamento",
+    "equipment": [
+      {
+        "index": "pacote-de-arrombador",
+        "name": "Pacote de Arrombador",
+        "url": "/api/equipamentos/pacote-de-arrombador"
+      },
+      {
+        "index": "pacote-de-diplomata",
+        "name": "Pacote de Diplomata",
+        "url": "/api/equipamentos/pacote-de-diplomata"
+      },
+      {
+        "index": "pacote-de-explorador-de-masmorras",
+        "name": "Pacote de Explorador de Masmorras",
+        "url": "/api/equipamentos/pacote-de-explorador-de-masmorras"
+      },
+      {
+        "index": "pacote-de-entretenimento",
+        "name": "Pacote de Entretenimento",
+        "url": "/api/equipamentos/pacote-de-entretenimento"
+      },
+      {
+        "index": "pacote-de-explorador",
+        "name": "Pacote de Explorador",
+        "url": "/api/equipamentos/pacote-de-explorador"
+      },
+      {
+        "index": "pacote-de-sacerdote",
+        "name": "Pacote de Sacerdote",
+        "url": "/api/equipamentos/pacote-de-sacerdote"
+      },
+      {
+        "index": "pacote-de-erudito",
+        "name": "Pacote de Erudito",
+        "url": "/api/equipamentos/pacote-de-erudito"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/pacotes-de-equipamento"
+  },
+  {
+    "index": "ferramentas-de-artesao",
+    "name": "Ferramentas de Artesão",
+    "equipment": [
+      {
+        "index": "suprimentos-de-alquimista",
+        "name": "Suprimentos de Alquimista",
+        "url": "/api/equipamentos/suprimentos-de-alquimista"
+      },
+      {
+        "index": "suprimentos-de-cervejeiro",
+        "name": "Suprimentos de Cervejeiro",
+        "url": "/api/equipamentos/suprimentos-de-cervejeiro"
+      },
+      {
+        "index": "suprimentos-de-caligrafo",
+        "name": "Suprimentos de Calígrafo",
+        "url": "/api/equipamentos/suprimentos-de-caligrafo"
+      },
+      {
+        "index": "ferramentas-de-carpinteiro",
+        "name": "Ferramentas de Carpinteiro",
+        "url": "/api/equipamentos/ferramentas-de-carpinteiro"
+      },
+      {
+        "index": "ferramentas-de-cartografo",
+        "name": "Ferramentas de Cartógrafo",
+        "url": "/api/equipamentos/ferramentas-de-cartografo"
+      },
+      {
+        "index": "ferramentas-de-sapateiro",
+        "name": "Ferramentas de Sapateiro",
+        "url": "/api/equipamentos/ferramentas-de-sapateiro"
+      },
+      {
+        "index": "utensilios-de-cozinheiro",
+        "name": "Utensílios de Cozinheiro",
+        "url": "/api/equipamentos/utensilios-de-cozinheiro"
+      },
+      {
+        "index": "ferramentas-de-vidreiro",
+        "name": "Ferramentas de Vidreiro",
+        "url": "/api/equipamentos/ferramentas-de-vidreiro"
+      },
+      {
+        "index": "ferramentas-de-joalheiro",
+        "name": "Ferramentas de Joalheiro",
+        "url": "/api/equipamentos/ferramentas-de-joalheiro"
+      },
+      {
+        "index": "ferramentas-de-couro",
+        "name": "Ferramentas de Couro",
+        "url": "/api/equipamentos/ferramentas-de-couro"
+      },
+      {
+        "index": "ferramentas-de-pedreiro",
+        "name": "Ferramentas de Pedreiro",
+        "url": "/api/equipamentos/ferramentas-de-pedreiro"
+      },
+      {
+        "index": "suprimentos-de-pintor",
+        "name": "Suprimentos de Pintor",
+        "url": "/api/equipamentos/suprimentos-de-pintor"
+      },
+      {
+        "index": "ferramentas-de-oleiro",
+        "name": "Ferramentas de Oleiro",
+        "url": "/api/equipamentos/ferramentas-de-oleiro"
+      },
+      {
+        "index": "ferramentas-de-ferreiro",
+        "name": "Ferramentas de Ferreiro",
+        "url": "/api/equipamentos/ferramentas-de-ferreiro"
+      },
+      {
+        "index": "ferramentas-de-artifice",
+        "name": "Ferramentas de Artífice",
+        "url": "/api/equipamentos/ferramentas-de-artifice"
+      },
+      {
+        "index": "ferramentas-de-tecelao",
+        "name": "Ferramentas de Tecelão",
+        "url": "/api/equipamentos/ferramentas-de-tecelao"
+      },
+      {
+        "index": "ferramentas-de-escultor-de-madeira",
+        "name": "Ferramentas de Escultor de Madeira",
+        "url": "/api/equipamentos/ferramentas-de-escultor-de-madeira"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/ferramentas-de-artesao"
+  },
+  {
+    "index": "conjuntos-de-jogos",
+    "name": "Conjuntos de Jogos",
+    "equipment": [
+      {
+        "index": "conjunto-de-dados",
+        "name": "Conjunto de Dados",
+        "url": "/api/equipamentos/conjunto-de-dados"
+      },
+      {
+        "index": "conjunto-de-cartas",
+        "name": "Conjunto de Cartas",
+        "url": "/api/equipamentos/conjunto-de-cartas"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/conjuntos-de-jogos"
+  },
+  {
+    "index": "instrumentos-musicais",
+    "name": "Instrumentos Musicais",
+    "equipment": [
+      {
+        "index": "gaita-de-foles",
+        "name": "Gaita de Foles",
+        "url": "/api/equipamentos/gaita-de-foles"
+      },
+      {
+        "index": "tambor",
+        "name": "Tambor",
+        "url": "/api/equipamentos/tambor"
+      },
+      {
+        "index": "dulcimer",
+        "name": "Dulcimer",
+        "url": "/api/equipamentos/dulcimer"
+      },
+      {
+        "index": "flauta",
+        "name": "Flauta",
+        "url": "/api/equipamentos/flauta"
+      },
+      {
+        "index": "alaude",
+        "name": "Alaúde",
+        "url": "/api/equipamentos/alaude"
+      },
+      {
+        "index": "lira",
+        "name": "Lira",
+        "url": "/api/equipamentos/lira"
+      },
+      {
+        "index": "corneta",
+        "name": "Corneta",
+        "url": "/api/equipamentos/corneta"
+      },
+      {
+        "index": "flauta-de-pan",
+        "name": "Flauta de Pan",
+        "url": "/api/equipamentos/flauta-de-pan"
+      },
+      {
+        "index": "chirimia",
+        "name": "Chirimia",
+        "url": "/api/equipamentos/chirimia"
+      },
+      {
+        "index": "viola",
+        "name": "Viola",
+        "url": "/api/equipamentos/viola"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/instrumentos-musicais"
+  },
+  {
+    "index": "outras-ferramentas",
+    "name": "Outras Ferramentas",
+    "equipment": [
+      {
+        "index": "ferramentas-do-navegador",
+        "name": "Ferramentas do Navegador",
+        "url": "/api/equipamentos/ferramentas-do-navegador"
+      },
+      {
+        "index": "ferramentas-de-ladino",
+        "name": "Ferramentas de Ladino",
+        "url": "/api/equipamentos/ferramentas-de-ladino"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/outras-ferramentas"
+  },
+  {
+    "index": "montarias-e-outros-animais",
+    "name": "Montarias e Outros Animais",
+    "equipment": [
+      {
+        "index": "mula",
+        "name": "Mula",
+        "url": "/api/equipamentos/mula"
+      },
+      {
+        "index": "elefante",
+        "name": "Elefante",
+        "url": "/api/equipamentos/elefante"
+      },
+      {
+        "index": "cavalo-de-carga",
+        "name": "Cavalo de Carga",
+        "url": "/api/equipamentos/cavalo-de-carga"
+      },
+      {
+        "index": "cavalo-de-montaria",
+        "name": "Cavalo de Montaria",
+        "url": "/api/equipamentos/cavalo-de-montaria"
+      },
+      {
+        "index": "mastim",
+        "name": "Mastim",
+        "url": "/api/equipamentos/mastim"
+      },
+      {
+        "index": "pônei",
+        "name": "Pônei",
+        "url": "/api/equipamentos/ponei"
+      },
+      {
+        "index": "cavalo-de-guerra",
+        "name": "Cavalo de Guerra",
+        "url": "/api/equipamentos/cavalo-de-guerra"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/montarias-e-outros-animais"
+  },
+  {
+    "index": "selas-arnes-e-veiculos-de-tracao",
+    "name": "Selas, Arnês e Veículos de Tração",
+    "equipment": [
+      {
+        "index": "armadura-para-animais-acolchoada",
+        "name": "Armadura para Animais: Acolchoada",
+        "url": "/api/equipamentos/armadura-para-animais-acolchoada"
+      },
+      {
+        "index": "armadura-para-animais-de-couro",
+        "name": "Armadura para Animais: Couro",
+        "url": "/api/equipamentos/armadura-para-animais-de-couro"
+      },
+      {
+        "index": "armadura-para-animais-com-tachas",
+        "name": "Armadura para Animais: Com Tachas",
+        "url": "/api/equipamentos/armadura-para-animais-com-tachas"
+      },
+      {
+        "index": "armadura-para-animais-de-pele",
+        "name": "Armadura para Animais: Pele",
+        "url": "/api/equipamentos/armadura-para-animais-de-pele"
+      },
+      {
+        "index": "armadura-para-animais-camisa-de-malha",
+        "name": "Armadura para Animais: Camisa de Malha",
+        "url": "/api/equipamentos/armadura-para-animais-camisa-de-malha"
+      },
+      {
+        "index": "armadura-para-animais-malha-de-escamas",
+        "name": "Armadura para Animais: Malha de Escamas",
+        "url": "/api/equipamentos/armadura-para-animais-malha-de-escamas"
+      },
+      {
+        "index": "armadura-para-animais-peitoral",
+        "name": "Armadura para Animais: Peitoral",
+        "url": "/api/equipamentos/armadura-para-animais-peitoral"
+      },
+      {
+        "index": "armadura-para-animais-meia-armadura",
+        "name": "Armadura para Animais: Meia-armadura",
+        "url": "/api/equipamentos/armadura-para-animais-meia-armadura"
+      },
+      {
+        "index": "armadura-para-animais-cota-de-anel",
+        "name": "Armadura para Animais: Cota de Anel",
+        "url": "/api/equipamentos/armadura-para-animais-cota-de-anel"
+      },
+      {
+        "index": "armadura-para-animais-cota-de-malha",
+        "name": "Armadura para Animais: Cota de Malha",
+        "url": "/api/equipamentos/armadura-para-animais-cota-de-malha"
+      },
+      {
+        "index": "armadura-para-animais-sobreveste",
+        "name": "Armadura para Animais: Sobreveste",
+        "url": "/api/equipamentos/armadura-para-animais-sobreveste"
+      },
+      {
+        "index": "armadura-para-animais-de-placas",
+        "name": "Armadura para Animais: De Placas",
+        "url": "/api/equipamentos/armadura-para-animais-de-placas"
+      },
+      {
+        "index": "freio-e-brida",
+        "name": "Freio e Brida",
+        "url": "/api/equipamentos/freio-e-brida"
+      },
+      {
+        "index": "carruagem",
+        "name": "Carruagem",
+        "url": "/api/equipamentos/carruagem"
+      },
+      {
+        "index": "carroça",
+        "name": "Carroça",
+        "url": "/api/equipamentos/carroca"
+      },
+      {
+        "index": "carruagem-de-guerra",
+        "name": "Carruagem de Guerra",
+        "url": "/api/equipamentos/carruagem-de-guerra"
+      },
+      {
+        "index": "ração-para-animais-1-dia",
+        "name": "Ração para Animais (1 dia)",
+        "url": "/api/equipamentos/racao-para-animais-1-dia"
+      },
+      {
+        "index": "sela-exótica",
+        "name": "Sela Exótica",
+        "url": "/api/equipamentos/sela-exotica"
+      },
+      {
+        "index": "sela-militar",
+        "name": "Sela Militar",
+        "url": "/api/equipamentos/sela-militar"
+      },
+      {
+        "index": "sela-de-carga",
+        "name": "Sela de Carga",
+        "url": "/api/equipamentos/sela-de-carga"
+      },
+      {
+        "index": "sela-de-montaria",
+        "name": "Sela de Montaria",
+        "url": "/api/equipamentos/sela-de-montaria"
+      },
+      {
+        "index": "alforjes",
+        "name": "Alforjes",
+        "url": "/api/equipamentos/alforjes"
+      },
+      {
+        "index": "trenó",
+        "name": "Trenó",
+        "url": "/api/equipamentos/treno"
+      },
+      {
+        "index": "estábulo-1-dia",
+        "name": "Estábulo (1 dia)",
+        "url": "/api/equipamentos/estabulo-1-dia"
+      },
+      {
+        "index": "carroça-grande",
+        "name": "Carroça Grande",
+        "url": "/api/equipamentos/carroca-grande"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/selas-arnes-e-veiculos-de-tracao"
+  },
+  {
+    "index": "veiculos-terrestres",
+    "name": "Veículos Terrestres",
+    "equipment": [
+      {
+        "index": "carruagem",
+        "name": "Carruagem",
+        "url": "/api/equipamentos/carruagem"
+      },
+      {
+        "index": "carroca",
+        "name": "Carroça",
+        "url": "/api/equipamentos/carroca"
+      },
+      {
+        "index": "carro-de-guerra",
+        "name": "Carro de Guerra",
+        "url": "/api/equipamentos/carro-de-guerra"
+      },
+      {
+        "index": "treno",
+        "name": "Trenó",
+        "url": "/api/equipamentos/treno"
+      },
+      {
+        "index": "carroca-grande",
+        "name": "Carroça Grande",
+        "url": "/api/equipamentos/carroca-grande"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/veiculos-terrestres"
+  },
+  {
+    "index": "veiculos-aquaticos",
+    "name": "Veículos Aquáticos",
+    "equipment": [
+      {
+        "index": "galera",
+        "name": "Galera",
+        "url": "/api/equipamentos/galera"
+      },
+      {
+        "index": "barco-de-quilha",
+        "name": "Barco de Quilha",
+        "url": "/api/equipamentos/barco-de-quilha"
+      },
+      {
+        "index": "dracar",
+        "name": "Dracar",
+        "url": "/api/equipamentos/dracar"
+      },
+      {
+        "index": "bote",
+        "name": "Bote",
+        "url": "/api/equipamentos/bote"
+      },
+      {
+        "index": "navio-a-vela",
+        "name": "Navio a Vela",
+        "url": "/api/equipamentos/navio-a-vela"
+      },
+      {
+        "index": "navio-de-guerra",
+        "name": "Navio de Guerra",
+        "url": "/api/equipamentos/navio-de-guerra"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/veiculos-aquaticos"
+  },
+  {
+    "index": "focos-arcanos",
+    "name": "Focos Arcanos",
+    "equipment": [
+      {
+        "index": "cristal",
+        "name": "Cristal",
+        "url": "/api/equipamentos/cristal"
+      },
+      {
+        "index": "orbe",
+        "name": "Orbe",
+        "url": "/api/equipamentos/orbe"
+      },
+      {
+        "index": "cetro",
+        "name": "Cetro",
+        "url": "/api/equipamentos/cetro"
+      },
+      {
+        "index": "bastao",
+        "name": "Bastão",
+        "url": "/api/equipamentos/bastao"
+      },
+      {
+        "index": "varinha",
+        "name": "Varinha",
+        "url": "/api/equipamentos/varinha"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/focos-arcanos"
+  },
+  {
+    "index": "focos-druidicos",
+    "name": "Focos Druídicos",
+    "equipment": [
+      {
+        "index": "ramo-de-visco",
+        "name": "Ramo de visco",
+        "url": "/api/equipamentos/ramo-de-visco"
+      },
+      {
+        "index": "totem",
+        "name": "Totem",
+        "url": "/api/equipamentos/totem"
+      },
+      {
+        "index": "bastao-de-madeira",
+        "name": "Bastão de madeira",
+        "url": "/api/equipamentos/bastao-de-madeira"
+      },
+      {
+        "index": "varinha-de-teixo",
+        "name": "Varinha de teixo",
+        "url": "/api/equipamentos/varinha-de-teixo"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/focos-druidicos"
+  },
+  {
+    "index": "simbolos-sagrados",
+    "name": "Símbolos Sagrados",
+    "equipment": [
+      {
+        "index": "amuleto",
+        "name": "Amuleto",
+        "url": "/api/equipamentos/amuleto"
+      },
+      {
+        "index": "emblema",
+        "name": "Emblema",
+        "url": "/api/equipamentos/emblema"
+      },
+      {
+        "index": "relicario",
+        "name": "Relicário",
+        "url": "/api/equipamentos/relicario"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/simbolos-sagrados"
+  },
+  {
+    "index": "itens-maravilhosos",
+    "name": "Itens Maravilhosos",
+    "equipment": [
+      {
+        "index": "amuleto-da-saude",
+        "name": "Amuleto da Saúde",
+        "url": "/api/itens-magicos/amuleto-da-saude"
+      },
+      {
+        "index": "amuleto-de-protecao-contra-deteccao-e-localizacao",
+        "name": "Amuleto de Proteção contra Detecção e Localização",
+        "url": "/api/itens-magicos/amuleto-de-protecao-contra-deteccao-e-localizacao"
+      },
+      {
+        "index": "amuleto-dos-planos",
+        "name": "Amuleto dos Planos",
+        "url": "/api/itens-magicos/amuleto-dos-planos"
+      },
+      {
+        "index": "aparelho-do-caranguejo",
+        "name": "Aparelho do Caranguejo",
+        "url": "/api/itens-magicos/aparelho-do-caranguejo"
+      },
+      {
+        "index": "saco-de-feijoes",
+        "name": "Saco de Feijões",
+        "url": "/api/itens-magicos/saco-de-feijoes"
+      },
+      {
+        "index": "saco-de-devoracao",
+        "name": "Saco de Devoracão",
+        "url": "/api/itens-magicos/saco-de-devoracao"
+      },
+      {
+        "index": "saco-de-conservacao",
+        "name": "Saco de Conservação",
+        "url": "/api/itens-magicos/saco-de-conservacao"
+      },
+      {
+        "index": "saco-de-truques",
+        "name": "Saco de Truques",
+        "url": "/api/itens-magicos/saco-de-truques"
+      },
+      {
+        "index": "conta-de-forca",
+        "name": "Conta de Força",
+        "url": "/api/itens-magicos/conta-de-forca"
+      },
+      {
+        "index": "cinto-dos-anoes",
+        "name": "Cinto dos Anões",
+        "url": "/api/itens-magicos/cinto-dos-anoes"
+      },
+      {
+        "index": "cinto-de-forca-gigante",
+        "name": "Cinto de Força Gigante",
+        "url": "/api/itens-magicos/cinto-de-forca-gigante"
+      },
+      {
+        "index": "botas-dos-elfos",
+        "name": "Botas dos Elfos",
+        "url": "/api/itens-magicos/botas-dos-elfos"
+      },
+      {
+        "index": "botas-de-levitacao",
+        "name": "Botas de Levitação",
+        "url": "/api/itens-magicos/botas-de-levitacao"
+      },
+      {
+        "index": "botas-de-velocidade",
+        "name": "Botas de Velocidade",
+        "url": "/api/itens-magicos/botas-de-velocidade"
+      },
+      {
+        "index": "botas-de-salto-e-corrida",
+        "name": "Botas de Salto e Corrida",
+        "url": "/api/itens-magicos/botas-de-salto-e-corrida"
+      },
+      {
+        "index": "botas-do-inverno",
+        "name": "Botas do Inverno",
+        "url": "/api/itens-magicos/botas-do-inverno"
+      },
+      {
+        "index": "tigela-de-comando-de-elementais-da-agua",
+        "name": "Tigela de Comando de Elementais da Água",
+        "url": "/api/itens-magicos/tigela-de-comando-de-elementais-da-agua"
+      },
+      {
+        "index": "braceletes-de-arqueiro",
+        "name": "Braceletes de Arqueiro",
+        "url": "/api/itens-magicos/braceletes-de-arqueiro"
+      },
+      {
+        "index": "braceletes-de-defesa",
+        "name": "Braceletes de Defesa",
+        "url": "/api/itens-magicos/braceletes-de-defesa"
+      },
+      {
+        "index": "braseiro-de-comando-de-elementais-de-fogo",
+        "name": "Braseiro de Comando de Elementais de Fogo",
+        "url": "/api/itens-magicos/braseiro-de-comando-de-elementais-de-fogo"
+      },
+      {
+        "index": "broche-de-protecao",
+        "name": "Broche de Proteção",
+        "url": "/api/itens-magicos/broche-de-protecao"
+      },
+      {
+        "index": "vassoura-voadora",
+        "name": "Vassoura Voadora",
+        "url": "/api/itens-magicos/vassoura-voadora"
+      },
+      {
+        "index": "vela-da-invocacao",
+        "name": "Vela da Invocação",
+        "url": "/api/itens-magicos/vela-da-invocacao"
+      },
+      {
+        "index": "capa-do-malandro",
+        "name": "Capa do Malandro",
+        "url": "/api/itens-magicos/capa-do-malandro"
+      },
+      {
+        "index": "tapete-voador",
+        "name": "Tapete Voador",
+        "url": "/api/itens-magicos/tapete-voador"
+      },
+      {
+        "index": "incensario-de-controle-de-elementais-do-ar",
+        "name": "Incensário de Controle de Elementais do Ar",
+        "url": "/api/itens-magicos/incensario-de-controle-de-elementais-do-ar"
+      },
+      {
+        "index": "sino-de-abertura",
+        "name": "Sino de Abertura",
+        "url": "/api/itens-magicos/sino-de-abertura"
+      },
+      {
+        "index": "coroa-de-explosao",
+        "name": "Coroa de Explosão",
+        "url": "/api/itens-magicos/coroa-de-explosao"
+      },
+      {
+        "index": "capa-de-aranha",
+        "name": "Capa de Aranha",
+        "url": "/api/itens-magicos/capa-de-aranha"
+      },
+      {
+        "index": "capa-de-deslocamento",
+        "name": "Capa de Deslocamento",
+        "url": "/api/itens-magicos/capa-de-deslocamento"
+      },
+      {
+        "index": "capa-elfica",
+        "name": "Capa Élfica",
+        "url": "/api/itens-magicos/capa-elfica"
+      },
+      {
+        "index": "capa-de-protecao",
+        "name": "Capa de Proteção",
+        "url": "/api/itens-magicos/capa-de-protecao"
+      },
+      {
+        "index": "capa-do-morcego",
+        "name": "Capa do Morcego",
+        "url": "/api/itens-magicos/capa-do-morcego"
+      },
+      {
+        "index": "capa-da-rai-do-manta",
+        "name": "Capa da Rai do Manta",
+        "url": "/api/itens-magicos/capa-da-rai-do-manta"
+      },
+      {
+        "index": "bola-de-cristal",
+        "name": "Bola de Cristal",
+        "url": "/api/itens-magicos/bola-de-cristal"
+      },
+      {
+        "index": "cubo-de-forca",
+        "name": "Cubo de Força",
+        "url": "/api/itens-magicos/cubo-de-forca"
+      },
+      {
+        "index": "cubo-de-portao",
+        "name": "Cubo de Portão",
+        "url": "/api/itens-magicos/cubo-de-portao"
+      },
+      {
+        "index": "decanter-de-agua-infinita",
+        "name": "Decanter de Água Infinita",
+        "url": "/api/itens-magicos/decanter-de-agua-infinita"
+      },
+      {
+        "index": "baralho-de-ilusoes",
+        "name": "Baralho de Ilusões",
+        "url": "/api/itens-magicos/baralho-de-ilusoes"
+      },
+      {
+        "index": "baralho-dos-muitos-itens",
+        "name": "Baralho dos Muitos Itens",
+        "url": "/api/itens-magicos/baralho-dos-muitos-itens"
+      },
+      {
+        "index": "grilhoes-dimensionais",
+        "name": "Grilhões Dimensionais",
+        "url": "/api/itens-magicos/grilhoes-dimensionais"
+      },
+      {
+        "index": "po-de-desaparecimento",
+        "name": "Pó de Desaparecimento",
+        "url": "/api/itens-magicos/po-de-desaparecimento"
+      },
+      {
+        "index": "po-de-secura",
+        "name": "Pó de Secura",
+        "url": "/api/itens-magicos/po-de-secura"
+      },
+      {
+        "index": "po-de-espirros-e-engasgos",
+        "name": "Pó de Espirros e Engasgos",
+        "url": "/api/itens-magicos/po-de-espirros-e-engasgos"
+      },
+      {
+        "index": "aljava-eficiente",
+        "name": "Aljava Eficiente",
+        "url": "/api/itens-magicos/aljava-eficiente"
+      },
+      {
+        "index": "garrafa-de-efreeti",
+        "name": "Garrafa de Efreeti",
+        "url": "/api/itens-magicos/garrafa-de-efreeti"
+      },
+      {
+        "index": "gema-elemental",
+        "name": "Gema Elemental",
+        "url": "/api/itens-magicos/gema-elemental"
+      },
+      {
+        "index": "garrafa-de-fumaca",
+        "name": "Garrafa de Fumaça",
+        "url": "/api/itens-magicos/garrafa-de-fumaca"
+      },
+      {
+        "index": "olhos-de-encantamento",
+        "name": "Olhos de Encantamento",
+        "url": "/api/itens-magicos/olhos-de-encantamento"
+      },
+      {
+        "index": "olhos-de-miragem",
+        "name": "Olhos de Miragem",
+        "url": "/api/itens-magicos/olhos-de-miragem"
+      },
+      {
+        "index": "olhos-da-aguia",
+        "name": "Olhos da Águia",
+        "url": "/api/itens-magicos/olhos-da-aguia"
+      },
+      {
+        "index": "token-de-pena",
+        "name": "Token de Pena",
+        "url": "/api/itens-magicos/token-de-pena"
+      },
+      {
+        "index": "escultura-de-poder",
+        "name": "Escultura de Poder",
+        "url": "/api/itens-magicos/escultura-de-poder"
+      },
+      {
+        "index": "barco-dobravel",
+        "name": "Barco Dobrável",
+        "url": "/api/itens-magicos/barco-dobravel"
+      },
+      {
+        "index": "luvas-do-ogro",
+        "name": "Luvas do Ogro",
+        "url": "/api/itens-magicos/luvas-do-ogro"
+      },
+      {
+        "index": "gema-do-brilho",
+        "name": "Gema do Brilho",
+        "url": "/api/itens-magicos/gema-do-brilho"
+      },
+      {
+        "index": "gema-da-verdade",
+        "name": "Gema da Verdade",
+        "url": "/api/itens-magicos/gema-da-verdade"
+      },
+      {
+        "index": "luvas-de-escape-de-misseis",
+        "name": "Luvas de Escape de Mísseis",
+        "url": "/api/itens-magicos/luvas-de-escape-de-misseis"
+      },
+      {
+        "index": "luvas-de-natacao-e-escalada",
+        "name": "Luvas de Natação e Escalada",
+        "url": "/api/itens-magicos/luvas-de-natacao-e-escalada"
+      },
+      {
+        "index": "oculos-da-noite",
+        "name": "Óculos da Noite",
+        "url": "/api/itens-magicos/oculos-da-noite"
+      },
+      {
+        "index": "saco-magico",
+        "name": "Saco Mágico",
+        "url": "/api/itens-magicos/saco-magico"
+      },
+      {
+        "index": "chapeu-de-disfarce",
+        "name": "Chapéu de Disfarce",
+        "url": "/api/itens-magicos/chapeu-de-disfarce"
+      },
+      {
+        "index": "bandana-de-poder",
+        "name": "Bandana de Poder",
+        "url": "/api/itens-magicos/bandana-de-poder"
+      },
+      {
+        "index": "elmo-de-brilho",
+        "name": "Elmo de Brilho",
+        "url": "/api/itens-magicos/elmo-de-brilho"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/itens-maravilhosos"
+  },
+  {
+    "index": "varas",
+    "name": "Varas",
+    "equipment": [
+      {
+        "index": "vara-imovel",
+        "name": "Vara Imóvel",
+        "url": "/api/itens-magicos/vara-imovel"
+      },
+      {
+        "index": "vara-de-absorcao",
+        "name": "Vara de Absorção",
+        "url": "/api/itens-magicos/vara-de-absorcao"
+      },
+      {
+        "index": "vara-de-alerta",
+        "name": "Vara de Alerta",
+        "url": "/api/itens-magicos/vara-de-alerta"
+      },
+      {
+        "index": "vara-do-grande-poder",
+        "name": "Vara do Grande Poder",
+        "url": "/api/itens-magicos/vara-do-grande-poder"
+      },
+      {
+        "index": "vara-de-dominação",
+        "name": "Vara de Dominação",
+        "url": "/api/itens-magicos/vara-de-dominacao"
+      },
+      {
+        "index": "vara-de-seguranca",
+        "name": "Vara de Segurança",
+        "url": "/api/itens-magicos/vara-de-seguranca"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/varas"
+  },
+  {
+    "index": "pocoes",
+    "name": "Poções",
+    "equipment": [
+      {
+        "index": "oleo-de-etereidade",
+        "name": "Óleo de Etereidade",
+        "url": "/api/itens-magicos/oleo-de-etereidade"
+      },
+      {
+        "index": "oleo-de-afiação",
+        "name": "Óleo de Afiamento",
+        "url": "/api/itens-magicos/oleo-de-afiamento"
+      },
+      {
+        "index": "oleo-de-lubrificação",
+        "name": "Óleo de Lubrificação",
+        "url": "/api/itens-magicos/oleo-de-lubrificacao"
+      },
+      {
+        "index": "poção-do-amor",
+        "name": "Poção do Amor",
+        "url": "/api/itens-magicos/pocao-do-amor"
+      },
+      {
+        "index": "pocao-da-amizade-animal",
+        "name": "Poção da Amizade Animal",
+        "url": "/api/itens-magicos/pocao-da-amizade-animal"
+      },
+      {
+        "index": "pocao-da-clarividência",
+        "name": "Poção da Clarividência",
+        "url": "/api/itens-magicos/pocao-da-clarividencia"
+      },
+      {
+        "index": "pocao-de-escalada",
+        "name": "Poção de Escalada",
+        "url": "/api/itens-magicos/pocao-de-escalada"
+      },
+      {
+        "index": "pocao-de-diminuição",
+        "name": "Poção de Diminuição",
+        "url": "/api/itens-magicos/pocao-de-diminuicao"
+      },
+      {
+        "index": "pocao-de-voo",
+        "name": "Poção de Voo",
+        "url": "/api/itens-magicos/pocao-de-voo"
+      },
+      {
+        "index": "pocao-de-forma-gasosa",
+        "name": "Poção de Forma Gasosa",
+        "url": "/api/itens-magicos/pocao-de-forma-gasosa"
+      },
+      {
+        "index": "pocao-da-força-gigante",
+        "name": "Poção da Força Gigante",
+        "url": "/api/itens-magicos/pocao-da-forca-gigante"
+      },
+      {
+        "index": "pocao-de-crescimento",
+        "name": "Poção de Crescimento",
+        "url": "/api/itens-magicos/pocao-de-crescimento"
+      },
+      {
+        "index": "pocao-de-cura",
+        "name": "Poção de Cura",
+        "url": "/api/itens-magicos/pocao-de-cura"
+      },
+      {
+        "index": "pocao-do-heroísmo",
+        "name": "Poção do Heroísmo",
+        "url": "/api/itens-magicos/pocao-do-heroismo"
+      },
+      {
+        "index": "pocao-da-invisibilidade",
+        "name": "Poção da Invisibilidade",
+        "url": "/api/itens-magicos/pocao-da-invisibilidade"
+      },
+      {
+        "index": "pocao-de-leitura-mental",
+        "name": "Poção de Leitura Mental",
+        "url": "/api/itens-magicos/pocao-de-leitura-mental"
+      },
+      {
+        "index": "pocao-de-veneno",
+        "name": "Poção de Veneno",
+        "url": "/api/itens-magicos/pocao-de-veneno"
+      },
+      {
+        "index": "pocao-de-resistencia",
+        "name": "Poção de Resistência",
+        "url": "/api/itens-magicos/pocao-de-resistencia"
+      },
+      {
+        "index": "pocao-de-velocidade",
+        "name": "Poção de Velocidade",
+        "url": "/api/itens-magicos/pocao-de-velocidade"
+      },
+      {
+        "index": "pocao-de-respiracao-aquatica",
+        "name": "Poção de Respiração Aquática",
+        "url": "/api/itens-magicos/pocao-de-respiracao-aquatica"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/pocoes"
+  },
+  {
+    "index": "anel",
+    "name": "Anel",
+    "equipment": [
+      {
+        "index": "anel-de-influencia-sobre-animais",
+        "name": "Anel de Influência sobre Animais",
+        "url": "/api/itens-mágicos/anel-de-influencia-sobre-animais"
+      },
+      {
+        "index": "anel-de-invocação-de-djinni",
+        "name": "Anel de Invocação de Djinni",
+        "url": "/api/itens-mágicos/anel-de-invocacao-de-djinni"
+      },
+      {
+        "index": "anel-de-comando-elemental",
+        "name": "Anel de Comando Elemental",
+        "url": "/api/itens-mágicos/anel-de-comando-elemental"
+      },
+      {
+        "index": "anel-de-evasão",
+        "name": "Anel de Evasão",
+        "url": "/api/itens-mágicos/anel-de-evasao"
+      },
+      {
+        "index": "anel-de-queda-suave",
+        "name": "Anel de Queda Suave",
+        "url": "/api/itens-mágicos/anel-de-queda-suave"
+      },
+      {
+        "index": "anel-de-ação-livre",
+        "name": "Anel de Ação Livre",
+        "url": "/api/itens-mágicos/anel-de-acao-livre"
+      },
+      {
+        "index": "anel-de-invisibilidade",
+        "name": "Anel de Invisibilidade",
+        "url": "/api/itens-mágicos/anel-de-invisibilidade"
+      },
+      {
+        "index": "anel-de-salto",
+        "name": "Anel de Salto",
+        "url": "/api/itens-mágicos/anel-de-salto"
+      },
+      {
+        "index": "anel-de-proteção-mental",
+        "name": "Anel de Proteção Mental",
+        "url": "/api/itens-mágicos/anel-de-protecao-mental"
+      },
+      {
+        "index": "anel-de-proteção",
+        "name": "Anel de Proteção",
+        "url": "/api/itens-mágicos/anel-de-protecao"
+      },
+      {
+        "index": "anel-de-regeneração",
+        "name": "Anel de Regeneração",
+        "url": "/api/itens-mágicos/anel-de-regeneracao"
+      },
+      {
+        "index": "anel-de-resistência",
+        "name": "Anel de Resistência",
+        "url": "/api/itens-mágicos/anel-de-resistencia"
+      },
+      {
+        "index": "anel-de-estrelas-cadentes",
+        "name": "Anel de Estrelas Cadentes",
+        "url": "/api/itens-mágicos/anel-de-estrelas-cadentes"
+      },
+      {
+        "index": "anel-de-armazenamento-de-magia",
+        "name": "Anel de Armazenamento de Magia",
+        "url": "/api/itens-mágicos/anel-de-armazenamento-de-magia"
+      },
+      {
+        "index": "anel-de-reflexão-de-magia",
+        "name": "Anel de Reflexão de Magia",
+        "url": "/api/itens-mágicos/anel-de-reflexao-de-magia"
+      },
+      {
+        "index": "anel-de-natação",
+        "name": "Anel de Natação",
+        "url": "/api/itens-mágicos/anel-de-natacao"
+      },
+      {
+        "index": "anel-de-telecinese",
+        "name": "Anel de Telecinese",
+        "url": "/api/itens-mágicos/anel-de-telecinese"
+      },
+      {
+        "index": "anel-do-carneiro",
+        "name": "Anel do Carneiro",
+        "url": "/api/itens-mágicos/anel-do-carneiro"
+      },
+      {
+        "index": "anel-dos-três-desejos",
+        "name": "Anel dos Três Desejos",
+        "url": "/api/itens-mágicos/anel-dos-tres-desejos"
+      },
+      {
+        "index": "anel-de-calor",
+        "name": "Anel de Calor",
+        "url": "/api/itens-mágicos/anel-de-calor"
+      },
+      {
+        "index": "anel-de-caminhar-na-água",
+        "name": "Anel de Caminhar na Água",
+        "url": "/api/itens-mágicos/anel-de-caminhar-na-agua"
+      },
+      {
+        "index": "anel-de-visão-de-raio-x",
+        "name": "Anel de Visão de Raio-X",
+        "url": "/api/itens-mágicos/anel-de-visao-de-raio-x"
+      },
+      {
+        "index": "anel-de-comando-elemental-ar",
+        "name": "Anel de Comando Elemental do Ar",
+        "url": "/api/itens-mágicos/anel-de-comando-elemental-ar"
+      },
+      {
+        "index": "anel-de-comando-elemental-terra",
+        "name": "Anel de Comando Elemental da Terra",
+        "url": "/api/itens-mágicos/anel-de-comando-elemental-terra"
+      },
+      {
+        "index": "anel-de-comando-elemental-fogo",
+        "name": "Anel de Comando Elemental do Fogo",
+        "url": "/api/itens-mágicos/anel-de-comando-elemental-fogo"
+      },
+      {
+        "index": "anel-de-comando-elemental-água",
+        "name": "Anel de Comando Elemental da Água",
+        "url": "/api/itens-mágicos/anel-de-comando-elemental-agua"
+      },
+      {
+        "index": "anel-de-resistência-ácida",
+        "name": "Anel de Resistência Ácida",
+        "url": "/api/itens-mágicos/anel-de-resistencia-acida"
+      },
+      {
+        "index": "anel-de-resistência-frio",
+        "name": "Anel de Resistência ao Frio",
+        "url": "/api/itens-mágicos/anel-de-resistencia-frio"
+      },
+      {
+        "index": "anel-de-resistência-fogo",
+        "name": "Anel de Resistência ao Fogo",
+        "url": "/api/itens-mágicos/anel-de-resistencia-fogo"
+      },
+      {
+        "index": "anel-de-resistência-força",
+        "name": "Anel de Resistência à Força",
+        "url": "/api/itens-mágicos/anel-de-resistencia-forca"
+      },
+      {
+        "index": "anel-de-resistência-relâmpago",
+        "name": "Anel de Resistência a Relâmpago",
+        "url": "/api/itens-mágicos/anel-de-resistencia-relampago"
+      },
+      {
+        "index": "anel-de-resistência-necrótica",
+        "name": "Anel de Resistência Necrótica",
+        "url": "/api/itens-mágicos/anel-de-resistencia-necrotica"
+      },
+      {
+        "index": "anel-de-resistência-veneno",
+        "name": "Anel de Resistência a Veneno",
+        "url": "/api/itens-mágicos/anel-de-resistencia-veneno"
+      },
+      {
+        "index": "anel-de-resistência-psíquica",
+        "name": "Anel de Resistência Psíquica",
+        "url": "/api/itens-mágicos/anel-de-resistencia-psiquica"
+      },
+      {
+        "index": "anel-de-resistência-radiante",
+        "name": "Anel de Resistência Radiante",
+        "url": "/api/itens-mágicos/anel-de-resistencia-radiante"
+      },
+      {
+        "index": "anel-de-resistência-trovão",
+        "name": "Anel de Resistência ao Trovão",
+        "url": "/api/itens-mágicos/anel-de-resistencia-trovao"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/anel"
+  },
+  {
+    "index": "pergaminho",
+    "name": "Pergaminho",
+    "equipment": [
+      {
+        "index": "pergaminho-de-feitiço",
+        "name": "Pergaminho de Feitiço",
+        "url": "/api/itens-mágicos/pergaminho-de-feitico"
+      },
+      {
+        "index": "pergaminho-de-feitiço-truque",
+        "name": "Pergaminho de Feitiço (Truque)",
+        "url": "/api/itens-mágicos/pergaminho-de-feitico-truque"
+      },
+      {
+        "index": "pergaminho-de-feitiço-1o-nível",
+        "name": "Pergaminho de Feitiço (1º Nível)",
+        "url": "/api/itens-mágicos/pergaminho-de-feitico-1-nivel"
+      },
+      {
+        "index": "pergaminho-de-feitiço-2o-nível",
+        "name": "Pergaminho de Feitiço (2º Nível)",
+        "url": "/api/itens-mágicos/pergaminho-de-feitico-2-nivel"
+      },
+      {
+        "index": "pergaminho-de-feitiço-3o-nível",
+        "name": "Pergaminho de Feitiço (3º Nível)",
+        "url": "/api/itens-mágicos/pergaminho-de-feitico-3-nivel"
+      },
+      {
+        "index": "pergaminho-de-feitiço-4o-nível",
+        "name": "Pergaminho de Feitiço (4º Nível)",
+        "url": "/api/itens-mágicos/pergaminho-de-feitico-4-nivel"
+      },
+      {
+        "index": "pergaminho-de-feitiço-5o-nível",
+        "name": "Pergaminho de Feitiço (5º Nível)",
+        "url": "/api/itens-mágicos/pergaminho-de-feitico-5-nivel"
+      },
+      {
+        "index": "pergaminho-de-feitiço-6o-nível",
+        "name": "Pergaminho de Feitiço (6º Nível)",
+        "url": "/api/itens-mágicos/pergaminho-de-feitico-6-nivel"
+      },
+      {
+        "index": "pergaminho-de-feitiço-7o-nível",
+        "name": "Pergaminho de Feitiço (7º Nível)",
+        "url": "/api/itens-mágicos/pergaminho-de-feitico-7-nivel"
+      },
+      {
+        "index": "pergaminho-de-feitiço-8o-nível",
+        "name": "Pergaminho de Feitiço (8º Nível)",
+        "url": "/api/itens-mágicos/pergaminho-de-feitico-8-nivel"
+      },
+      {
+        "index": "pergaminho-de-feitiço-9o-nível",
+        "name": "Pergaminho de Feitiço (9º Nível)",
+        "url": "/api/itens-mágicos/pergaminho-de-feitico-9-nivel"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/pergaminho"
+  },
+  {
+    "index": "cajado",
+    "name": "Cajado",
+    "equipment": [
+      {
+        "index": "cajado-de-encantamento",
+        "name": "Cajado de Encantamento",
+        "url": "/api/itens-mágicos/cajado-de-encantamento"
+      },
+      {
+        "index": "cajado-de-fogo",
+        "name": "Cajado de Fogo",
+        "url": "/api/itens-mágicos/cajado-de-fogo"
+      },
+      {
+        "index": "cajado-de-gelo",
+        "name": "Cajado de Gelo",
+        "url": "/api/itens-mágicos/cajado-de-gelo"
+      },
+      {
+        "index": "cajado-de-cura",
+        "name": "Cajado de Cura",
+        "url": "/api/itens-mágicos/cajado-de-cura"
+      },
+      {
+        "index": "cajado-de-poder",
+        "name": "Cajado de Poder",
+        "url": "/api/itens-mágicos/cajado-de-poder"
+      },
+      {
+        "index": "cajado-de-golpear",
+        "name": "Cajado de Golpear",
+        "url": "/api/itens-mágicos/cajado-de-golpear"
+      },
+      {
+        "index": "cajado-de-insetos-silvestres",
+        "name": "Cajado de Insetos Silvestres",
+        "url": "/api/itens-mágicos/cajado-de-insetos-silvestres"
+      },
+      {
+        "index": "cajado-do-mago",
+        "name": "Cajado do Mago",
+        "url": "/api/itens-mágicos/cajado-do-mago"
+      },
+      {
+        "index": "cajado-da-jiboia",
+        "name": "Cajado da Jiboia",
+        "url": "/api/itens-mágicos/cajado-da-jiboia"
+      },
+      {
+        "index": "cajado-das-florestas",
+        "name": "Cajado das Florestas",
+        "url": "/api/itens-mágicos/cajado-das-florestas"
+      },
+      {
+        "index": "cajado-de-trovão-e-relâmpago",
+        "name": "Cajado de Trovão e Relâmpago",
+        "url": "/api/itens-mágicos/cajado-de-trovao-e-relampago"
+      },
+      {
+        "index": "cajado-de-definhamento",
+        "name": "Cajado de Definhamento",
+        "url": "/api/itens-mágicos/cajado-de-definhamento"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/cajado"
+  },
+  {
+    "index": "varinha",
+    "name": "Varinha",
+    "equipment": [
+      {
+        "index": "varinha-de-ligação",
+        "name": "Varinha de Ligação",
+        "url": "/api/itens-mágicos/varinha-de-ligacao"
+      },
+      {
+        "index": "varinha-de-detecção-de-inimigos",
+        "name": "Varinha de Detecção de Inimigos",
+        "url": "/api/itens-mágicos/varinha-de-deteccao-de-inimigos"
+      },
+      {
+        "index": "varinha-de-medo",
+        "name": "Varinha de Medo",
+        "url": "/api/itens-mágicos/varinha-de-medo"
+      },
+      {
+        "index": "varinha-de-bolas-de-fogo",
+        "name": "Varinha de Bolas de Fogo",
+        "url": "/api/itens-mágicos/varinha-de-bolas-de-fogo"
+      },
+      {
+        "index": "varinha-de-relâmpagos",
+        "name": "Varinha de Relâmpagos",
+        "url": "/api/itens-mágicos/varinha-de-relampagos"
+      },
+      {
+        "index": "varinha-de-detecção-mágica",
+        "name": "Varinha de Detecção Mágica",
+        "url": "/api/itens-mágicos/varinha-de-deteccao-magica"
+      },
+      {
+        "index": "varinha-de-mísseis-mágicos",
+        "name": "Varinha de Mísseis Mágicos",
+        "url": "/api/itens-mágicos/varinha-de-misseis-magicos"
+      },
+      {
+        "index": "varinha-de-paralisia",
+        "name": "Varinha de Paralisia",
+        "url": "/api/itens-mágicos/varinha-de-paralisia"
+      },
+      {
+        "index": "varinha-de-polimorfia",
+        "name": "Varinha de Polimorfia",
+        "url": "/api/itens-mágicos/varinha-de-polimorfia"
+      },
+      {
+        "index": "varinha-de-segredos",
+        "name": "Varinha de Segredos",
+        "url": "/api/itens-mágicos/varinha-de-segredos"
+      },
+      {
+        "index": "varinha-do-mago-de-guerra",
+        "name": "Varinha do Mago de Guerra, +1, +2 ou +3",
+        "url": "/api/itens-mágicos/varinha-do-mago-de-guerra"
+      },
+      {
+        "index": "varinha-de-teia",
+        "name": "Varinha de Teia",
+        "url": "/api/itens-mágicos/varinha-de-teia"
+      },
+      {
+        "index": "varinha-das-maravilhas",
+        "name": "Varinha das Maravilhas",
+        "url": "/api/itens-mágicos/varinha-das-maravilhas"
+      },
+      {
+        "index": "varinha-do-mago-de-guerra-1",
+        "name": "Varinha do Mago de Guerra, +1",
+        "url": "/api/itens-mágicos/varinha-do-mago-de-guerra-1"
+      },
+      {
+        "index": "varinha-do-mago-de-guerra-2",
+        "name": "Varinha do Mago de Guerra, +2",
+        "url": "/api/itens-mágicos/varinha-do-mago-de-guerra-2"
+      },
+      {
+        "index": "varinha-do-mago-de-guerra-3",
+        "name": "Varinha do Mago de Guerra, +3",
+        "url": "/api/itens-mágicos/varinha-do-mago-de-guerra-3"
+      }
+    ],
+    "url": "/api/categorias-de-equipamento/varinha"
+  }
+]
