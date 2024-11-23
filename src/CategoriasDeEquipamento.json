@@ -59,9 +59,9 @@
         "url": "/api/equipamentos/besta-leve"
       },
       {
-        "index": "dardo-de-sopro",
-        "name": "Dardo de Sopro",
-        "url": "/api/equipamentos/dardo-de-sopro"
+        "index": "dardo-de-zarabatana",
+        "name": "Dardo de Zarabatana",
+        "url": "/api/equipamentos/dardo-de-zarabatana"
       },
       {
         "index": "arco-curto",
@@ -583,9 +583,9 @@
         "url": "/api/equipamentos/flecha"
       },
       {
-        "index": "agulha-de-sopro",
-        "name": "Agulha de Sopro",
-        "url": "/api/equipamentos/agulha-de-sopro"
+        "index": "dardo-de-zarabatana",
+        "name": "Dardo de Zarabatana",
+        "url": "/api/equipamentos/dardo-de-zarabatana"
       },
       {
         "index": "virote-de-balestra",
@@ -1075,9 +1075,9 @@
         "url": "/api/equipamentos/flecha"
       },
       {
-        "index": "agulha-de-sopro",
-        "name": "Agulha de Sopro",
-        "url": "/api/equipamentos/agulha-de-sopro"
+        "index": "dardo-de-zarabatana",
+        "name": "Dardo de Zarabatana",
+        "url": "/api/equipamentos/dardo-de-zarabatana"
       },
       {
         "index": "virote-de-balestra",
@@ -2205,9 +2205,9 @@
         "url": "/api/equipamentos/flecha"
       },
       {
-        "index": "agulha-de-zarabatana",
-        "name": "Agulha de Zarabatana",
-        "url": "/api/equipamentos/agulha-de-zarabatana"
+        "index": "dardo-de-zarabatana",
+        "name": "Dardo de Zarabatana",
+        "url": "/api/equipamentos/dardo-de-zarabatana"
       },
       {
         "index": "virote-de-besta",
