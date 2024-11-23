@@ -618,9 +618,9 @@
         "url": "/api/equipamentos/mochila"
       },
       {
-        "index": "bolinhas-de-metal",
-        "name": "Bolinhas de Metal (saco com 1.000)",
-        "url": "/api/equipamentos/bolinhas-de-metal"
+        "index": "esferas-de-metal-saco-com-1000",
+        "name": "Esferas de Metal (saco com 1.000)",
+        "url": "/api/equipamentos/esferas-de-metal-saco-com-1000"
       },
       {
         "index": "barril",

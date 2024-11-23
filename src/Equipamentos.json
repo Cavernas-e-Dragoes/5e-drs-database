@@ -2317,7 +2317,7 @@
       "Uma criatura se movendo através da área coberta deve ser bem-sucedida em um teste de resistência de Destreza CD 10 ou cairá no chão.",
       "Uma criatura se movendo através da área em metade da velocidade não precisa fazer o teste."
     ],
-    "url": "/api/equipamentos/esferas-de-aco-saco-de-1000"
+    "url": "/api/equipamentos/esferas-de-metal-saco-com-1000"
   },
   {
     "index": "barril",
@@ -4301,9 +4301,9 @@
       },
       {
         "item": {
-          "index": "esferas-de-metal-saco-de-1000",
-          "name": "Esferas de Metal (saco de 1.000)",
-          "url": "/api/equipamentos/esferas-de-metal-saco-de-1000"
+          "index": "esferas-de-metal-saco-com-1000",
+          "name": "Esferas de Metal (Saco com 1.000)",
+          "url": "/api/equipamentos/esferas-de-metal-saco-com-1000"
         },
         "quantity": 1
       },
