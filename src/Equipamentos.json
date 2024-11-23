@@ -2295,8 +2295,8 @@
     "url": "/api/equipamentos/mochila"
   },
   {
-    "index": "esferas-de-aco-saco-de-1000",
-    "name": "Esferas de Aço (saco de 1.000)",
+    "index": "esferas-de-metal-saco-com-1000",
+    "name": "Esferas de Metal (Saco com 1.000)",
     "equipment_category": {
       "index": "equipamento-de-aventura",
       "name": "Equipamento de Aventura",
