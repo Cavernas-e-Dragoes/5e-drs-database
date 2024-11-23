@@ -2029,8 +2029,8 @@
     "url": "/api/equipamentos/bloco-de-incenso"
   },
   {
-    "index": "agulha-de-zarabatana",
-    "name": "Agulha de Zarabatana",
+    "index": "dardo-de-zarabatana",
+    "name": "Dardo de Zarabatana",
     "equipment_category": {
       "index": "equipamento-de-aventura",
       "name": "Equipamento de Aventura",
@@ -2047,7 +2047,7 @@
       "unit": "po"
     },
     "weight": 1,
-    "url": "/api/equipamentos/agulha-de-zarabatana"
+    "url": "/api/equipamentos/dardo-de-zarabatana"
   },
   {
     "index": "incensario",
@@ -3708,7 +3708,7 @@
     },
     "weight": 1,
     "desc": [
-      "Uma bolsa de tecido ou couro pode conter até 20 balas de funda ou 50 agulhas de zarabatana, entre outras coisas. Uma bolsa compartimentada para guardar componentes de feitiços é chamada de bolsa de componentes (descrita anteriormente nesta seção)."
+      "Uma bolsa de tecido ou couro pode conter até 20 balas de funda ou 50 dardos de zarabatana, entre outras coisas. Uma bolsa compartimentada para guardar componentes de feitiços é chamada de bolsa de componentes (descrita anteriormente nesta seção)."
     ],
     "url": "/api/equipamentos/bolsa"
   },
