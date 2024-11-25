@@ -1,0 +1,91 @@
+[
+  {
+    "index": "municao",
+    "name": "Munição",
+    "desc": [
+      "Você pode usar uma arma que possua a propriedade munição para fazer um ataque à distância somente se tiver munição para disparar a arma. Cada vez que atacar com a arma, você gasta uma munição. Sacar a munição de uma aljava, estojo ou outro recipiente é parte do ataque (você precisa de uma mão livre para carregar uma arma de uma mão). Ao final da batalha, você pode recuperar metade de sua munição gasta ao usar um minuto para procurar pelo campo de batalha. ",
+      "Se usar uma arma que tenha a propriedade munição para fazer um ataque corpo a corpo, trate-a como uma arma improvisada. Uma funda deve ser carregada para causar algum dano quando usada desta forma."
+    ],
+    "url": "/api/propriedades-de-armas/municao"
+  },
+  {
+    "index": "acuidade",
+    "name": "Acuidade",
+    "desc": [
+      "Quando fizer um ataque com uma arma de acuidade, você pode usar, à sua escolha, o seu modificador de Força ou Destreza para as jogadas de ataque e dano. Você deve usar o mesmo modificador para ambas as jogadas."
+    ],
+    "url": "/api/propriedades-de-armas/acuidade"
+  },
+  {
+    "index": "pesada",
+    "name": "Pesada",
+    "desc": [
+      "Criaturas Pequenas têm desvantagem nas jogadas de ataque com armas pesadas. O tamanho e a massa de uma arma pesada é muito grande para uma criatura de tamanho Pequeno usar de forma eficaz."
+    ],
+    "url": "/api/propriedades-de-armas/pesada"
+  },
+  {
+    "index": "leve",
+    "name": "Leve",
+    "desc": [
+      "Uma arma leve é pequena e fácil de manusear, tornando-a ideal para usar quando se for lutar com duas armas."
+    ],
+    "url": "/api/propriedades-de-armas/leve"
+  },
+  {
+    "index": "recarga",
+    "name": "Recarga",
+    "desc": [
+      "Por causa do tempo necessário para carregar essa arma, você pode disparar somente uma peça de munição quando usar uma ação, ação bônus ou reação para dispará-la, independentemente do número de ataques que você possa fazer normalmente."
+    ],
+    "url": "/api/propriedades-de-armas/recarga"
+  },
+  {
+    "index": "alcance",
+    "name": "Alcance",
+    "desc": [
+      "Esta arma adiciona 1,5 metro ao seu alcance quando você atacar com ela, bem como quando for determinar seu alcance para ataques de oportunidade."
+    ],
+    "url": "/api/propriedades-de-armas/alcance"
+  },
+  {
+    "index": "especial",
+    "name": "Especial",
+    "desc": [
+      " Uma arma com a propriedade especial tem regras incomuns que regem seu uso, explicado na descrição da arma."
+    ],
+    "url": "/api/propriedades-de-armas/especial"
+  },
+  {
+    "index": "arremesso",
+    "name": "Arremesso",
+    "desc": [
+      "Se uma arma tiver a propriedade arremesso, você pode lançar a arma para fazer um ataque à distância. Se a arma for uma arma corpo a corpo, você usará o mesmo modificador de habilidade para jogada de ataque que usaria para um ataque corpo a corpo com a arma. Por exemplo, se você arremessar uma machadinha, você usará sua Força, mas se arremessar uma adaga, você pode usar sua Força ou sua Destreza, já que a adaga possui a propriedade acuidade."
+    ],
+    "url": "/api/propriedades-de-armas/arremesso"
+  },
+  {
+    "index": "duas-maos",
+    "name": "Duas Mãos",
+    "desc": [
+        "Esta arma requer duas mãos quando você ataca com ela."
+    ],
+    "url": "/api/propriedades-de-armas/duas-maos"
+  },
+  {
+    "index": "versatil",
+    "name": "Versátil",
+    "desc": [
+      "Esta arma pode ser usada com uma ou duas mãos. Um valor de dano aparece entre parênteses com esta propriedade – o dano quando a arma é usada com as duas mãos para fazer um ataque corpo a corpo."
+    ],
+    "url": "/api/propriedades-de-armas/versatil"
+  },
+  {
+    "index": "monge",
+    "name": "Monge",
+    "desc": [
+        "Monges ganham vários benefícios ao lutar desarmados ou empunhando apenas armas de monge, desde que não estejam usando armadura ou empunhando escudos."
+    ],
+    "url": "/api/propriedades-de-armas/monge"
+}
+]

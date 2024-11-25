@@ -1,0 +1,106 @@
+[
+  {
+    "index": "acido",
+    "name": "Ácido",
+    "desc": [
+      "O jato corrosivo do sopro de um dragão negro e as enzimas digestivas secretadas por um pudim negro causam dano de ácido."
+    ],
+    "url": "/api/tipos-de-dano/acido"
+  },
+  {
+    "index": "contundente",
+    "name": "Contundente",
+    "desc": [
+      "Ataques de força de impacto – martelos, quedas, constrição e similares – causam dano contundente"
+    ],
+    "url": "/api/tipos-de-dano/contundente"
+  },
+  {
+    "index": "frio",
+    "name": "Frio",
+    "desc": [
+      "O calafrio infernal que irradia da lança de um diabo do gelo e a explosão gélida de um sopro de um dragão branco causam dano de frio."
+    ],
+    "url": "/api/tipos-de-dano/frio"
+  },
+  {
+    "index": "fogo",
+    "name": "Fogo",
+    "desc": [
+      "O sopro de fogo de um dragão vermelho e muitas magias que invocam chamas causam dano de fogo."
+    ],
+    "url": "/api/tipos-de-dano/fogo"
+  },
+  {
+    "index": "forca",
+    "name": "Força",
+    "desc": [
+      "A força é pura energia mágica canalizada de uma forma que cause dano. A maioria dos efeitos que causam dano de força são mágicos, incluindo mísseis mágicos e arma espiritual."
+    ],
+    "url": "/api/tipos-de-dano/forca"
+  },
+  {
+    "index": "eletrico",
+    "name": "Elétrico",
+    "desc": [
+      "Uma magia de relâmpago e um sopro de dragão azul causam dano elétrico."
+    ],
+    "url": "/api/tipos-de-dano/eletrico"
+  },
+  {
+    "index": "necrotico",
+    "name": "Necrótico",
+    "desc": [
+      "Dano necrótico, causado por certos mortosvivos e magia como toque arrepiante, definham matéria e até mesmo a alma."
+    ],
+    "url": "/api/tipos-de-dano/necrotico"
+  },
+  {
+    "index": "perfurante",
+    "name": "Perfurante",
+    "desc": [
+      "Ataques perfurantes e penetrantes, incluindo lanças e mordidas de monstros, causam dano perfurante."
+    ],
+    "url": "/api/tipos-de-dano/perfurante"
+  },
+  {
+    "index": "veneno",
+    "name": "Veneno",
+    "desc": [
+      "Picadas venenosas e os gases tóxicos do sopro de um dragão verde causam dano de veneno."
+    ],
+    "url": "/api/tipos-de-dano/veneno"
+  },
+  {
+    "index": "psiquico",
+    "name": "Psíquico",
+    "desc": [
+        "Habilidades mentais, tais como a rajada psiônica de um devorador de mente, causam dano psíquico."
+    ],
+    "url": "/api/tipos-de-dano/psiquico"
+  },
+  {
+    "index": "radiant",
+    "name": "Radiant",
+    "desc": [
+      "Radiant damage, dealt by a cleric's flame strike spell or an angel's smiting weapon, sears the flesh like fire and overloads the spirit with power."
+    ],
+    "url": "/api/tipos-de-dano/radiant"
+  },
+  {
+    "index": "cortante",
+    "name": "Cortante",
+    "desc": [
+        "Espadas, machados e garras de monstros causam dano cortante."
+    ],
+    "url": "/api/tipos-de-dano/cortante"
+  },
+  {
+    "index": "trovejante",
+    "name": "Trovejante",
+    "desc": [
+      "Uma explosão contundente de som, como o efeito da magia onda da trovejante, causa dano trovejante."
+    ],
+    "url": "/api/tipos-de-dano/trovejante"
+  }
+]
