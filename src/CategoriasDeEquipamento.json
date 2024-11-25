@@ -1202,14 +1202,14 @@
     "name": "Ferramentas",
     "equipment": [
       {
-        "index": "suprimentos-de-alquimista",
-        "name": "Suprimentos de Alquimista",
-        "url": "/api/equipamentos/suprimentos-de-alquimista"
+        "index": "suprimentos-para-alquimistas",
+        "name": "Suprimentos para Alquimistas",
+        "url": "/api/equipamentos/suprimentos-para-alquimistas"
       },
       {
-        "index": "suprimentos-de-cervejeiro",
-        "name": "Suprimentos de Cervejeiro",
-        "url": "/api/equipamentos/suprimentos-de-cervejeiro"
+        "index": "suprimentos-para-cervejeiro",
+        "name": "Suprimentos para Cervejeiro",
+        "url": "/api/equipamentos/suprimentos-para-cervejeiro"
       },
       {
         "index": "suprimentos-de-caligrafo",
@@ -2801,14 +2801,14 @@
     "name": "Ferramentas de Artesão",
     "equipment": [
       {
-        "index": "suprimentos-de-alquimista",
-        "name": "Suprimentos de Alquimista",
-        "url": "/api/equipamentos/suprimentos-de-alquimista"
+        "index": "suprimentos-para-alquimistas",
+        "name": "Suprimentos para Alquimistas",
+        "url": "/api/equipamentos/suprimentos-para-alquimistas"
       },
       {
-        "index": "suprimentos-de-cervejeiro",
-        "name": "Suprimentos de Cervejeiro",
-        "url": "/api/equipamentos/suprimentos-de-cervejeiro"
+        "index": "suprimentos-para-cervejeiro",
+        "name": "Suprimentos para Cervejeiro",
+        "url": "/api/equipamentos/suprimentos-para-cervejeiro"
       },
       {
         "index": "suprimentos-de-caligrafo",
