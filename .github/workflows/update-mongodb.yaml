@@ -41,3 +41,45 @@ jobs:
             echo "Importing $file into collection $collection..."
             mongoimport --uri mongodb+srv://${{ secrets.MONGO_USER }}:${{ secrets.MONGO_PASSWORD }}@${{ vars.MONGO_HOST }}/${{ vars.MONGO_DATABASE }} --collection "$collection" --type json --file "$file" --jsonArray --drop
           done
+          
+      - name: Send Message to RabbitMQ
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install pika (RabbitMQ client for Python)
+        run: pip install pika
+
+      - name: Publish message to RabbitMQ
+        env:
+          RABBITMQ_HOST: ${{ secrets.RABBITMQ_HOST }}
+          RABBITMQ_PORT: ${{ secrets.RABBITMQ_PORT }}
+          RABBITMQ_USERNAME: ${{ secrets.RABBITMQ_USERNAME }}
+          RABBITMQ_PASSWORD: ${{ secrets.RABBITMQ_PASSWORD }}
+          RABBITMQ_VHOST: ${{ secrets.RABBITMQ_VHOST }}
+          RABBITMQ_QUEUE: ${{ secrets.RABBITMQ_QUEUE }}
+          RABBITMQ_EXCHANGE: ${{ secrets.RABBITMQ_EXCHANGE }}
+          RABBITMQ_ROUTING_KEY: ${{ secrets.RABBITMQ_ROUTING_KEY }}
+        run: |
+          python -c "
+          import pika, ssl, os
+
+          credentials = pika.PlainCredentials(os.environ['RABBITMQ_USERNAME'], os.environ['RABBITMQ_PASSWORD'])
+          context = ssl.create_default_context()
+          ssl_options = pika.SSLOptions(context, os.environ['RABBITMQ_HOST'])
+          parameters = pika.ConnectionParameters(
+            host=os.environ['RABBITMQ_HOST'],
+            port=int(os.environ['RABBITMQ_PORT']),
+            virtual_host=os.environ['RABBITMQ_VHOST'],
+            credentials=credentials,
+            ssl_options=ssl_options
+          )
+
+          connection = pika.BlockingConnection(parameters)
+          channel = connection.channel()
+          channel.exchange_declare(exchange=os.environ['RABBITMQ_EXCHANGE'], exchange_type='direct', durable=True)
+          message = 'Atualizar dados'
+          channel.basic_publish(exchange=os.environ['RABBITMQ_EXCHANGE'], routing_key=os.environ['RABBITMQ_ROUTING_KEY'], body=message)
+          print('Mensagem enviada para o RabbitMQ')
+          connection.close()
+          "
