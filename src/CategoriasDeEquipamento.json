@@ -1292,14 +1292,14 @@
         "url": "/api/equipamentos/conjunto-de-dados"
       },
       {
-        "index": "conjunto-de-cartas",
-        "name": "Conjunto de Cartas",
-        "url": "/api/equipamentos/conjunto-de-cartas"
+        "index": "baralho",
+        "name": "Baralho",
+        "url": "/api/equipamentos/baralho"
       },
       {
-        "index": "gaita-de-fole",
-        "name": "Gaita de Fole",
-        "url": "/api/equipamentos/gaita-de-fole"
+        "index": "gaita-de-foles",
+        "name": "Gaita de Foles",
+        "url": "/api/equipamentos/gaita-de-foles"
       },
       {
         "index": "tambor",
@@ -2881,9 +2881,9 @@
         "url": "/api/equipamentos/ferramentas-de-tecelao"
       },
       {
-        "index": "ferramentas-de-escultor-de-madeira",
-        "name": "Ferramentas de Escultor de Madeira",
-        "url": "/api/equipamentos/ferramentas-de-escultor-de-madeira"
+        "index": "ferramentas-de-entalhador",
+        "name": "Ferramentas de Entalhador",
+        "url": "/api/equipamentos/ferramentas-de-entalhador"
       }
     ],
     "url": "/api/categorias-de-equipamento/ferramentas-de-artesao"
@@ -2898,9 +2898,9 @@
         "url": "/api/equipamentos/conjunto-de-dados"
       },
       {
-        "index": "conjunto-de-cartas",
-        "name": "Conjunto de Cartas",
-        "url": "/api/equipamentos/conjunto-de-cartas"
+        "index": "baralho",
+        "name": "Baralho",
+        "url": "/api/equipamentos/baralho"
       }
     ],
     "url": "/api/categorias-de-equipamento/conjuntos-de-jogos"
