@@ -1,7 +1,7 @@
 [
   {
-    "index": "arma",
-    "name": "Arma",
+    "index": "armas",
+    "name": "Armas",
     "equipment": [
       {
         "index": "clava",
@@ -14,9 +14,9 @@
         "url": "/api/equipamentos/adaga"
       },
       {
-        "index": "grande-clava",
-        "name": "Grande Clava",
-        "url": "/api/equipamentos/grande-clava"
+        "index": "clava-grande",
+        "name": "Clava Grande",
+        "url": "/api/equipamentos/clava-grande"
       },
       {
         "index": "machadinha",
@@ -24,9 +24,9 @@
         "url": "/api/equipamentos/machadinha"
       },
       {
-        "index": "dardo",
-        "name": "Dardo",
-        "url": "/api/equipamentos/dardo"
+        "index": "azagaia",
+        "name": "Azagaia",
+        "url": "/api/equipamentos/azagaia"
       },
       {
         "index": "martelo-leve",
@@ -59,9 +59,9 @@
         "url": "/api/equipamentos/besta-leve"
       },
       {
-        "index": "dardo-de-zarabatana",
-        "name": "Dardo de Zarabatana",
-        "url": "/api/equipamentos/dardo-de-zarabatana"
+        "index": "dardo",
+        "name": "Dardo",
+        "url": "/api/equipamentos/dardo"
       },
       {
         "index": "arco-curto",
@@ -84,14 +84,14 @@
         "url": "/api/equipamentos/mangual"
       },
       {
-        "index": "gladio",
-        "name": "Gládio",
-        "url": "/api/equipamentos/gladio"
+        "index": "glaive",
+        "name": "Glaive",
+        "url": "/api/equipamentos/glaive"
       },
       {
-        "index": "grande-machado",
-        "name": "Grande Machado",
-        "url": "/api/equipamentos/grande-machado"
+        "index": "machado-grande",
+        "name": "Machado Grande",
+        "url": "/api/equipamentos/machado-grande"
       },
       {
         "index": "espada-grande",
@@ -114,14 +114,14 @@
         "url": "/api/equipamentos/espada-longa"
       },
       {
-        "index": "martelo-de-guerra",
-        "name": "Martelo de Guerra",
-        "url": "/api/equipamentos/martelo-de-guerra"
+        "index": "malho",
+        "name": "Malho",
+        "url": "/api/equipamentos/malho"
       },
       {
-        "index": "mangual-com-espinhos",
-        "name": "Mangual com Espinhos",
-        "url": "/api/equipamentos/mangual-com-espinhos"
+        "index": "maca-estrela",
+        "name": "Maça Estrela",
+        "url": "/api/equipamentos/maca-estrela"
       },
       {
         "index": "pique",
@@ -129,9 +129,9 @@
         "url": "/api/equipamentos/pique"
       },
       {
-        "index": "florete",
-        "name": "Florete",
-        "url": "/api/equipamentos/florete"
+        "index": "rapieira",
+        "name": "Rapieira",
+        "url": "/api/equipamentos/rapieira"
       },
       {
         "index": "cimitarra",
@@ -149,14 +149,14 @@
         "url": "/api/equipamentos/tridente"
       },
       {
-        "index": "pico-de-guerra",
-        "name": "Pico de Guerra",
-        "url": "/api/equipamentos/pico-de-guerra"
+        "index": "picareta-de-guerra",
+        "name": "Picareta de Guerra",
+        "url": "/api/equipamentos/picareta-de-guerra"
       },
       {
-        "index": "martelo-de-guerra-pesado",
-        "name": "Martelo de Guerra Pesado",
-        "url": "/api/equipamentos/martelo-de-guerra-pesado"
+        "index": "martelo-de-guerra",
+        "name": "Martelo de Guerra",
+        "url": "/api/equipamentos/martelo-de-guerra"
       },
       {
         "index": "chicote",
@@ -189,14 +189,14 @@
         "url": "/api/equipamentos/rede"
       },
       {
-        "index": "machado-do-berserker",
-        "name": "Machado do Berserker",
-        "url": "/api/itens-magicos/machado-do-berserker"
+        "index": "machado-furioso",
+        "name": "Machado Furioso",
+        "url": "/api/itens-magicos/machado-furioso"
       },
       {
-        "index": "adaga-de-veneno",
-        "name": "Adaga de Veneno",
-        "url": "/api/itens-magicos/adaga-de-veneno"
+        "index": "adaga-venenosa",
+        "name": "Adaga Venenosa",
+        "url": "/api/itens-magicos/adaga-venenosa"
       },
       {
         "index": "espada-dancante",
@@ -204,74 +204,74 @@
         "url": "/api/itens-magicos/espada-dancante"
       },
       {
-        "index": "defensor",
-        "name": "Defensor",
-        "url": "/api/itens-magicos/defensor"
+        "index": "defensora",
+        "name": "Defensora",
+        "url": "/api/itens-magicos/defensora"
       },
       {
-        "index": "matador-de-dragoes",
-        "name": "Matador de Dragões",
-        "url": "/api/itens-magicos/matador-de-dragoes"
+        "index": "matadora-de-dragao",
+        "name": "Matadora de Dragão",
+        "url": "/api/itens-magicos/matadora-de-dragao"
       },
       {
-        "index": "arremessador-anão",
-        "name": "Arremessador Anão",
-        "url": "/api/itens-magicos/arremessador-anao"
+        "index": "arremessador-dos-anoes",
+        "name": "Arremessador dos Anões",
+        "url": "/api/itens-magicos/arremessador-dos-anoes"
       },
       {
-        "index": "lingua-de-chama",
-        "name": "Língua de Chama",
-        "url": "/api/itens-magicos/lingua-de-chama"
+        "index": "lingua-flamejante",
+        "name": "Língua Flamejante",
+        "url": "/api/itens-magicos/lingua-flamejante"
       },
       {
-        "index": "marca-do-gelo",
-        "name": "Marca do Gelo",
-        "url": "/api/itens-magicos/marca-do-gelo"
+        "index": "marca-gelida",
+        "name": "Marca Gélida",
+        "url": "/api/itens-magicos/marca-gelida"
       },
       {
-        "index": "matador-de-gigantes",
-        "name": "Matador de Gigantes",
-        "url": "/api/itens-magicos/matador-de-gigantes"
+        "index": "matadora-de-gigante",
+        "name": "Matadora de Gigante",
+        "url": "/api/itens-magicos/matadora-de-gigante"
       },
       {
-        "index": "martelo-dos-trovoes",
-        "name": "Martelo dos Trovões",
-        "url": "/api/itens-magicos/martelo-dos-trovoes"
+        "index": "martelo-dos-raios",
+        "name": "Martelo dos Raios",
+        "url": "/api/itens-magicos/martelo-dos-raios"
       },
       {
-        "index": "vingador-sagrado",
-        "name": "Vingador Sagrado",
-        "url": "/api/itens-magicos/vingador-sagrado"
+        "index": "vingadora-sagrada",
+        "name": "Vingadora Sagrada",
+        "url": "/api/itens-magicos/vingadora-sagrada"
       },
       {
-        "index": "dardo-de-raio",
-        "name": "Dardo de Raio",
-        "url": "/api/itens-magicos/dardo-de-raio"
+        "index": "azagaia-de-relampago",
+        "name": "Azagaia de Relâmpago",
+        "url": "/api/itens-magicos/azagaia-de-relampago"
       },
       {
-        "index": "espada-da-sorte",
-        "name": "Espada da Sorte",
-        "url": "/api/itens-magicos/espada-da-sorte"
+        "index": "lamina-da-sorte",
+        "name": "Lâmina da Sorte",
+        "url": "/api/itens-magicos/lamina-da-sorte"
       },
       {
-        "index": "maca-de-disrupcao",
-        "name": "Maça de Disrupção",
-        "url": "/api/itens-magicos/maca-de-disrupcao"
+        "index": "maca-de-disrrupcao",
+        "name": "Maça de Disrrupção",
+        "url": "/api/itens-magicos/maca-de-disrrupcao"
       },
       {
-        "index": "maca-de-impacto",
-        "name": "Maça de Impacto",
-        "url": "/api/itens-magicos/maca-de-impacto"
+        "index": "maca-de-destruicao",
+        "name": "Maça de Destruição",
+        "url": "/api/itens-magicos/maca-de-destruicao"
       },
       {
-        "index": "maca-de-terror",
-        "name": "Maça de Terror",
-        "url": "/api/itens-magicos/maca-de-terror"
+        "index": "maca-do-terror",
+        "name": "Maça do Terror",
+        "url": "/api/itens-magicos/maca-do-terror"
       },
       {
-        "index": "ladra-de-vidas",
-        "name": "Ladra de Vidas",
-        "url": "/api/itens-magicos/ladra-de-vidas"
+        "index": "ladra-das-nove-vidas",
+        "name": "Ladra das Nove Vidas",
+        "url": "/api/itens-magicos/ladra-das-nove-vidas"
       },
       {
         "index": "arco-do-juramento",
@@ -284,34 +284,34 @@
         "url": "/api/itens-magicos/cimitarra-de-velocidade"
       },
       {
-        "index": "espada-solar",
-        "name": "Espada Solar",
-        "url": "/api/itens-magicos/espada-solar"
+        "index": "lamina-solar",
+        "name": "Lâmina Solar",
+        "url": "/api/itens-magicos/lamina-solar"
       },
       {
-        "index": "espada-rouba-vidas",
-        "name": "Espada Rouba-Vidas",
-        "url": "/api/itens-magicos/espada-rouba-vidas"
+        "index": "espada-sorvedora-de-vida",
+        "name": "Espada Sorvedora de Vida",
+        "url": "/api/itens-magicos/espada-sorvedora-de-vida"
       },
       {
-        "index": "espada-afiada",
-        "name": "Espada Afiada",
-        "url": "/api/itens-magicos/espada-afiada"
+        "index": "espada-de-precisao",
+        "name": "Espada de Precisão",
+        "url": "/api/itens-magicos/espada-de-precisao"
       },
       {
         "index": "espada-de-ferimento",
-        "name": "Espada de Ferimento",
+        "name": "Espada do Ferimento",
         "url": "/api/itens-magicos/espada-de-ferimento"
       },
       {
-        "index": "tridente-comando-peixes",
-        "name": "Tridente de Comando dos Peixes",
-        "url": "/api/itens-magicos/tridente-comando-peixes"
+        "index": "tridente-de-comandar-peixes",
+        "name": "Tridente de Comandar Peixes",
+        "url": "/api/itens-magicos/tridente-de-comandar-peixes"
       },
       {
-        "index": "arma-viciosa",
-        "name": "Arma Viciosa",
-        "url": "/api/itens-magicos/arma-viciosa"
+        "index": "arma-perigosa",
+        "name": "Arma Perigosa",
+        "url": "/api/itens-magicos/arma-perigosa"
       },
       {
         "index": "espada-vorpal",
@@ -339,16 +339,16 @@
         "url": "/api/itens-magicos/arma-magica-3"
       }
     ],
-    "url": "/api/categorias-de-equipamento/arma"
+    "url": "/api/categorias-de-equipamento/armas"
   },
   {
-    "index": "armadura",
-    "name": "Armadura",
+    "index": "armaduras",
+    "name": "Armaduras",
     "equipment": [
       {
-        "index": "armadura-almofadada",
-        "name": "Armadura Almofadada",
-        "url": "/api/equipamentos/armadura-almofadada"
+        "index": "armadura-acolchoada",
+        "name": "Armadura Acolchoada",
+        "url": "/api/equipamentos/armadura-acolchoada"
       },
       {
         "index": "armadura-de-couro",
@@ -356,24 +356,24 @@
         "url": "/api/equipamentos/armadura-de-couro"
       },
       {
-        "index": "armadura-de-couro-rebitada",
-        "name": "Armadura de Couro Rebitada",
-        "url": "/api/equipamentos/armadura-de-couro-rebitada"
+        "index": "armadura-de-couro-batido",
+        "name": "Armadura de Couro Batido",
+        "url": "/api/equipamentos/armadura-de-couro-batido"
       },
       {
-        "index": "armadura-de-pele",
-        "name": "Armadura de Pele",
-        "url": "/api/equipamentos/armadura-de-pele"
+        "index": "gibao-de-peles",
+        "name": "Gibão de Peles",
+        "url": "/api/equipamentos/gibao-de-peles"
       },
       {
-        "index": "camisa-de-malha",
-        "name": "Camisa de Malha",
-        "url": "/api/equipamentos/camisa-de-malha"
+        "index": "cota-de-malha-parcial",
+        "name": "Cota de Malha Parcial",
+        "url": "/api/equipamentos/cota-de-malha-parcial"
       },
       {
-        "index": "cota-de-escamas",
-        "name": "Cota de Escamas",
-        "url": "/api/equipamentos/cota-de-escamas"
+        "index": "brunea",
+        "name": "Brunea",
+        "url": "/api/equipamentos/brunea"
       },
       {
         "index": "peitoral",
@@ -382,13 +382,13 @@
       },
       {
         "index": "meia-armadura",
-        "name": "Meia Armadura",
+        "name": "Meia-Armadura",
         "url": "/api/equipamentos/meia-armadura"
       },
       {
-        "index": "armadura-de-aneis",
-        "name": "Armadura de Anéis",
-        "url": "/api/equipamentos/armadura-de-aneis"
+        "index": "cota-de-aneis",
+        "name": "Cota de Anéis",
+        "url": "/api/equipamentos/cota-de-aneis"
       },
       {
         "index": "cota-de-malha",
@@ -396,9 +396,9 @@
         "url": "/api/equipamentos/cota-de-malha"
       },
       {
-        "index": "armadura-de-braceles",
-        "name": "Armadura de Bráceles",
-        "url": "/api/equipamentos/armadura-de-braceles"
+        "index": "cota-de-talas",
+        "name": "Cota de Talas",
+        "url": "/api/equipamentos/cota-de-talas"
       },
       {
         "index": "armadura-de-placas",
@@ -421,9 +421,9 @@
         "url": "/api/itens-magicos/escudo-animado"
       },
       {
-        "index": "armadura",
-        "name": "Armadura, +1, +2 ou +3",
-        "url": "/api/itens-magicos/armadura"
+        "index": "armadura-magica",
+        "name": "Armadura Mágica, +1, +2 ou +3",
+        "url": "/api/itens-magicos/armadura-magica"
       },
       {
         "index": "armadura-da-invulnerabilidade",
@@ -441,34 +441,34 @@
         "url": "/api/itens-magicos/armadura-da-vulnerabilidade"
       },
       {
-        "index": "escudo-anti-flechas",
-        "name": "Escudo Anti-Flechas",
-        "url": "/api/itens-magicos/escudo-anti-flechas"
+        "index": "escudo-apanhador-de-flechas",
+        "name": "Escudo Apanhador de FlechasFlechas",
+        "url": "/api/itens-magicos/escudo-apanhador-de-flechas"
       },
       {
-        "index": "armadura-do-demonio",
-        "name": "Armadura do Demônio",
-        "url": "/api/itens-magicos/armadura-do-demonio"
+        "index": "armadura-demoniaca",
+        "name": "Armadura Demoníaca",
+        "url": "/api/itens-magicos/armadura-demoniaca"
       },
       {
-        "index": "cota-de-escamas-de-dragao",
-        "name": "Cota de Escamas de Dragão",
-        "url": "/api/itens-magicos/cota-de-escamas-de-dragao"
+        "index": "brunea-de-escama-de-dragao",
+        "name": "Brunea de Escama de Dragão",
+        "url": "/api/itens-magicos/brunea-de-escama-de-dragao"
       },
       {
-        "index": "placa-anã",
-        "name": "Placa Anã",
-        "url": "/api/itens-magicos/placa-ana"
+        "index": "armadura-de-placas-dos-anoes",
+        "name": "Armadura de Placas dos Anões",
+        "url": "/api/itens-magicos/armadura-de-placas-dos-anoes"
       },
       {
-        "index": "cota-élfica",
-        "name": "Cota Élfica",
-        "url": "/api/itens-magicos/cota-elfica"
+        "index": "cota-de-malha-elfica",
+        "name": "Cota de Malha Élfica",
+        "url": "/api/itens-magicos/cota-de-malha-elfica"
       },
       {
-        "index": "armadura-de-couro-rebitada-ilusoria",
-        "name": "Armadura de Couro Rebitada Ilusória",
-        "url": "/api/itens-magicos/armadura-de-couro-rebitada-ilusoria"
+        "index": "armadura-de-couro-batido-glamourosa",
+        "name": "Armadura de Couro Batido Glamourosa",
+        "url": "/api/itens-magicos/armadura-de-couro-batido-glamourosa"
       },
       {
         "index": "armadura-de-mitral",
@@ -476,87 +476,87 @@
         "url": "/api/itens-magicos/armadura-de-mitral"
       },
       {
-        "index": "armadura-de-eterealidade",
-        "name": "Armadura de Eterealidade",
-        "url": "/api/itens-magicos/armadura-de-eterealidade"
+        "index": "armadura-de-placas-de-forma-eterea",
+        "name": "Armadura de Placas de Forma Etérea",
+        "url": "/api/itens-magicos/armadura-de-placas-de-forma-eterea"
       },
       {
-        "index": "escudo-atrativo-de-misseis",
-        "name": "Escudo Atrativo de Mísseis",
-        "url": "/api/itens-magicos/escudo-atrativo-de-misseis"
+        "index": "escudo-de-atracao-de-projeteis",
+        "name": "Escudo de Atração de Projéteis",
+        "url": "/api/itens-magicos/escudo-de-atracao-de-projeteis"
       },
       {
-        "index": "escudo-protetor-de-magias",
-        "name": "Escudo Protetor de Magias",
-        "url": "/api/itens-magicos/escudo-protetor-de-magias"
+        "index": "escudo-de-guarda-magica",
+        "name": "Escudo de Guarda Mágica",
+        "url": "/api/itens-magicos/escudo-de-guarda-magica"
       },
       {
-        "index": "armadura-1",
-        "name": "Armadura, +1",
-        "url": "/api/itens-magicos/armadura-1"
+        "index": "armadura-magica-1",
+        "name": "Armadura Mágica, +1",
+        "url": "/api/itens-magicos/armadura-magica-1"
       },
       {
-        "index": "armadura-2",
-        "name": "Armadura, +2",
-        "url": "/api/itens-magicos/armadura-2"
+        "index": "armadura-magica-2",
+        "name": "Armadura Mágica, +2",
+        "url": "/api/itens-magicos/armadura-magica-2"
       },
       {
-        "index": "armadura-3",
-        "name": "Armadura, +3",
-        "url": "/api/itens-magicos/armadura-3"
+        "index": "armadura-magica-3",
+        "name": "Armadura Mágica, +3",
+        "url": "/api/itens-magicos/armadura-magica-3"
       },
       {
-        "index": "cota-de-escamas-dragao-negro",
-        "name": "Cota de Escamas de Dragão Negro",
-        "url": "/api/itens-magicos/cota-de-escamas-dragao-negro"
+        "index": "brunea-de-escama-de-dragao-preto",
+        "name": "Brunea de Escama de Dragão Preto",
+        "url": "/api/itens-magicos/brunea-de-escama-de-dragao-preto"
       },
       {
-        "index": "cota-de-escamas-dragao-azul",
-        "name": "Cota de Escamas de Dragão Azul",
-        "url": "/api/itens-magicos/cota-de-escamas-dragao-azul"
+        "index": "brunea-de-escama-de-dragao-azul",
+        "name": "Brunea de Escama de Dragão Azul",
+        "url": "/api/itens-magicos/brunea-de-escama-de-dragao-azul"
       },
       {
-        "index": "cota-de-escamas-dragao-latao",
-        "name": "Cota de Escamas de Dragão Latão",
-        "url": "/api/itens-magicos/cota-de-escamas-dragao-latao"
+        "index": "brunea-de-escama-de-dragao-latao",
+        "name": "Brunea de Escama de Dragão Latão",
+        "url": "/api/itens-magicos/brunea-de-escama-de-dragao-latao"
       },
       {
-        "index": "cota-de-escamas-dragao-bronze",
-        "name": "Cota de Escamas de Dragão Bronze",
-        "url": "/api/itens-magicos/cota-de-escamas-dragao-bronze"
+        "index": "brunea-de-escama-de-dragao-bronze",
+        "name": "Brunea de Escama de Dragão Bronze",
+        "url": "/api/itens-magicos/brunea-de-escama-de-dragao-bronze"
       },
       {
-        "index": "cota-de-escamas-dragao-cobre",
-        "name": "Cota de Escamas de Dragão Cobre",
-        "url": "/api/itens-magicos/cota-de-escamas-dragao-cobre"
+        "index": "brunea-de-escama-de-dragao-cobre",
+        "name": "Brunea de Escama de Dragão Cobre",
+        "url": "/api/itens-magicos/brunea-de-escama-de-dragao-cobre"
       },
       {
-        "index": "cota-de-escamas-dragao-ouro",
-        "name": "Cota de Escamas de Dragão Ouro",
-        "url": "/api/itens-magicos/cota-de-escamas-dragao-ouro"
+        "index": "brunea-de-escama-de-dragao-ouro",
+        "name": "Brunea de Escama de Dragão Ouro",
+        "url": "/api/itens-magicos/brunea-de-escama-de-dragao-ouro"
       },
       {
-        "index": "cota-de-escamas-dragao-verde",
-        "name": "Cota de Escamas de Dragão Verde",
-        "url": "/api/itens-magicos/cota-de-escamas-dragao-verde"
+        "index": "brunea-de-escama-de-dragao-verde",
+        "name": "Brunea de Escama de Dragão Verde",
+        "url": "/api/itens-magicos/brunea-de-escama-de-dragao-verde"
       },
       {
-        "index": "cota-de-escamas-dragao-vermelho",
-        "name": "Cota de Escamas de Dragão Vermelho",
-        "url": "/api/itens-magicos/cota-de-escamas-dragao-vermelho"
+        "index": "brunea-de-escama-de-dragao-vermelho",
+        "name": "Brunea de Escama de Dragão Vermelho",
+        "url": "/api/itens-magicos/brunea-de-escama-de-dragao-vermelho"
       },
       {
-        "index": "cota-de-escamas-dragao-prata",
-        "name": "Cota de Escamas de Dragão Prata",
-        "url": "/api/itens-magicos/cota-de-escamas-dragao-prata"
+        "index": "brunea-de-escama-de-dragao-prata",
+        "name": "Brunea de Escama de Dragão Prata",
+        "url": "/api/itens-magicos/brunea-de-escama-de-dragao-prata"
       },
       {
-        "index": "cota-de-escamas-dragao-branco",
-        "name": "Cota de Escamas de Dragão Branco",
-        "url": "/api/itens-magicos/cota-de-escamas-dragao-branco"
+        "index": "brunea-de-escama-de-dragao-branco",
+        "name": "Brunea de Escama de Dragão Branco",
+        "url": "/api/itens-magicos/brunea-de-escama-de-dragao-branco"
       }
     ],
-    "url": "/api/categorias-de-equipamento/armadura"
+    "url": "/api/categorias-de-equipamento/armaduras"
   },
   {
     "index": "equipamento-de-aventura",
@@ -573,9 +573,9 @@
         "url": "/api/equipamentos/acido-frasco"
       },
       {
-        "index": "fogo-do-alquimista-frasco",
-        "name": "Fogo do Alquimista (frasco)",
-        "url": "/api/equipamentos/fogo-do-alquimista-frasco"
+        "index": "fogo-alquímico-frasco",
+        "name": "Fogo alquímico (frasco)",
+        "url": "/api/equipamentos/fogo-alquímico-frasco"
       },
       {
         "index": "flecha",
@@ -583,14 +583,14 @@
         "url": "/api/equipamentos/flecha"
       },
       {
-        "index": "dardo-de-zarabatana",
-        "name": "Dardo de Zarabatana",
-        "url": "/api/equipamentos/dardo-de-zarabatana"
+        "index": "agulhas-de-zarabatana",
+        "name": "Agulhas de Zarabatana",
+        "url": "/api/equipamentos/agulhas-de-zarabatana"
       },
       {
-        "index": "virote-de-balestra",
-        "name": "Virote de Balestra",
-        "url": "/api/equipamentos/virote-de-balestra"
+        "index": "virotes",
+        "name": "Virotes",
+        "url": "/api/equipamentos/virotes"
       },
       {
         "index": "bala-de-funda",
@@ -648,9 +648,9 @@
         "url": "/api/equipamentos/cobertor"
       },
       {
-        "index": "roldana-e-talho",
-        "name": "Roldana e Talho",
-        "url": "/api/equipamentos/roldana-e-talho"
+        "index": "roldana-e-polia",
+        "name": "Roldana e polia",
+        "url": "/api/equipamentos/roldana-e-polia"
       },
       {
         "index": "bloco-de-incenso",
@@ -704,7 +704,7 @@
       },
       {
         "index": "giz",
-        "name": "Giz (1 unidade)",
+        "name": "Giz (1 pedaço) ",
         "url": "/api/equipamentos/giz"
       },
       {
@@ -734,7 +734,7 @@
       },
       {
         "index": "bolsa-de-componentes",
-        "name": "Bolsa de Componentes",
+        "name": "Algibeira de Componentes",
         "url": "/api/equipamentos/bolsa-de-componentes"
       },
       {
@@ -758,9 +758,9 @@
         "url": "/api/equipamentos/frasco-ou-caneco"
       },
       {
-        "index": "gancho-de-escalada",
-        "name": "Gancho de Escalada",
-        "url": "/api/equipamentos/gancho-de-escalada"
+        "index": "arpeu",
+        "name": "Arpéu",
+        "url": "/api/equipamentos/arpeu"
       },
       {
         "index": "martelo",
@@ -798,9 +798,9 @@
         "url": "/api/equipamentos/caneta-tinteiro"
       },
       {
-        "index": "jarro-ou-jarra",
-        "name": "Jarro ou Jarra",
-        "url": "/api/equipamentos/jarro-ou-jarra"
+        "index": "jarro",
+        "name": "Jarro",
+        "url": "/api/equipamentos/jarro"
       },
       {
         "index": "kit-de-escalada",
@@ -808,7 +808,7 @@
         "url": "/api/equipamentos/kit-de-escalada"
       },
       {
-        "index": "kit-de-disfarc",
+        "index": "kit-de-disfarce",
         "name": "Kit de Disfarce",
         "url": "/api/equipamentos/kit-de-disfarce"
       },
@@ -834,7 +834,7 @@
       },
       {
         "index": "kit-de-veneno",
-        "name": "Kit de Venenos",
+        "name": "Kit de Veneno",
         "url": "/api/equipamentos/kit-de-veneno"
       },
       {
@@ -853,9 +853,9 @@
         "url": "/api/equipamentos/lanterna-de-foco"
       },
       {
-        "index": "lanterna-com-capuz",
-        "name": "Lanterna com Capuz",
-        "url": "/api/equipamentos/lanterna-com-capuz"
+        "index": "lanterna-coberta",
+        "name": "Lanterna coberta",
+        "url": "/api/equipamentos/lanterna-coberta"
       },
       {
         "index": "saco-pequeno-de-areia",
@@ -928,9 +928,9 @@
         "url": "/api/equipamentos/panela-de-ferro"
       },
       {
-        "index": "bolsa",
-        "name": "Bolsa",
-        "url": "/api/equipamentos/bolsa"
+        "index": "algibeira",
+        "name": "Algibeira",
+        "url": "/api/equipamentos/algibeira"
       },
       {
         "index": "aljava",
@@ -978,9 +978,9 @@
         "url": "/api/equipamentos/balanca-de-mercador"
       },
       {
-        "index": "lacre",
-        "name": "Lacre",
-        "url": "/api/equipamentos/lacre"
+        "index": "cera-de-lacre",
+        "name": "Cera de lacre",
+        "url": "/api/equipamentos/cera-de-lacre"
       },
       {
         "index": "pá",
@@ -988,9 +988,9 @@
         "url": "/api/equipamentos/pa"
       },
       {
-        "index": "apito-de-sinal",
-        "name": "Apito de Sinal",
-        "url": "/api/equipamentos/apito-de-sinal"
+        "index": "apito-sinalizador",
+        "name": "Apito sinalizador",
+        "url": "/api/equipamentos/apito-sinalizador"
       },
       {
         "index": "anel-sinete",
@@ -1003,9 +1003,9 @@
         "url": "/api/equipamentos/faca-pequena"
       },
       {
-        "index": "sabonete",
-        "name": "Sabonete",
-        "url": "/api/equipamentos/sabonete"
+        "index": "sabao",
+        "name": "Sabão",
+        "url": "/api/equipamentos/sabao"
       },
       {
         "index": "livro-de-magia",
@@ -1013,9 +1013,9 @@
         "url": "/api/equipamentos/livro-de-magia"
       },
       {
-        "index": "espiga-de-ferro",
-        "name": "Espiga de Ferro",
-        "url": "/api/equipamentos/espiga-de-ferro"
+        "index": "estacas-de-ferro",
+        "name": "Estacas de ferro",
+        "url": "/api/equipamentos/estacas-de-ferro"
       },
       {
         "index": "luneta",
@@ -1033,9 +1033,9 @@
         "url": "/api/equipamentos/barraca-para-duas-pessoas"
       },
       {
-        "index": "caixa-de-fogo",
-        "name": "Caixa de Fogo",
-        "url": "/api/equipamentos/caixa-de-fogo"
+        "index": "caixa-para-fogo",
+        "name": "Caixa para Fogo",
+        "url": "/api/equipamentos/caixa-para-fogo"
       },
       {
         "index": "tocha",
@@ -1043,9 +1043,9 @@
         "url": "/api/equipamentos/tocha"
       },
       {
-        "index": "paramento",
-        "name": "Paramento",
-        "url": "/api/equipamentos/paramento"
+        "index": "vestimentas",
+        "name": "Vestimentas",
+        "url": "/api/equipamentos/vestimentas"
       },
       {
         "index": "frasco",
@@ -1053,14 +1053,94 @@
         "url": "/api/equipamentos/frasco"
       },
       {
-        "index": "odre",
-        "name": "Odre",
-        "url": "/api/equipamentos/odre"
+        "index": "cantil",
+        "name": "Cantil",
+        "url": "/api/equipamentos/cantil"
       },
       {
         "index": "pedra-de-amolar",
         "name": "Pedra de Amolar",
         "url": "/api/equipamentos/pedra-de-amolar"
+      },
+      {
+        "index": "conjunto-de-assaltante",
+        "name": "Conjunto de Assaltante",
+        "url": "/api/equipment/conjunto-de-assaltante"
+      },
+      {
+        "index": "conjunto-de-diplomata",
+        "name": "Conjunto de Diplomata",
+        "url": "/api/equipment/conjunto-de-diplomata"
+      },
+      {
+        "index": "conjunto-de-explorador-de-masmorras",
+        "name": "Conjunto de Explorador de Masmorras",
+        "url": "/api/equipment/conjunto-de-explorador-de-masmorras"
+      },
+      {
+        "index": "conjunto-de-artista",
+        "name": "Conjunto de Artista",
+        "url": "/api/equipment/conjunto-de-artista"
+      },
+      {
+        "index": "conjunto-de-aventureiro",
+        "name": "Conjunto de Aventureiro",
+        "url": "/api/equipment/conjunto-de-aventureiro"
+      },
+      {
+        "index": "conjunto-de-sacerdote",
+        "name": "Conjunto de Sacerdote",
+        "url": "/api/equipment/conjunto-de-sacerdote"
+      },
+      {
+        "index": "conjunto-de-erudito",
+        "name": "Conjunto de Erudito",
+        "url": "/api/equipment/conjunto-de-erudito"
+      },
+      {
+        "index": "cristal",
+        "name": "Cristal",
+        "url": "/api/equipment/cristal"
+      },
+      {
+        "index": "orbe",
+        "name": "Orbe",
+        "url": "/api/equipment/orbe"
+      },
+      {
+        "index": "bastao",
+        "name": "Bastão",
+        "url": "/api/equipment/bastao"
+      },
+      {
+        "index": "cajado",
+        "name": "Cajado",
+        "url": "/api/equipment/cajado"
+      },
+      {
+        "index": "varinha",
+        "name": "Varinha",
+        "url": "/api/equipment/varinha"
+      },
+      {
+        "index": "ramo-de-visco",
+        "name": "Ramo de Visco",
+        "url": "/api/equipment/ramo-de-visco"
+      },
+      {
+        "index": "totem",
+        "name": "Totem",
+        "url": "/api/equipment/totem"
+      },
+      {
+        "index": "cajado-de-madeira",
+        "name": "Cajado de madeira",
+        "url": "/api/equipment/cajado-de-madeira"
+      },
+      {
+        "index": "varinha-de-teixo",
+        "name": "Varinha de teixo",
+        "url": "/api/equipment/varinha-de-teixo"
       }
     ],
     "url": "/api/categorias-de-equipamento/equipamento-de-aventura"
@@ -1075,14 +1155,14 @@
         "url": "/api/equipamentos/flecha"
       },
       {
-        "index": "dardo-de-zarabatana",
-        "name": "Dardo de Zarabatana",
-        "url": "/api/equipamentos/dardo-de-zarabatana"
+        "index": "agulhas-de-zarabatana",
+        "name": "Agulhas de Zarabatana",
+        "url": "/api/equipamentos/agulhas-de-zarabatana"
       },
       {
-        "index": "virote-de-balestra",
-        "name": "Virote de Balestra",
-        "url": "/api/equipamentos/virote-de-balestra"
+        "index": "virotes",
+        "name": "Virotes",
+        "url": "/api/equipamentos/virotes"
       },
       {
         "index": "bala-de-funda",
@@ -1122,14 +1202,14 @@
     "name": "Ferramentas",
     "equipment": [
       {
-        "index": "suprimentos-de-alquimista",
-        "name": "Suprimentos de Alquimista",
-        "url": "/api/equipamentos/suprimentos-de-alquimista"
+        "index": "suprimentos-para-alquimistas",
+        "name": "Suprimentos para Alquimistas",
+        "url": "/api/equipamentos/suprimentos-para-alquimistas"
       },
       {
-        "index": "suprimentos-de-cervejeiro",
-        "name": "Suprimentos de Cervejeiro",
-        "url": "/api/equipamentos/suprimentos-de-cervejeiro"
+        "index": "suprimentos-para-cervejeiro",
+        "name": "Suprimentos para Cervejeiro",
+        "url": "/api/equipamentos/suprimentos-para-cervejeiro"
       },
       {
         "index": "suprimentos-de-caligrafo",
@@ -1212,14 +1292,14 @@
         "url": "/api/equipamentos/conjunto-de-dados"
       },
       {
-        "index": "conjunto-de-cartas",
-        "name": "Conjunto de Cartas",
-        "url": "/api/equipamentos/conjunto-de-cartas"
+        "index": "baralho",
+        "name": "Baralho",
+        "url": "/api/equipamentos/baralho"
       },
       {
-        "index": "gaita-de-fole",
-        "name": "Gaita de Fole",
-        "url": "/api/equipamentos/gaita-de-fole"
+        "index": "gaita-de-foles",
+        "name": "Gaita de Foles",
+        "url": "/api/equipamentos/gaita-de-foles"
       },
       {
         "index": "tambor",
@@ -1319,9 +1399,9 @@
         "url": "/api/equipamentos/cavalo-de-guerra"
       },
       {
-        "index": "armadura-almofadada",
-        "name": "Armadura Almofadada",
-        "url": "/api/equipamentos/armadura-almofadada"
+        "index": "armadura-acolchoada",
+        "name": "Armadura Acolchoada",
+        "url": "/api/equipamentos/armadura-acolchoada"
       },
       {
         "index": "armadura-de-couro",
@@ -1329,24 +1409,24 @@
         "url": "/api/equipamentos/armadura-de-couro"
       },
       {
-        "index": "armadura-de-couro-rebitada",
-        "name": "Armadura de Couro Rebitada",
-        "url": "/api/equipamentos/armadura-de-couro-rebitada"
+        "index": "armadura-de-couro-batido",
+        "name": "Armadura de Couro Batido",
+        "url": "/api/equipamentos/armadura-de-couro-batido"
       },
       {
-        "index": "armadura-de-pele",
-        "name": "Armadura de Pele",
-        "url": "/api/equipamentos/armadura-de-pele"
+        "index": "gibao-de-peles",
+        "name": "Gibão de Peles",
+        "url": "/api/equipamentos/gibao-de-peles"
       },
       {
-        "index": "camisa-de-malha",
-        "name": "Camisa de Malha",
-        "url": "/api/equipamentos/camisa-de-malha"
+        "index": "cota-de-malha-parcial",
+        "name": "Cota de Malha Parcial",
+        "url": "/api/equipamentos/cota-de-malha-parcial"
       },
       {
-        "index": "cota-de-escamas",
-        "name": "Cota de Escamas",
-        "url": "/api/equipamentos/cota-de-escamas"
+        "index": "brunea",
+        "name": "Brunea",
+        "url": "/api/equipamentos/brunea"
       },
       {
         "index": "peitoral",
@@ -1355,13 +1435,13 @@
       },
       {
         "index": "meia-armadura",
-        "name": "Meia Armadura",
+        "name": "Meia-Armadura",
         "url": "/api/equipamentos/meia-armadura"
       },
       {
-        "index": "armadura-de-aneis",
-        "name": "Armadura de Anéis",
-        "url": "/api/equipamentos/armadura-de-aneis"
+        "index": "cota-de-aneis",
+        "name": "Cota de Anéis",
+        "url": "/api/equipamentos/cota-de-aneis"
       },
       {
         "index": "cota-de-malha",
@@ -1369,9 +1449,9 @@
         "url": "/api/equipamentos/cota-de-malha"
       },
       {
-        "index": "armadura-de-braceles",
-        "name": "Armadura de Bráceles",
-        "url": "/api/equipamentos/armadura-de-braceles"
+        "index": "cota-de-talas",
+        "name": "Cota de Talas",
+        "url": "/api/equipamentos/cota-de-talas"
       },
       {
         "index": "armadura-de-placas",
@@ -1491,9 +1571,9 @@
         "url": "/api/equipamentos/adaga"
       },
       {
-        "index": "grande-clava",
-        "name": "Grande Clava",
-        "url": "/api/equipamentos/grande-clava"
+        "index": "clava-grande",
+        "name": "Clava Grande",
+        "url": "/api/equipamentos/clava-grande"
       },
       {
         "index": "machadinha",
@@ -1551,7 +1631,7 @@
         "url": "/api/equipamentos/funda"
       }
     ],
-    "url": "/api/categorias-de-equipamento/armas-simples"
+    "url": "/api/categorias-de-equipamento/armass-simples"
   },
   {
     "index": "armas-marcial",
@@ -1573,9 +1653,9 @@
         "url": "/api/equipamentos/glaive"
       },
       {
-        "index": "grande-machado",
-        "name": "Grande Machado",
-        "url": "/api/equipamentos/grande-machado"
+        "index": "machado-grande",
+        "name": "Machado Grande",
+        "url": "/api/equipamentos/machado-grande"
       },
       {
         "index": "espada-grande",
@@ -1613,9 +1693,9 @@
         "url": "/api/equipamentos/pique"
       },
       {
-        "index": "florete",
-        "name": "Florete",
-        "url": "/api/equipamentos/florete"
+        "index": "rapieira",
+        "name": "Rapieira",
+        "url": "/api/equipamentos/rapieira"
       },
       {
         "index": "cimitarra",
@@ -1638,9 +1718,9 @@
         "url": "/api/equipamentos/picareta-de-guerra"
       },
       {
-        "index": "martelo-de-guerra",
-        "name": "Martelo de Guerra",
-        "url": "/api/equipamentos/martelo-de-guerra"
+        "index": "malho",
+        "name": "Malho",
+        "url": "/api/equipamentos/malho"
       },
       {
         "index": "chicote",
@@ -1673,7 +1753,7 @@
         "url": "/api/equipamentos/rede"
       }
     ],
-    "url": "/api/categorias-de-equipamento/armas-marcial"
+    "url": "/api/categorias-de-equipamento/armass-marcial"
   },
   {
     "index": "armas-corpo-a-corpo",
@@ -1705,14 +1785,14 @@
         "url": "/api/equipamentos/glaive"
       },
       {
-        "index": "grande-machado",
-        "name": "Grande Machado",
-        "url": "/api/equipamentos/grande-machado"
+        "index": "machado-grande",
+        "name": "Machado Grande",
+        "url": "/api/equipamentos/machado-grande"
       },
       {
-        "index": "grande-clava",
-        "name": "Grande Clava",
-        "url": "/api/equipamentos/grande-clava"
+        "index": "clava-grande",
+        "name": "Clava Grande",
+        "url": "/api/equipamentos/clava-grande"
       },
       {
         "index": "espada-grande",
@@ -1775,9 +1855,9 @@
         "url": "/api/equipamentos/bordao"
       },
       {
-        "index": "florete",
-        "name": "Florete",
-        "url": "/api/equipamentos/florete"
+        "index": "rapieira",
+        "name": "Rapieira",
+        "url": "/api/equipamentos/rapieira"
       },
       {
         "index": "cimitarra",
@@ -1810,9 +1890,9 @@
         "url": "/api/equipamentos/picareta-de-guerra"
       },
       {
-        "index": "martelo-de-guerra",
-        "name": "Martelo de Guerra",
-        "url": "/api/equipamentos/martelo-de-guerra"
+        "index": "malho",
+        "name": "Malho",
+        "url": "/api/equipamentos/malho"
       },
       {
         "index": "chicote",
@@ -1820,7 +1900,7 @@
         "url": "/api/equipamentos/chicote"
       }
     ],
-    "url": "/api/categorias-de-equipamento/armas-corpo-a-corpo"
+    "url": "/api/categorias-de-equipamento/armass-corpo-a-corpo"
   },
   {
     "index": "armas-a-distancia",
@@ -1872,7 +1952,7 @@
         "url": "/api/equipamentos/funda"
       }
     ],
-    "url": "/api/categorias-de-equipamento/armas-a-distancia"
+    "url": "/api/categorias-de-equipamento/armass-a-distancia"
   },
   {
     "index": "armas-simples-corpo-a-corpo",
@@ -1889,9 +1969,9 @@
         "url": "/api/equipamentos/adaga"
       },
       {
-        "index": "grande-clava",
-        "name": "Grande Clava",
-        "url": "/api/equipamentos/grande-clava"
+        "index": "clava-grande",
+        "name": "Clava Grande",
+        "url": "/api/equipamentos/clava-grande"
       },
       {
         "index": "machadinha",
@@ -1929,7 +2009,7 @@
         "url": "/api/equipamentos/lanca"
       }
     ],
-    "url": "/api/categorias-de-equipamento/armas-simples-corpo-a-corpo"
+    "url": "/api/categorias-de-equipamento/armass-simples-corpo-a-corpo"
   },
   {
     "index": "armas-simples-a-distancia",
@@ -1956,7 +2036,7 @@
         "url": "/api/equipamentos/funda"
       }
     ],
-    "url": "/api/categorias-de-equipamento/armas-simples-a-distancia"
+    "url": "/api/categorias-de-equipamento/armass-simples-a-distancia"
   },
   {
     "index": "armas-marcial-corpo-a-corpo",
@@ -1978,9 +2058,9 @@
         "url": "/api/equipamentos/glaive"
       },
       {
-        "index": "grande-machado",
-        "name": "Grande Machado",
-        "url": "/api/equipamentos/grande-machado"
+        "index": "machado-grande",
+        "name": "Machado Grande",
+        "url": "/api/equipamentos/machado-grande"
       },
       {
         "index": "espada-grande",
@@ -2018,9 +2098,9 @@
         "url": "/api/equipamentos/pique"
       },
       {
-        "index": "florete",
-        "name": "Florete",
-        "url": "/api/equipamentos/florete"
+        "index": "rapieira",
+        "name": "Rapieira",
+        "url": "/api/equipamentos/rapieira"
       },
       {
         "index": "cimitarra",
@@ -2043,9 +2123,9 @@
         "url": "/api/equipamentos/picareta-de-guerra"
       },
       {
-        "index": "martelo-de-guerra",
-        "name": "Martelo de Guerra",
-        "url": "/api/equipamentos/martelo-de-guerra"
+        "index": "malho",
+        "name": "Malho",
+        "url": "/api/equipamentos/malho"
       },
       {
         "index": "chicote",
@@ -2053,7 +2133,7 @@
         "url": "/api/equipamentos/chicote"
       }
     ],
-    "url": "/api/categorias-de-equipamento/armas-marcial-corpo-a-corpo"
+    "url": "/api/categorias-de-equipamento/armass-marcial-corpo-a-corpo"
   },
   {
     "index": "armas-marcial-a-distancia",
@@ -2085,16 +2165,16 @@
         "url": "/api/equipamentos/rede"
       }
     ],
-    "url": "/api/categorias-de-equipamento/armas-marcial-a-distancia"
+    "url": "/api/categorias-de-equipamento/armass-marcial-a-distancia"
   },
   {
-    "index": "armadura-leve",
-    "name": "Armadura Leve",
+    "index": "armaduras-leve",
+    "name": "Armaduras Leve",
     "equipment": [
       {
-        "index": "armadura-almofadada",
-        "name": "Armadura Almofadada",
-        "url": "/api/equipamentos/armadura-almofadada"
+        "index": "armadura-acolchoada",
+        "name": "Armadura Acolchoada",
+        "url": "/api/equipamentos/armadura-acolchoada"
       },
       {
         "index": "armadura-de-couro",
@@ -2102,31 +2182,31 @@
         "url": "/api/equipamentos/armadura-de-couro"
       },
       {
-        "index": "armadura-de-couro-rebitada",
-        "name": "Armadura de Couro Rebitada",
-        "url": "/api/equipamentos/armadura-de-couro-rebitada"
+        "index": "armadura-de-couro-batido",
+        "name": "Armadura de Couro Batido",
+        "url": "/api/equipamentos/armadura-de-couro-batido"
       }
     ],
-    "url": "/api/categorias-de-equipamento/armadura-leve"
+    "url": "/api/categorias-de-equipamento/armaduras-leve"
   },
   {
     "index": "armadura-media",
     "name": "Armadura Média",
     "equipment": [
       {
-        "index": "armadura-de-pele",
-        "name": "Armadura de Pele",
-        "url": "/api/equipamentos/armadura-de-pele"
+        "index": "gibao-de-peles",
+        "name": "Gibão de Peles",
+        "url": "/api/equipamentos/gibao-de-peles"
       },
       {
-        "index": "camisa-de-malha",
-        "name": "Camisa de Malha",
-        "url": "/api/equipamentos/camisa-de-malha"
+        "index": "cota-de-malha-parcial",
+        "name": "Cota de Malha Parcial",
+        "url": "/api/equipamentos/cota-de-malha-parcial"
       },
       {
-        "index": "cota-de-escamas",
-        "name": "Cota de Escamas",
-        "url": "/api/equipamentos/cota-de-escamas"
+        "index": "brunea",
+        "name": "Brunea",
+        "url": "/api/equipamentos/brunea"
       },
       {
         "index": "peitoral",
@@ -2135,20 +2215,20 @@
       },
       {
         "index": "meia-armadura",
-        "name": "Meia Armadura",
+        "name": "Meia-Armadura",
         "url": "/api/equipamentos/meia-armadura"
       }
     ],
-    "url": "/api/categorias-de-equipamento/armadura-media"
+    "url": "/api/categorias-de-equipamento/armaduras-media"
   },
   {
     "index": "armadura-pesada",
     "name": "Armadura Pesada",
     "equipment": [
       {
-        "index": "armadura-de-aneis",
-        "name": "Armadura de Anéis",
-        "url": "/api/equipamentos/armadura-de-aneis"
+        "index": "cota-de-aneis",
+        "name": "Cota de Anéis",
+        "url": "/api/equipamentos/cota-de-aneis"
       },
       {
         "index": "cota-de-malha",
@@ -2156,9 +2236,9 @@
         "url": "/api/equipamentos/cota-de-malha"
       },
       {
-        "index": "armadura-de-braceles",
-        "name": "Armadura de Bráceles",
-        "url": "/api/equipamentos/armadura-de-braceles"
+        "index": "cota-de-talas",
+        "name": "Cota de Talas",
+        "url": "/api/equipamentos/cota-de-talas"
       },
       {
         "index": "armadura-de-placas",
@@ -2166,7 +2246,7 @@
         "url": "/api/equipamentos/armadura-de-placas"
       }
     ],
-    "url": "/api/categorias-de-equipamento/armadura-pesada"
+    "url": "/api/categorias-de-equipamento/armaduras-pesada"
   },
   {
     "index": "escudos",
@@ -2195,9 +2275,9 @@
         "url": "/api/equipamentos/acido-frasco"
       },
       {
-        "index": "fogo-do-alquimista-frasco",
-        "name": "Fogo do Alquimista (frasco)",
-        "url": "/api/equipamentos/fogo-do-alquimista-frasco"
+        "index": "fogo-alquímico-frasco",
+        "name": "Fogo alquímico (frasco)",
+        "url": "/api/equipamentos/fogo-alquímico-frasco"
       },
       {
         "index": "flecha",
@@ -2205,9 +2285,9 @@
         "url": "/api/equipamentos/flecha"
       },
       {
-        "index": "dardo-de-zarabatana",
-        "name": "Dardo de Zarabatana",
-        "url": "/api/equipamentos/dardo-de-zarabatana"
+        "index": "agulha-de-zarabatana",
+        "name": "Agulha de Zarabatana",
+        "url": "/api/equipamentos/agulha-de-zarabatana"
       },
       {
         "index": "virote-de-besta",
@@ -2351,7 +2431,7 @@
       },
       {
         "index": "bolsa-de-componentes",
-        "name": "Bolsa de Componentes",
+        "name": "Algibeira de Componentes",
         "url": "/api/equipamentos/bolsa-de-componentes"
       },
       {
@@ -2370,9 +2450,9 @@
         "url": "/api/equipamentos/frasco-ou-canetil"
       },
       {
-        "index": "gancho-de-escalada",
-        "name": "Gancho de Escalada",
-        "url": "/api/equipamentos/gancho-de-escalada"
+        "index": "arpeu",
+        "name": "Arpéu",
+        "url": "/api/equipamentos/arpeu"
       },
       {
         "index": "martelo",
@@ -2430,9 +2510,9 @@
         "url": "/api/equipamentos/lanterna-de-refletor"
       },
       {
-        "index": "lanterna-com-capuz",
-        "name": "Lanterna com Capuz",
-        "url": "/api/equipamentos/lanterna-com-capuz"
+        "index": "lanterna-coberta",
+        "name": "Lanterna coberta",
+        "url": "/api/equipamentos/lanterna-coberta"
       },
       {
         "index": "saco-de-areia",
@@ -2505,9 +2585,9 @@
         "url": "/api/equipamentos/panela-de-ferro"
       },
       {
-        "index": "bolsa",
-        "name": "Bolsa",
-        "url": "/api/equipamentos/bolsa"
+        "index": "algibeira",
+        "name": "Algibeira",
+        "url": "/api/equipamentos/algibeira"
       },
       {
         "index": "aljava",
@@ -2550,9 +2630,9 @@
         "url": "/api/equipamentos/balanca-de-mercador"
       },
       {
-        "index": "cera-lacre",
-        "name": "Cera Lacre",
-        "url": "/api/equipamentos/cera-lacre"
+        "index": "cera-de-lacre",
+        "name": "Cera de lacre",
+        "url": "/api/equipamentos/cera-de-lacre"
       },
       {
         "index": "pá",
@@ -2721,14 +2801,14 @@
     "name": "Ferramentas de Artesão",
     "equipment": [
       {
-        "index": "suprimentos-de-alquimista",
-        "name": "Suprimentos de Alquimista",
-        "url": "/api/equipamentos/suprimentos-de-alquimista"
+        "index": "suprimentos-para-alquimistas",
+        "name": "Suprimentos para Alquimistas",
+        "url": "/api/equipamentos/suprimentos-para-alquimistas"
       },
       {
-        "index": "suprimentos-de-cervejeiro",
-        "name": "Suprimentos de Cervejeiro",
-        "url": "/api/equipamentos/suprimentos-de-cervejeiro"
+        "index": "suprimentos-para-cervejeiro",
+        "name": "Suprimentos para Cervejeiro",
+        "url": "/api/equipamentos/suprimentos-para-cervejeiro"
       },
       {
         "index": "suprimentos-de-caligrafo",
@@ -2801,9 +2881,9 @@
         "url": "/api/equipamentos/ferramentas-de-tecelao"
       },
       {
-        "index": "ferramentas-de-escultor-de-madeira",
-        "name": "Ferramentas de Escultor de Madeira",
-        "url": "/api/equipamentos/ferramentas-de-escultor-de-madeira"
+        "index": "ferramentas-de-entalhador",
+        "name": "Ferramentas de Entalhador",
+        "url": "/api/equipamentos/ferramentas-de-entalhador"
       }
     ],
     "url": "/api/categorias-de-equipamento/ferramentas-de-artesao"
@@ -2818,9 +2898,9 @@
         "url": "/api/equipamentos/conjunto-de-dados"
       },
       {
-        "index": "conjunto-de-cartas",
-        "name": "Conjunto de Cartas",
-        "url": "/api/equipamentos/conjunto-de-cartas"
+        "index": "baralho",
+        "name": "Baralho",
+        "url": "/api/equipamentos/baralho"
       }
     ],
     "url": "/api/categorias-de-equipamento/conjuntos-de-jogos"
@@ -2966,9 +3046,9 @@
         "url": "/api/equipamentos/armadura-para-animais-de-pele"
       },
       {
-        "index": "armadura-para-animais-camisa-de-malha",
-        "name": "Armadura para Animais: Camisa de Malha",
-        "url": "/api/equipamentos/armadura-para-animais-camisa-de-malha"
+        "index": "armadura-para-animais-cota-de-malha-parcial",
+        "name": "Armadura para Animais: Cota de Malha Parcial",
+        "url": "/api/equipamentos/armadura-para-animais-cota-de-malha-parcial"
       },
       {
         "index": "armadura-para-animais-malha-de-escamas",
