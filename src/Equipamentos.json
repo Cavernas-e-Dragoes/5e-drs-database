@@ -2002,7 +2002,7 @@
     },
     "quantity": 20,
     "cost": {
-      "quantity": 1,
+      "quantity": 2,
       "unit": "po"
     },
     "weight": 1,
