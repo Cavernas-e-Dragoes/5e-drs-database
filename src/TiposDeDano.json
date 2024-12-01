@@ -80,12 +80,12 @@
     "url": "/api/tipos-de-dano/psiquico"
   },
   {
-    "index": "radiant",
-    "name": "Radiant",
+    "index": "radiante",
+    "name": "Radiante",
     "desc": [
-      "Radiant damage, dealt by a cleric's flame strike spell or an angel's smiting weapon, sears the flesh like fire and overloads the spirit with power."
+      "Dano radiante, causado pela magia coluna de chamas conjurada por um clérigo ou um golpe de uma arma empunhada por um anjo, queima a carne como fogo e sobrecarrega o espírito com poder"
     ],
-    "url": "/api/tipos-de-dano/radiant"
+    "url": "/api/tipos-de-dano/radiante"
   },
   {
     "index": "cortante",
