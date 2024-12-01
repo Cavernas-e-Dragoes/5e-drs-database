@@ -3817,8 +3817,8 @@
     "url": "/api/equipamentos/relicario"
   },
   {
-    "index": "vesttes",
-    "name": "Vesttes",
+    "index": "vestes",
+    "name": "Vestes",
     "equipment_category": {
       "index": "equipamento-de-aventureiro",
       "name": "Equipamento de Aventureiro",
@@ -3834,74 +3834,7 @@
       "unit": "po"
     },
     "weight": 2,
-    "url": "/api/equipamentos/vesttes"
-  },
-  {
-    "index": "corda-de-canhamo-15-metros",
-    "name": "Corda de cânhamo (15 metros)",
-    "equipment_category": {
-      "index": "equipamento-de-aventureiro",
-      "name": "Equipamento de Aventureiro",
-      "url": "/api/categorias-de-equipamento/equipamento-de-aventureiro"
-    },
-    "gear_category": {
-      "index": "equipamento-padrao",
-      "name": "Equipamento Padrão",
-      "url": "/api/categorias-de-equipamento/equipamento-padrao"
-    },
-    "cost": {
-      "quantity": 1,
-      "unit": "po"
-    },
-    "weight": 5,
-    "desc": [
-      "Corda, seja feita de cânhamo ou seda, tem 2 pontos de vida e pode ser rompida com um teste de Força CD 17."
-    ],
-    "url": "/api/equipamentos/corda-de-canhamo-15-metros"
-  },
-  {
-    "index": "relicario",
-    "name": "Relicário",
-    "equipment_category": {
-      "index": "equipamento-de-aventureiro",
-      "name": "Equipamento de Aventureiro",
-      "url": "/api/categorias-de-equipamento/equipamento-de-aventureiro"
-    },
-    "gear_category": {
-      "index": "holy-symbols",
-      "name": "Holy Symbols",
-      "url": "/api/categorias-de-equipamento/holy-symbols"
-    },
-    "cost": {
-      "quantity": 5,
-      "unit": "po"
-    },
-    "weight": 0.5,
-    "desc": [
-      "Um símbolo sagrado é uma representação de um deus ou panteão. Pode ser um amuleto exibindo um símbolo que representa uma divindade, o mesmo símbolo cuidadosamente gravado ou incrustado como um emblema em um escudo, ou uma pequena caixa contendo um fragmento de uma relíquia sagrada.",
-      "O Apêndice B lista os símbolos comumente associados a muitos deuses no multiverso. Um clérigo ou paladino pode usar um símbolo sagrado como foco de conjuração. Para usá-lo dessa maneira, o conjurador deve segurá-lo na mão, usá-lo de forma visível ou tê-lo em um escudo."
-    ],
-    "url": "/api/equipamentos/relicario"
-  },
-  {
-    "index": "vesttes",
-    "name": "Vesttes",
-    "equipment_category": {
-      "index": "equipamento-de-aventureiro",
-      "name": "Equipamento de Aventureiro",
-      "url": "/api/categorias-de-equipamento/equipamento-de-aventureiro"
-    },
-    "gear_category": {
-      "index": "equipamento-padrao",
-      "name": "Equipamento Padrão",
-      "url": "/api/categorias-de-equipamento/equipamento-padrao"
-    },
-    "cost": {
-      "quantity": 1,
-      "unit": "po"
-    },
-    "weight": 2,
-    "url": "/api/equipamentos/vesttes"
+    "url": "/api/equipamentos/vestes"
   },
   {
     "index": "corda-de-canhamo-15-metros",
