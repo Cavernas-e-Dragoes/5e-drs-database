@@ -1,0 +1,236 @@
+[
+    {
+        "index": "acrobacia",
+        "name": "Acrobacia",
+        "desc": [
+            "Sua verificação de Destreza (Acrobacia) cobre sua tentativa de manter o equilíbrio em uma situação difícil, como quando você está tentando correr sobre uma folha de gelo, equilibrar-se em uma corda bamba ou se manter em pé no convés de um navio balançando. O Mestre também pode pedir uma verificação de Destreza (Acrobacia) para ver se você consegue realizar acrobacias, incluindo saltos, rolamentos, mortais e piruetas."
+        ],
+        "ability_score": {
+            "index": "des",
+            "name": "DES",
+            "url": "/api/valores-de-atributos/des"
+        },
+        "url": "/api/pericias/acrobacia"
+    },
+    {
+        "index": "lidar-com-animais",
+        "name": "Lidar com Animais",
+        "desc": [
+            "Quando houver qualquer dúvida sobre sua capacidade de acalmar um animal domesticado, evitar que uma montaria se assuste ou intuir as intenções de um animal, o Mestre de Jogo pode pedir um teste de Sabedoria (Lidar com Animais). Você também faz um teste de Sabedoria (Lidar com Animais) para controlar sua montaria ao tentar uma manobra arriscada."
+        ],
+        "ability_score": {
+            "index": "sab",
+            "name": "SAB",
+            "url": "/api/valores-de-atributos/sab"
+        },
+        "url": "/api/pericias/lidar-com-animais"
+    },
+    {
+        "index": "arcanismo",
+        "name": "Arcanismo",
+        "desc": [
+            "Seu teste de Inteligência (Arcanismo) mede sua habilidade em recordar conhecimentos sobre feitiços, itens mágicos, símbolos arcanos, tradições mágicas, os planos de existência e os habitantes desses planos."
+        ],
+        "ability_score": {
+            "index": "int",
+            "name": "INT",
+            "url": "/api/valores-de-atributos/int"
+        },
+        "url": "/api/pericias/arcanismo"
+    },
+    {
+        "index": "atletismo",
+        "name": "Atletismo",
+        "desc": [
+            "Seu teste de Força (Atletismo) cobre situações difíceis que você encontra ao escalar, pular ou nadar."
+        ],
+        "ability_score": {
+            "index": "for",
+            "name": "FOR",
+            "url": "/api/valores-de-atributos/for"
+        },
+        "url": "/api/pericias/atletismo"
+    },
+    {
+        "index": "enganacao",
+        "name": "Enganação",
+        "desc": [
+            "Seu teste de Carisma (Enganação) determina se você consegue esconder convincentemente a verdade, seja verbalmente ou por meio de suas ações. Esta enganação pode abranger tudo, desde enganar os outros por meio de ambiguidades até contar mentiras descaradas. Situações típicas incluem tentar enganar um guarda, iludir um mercador, ganhar dinheiro com jogos de azar, se passar por outra pessoa disfarçada, abafar suspeitas com falsas garantias ou manter uma expressão séria enquanto conta uma mentira descarada."
+        ],
+        "ability_score": {
+            "index": "car",
+            "name": "CAR",
+            "url": "/api/valores-de-atributos/car"
+        },
+        "url": "/api/pericias/enganacao"
+    },
+    {
+        "index": "historia",
+        "name": "História",
+        "desc": [
+            "Seu teste de Inteligência (História) mede sua habilidade de recordar conhecimentos sobre eventos históricos, pessoas lendárias, reinos antigos, disputas passadas, guerras recentes e civilizações perdidas."
+        ],
+        "ability_score": {
+            "index": "int",
+            "name": "INT",
+            "url": "/api/valores-de-atributos/int"
+        },
+        "url": "/api/pericias/historia"
+    },
+    {
+        "index": "intuicao",
+        "name": "Intuição",
+        "desc": [
+            "Seu teste de Sabedoria (Intuição) decide se você consegue determinar as verdadeiras intenções de uma criatura, como ao procurar por uma mentira ou prever o próximo movimento de alguém. Isso envolve obter pistas a partir da linguagem corporal, hábitos de fala e mudanças nas maneiras de agir."
+        ],
+        "ability_score": {
+            "index": "sab",
+            "name": "SAB",
+            "url": "/api/valores-de-atributos/sab"
+        },
+        "url": "/api/pericias/intuicao"
+    },
+    {
+        "index": "intimidacao",
+        "name": "Intimidação",
+        "desc": [
+            "Quando você tenta influenciar alguém por meio de ameaças óbvias, ações hostis e violência física, o mestre pode pedir que você faça um teste de Carisma (Intimidação). Exemplos incluem tentar arrancar informações de um prisioneiro, convencer marginais da rua a recuar de um confronto ou usar a ponta de uma garrafa quebrada para convencer um visir zombeteiro a reconsiderar uma decisão."
+        ],
+        "ability_score": {
+            "index": "car",
+            "name": "CAR",
+            "url": "/api/valores-de-atributos/car"
+        },
+        "url": "/api/pericias/intimidacao"
+    },
+    {
+        "index": "investigacao",
+        "name": "Investigação",
+        "desc": [
+            "Quando você procura por pistas e faz deduções com base nessas pistas, você faz um teste de Inteligência (Investigação). Você pode deduzir a localização de um objeto escondido, discernir a partir da aparência de uma ferida qual tipo de arma a causou, ou determinar o ponto mais fraco em um túnel que poderia causar seu colapso. Examinar antigos pergaminhos em busca de um fragmento escondido de conhecimento também pode exigir um teste de Inteligência (Investigação)."
+        ],
+        "ability_score": {
+            "index": "int",
+            "name": "INT",
+            "url": "/api/valores-de-atributos/int"
+        },
+        "url": "/api/pericias/investigacao"
+    },
+    {
+        "index": "medicina",
+        "name": "Medicina",
+        "desc": [
+            "Um teste de Sabedoria (Medicina) permite que você tente estabilizar um companheiro moribundo ou diagnosticar uma doença."
+        ],
+        "ability_score": {
+            "index": "sab",
+            "name": "SAB",
+            "url": "/api/valores-de-atributos/sab"
+        },
+        "url": "/api/pericias/medicina"
+    },
+    {
+        "index": "natureza",
+        "name": "Natureza",
+        "desc": [
+            "Seu teste de Inteligência (Natureza) mede sua capacidade de recordar conhecimentos sobre terrenos, plantas e animais, o clima e os ciclos naturais."
+        ],
+        "ability_score": {
+            "index": "int",
+            "name": "INT",
+            "url": "/api/valores-de-atributos/int"
+        },
+        "url": "/api/pericias/natureza"
+    },
+    {
+        "index": "percepcao",
+        "name": "Percepção",
+        "desc": [
+            "Seu teste de Sabedoria (Percepção) permite que você perceba, ouça ou detecte de outra forma a presença de algo. Ele mede sua percepção geral do ambiente e a acuidade dos seus sentidos. Por exemplo, você pode tentar ouvir uma conversa através de uma porta fechada, escutar sob uma janela aberta, ou ouvir monstros se movendo furtivamente pela floresta. Ou você pode tentar perceber coisas que estão ocultas ou são fáceis de perder, como orcs em emboscada na estrada, bandidos escondidos nas sombras de um beco, ou a luz de uma vela sob uma porta secreta fechada."
+        ],
+        "ability_score": {
+            "index": "sab",
+            "name": "SAB",
+            "url": "/api/valores-de-atributos/sab"
+        },
+        "url": "/api/pericias/percepcao"
+    },
+    {
+        "index": "performance",
+        "name": "Performance",
+        "desc": [
+            "Seu teste de Carisma (Performance) determina o quão bem você pode encantar uma audiência com música, dança, atuação, contação de histórias ou outra forma de entretenimento."
+        ],
+        "ability_score": {
+            "index": "car",
+            "name": "CAR",
+            "url": "/api/valores-de-atributos/car"
+        },
+        "url": "/api/pericias/performance"
+    },
+    {
+        "index": "persuasao",
+        "name": "Persuasão",
+        "desc": [
+            "Quando você tenta influenciar alguém ou um grupo de pessoas com tato, boas maneiras ou boa índole, o mestre pode pedir para você fazer um teste de Carisma (Persuasão). Normalmente, você usa a persuasão ao agir de boa fé, para fomentar amizades, fazer pedidos cordiais ou exibir a etiqueta apropriada. Exemplos de persuadir os outros incluem convencer um camareiro a deixar seu grupo ver o rei, negociar a paz entre tribos em guerra ou inspirar uma multidão de habitantes da cidade."
+        ],
+        "ability_score": {
+            "index": "car",
+            "name": "CAR",
+            "url": "/api/valores-de-atributos/car"
+        },
+        "url": "/api/pericias/persuasao"
+    },
+    {
+        "index": "religiao",
+        "name": "Religião",
+        "desc": [
+            "Seu teste de Inteligência (Religião) mede sua habilidade em recordar conhecimentos sobre deuses, rituais e orações, hierarquias religiosas, símbolos sagrados e as práticas de cultos secretos."
+        ],
+        "ability_score": {
+            "index": "int",
+            "name": "INT",
+            "url": "/api/valores-de-atributos/int"
+        },
+        "url": "/api/pericias/religiao"
+    },
+    {
+        "index": "prestidigitacao",
+        "name": "Prestidigitação",
+        "desc": [
+            "Sempre que você tentar realizar um ato de ilusionismo ou truques manuais, como plantar algo em outra pessoa ou esconder um objeto em seu corpo, faça um teste de Destreza (Prestidigitação). O GM também pode pedir um teste de Destreza (Prestidigitação) para determinar se você consegue pegar uma bolsa de moedas de outra pessoa ou tirar algo do bolso de alguém sem ser notado."
+        ],
+        "ability_score": {
+            "index": "des",
+            "name": "DES",
+            "url": "/api/valores-de-atributos/des"
+        },
+        "url": "/api/pericias/prestidigitacao"
+    },
+    {
+        "index": "furtividade",
+        "name": "Furtividade",
+        "desc": [
+            "Faça um teste de Destreza (Furtividade) quando tentar se esconder de inimigos, passar despercebido por guardas, escapar sem ser notado ou se aproximar de alguém sem ser visto ou ouvido."
+        ],
+        "ability_score": {
+            "index": "des",
+            "name": "DES",
+            "url": "/api/valores-de-atributos/des"
+        },
+        "url": "/api/pericias/furtividade"
+    },
+    {
+        "index": "sobrevivencia",
+        "name": "Sobrevivência",
+        "desc": [
+            "O GM pode pedir para você fazer um teste de Sabedoria (Sobrevivência) para seguir rastros, caçar animais selvagens, guiar seu grupo através de terras desertas congeladas, identificar sinais de que ursos corujas vivem nas proximidades, prever o tempo ou evitar areia movediça e outros perigos naturais."
+        ],
+        "ability_score": {
+            "index": "sab",
+            "name": "SAB",
+            "url": "/api/valores-de-atributos/sab"
+        },
+        "url": "/api/pericias/sobrevivencia"
+    }
+]
