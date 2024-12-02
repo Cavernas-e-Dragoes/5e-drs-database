@@ -1307,9 +1307,9 @@
         "url": "/api/equipamentos/tambor"
       },
       {
-        "index": "dulcimer",
-        "name": "Dulcimer",
-        "url": "/api/equipamentos/dulcimer"
+        "index": "salterio",
+        "name": "Salterio",
+        "url": "/api/equipamentos/salterio"
       },
       {
         "index": "flauta",
@@ -1327,9 +1327,9 @@
         "url": "/api/equipamentos/lira"
       },
       {
-        "index": "corno",
-        "name": "Corno",
-        "url": "/api/equipamentos/corno"
+        "index": "trombeta",
+        "name": "Trombeta",
+        "url": "/api/equipamentos/trombeta"
       },
       {
         "index": "flauta-de-pan",
@@ -1337,19 +1337,19 @@
         "url": "/api/equipamentos/flauta-de-pan"
       },
       {
-        "index": "chalumeau",
-        "name": "Chalumeau",
-        "url": "/api/equipamentos/chalumeau"
+        "index": "oboe",
+        "name": "Oboe",
+        "url": "/api/equipamentos/oboe"
       },
       {
-        "index": "viola",
-        "name": "Viola",
-        "url": "/api/equipamentos/viola"
+        "index": "violino",
+        "name": "Violino",
+        "url": "/api/equipamentos/violino"
       },
       {
-        "index": "ferramentas-de-navegacao",
-        "name": "Ferramentas de Navegação",
-        "url": "/api/equipamentos/ferramentas-de-navegacao"
+        "index": "ferramentas-de-navegador",
+        "name": "Ferramentas de Navegador",
+        "url": "/api/equipamentos/ferramentas-de-navegador"
       },
       {
         "index": "ferramentas-de-ladrao",
@@ -1389,9 +1389,9 @@
         "url": "/api/equipamentos/mastim"
       },
       {
-        "index": "poney",
+        "index": "ponei",
         "name": "Pônei",
-        "url": "/api/equipamentos/poney"
+        "url": "/api/equipamentos/ponei"
       },
       {
         "index": "cavalo-de-guerra",
@@ -1399,69 +1399,74 @@
         "url": "/api/equipamentos/cavalo-de-guerra"
       },
       {
-        "index": "armadura-acolchoada",
-        "name": "Armadura Acolchoada",
-        "url": "/api/equipamentos/armadura-acolchoada"
+        "index": "armadura-acolchoada-para-montaria",
+        "name": "Armadura Acolchoada para Montaria",
+        "url": "/api/equipamentos/armadura-acolchoada-para-montaria"
       },
       {
-        "index": "armadura-de-couro",
-        "name": "Armadura de Couro",
-        "url": "/api/equipamentos/armadura-de-couro"
+        "index": "armadura-de-couro-para-montaria",
+        "name": "Armadura de Couro para Montaria",
+        "url": "/api/equipamentos/armadura-de-couro-para-montaria"
       },
       {
-        "index": "armadura-de-couro-batido",
-        "name": "Armadura de Couro Batido",
-        "url": "/api/equipamentos/armadura-de-couro-batido"
+        "index": "armadura-de-couro-batido-para-montaria",
+        "name": "Armadura de Couro Batido para Montaria",
+        "url": "/api/equipamentos/armadura-de-couro-batido-para-montaria"
       },
       {
-        "index": "gibao-de-peles",
-        "name": "Gibão de Peles",
-        "url": "/api/equipamentos/gibao-de-peles"
+        "index": "gibao-de-peles-para-montaria",
+        "name": "Gibão de Peles para Montaria",
+        "url": "/api/equipamentos/gibao-de-peles-para-montaria"
       },
       {
-        "index": "cota-de-malha-parcial",
-        "name": "Cota de Malha Parcial",
-        "url": "/api/equipamentos/cota-de-malha-parcial"
+        "index": "cota-de-malha-parcial-para-montaria",
+        "name": "Cota de Malha Parcial para Montaria",
+        "url": "/api/equipamentos/cota-de-malha-parcial-para-montaria"
       },
       {
-        "index": "brunea",
-        "name": "Brunea",
-        "url": "/api/equipamentos/brunea"
+        "index": "brunea-para-montaria",
+        "name": "Brunea para Montaria",
+        "url": "/api/equipamentos/brunea-para-montaria"
       },
       {
-        "index": "peitoral",
-        "name": "Peitoral",
-        "url": "/api/equipamentos/peitoral"
+        "index": "peitoral-para-montaria",
+        "name": "Peitoral para Montaria",
+        "url": "/api/equipamentos/peitoral-para-montaria"
       },
       {
-        "index": "meia-armadura",
-        "name": "Meia-Armadura",
-        "url": "/api/equipamentos/meia-armadura"
+        "index": "meia-armadura-para-montaria",
+        "name": "Meia-Armadura para montaria",
+        "url": "/api/equipamentos/meia-armadura-para-montaria"
       },
       {
-        "index": "cota-de-aneis",
-        "name": "Cota de Anéis",
-        "url": "/api/equipamentos/cota-de-aneis"
+        "index": "cota-de-aneis-para-montaria",
+        "name": "Cota de Anéis para Montaria",
+        "url": "/api/equipamentos/cota-de-aneis-para-montaria"
       },
       {
-        "index": "cota-de-malha",
-        "name": "Cota de Malha",
-        "url": "/api/equipamentos/cota-de-malha"
+        "index": "cota-de-malha-para-montaria",
+        "name": "Cota de Malha para Montaria",
+        "url": "/api/equipamentos/cota-de-malha-para-montaria"
       },
       {
-        "index": "cota-de-talas",
-        "name": "Cota de Talas",
-        "url": "/api/equipamentos/cota-de-talas"
+        "index": "cota-de-talas-para-montaria",
+        "name": "Cota de Talas para Montaria",
+        "url": "/api/equipamentos/cota-de-talas-para-montaria"
       },
       {
-        "index": "armadura-de-placas",
-        "name": "Armadura de Placas",
-        "url": "/api/equipamentos/armadura-de-placas"
+        "index": "armadura-de-placas-para-montaria",
+        "name": "Armadura de Placas para Montaria",
+        "url": "/api/equipamentos/armadura-de-placas-para-montaria"
       },
       {
-        "index": "freio-e-brida",
-        "name": "Freio e Brida",
-        "url": "/api/equipamentos/freio-e-brida"
+        "index": "redea-e-freio",
+        "name": "Redea e Freio",
+        "url": "/api/equipamentos/redea-e-freio"
+      },
+      {
+        "index": "carruagem",
+        "name": "Carruagem",
+        "url": "/api/equipamentos/carruagem"
       },
       {
         "index": "carroca",
@@ -1469,14 +1474,9 @@
         "url": "/api/equipamentos/carroca"
       },
       {
-        "index": "carreta",
-        "name": "Carreta",
-        "url": "/api/equipamentos/carreta"
-      },
-      {
-        "index": "carro-de-guerra",
-        "name": "Carro de Guerra",
-        "url": "/api/equipamentos/carro-de-guerra"
+        "index": "biga",
+        "name": "Biga",
+        "url": "/api/equipamentos/biga"
       },
       {
         "index": "comida-para-animais-1-dia",
@@ -1494,14 +1494,14 @@
         "url": "/api/equipamentos/sela-militar"
       },
       {
-        "index": "sela-de-carga",
-        "name": "Sela de Carga",
-        "url": "/api/equipamentos/sela-de-carga"
+        "index": "sela-compacta",
+        "name": "Sela de Compacta",
+        "url": "/api/equipamentos/sela-compacta"
       },
       {
-        "index": "sela-de-montaria",
-        "name": "Sela de Montaria",
-        "url": "/api/equipamentos/sela-de-montaria"
+        "index": "sela-de-viagem",
+        "name": "Sela de Viagem",
+        "url": "/api/equipamentos/sela-de-viagem"
       },
       {
         "index": "alforjes",
@@ -1509,14 +1509,14 @@
         "url": "/api/equipamentos/alforjes"
       },
       {
-        "index": "trenó",
+        "index": "treno",
         "name": "Trenó",
         "url": "/api/equipamentos/treno"
       },
       {
-        "index": "estabulacao-1-dia",
+        "index": "estabulo-por-dia",
         "name": "Estabulagem (1 dia)",
-        "url": "/api/equipamentos/estabulacao-1-dia"
+        "url": "/api/equipamentos/estabulo-por-dia"
       },
       {
         "index": "vagao",
@@ -1524,14 +1524,14 @@
         "url": "/api/equipamentos/vagao"
       },
       {
-        "index": "galé",
-        "name": "Galé",
-        "url": "/api/equipamentos/gale"
+        "index": "galera",
+        "name": "Galéra",
+        "url": "/api/equipamentos/galera"
       },
       {
-        "index": "barcaça",
-        "name": "Barcaça",
-        "url": "/api/equipamentos/barcaca"
+        "index": "barco-de-quilha",
+        "name": "Barco de Quilha",
+        "url": "/api/equipamentos/barco-de-quilha"
       },
       {
         "index": "dracar",
@@ -1539,14 +1539,14 @@
         "url": "/api/equipamentos/dracar"
       },
       {
-        "index": "bote",
-        "name": "Bote",
-        "url": "/api/equipamentos/bote"
+        "index": "barco-a-remo",
+        "name": "Barco a Remo",
+        "url": "/api/equipamentos/barco-a-remo"
       },
       {
-        "index": "navio-a-vela",
-        "name": "Navio a Vela",
-        "url": "/api/equipamentos/navio-a-vela"
+        "index": "veleiro",
+        "name": "Veleiro",
+        "url": "/api/equipamentos/veleiro"
       },
       {
         "index": "navio-de-guerra",
@@ -2920,9 +2920,9 @@
         "url": "/api/equipamentos/tambor"
       },
       {
-        "index": "dulcimer",
-        "name": "Dulcimer",
-        "url": "/api/equipamentos/dulcimer"
+        "index": "salterio",
+        "name": "Salterio",
+        "url": "/api/equipamentos/salterio"
       },
       {
         "index": "flauta",
@@ -3086,9 +3086,9 @@
         "url": "/api/equipamentos/armadura-para-animais-de-placas"
       },
       {
-        "index": "freio-e-brida",
-        "name": "Freio e Brida",
-        "url": "/api/equipamentos/freio-e-brida"
+        "index": "redea-e-freio",
+        "name": "Redea e Freio",
+        "url": "/api/equipamentos/redea-e-freio"
       },
       {
         "index": "carruagem",
@@ -3121,14 +3121,14 @@
         "url": "/api/equipamentos/sela-militar"
       },
       {
-        "index": "sela-de-carga",
-        "name": "Sela de Carga",
-        "url": "/api/equipamentos/sela-de-carga"
+        "index": "sela-compacta",
+        "name": "Sela de Compacta",
+        "url": "/api/equipamentos/sela-compacta"
       },
       {
-        "index": "sela-de-montaria",
-        "name": "Sela de Montaria",
-        "url": "/api/equipamentos/sela-de-montaria"
+        "index": "sela-de-viagem",
+        "name": "Sela de Viagem",
+        "url": "/api/equipamentos/sela-de-viagem"
       },
       {
         "index": "alforjes",
@@ -3136,7 +3136,7 @@
         "url": "/api/equipamentos/alforjes"
       },
       {
-        "index": "trenó",
+        "index": "treno",
         "name": "Trenó",
         "url": "/api/equipamentos/treno"
       },
@@ -3168,9 +3168,9 @@
         "url": "/api/equipamentos/carroca"
       },
       {
-        "index": "carro-de-guerra",
-        "name": "Carro de Guerra",
-        "url": "/api/equipamentos/carro-de-guerra"
+        "index": "biga",
+        "name": "Biga",
+        "url": "/api/equipamentos/biga"
       },
       {
         "index": "treno",
@@ -3205,14 +3205,14 @@
         "url": "/api/equipamentos/dracar"
       },
       {
-        "index": "bote",
-        "name": "Bote",
-        "url": "/api/equipamentos/bote"
+        "index": "barco-a-remo",
+        "name": "barco a remo",
+        "url": "/api/equipamentos/barco-a-remo"
       },
       {
-        "index": "navio-a-vela",
-        "name": "Navio a Vela",
-        "url": "/api/equipamentos/navio-a-vela"
+        "index": "veleiro",
+        "name": "Veleiro",
+        "url": "/api/equipamentos/veleiro"
       },
       {
         "index": "navio-de-guerra",
