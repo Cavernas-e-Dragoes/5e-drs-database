@@ -1,0 +1,136 @@
+[
+    {
+      "index": "comum",
+      "name": "Comum",
+      "type": "Padrão",
+      "typical_speakers": ["Humanos"],
+      "script": "Comum",
+      "url": "/api/idiomas/comum"
+    },
+    {
+      "index": "anao",
+      "name": "Anão",
+      "desc": "A língua anã é cheia de consoantes fortes e sons guturais.",
+      "type": "Padrão",
+      "typical_speakers": ["Anões"],
+      "script": "Anão",
+      "url": "/api/idiomas/anao"
+    },
+    {
+      "index": "elfico",
+      "name": "Élfico",
+      "desc": "O élfico é fluido, com sutis entonações e gramática intrincada. A literatura élfica é rica e variada, e suas canções e poesias são famosas entre outras raças. Muitos bardos aprendem essa língua para poder incluir baladas élficas em seus repertórios.",
+      "type": "Padrão",
+      "typical_speakers": ["Elfos"],
+      "script": "Élfico",
+      "url": "/api/idiomas/elfico"
+    },
+    {
+      "index": "gigante",
+      "name": "Gigante",
+      "type": "Padrão",
+      "typical_speakers": ["Ogros", "Gigantes"],
+      "script": "Anão",
+      "url": "/api/idiomas/gigante"
+    },
+    {
+      "index": "gnomico",
+      "name": "Gnômico",
+      "desc": "A língua gnômica, que utiliza o alfabeto anão, é famosa por seus tratados técnicos e seus catálogos de conhecimento sobre o mundo natural.",
+      "type": "Padrão",
+      "typical_speakers": ["Gnomos"],
+      "script": "Anão",
+      "url": "/api/idiomas/gnomico"
+    },
+    {
+      "index": "goblin",
+      "name": "Goblin",
+      "type": "Padrão",
+      "typical_speakers": ["Goblinóides"],
+      "script": "Anão",
+      "url": "/api/idiomas/goblin"
+    },
+    {
+      "index": "pequenino",
+      "name": "Pequenino",
+      "second_name": "Halfling",
+      "desc": "A língua pequenina não é secreta, mas os pequeninos são relutantes em compartilhá-la com outros. Eles escrevem muito pouco, por isso não possuem uma rica tradição literária. Sua tradição oral, no entanto, é muito forte.",
+      "type": "Padrão",
+      "typical_speakers": ["Pequeninos"],
+      "script": "Comum",
+      "url": "/api/idiomas/pequenino"
+    },
+    {
+      "index": "orc",
+      "name": "Orc",
+      "desc": "O orc é uma língua áspera e estridente com consoantes fortes. Não tem um alfabeto próprio, mas é escrita no alfabeto anão.",
+      "type": "Padrão",
+      "typical_speakers": ["Orcs"],
+      "script": "Anão",
+      "url": "/api/idiomas/orc"
+    },
+    {
+      "index": "abissal",
+      "name": "Abissal",
+      "type": "Exótico",
+      "typical_speakers": ["Demônios"],
+      "script": "Infernal",
+      "url": "/api/idiomas/abissal"
+    },
+    {
+      "index": "celestial",
+      "name": "Celestial",
+      "type": "Exótico",
+      "typical_speakers": ["Celestiais"],
+      "script": "Celestial",
+      "url": "/api/idiomas/celestial"
+    },
+    {
+      "index": "draconico",
+      "name": "Dracônico",
+      "desc": "O dracônico é considerado uma das línguas mais antigas e é frequentemente usado no estudo da magia. A língua soa áspera para a maioria das outras criaturas e inclui várias consoantes fortes e sibilantes.",
+      "type": "Exótico",
+      "typical_speakers": ["Dragões", "Draconatos"],
+      "script": "Dracônico",
+      "url": "/api/idiomas/draconico"
+    },
+    {
+      "index": "dialeto-obscuro",
+      "name": "Dialeto Obscuro",
+      "type": "Exótico",
+      "typical_speakers": ["Devoradores de Mente", "Observadores"],
+      "url": "/api/idiomas/dialeto-obscuro"
+    },
+    {
+      "index": "infernal",
+      "name": "Infernal",
+      "type": "Exótico",
+      "typical_speakers": ["Diabos"],
+      "script": "Infernal",
+      "url": "/api/idiomas/infernal"
+    },
+    {
+      "index": "primordial",
+      "name": "Primordial",
+      "type": "Exótico",
+      "typical_speakers": ["Elementais"],
+      "script": "Anão",
+      "url": "/api/idiomas/primordial"
+    },
+    {
+      "index": "silvestre",
+      "name": "Silvestre",
+      "type": "Exótico",
+      "typical_speakers": ["Criaturas Feéricas"],
+      "script": "Élfico",
+      "url": "/api/idiomas/silvestre"
+    },
+    {
+      "index": "subcomum",
+      "name": "Subcomum",
+      "type": "Exótico",
+      "typical_speakers": ["Comerciantes da Umbreterna"],
+      "script": "Élfico",
+      "url": "/api/idiomas/subcomum"
+    }
+  ]
