@@ -1,0 +1,2046 @@
+[
+    {
+        "index": "armadura-leve",
+        "type": "Armadura",
+        "name": "Armadura Leve",
+        "classes": [
+            {
+                "index": "barbaro",
+                "name": "Bárbaro",
+                "url": "/api/classes/barbaro"
+            },
+            {
+                "index": "bardo",
+                "name": "Bardo",
+                "url": "/api/classes/bardo"
+            },
+            {
+                "index": "clerigo",
+                "name": "Clérigo",
+                "url": "/api/classes/clerigo"
+            },
+            {
+                "index": "druida",
+                "name": "Druida",
+                "url": "/api/classes/druida"
+            },
+            {
+                "index": "guardiao",
+                "name": "Guardião",
+                "url": "/api/classes/guardiao"
+            },
+            {
+                "index": "ladino",
+                "name": "Ladino",
+                "url": "/api/classes/ladino"
+            },
+            {
+                "index": "feiticeiro",
+                "name": "Feiticeiro",
+                "url": "/api/classes/feiticeiro"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencias/armadura-leve",
+        "reference": {
+            "index": "armadura-leve",
+            "name": "Armadura Leve",
+            "url": "/api/categorias-de-equipamento/armadura-leve"
+        }
+    },
+    {
+        "index": "armadura-media",
+        "type": "Armadura",
+        "name": "Armadura Média",
+        "classes": [
+            {
+                "index": "barbaro",
+                "name": "Bárbaro",
+                "url": "/api/classes/barbaro"
+            },
+            {
+                "index": "clerigo",
+                "name": "Clérigo",
+                "url": "/api/classes/clerigo"
+            },
+            {
+                "index": "druida",
+                "name": "Druida",
+                "url": "/api/classes/druida"
+            },
+            {
+                "index": "guardiao",
+                "name": "Guardião",
+                "url": "/api/classes/guardiao"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencias/armadura-media",
+        "reference": {
+            "index": "armadura-media",
+            "name": "Armadura Média",
+            "url": "/api/categorias-de-equipamento/armadura-media"
+        }
+    },
+    {
+        "index": "armadura-pesada",
+        "type": "Armadura",
+        "name": "Armadura Pesada",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/armadura-pesada",
+        "reference": {
+            "index": "armadura-pesada",
+            "name": "Armadura Pesada",
+            "url": "/api/categorias-de-equipamento/armadura-pesada"
+        }
+    },
+    {
+        "index": "todas-as-armaduras",
+        "type": "Armadura",
+        "name": "Todas as Armaduras",
+        "classes": [
+            {
+                "index": "guerreiro",
+                "name": "Guerreiro",
+                "url": "/api/classes/guerreiro"
+            },
+            {
+                "index": "paladino",
+                "name": "Paladino",
+                "url": "/api/classes/paladino"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencias/todas-as-armaduras",
+        "reference": {
+            "index": "armadura",
+            "name": "Armadura",
+            "url": "/api/categorias-de-equipamento/armadura"
+        }
+    },
+    {
+        "index": "armadura-almofadada",
+        "type": "Armadura",
+        "name": "Armadura Almofadada",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/armadura-almofadada",
+        "reference": {
+            "index": "armadura-almofadada",
+            "name": "Armadura Almofadada",
+            "url": "/api/equipamentos/armadura-almofadada"
+        }
+    },
+    {
+        "index": "armadura-de-couro",
+        "type": "Armadura",
+        "name": "Armadura de Couro",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/armadura-de-couro",
+        "reference": {
+            "index": "armadura-de-couro",
+            "name": "Armadura de Couro",
+            "url": "/api/equipamentos/armadura-de-couro"
+        }
+    },
+    {
+        "index": "armadura-de-couro-batido",
+        "type": "Armadura",
+        "name": "Armadura de Couro Batido",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/armadura-de-couro-batido",
+        "reference": {
+            "index": "armadura-de-couro-batido",
+            "name": "Armadura de Couro Batido",
+            "url": "/api/equipamentos/armadura-de-couro-batido"
+        }
+    },
+    {
+        "index": "gibao-de-peles",
+        "type": "Armadura",
+        "name": "Gibão de Peles",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/gibao-de-peles",
+        "reference": {
+            "index": "gibao-de-peles",
+            "name": "Gibão de Peles",
+            "url": "/api/equipamentos/gibao-de-peles"
+        }
+    },
+    {
+        "index": "cota-de-malha-parcial",
+        "type": "Armadura",
+        "name": "Cota de Malha Parcial",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/cota-de-malha-parcial",
+        "reference": {
+            "index": "cota-de-malha-parcial",
+            "name": "Cota de Malha Parcial",
+            "url": "/api/equipamentos/cota-de-malha-parcial"
+        }
+    },
+    {
+        "index": "brunea",
+        "type": "Armadura",
+        "name": "Brunea",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/brunea",
+        "reference": {
+            "index": "brunea",
+            "name": "Brunea",
+            "url": "/api/equipamentos/brunea"
+        }
+    },
+    {
+        "index": "peitoral",
+        "type": "Armadura",
+        "name": "Peitoral",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/peitoral",
+        "reference": {
+            "index": "peitoral",
+            "name": "Peitoral",
+            "url": "/api/equipamentos/peitoral"
+        }
+    },
+    {
+        "index": "meia-armadura",
+        "type": "Armadura",
+        "name": "Meia-Armadura",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/meia-armadura",
+        "reference": {
+            "index": "meia-armadura",
+            "name": "Meia-Armadura",
+            "url": "/api/equipamentos/meia-armadura"
+        }
+    },
+    {
+        "index": "cota-de-aneis",
+        "type": "Armadura",
+        "name": "Cota de Anéis",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/cota-de-aneis",
+        "reference": {
+            "index": "cota-de-aneis",
+            "name": "Cota de Anéis",
+            "url": "/api/equipamentos/cota-de-aneis"
+        }
+    },
+    {
+        "index": "cota-de-malha",
+        "type": "Armadura",
+        "name": "Cota de Malha",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/cota-de-malha",
+        "reference": {
+            "index": "cota-de-malha",
+            "name": "Cota de Malha",
+            "url": "/api/equipamentos/cota-de-malha"
+        }
+    },
+    {
+        "index": "cota-de-talas",
+        "type": "Armadura",
+        "name": "Cota de Talas",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/cota-de-talas",
+        "reference": {
+            "index": "cota-de-talas",
+            "name": "Cota de Talas",
+            "url": "/api/equipamentos/cota-de-talas"
+        }
+    },
+    {
+        "index": "armadura-de-placas",
+        "type": "Armadura",
+        "name": "Armadura de Placas",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/armadura-de-placas",
+        "reference": {
+            "index": "armadura-de-placas",
+            "name": "Armadura de Placas",
+            "url": "/api/equipamentos/armadura-de-placas"
+        }
+    },
+    {
+        "index": "escudos",
+        "type": "Armadura",
+        "name": "Escudos",
+        "classes": [
+            {
+                "index": "barbaro",
+                "name": "Bárbaro",
+                "url": "/api/classes/barbaro"
+            },
+            {
+                "index": "clerigo",
+                "name": "Clérigo",
+                "url": "/api/classes/clerigo"
+            },
+            {
+                "index": "druida",
+                "name": "Druida",
+                "url": "/api/classes/druida"
+            },
+            {
+                "index": "guerreiro",
+                "name": "Guerreiro",
+                "url": "/api/classes/guerreiro"
+            },
+            {
+                "index": "paladino",
+                "name": "Paladino",
+                "url": "/api/classes/paladino"
+            },
+            {
+                "index": "guardiao",
+                "name": "Guardião",
+                "url": "/api/classes/guardiao"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencias/escudos",
+        "reference": {
+            "index": "escudo",
+            "name": "Escudo",
+            "url": "/api/equipamentos/escudo"
+        }
+    },
+    {
+        "index": "armas-simples",
+        "type": "Armas",
+        "name": "Armas Simples",
+        "classes": [
+            {
+                "index": "barbaro",
+                "name": "Bárbaro",
+                "url": "/api/classes/barbaro"
+            },
+            {
+                "index": "bardo",
+                "name": "Bardo",
+                "url": "/api/classes/bardo"
+            },
+            {
+                "index": "clerigo",
+                "name": "Clérigo",
+                "url": "/api/classes/clerigo"
+            },
+            {
+                "index": "guerreiro",
+                "name": "Guerreiro",
+                "url": "/api/classes/guerreiro"
+            },
+            {
+                "index": "monge",
+                "name": "Monge",
+                "url": "/api/classes/monge"
+            },
+            {
+                "index": "paladino",
+                "name": "Paladino",
+                "url": "/api/classes/paladino"
+            },
+            {
+                "index": "guardiao",
+                "name": "Guardião",
+                "url": "/api/classes/guardiao"
+            },
+            {
+                "index": "ladino",
+                "name": "Ladino",
+                "url": "/api/classes/ladino"
+            },
+            {
+                "index": "bruxo",
+                "name": "Bruxo",
+                "url": "/api/classes/bruxo"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencias/armas-simples",
+        "reference": {
+            "index": "armas-simples",
+            "name": "Armas Simples",
+            "url": "/api/categorias-de-equipamento/armas-simples"
+        }
+    },
+    {
+        "index": "armas-marciais",
+        "type": "Armas",
+        "name": "Armas Marciais",
+        "classes": [
+            {
+                "index": "barbaro",
+                "name": "Bárbaro",
+                "url": "/api/classes/barbaro"
+            },
+            {
+                "index": "guerreiro",
+                "name": "Guerreiro",
+                "url": "/api/classes/guerreiro"
+            },
+            {
+                "index": "paladino",
+                "name": "Paladino",
+                "url": "/api/classes/paladino"
+            },
+            {
+                "index": "guardiao",
+                "name": "Guardião",
+                "url": "/api/classes/guardiao"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencias/armas-marciais",
+        "reference": {
+            "index": "armas-marciais",
+            "name": "Armas Marciais",
+            "url": "/api/categorias-de-equipamentos/armas-marciais"
+        }
+    },
+    {
+        "index": "clavas",
+        "type": "Armas",
+        "name": "Clavas",
+        "classes": [
+            {
+                "index": "druida",
+                "name": "Druida",
+                "url": "/api/classes/druida"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencias/clavas",
+        "reference": {
+            "index": "clava",
+            "name": "Clava",
+            "url": "/api/equipamentos/clava"
+        }
+    },
+    {
+        "index": "adagas",
+        "type": "Armas",
+        "name": "Adagas",
+        "classes": [
+            {
+                "index": "druida",
+                "name": "Druida",
+                "url": "/api/classes/druida"
+            },
+            {
+                "index": "feiticeiro",
+                "name": "Feiticeiro",
+                "url": "/api/classes/feiticeiro"
+            },
+            {
+                "index": "mago",
+                "name": "Mago",
+                "url": "/api/classes/mago"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencias/adagas",
+        "reference": {
+            "index": "adaga",
+            "name": "Adaga",
+            "url": "/api/equipamentos/adaga"
+        }
+    },
+    {
+        "index": "grandes-clavas",
+        "type": "Armas",
+        "name": "Grandes Clavas",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/grandes-clavas",
+        "reference": {
+            "index": "grande-clava",
+            "name": "Grande Clava",
+            "url": "/api/equipamentos/grande-clava"
+        }
+    },
+    {
+        "index": "machadinhas",
+        "type": "Armas",
+        "name": "Machadinhas",
+        "classes": [],
+        "races": [
+            {
+                "index": "anão",
+                "name": "Anão",
+                "url": "/api/racas/anao"
+            }
+        ],
+        "url": "/api/proficiencias/machadinhas",
+        "reference": {
+            "index": "machadinha",
+            "name": "Machadinha",
+            "url": "/api/equipamentos/machadinha"
+        }
+    },
+    {
+        "index": "azagaias",
+        "type": "Armas",
+        "name": "Azagaias",
+        "classes": [
+            {
+                "index": "druida",
+                "name": "Druida",
+                "url": "/api/classes/druida"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencias/azagaias",
+        "reference": {
+            "index": "azagaia",
+            "name": "Azagaia",
+            "url": "/api/equipamentos/azagaia"
+        }
+    },
+    {
+        "index": "martelos-leves",
+        "type": "Armas",
+        "name": "Martelos Leves",
+        "classes": [],
+        "races": [
+            {
+                "index": "anão",
+                "name": "Anão",
+                "url": "/api/racas/anao"
+            }
+        ],
+        "url": "/api/proficiencias/martelos-leves",
+        "reference": {
+            "index": "martelo-leve",
+            "name": "Martelo Leve",
+            "url": "/api/equipamentos/martelo-leve"
+        }
+    },
+    {
+        "index": "macas",
+        "type": "Armas",
+        "name": "Maças",
+        "classes": [
+            {
+                "index": "druida",
+                "name": "Druida",
+                "url": "/api/classes/druida"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencias/macas",
+        "reference": {
+            "index": "maca",
+            "name": "Maça",
+            "url": "/api/equipamentos/maca"
+        }
+    },
+    {
+        "index": "bastoes",
+        "type": "Armas",
+        "name": "Bastões",
+        "classes": [
+            {
+                "index": "druida",
+                "name": "Druida",
+                "url": "/api/classes/druida"
+            },
+            {
+                "index": "feiticeiro",
+                "name": "Feiticeiro",
+                "url": "/api/classes/feiticeiro"
+            },
+            {
+                "index": "mago",
+                "name": "Mago",
+                "url": "/api/classes/mago"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencias/bastoes",
+        "reference": {
+            "index": "bastao",
+            "name": "Bastão",
+            "url": "/api/equipamentos/bastao"
+        }
+    },
+    {
+        "index": "foices",
+        "type": "Armas",
+        "name": "Foices",
+        "classes": [
+            {
+                "index": "druida",
+                "name": "Druida",
+                "url": "/api/classes/druida"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencias/foices",
+        "reference": {
+            "index": "foice",
+            "name": "Foice",
+            "url": "/api/equipamentos/foice"
+        }
+    },
+    {
+        "index": "lancas",
+        "type": "Armas",
+        "name": "Lanças",
+        "classes": [
+            {
+                "index": "druida",
+                "name": "Druida",
+                "url": "/api/classes/druida"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencias/lancas",
+        "reference": {
+            "index": "lanca",
+            "name": "Lança",
+            "url": "/api/equipamentos/lanca"
+        }
+    },
+    {
+        "index": "bestas-leves",
+        "type": "Armas",
+        "name": "Bestas Leves",
+        "classes": [
+            {
+                "index": "feiticeiro",
+                "name": "Feiticeiro",
+                "url": "/api/classes/feiticeiro"
+            },
+            {
+                "index": "mago",
+                "name": "Mago",
+                "url": "/api/classes/mago"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencias/bestas-leves",
+        "reference": {
+            "index": "besta-leve",
+            "name": "Besta Leve",
+            "url": "/api/equipamentos/besta-leve"
+        }
+    },
+    {
+        "index": "dardos",
+        "type": "Armas",
+        "name": "Dardos",
+        "classes": [
+            {
+                "index": "druida",
+                "name": "Druida",
+                "url": "/api/classes/druida"
+            },
+            {
+                "index": "feiticeiro",
+                "name": "Feiticeiro",
+                "url": "/api/classes/feiticeiro"
+            },
+            {
+                "index": "mago",
+                "name": "Mago",
+                "url": "/api/classes/mago"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencias/dardos",
+        "reference": {
+            "index": "dardo",
+            "name": "Dardo",
+            "url": "/api/equipamentos/dardo"
+        }
+    },
+    {
+        "index": "arcos-curtos",
+        "type": "Armas",
+        "name": "Arcos Curtos",
+        "classes": [],
+        "races": [
+            {
+                "index": "alto-elfo",
+                "name": "Alto Elfo",
+                "url": "/api/subracas/alto-elfo"
+            }
+        ],
+        "url": "/api/proficiencias/arcos-curtos",
+        "reference": {
+            "index": "arco-curto",
+            "name": "Arco Curto",
+            "url": "/api/equipamentos/arco-curto"
+        }
+    },
+    {
+        "index": "fundas",
+        "type": "Armas",
+        "name": "Fundas",
+        "classes": [
+            {
+                "index": "druida",
+                "name": "Druida",
+                "url": "/api/classes/druida"
+            },
+            {
+                "index": "feiticeiro",
+                "name": "Feiticeiro",
+                "url": "/api/classes/feiticeiro"
+            },
+            {
+                "index": "mago",
+                "name": "Mago",
+                "url": "/api/classes/mago"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencias/fundas",
+        "reference": {
+            "index": "funda",
+            "name": "Funda",
+            "url": "/api/equipamento/funda"
+        }
+    },
+    {
+        "index": "machados-de-batalha",
+        "type": "Armas",
+        "name": "Machados de Batalha",
+        "classes": [],
+        "races": [
+            {
+                "index": "anao",
+                "name": "Anão",
+                "url": "/api/racas/anao"
+            }
+        ],
+        "url": "/api/proficiencias/machados-de-batalha",
+        "reference": {
+            "index": "machado-de-batalha",
+            "name": "Machado de Batalha",
+            "url": "/api/equipamento/machado-de-batalha"
+        }
+    },
+    {
+        "index": "manguais",
+        "type": "Armas",
+        "name": "Manguais",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/manguais",
+        "reference": {
+            "index": "mangual",
+            "name": "Mangual",
+            "url": "/api/equipamento/mangual"
+        }
+    },
+    {
+        "index": "glaives",
+        "type": "Armas",
+        "name": "Glaives",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/glaives",
+        "reference": {
+            "index": "glaive",
+            "name": "Glaive",
+            "url": "/api/equipamento/glaive"
+        }
+    },
+    {
+        "index": "machados-grandes",
+        "type": "Armas",
+        "name": "Machados Grandes",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/machados-grandes",
+        "reference": {
+            "index": "machado-grande",
+            "name": "Machado Grande",
+            "url": "/api/equipamento/machado-grande"
+        }
+    },
+    {
+        "index": "espadas-grandes",
+        "type": "Armas",
+        "name": "Espadas Grandes",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/espadas-grandes",
+        "reference": {
+            "index": "espada-grande",
+            "name": "Espada Grande",
+            "url": "/api/equipamento/espada-grande"
+        }
+    },
+    {
+        "index": "alabardas",
+        "type": "Armas",
+        "name": "Alabardas",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/alabardas",
+        "reference": {
+            "index": "alabarda",
+            "name": "Alabarda",
+            "url": "/api/equipamento/alabarda"
+        }
+    },
+    {
+        "index": "lanca-de-cavalaria",
+        "type": "Armas",
+        "name": "Lança de Cavalaria",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/lanca-de-cavalaria",
+        "reference": {
+            "index": "lanca-de-cavalaria",
+            "name": "Lança de Cavalaria",
+            "url": "/api/equipamento/lanca-de-cavalaria"
+        }
+    },
+    {
+        "index": "espadas-longas",
+        "type": "Armas",
+        "name": "Espadas Longas",
+        "classes": [
+            {
+                "index": "bardo",
+                "name": "Bardo",
+                "url": "/api/classes/bardo"
+            },
+            {
+                "index": "ladino",
+                "name": "Ladino",
+                "url": "/api/classes/ladino"
+            }
+        ],
+        "races": [
+            {
+                "index": "alto-elfo",
+                "name": "Alto Elfo ",
+                "url": "/api/subracas/alto-elfo"
+            }
+        ],
+        "url": "/api/proficiencias/espadas-longas",
+        "reference": {
+            "index": "espada-longa",
+            "name": "Espada Longa",
+            "url": "/api/equipamento/espada-longa"
+        }
+    },
+    {
+        "index": "malhos",
+        "type": "Armas",
+        "name": "Malhos",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/malhos",
+        "reference": {
+            "index": "malho",
+            "name": "Malho",
+            "url": "/api/equipamento/malho"
+        }
+    },
+    {
+        "index": "maca-estrela",
+        "type": "Armas",
+        "name": "Maça Estrela",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/maca-estrela",
+        "reference": {
+            "index": "maca-estrela",
+            "name": "Maça Estrela",
+            "url": "/api/equipamento/maca-estrela"
+        }
+    },
+    {
+        "index": "piques",
+        "type": "Armas",
+        "name": "Piques",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/piques",
+        "reference": {
+            "index": "pique",
+            "name": "Pique",
+            "url": "/api/equipamento/pique"
+        }
+    },
+    {
+        "index": "rapieiras",
+        "type": "Armas",
+        "name": "Rapieiras",
+        "classes": [
+            {
+                "index": "bardo",
+                "name": "Bardo",
+                "url": "/api/classes/bardo"
+            },
+            {
+                "index": "ladino",
+                "name": "Ladino",
+                "url": "/api/classes/ladino"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencias/rapieiras",
+        "reference": {
+            "index": "rapieira",
+            "name": "Rapieira",
+            "url": "/api/equipamento/rapieira"
+        }
+    },
+    {
+        "index": "cimitarras",
+        "type": "Armas",
+        "name": "Cimitarras",
+        "classes": [
+            {
+                "index": "druida",
+                "name": "Druida",
+                "url": "/api/classes/druida"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencias/cimitarras",
+        "reference": {
+            "index": "cimitarra",
+            "name": "Cimitarra",
+            "url": "/api/equipamento/cimitarra"
+        }
+    },
+    {
+        "index": "espadas-curtas",
+        "type": "Armas",
+        "name": "Espadas Curtas",
+        "classes": [
+            {
+                "index": "bardo",
+                "name": "Bardo",
+                "url": "/api/classes/bardo"
+            },
+            {
+                "index": "monge",
+                "name": "Monge",
+                "url": "/api/classes/monge"
+            },
+            {
+                "index": "ladino",
+                "name": "Ladino",
+                "url": "/api/classes/ladino"
+            }
+        ],
+        "races": [
+            {
+                "index": "alto-elfo",
+                "name": "Alto Elfo",
+                "url": "/api/subracas/alto-elfo"
+            }
+        ],
+        "url": "/api/proficiencias/espadas-curtas",
+        "reference": {
+            "index": "espada-curta",
+            "name": "Espada Curta",
+            "url": "/api/equipamento/espada-curta"
+        }
+    },
+    {
+        "index": "tridentes",
+        "type": "Armas",
+        "name": "Tridentes",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/tridentes",
+        "reference": {
+            "index": "tridente",
+            "name": "Tridente",
+            "url": "/api/equipamento/tridente"
+        }
+    },
+    {
+        "index": "picaretas-de-guerra",
+        "type": "Armas",
+        "name": "Picaretas de Guerra",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/picaretas-de-guerra",
+        "reference": {
+            "index": "picareta-de-guerra",
+            "name": "Picareta de Guerra",
+            "url": "/api/equipamento/picareta-de-guerra"
+        }
+    },
+    {
+        "index": "martelos-de-guerra",
+        "type": "Armas",
+        "name": "Martelos de Guerra",
+        "classes": [],
+        "races": [
+            {
+                "index": "anão",
+                "name": "Anão",
+                "url": "/api/racas/anao"
+            }
+        ],
+        "url": "/api/proficiencias/martelos-de-guerra",
+        "reference": {
+            "index": "martelo-de-guerra",
+            "name": "Martelo de Guerra",
+            "url": "/api/equipamento/martelo-de-guerra"
+        }
+    },
+    {
+        "index": "chicotes",
+        "type": "Armas",
+        "name": "Chicotes",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/chicotes",
+        "reference": {
+            "index": "chicote",
+            "name": "Chicote",
+            "url": "/api/equipamento/chicote"
+        }
+    },
+    {
+        "index": "zarabatanas",
+        "type": "Armas",
+        "name": "Zarabatanas",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/zarabatanas",
+        "reference": {
+            "index": "zarabatana",
+            "name": "Zarabatana",
+            "url": "/api/equipamento/zarabatana"
+        }
+    },
+    {
+        "index": "bestas-de-mao",
+        "type": "Armas",
+        "name": "Bestas de Mão",
+        "classes": [
+            {
+                "index": "bardo",
+                "name": "Bardo",
+                "url": "/api/classes/bardo"
+            },
+            {
+                "index": "ladino",
+                "name": "Ladino",
+                "url": "/api/classes/ladino"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencias/bestas-de-mao",
+        "reference": {
+            "index": "besta-de-mao",
+            "name": "Besta de mão",
+            "url": "/api/equipamento/besta-de-mao"
+        }
+    },
+    {
+        "index": "bestas-pesadas",
+        "type": "Armas",
+        "name": "Bestas pesadas",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/bestas-pesadas",
+        "reference": {
+            "index": "besta-pesada",
+            "name": "Besta pesada",
+            "url": "/api/equipamentos/besta-pesada"
+        }
+    },
+    {
+        "index": "arcos-longos",
+        "type": "Armas",
+        "name": "Arcos longos",
+        "classes": [],
+        "races": [
+            {
+                "index": "alto-elfo",
+                "name": "Elfo Alto",
+                "url": "/api/subracas/alto-elfo"
+            }
+        ],
+        "url": "/api/proficiencias/arcos-longos",
+        "reference": {
+            "index": "arco-longo",
+            "name": "Arco longo",
+            "url": "/api/equipamentos/arco-longo"
+        }
+    },
+    {
+        "index": "redes",
+        "type": "Armas",
+        "name": "Redes",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/redes",
+        "reference": {
+            "index": "rede",
+            "name": "Rede",
+            "url": "/api/equipamentos/rede"
+        }
+    },
+    {
+        "index": "suprimentos-para-alquimistas",
+        "type": "Ferramentas de Artesão",
+        "name": "Suprimentos para Alquimistas",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/suprimentos-para-alquimistas",
+        "reference": {
+            "index": "suprimentos-para-alquimistas",
+            "name": "Suprimentos para Alquimistas",
+            "url": "/api/equipamentos/suprimentos-para-alquimistas"
+        }
+    },
+    {
+        "index": "suprimentos-para-cervejeiros",
+        "type": "Ferramentas de Artesão",
+        "name": "Suprimentos para Cervejeiros",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/suprimentos-para-cervejeiros",
+        "reference": {
+            "index": "suprimentos-para-cervejeiros",
+            "name": "Suprimentos para Cervejeiros",
+            "url": "/api/equipamentos/suprimentos-para-cervejeiros"
+        }
+    },
+    {
+        "index": "suprimentos-de-caligrafos",
+        "type": "Ferramentas de Artesão",
+        "name": "Suprimentos de Calígrafos",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/suprimentos-de-caligrafos",
+        "reference": {
+            "index": "suprimentos-de-caligrafos",
+            "name": "Suprimentos de Calígrafos",
+            "url": "/api/equipamentos/suprimentos-de-caligrafos"
+        }
+    },
+    {
+        "index": "ferramentas-de-carpinteiro",
+        "type": "Ferramentas de Artesão",
+        "name": "Ferramentas de Carpinteiro",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/ferramentas-de-carpinteiro",
+        "reference": {
+            "index": "ferramentas-de-carpinteiro",
+            "name": "Ferramentas de Carpinteiro",
+            "url": "/api/equipamentos/ferramentas-de-carpinteiro"
+        }
+    },
+    {
+        "index": "ferramentas-de-cartografo",
+        "type": "Ferramentas de Artesão",
+        "name": "Ferramentas de Cartógrafo",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/ferramentas-de-cartografo",
+        "reference": {
+            "index": "ferramentas-de-cartografo",
+            "name": "Ferramentas de Cartógrafo",
+            "url": "/api/equipamentos/ferramentas-de-cartografo"
+        }
+    },
+    {
+        "index": "ferramentas-de-sapateiro",
+        "type": "Ferramentas de Artesão",
+        "name": "Ferramentas de Sapateiro",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/ferramentas-de-sapateiro",
+        "reference": {
+            "index": "ferramentas-de-sapateiro",
+            "name": "Ferramentas de Sapateiro",
+            "url": "/api/equipamentos/ferramentas-de-sapateiro"
+        }
+    },
+    {
+        "index": "utensilios-de-cozinha",
+        "type": "Ferramentas de Artesão",
+        "name": "Utensílios de Cozinha",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/utensilios-de-cozinha",
+        "reference": {
+            "index": "utensilios-de-cozinha",
+            "name": "Utensílios de Cozinha",
+            "url": "/api/equipamentos/utensilios-de-cozinha"
+        }
+    },
+    {
+        "index": "ferramentas-de-vidreiro",
+        "type": "Ferramentas de Artesão",
+        "name": "Ferramentas de Vidreiro",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/ferramentas-de-vidreiro",
+        "reference": {
+            "index": "ferramentas-de-vidreiro",
+            "name": "Ferramentas de Vidreiro",
+            "url": "/api/equipamentos/ferramentas-de-vidreiro"
+        }
+    },
+    {
+        "index": "ferramentas-de-joalheiro",
+        "type": "Ferramentas de Artesão",
+        "name": "Ferramentas de Joalheiro",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/ferramentas-de-joalheiro",
+        "reference": {
+            "index": "ferramentas-de-joalheiro",
+            "name": "Ferramentas de Joalheiro",
+            "url": "/api/equipamentos/ferramentas-de-joalheiro"
+        }
+    },
+    {
+        "index": "ferramentas-de-coureiros",
+        "type": "Ferramentas de Artesão",
+        "name": "Ferramentas de Coureiro",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/ferramentas-de-coureiros",
+        "reference": {
+            "index": "ferramentas-de-coureiros",
+            "name": "Ferramentas de Coureiro",
+            "url": "/api/equipamentos/ferramentas-de-coureiros"
+        }
+    },
+    {
+        "index": "ferramentas-de-pedreiro",
+        "type": "Ferramentas de Artesão",
+        "name": "Ferramentas de Pedreiro",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/ferramentas-de-pedreiro",
+        "reference": {
+            "index": "ferramentas-de-pedreiro",
+            "name": "Ferramentas de Pedreiro",
+            "url": "/api/equipamentos/ferramentas-de-pedreiro"
+        }
+    },
+    {
+        "index": "suprimentos-de-pintor",
+        "type": "Ferramentas de Artesão",
+        "name": "Suprimentos de Pintor",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/suprimentos-de-pintor",
+        "reference": {
+            "index": "suprimentos-de-pintor",
+            "name": "Suprimentos de Pintor",
+            "url": "/api/equipamentos/suprimentos-de-pintor"
+        }
+    },
+    {
+        "index": "ferramentas-de-oleiro",
+        "type": "Ferramentas de Artesão",
+        "name": "Ferramentas de Oleiro",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/ferramentas-de-oleiro",
+        "reference": {
+            "index": "ferramentas-de-oleiro",
+            "name": "Ferramentas de Oleiro",
+            "url": "/api/equipamentos/ferramentas-de-oleiro"
+        }
+    },
+    {
+        "index": "ferramentas-de-ferreiro",
+        "type": "Ferramentas de Artesão",
+        "name": "Ferramentas de Ferreiro",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/ferramentas-de-ferreiro",
+        "reference": {
+            "index": "ferramentas-de-ferreiro",
+            "name": "Ferramentas de Ferreiro",
+            "url": "/api/equipamentos/ferramentas-de-ferreiro"
+        }
+    },
+    {
+        "index": "ferramentas-de-funileiro",
+        "type": "Ferramentas de Artesão",
+        "name": "Ferramentas de Funileiro",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/ferramentas-de-funileiro",
+        "reference": {
+            "index": "ferramentas-de-funileiro",
+            "name": "Ferramentas de Funileiro",
+            "url": "/api/equipamentos/ferramentas-de-funileiro"
+        }
+    },
+    {
+        "index": "ferramentas-de-tecelao",
+        "type": "Ferramentas de Artesão",
+        "name": "Ferramentas de Tecelão",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/ferramentas-de-tecelao",
+        "reference": {
+            "index": "ferramentas-de-tecelao",
+            "name": "Ferramentas de Tecelão",
+            "url": "/api/equipamentos/ferramentas-de-tecelao"
+        }
+    },
+    {
+        "index": "ferramentas-de-entalhador",
+        "type": "Ferramentas de Artesão",
+        "name": "Ferramentas de Entalhador",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/ferramentas-de-entalhador",
+        "reference": {
+            "index": "ferramentas-de-entalhador",
+            "name": "Ferramentas de Entalhador",
+            "url": "/api/equipamentos/ferramentas-de-entalhador"
+        }
+    },
+    {
+        "index": "kit-de-disfarce",
+        "type": "Ferramentas de Artesão",
+        "name": "Kit de Disfarce",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/kit-de-disfarce",
+        "reference": {
+            "index": "kit-de-disfarce",
+            "name": "Kit de Disfarce",
+            "url": "/api/equipamentos/kit-de-disfarce"
+        }
+    },
+    {
+        "index": "kit-de-falsificacao",
+        "type": "Ferramentas de Artesão",
+        "name": "Kit de Falsificação",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/kit-de-falsificacao",
+        "reference": {
+            "index": "kit-de-falsificacao",
+            "name": "Kit de Falsificação",
+            "url": "/api/equipamentos/kit-de-falsificacao"
+        }
+    },
+    {
+        "index": "conjunto-de-dados",
+        "type": "Conjuntos de Jogos",
+        "name": "Conjunto de Dados",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/conjunto-de-dados",
+        "reference": {
+            "index": "conjunto-de-dados",
+            "name": "Conjunto de Dados",
+            "url": "/api/equipamentos/conjunto-de-dados"
+        }
+    },
+    {
+        "index": "baralho",
+        "type": "Conjuntos de Jogos",
+        "name": "Baralho",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/baralho",
+        "reference": {
+            "index": "baralho",
+            "name": "Baralho",
+            "url": "/api/equipamentos/baralho"
+        }
+    },
+    {
+        "index": "gaita-de-foles",
+        "type": "Instrumentos Musicais",
+        "name": "Gaita de Foles",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/gaita-de-foles",
+        "reference": {
+            "index": "gaita-de-foles",
+            "name": "Gaita de Foles",
+            "url": "/api/equipamentos/gaita-de-foles"
+        }
+    },
+    {
+        "index": "tambor",
+        "type": "Instrumentos Musicais",
+        "name": "Tambor",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/tambor",
+        "reference": {
+            "index": "tambor",
+            "name": "Tambor",
+            "url": "/api/equipamentos/tambor"
+        }
+    },
+    {
+        "index": "salterio",
+        "type": "Instrumentos Musicais",
+        "name": "Saltério",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/salterio",
+        "reference": {
+            "index": "salterio",
+            "name": "Saltério",
+            "url": "/api/equipamentos/salterio"
+        }
+    },
+    {
+        "index": "flauta",
+        "type": "Instrumentos Musicais",
+        "name": "Flauta",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/flauta",
+        "reference": {
+            "index": "flauta",
+            "name": "Flauta",
+            "url": "/api/equipamentos/flauta"
+        }
+    },
+    {
+        "index": "alaude",
+        "type": "Instrumentos Musicais",
+        "name": "Alaúde",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/alaude",
+        "reference": {
+            "index": "alaude",
+            "name": "Alaúde",
+            "url": "/api/equipamentos/alaude"
+        }
+    },
+    {
+        "index": "lira",
+        "type": "Instrumentos Musicais",
+        "name": "Lira",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/lira",
+        "reference": {
+            "index": "lira",
+            "name": "Lira",
+            "url": "/api/equipamentos/lira"
+        }
+    },
+    {
+        "index": "trombeta",
+        "type": "Instrumentos Musicais",
+        "name": "Trombeta",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/trombeta",
+        "reference": {
+            "index": "trombeta",
+            "name": "Trombeta",
+            "url": "/api/equipamentos/trombeta"
+        }
+    },
+    {
+        "index": "flauta-de-pan",
+        "type": "Instrumentos Musicais",
+        "name": "Flauta de Pan",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/flauta-de-pan",
+        "reference": {
+            "index": "flauta-de-pan",
+            "name": "Flauta de Pan",
+            "url": "/api/equipamentos/flauta-de-pan"
+        }
+    },
+    {
+        "index": "oboe",
+        "type": "Instrumentos Musicais",
+        "name": "Oboé",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/oboe",
+        "reference": {
+            "index": "oboe",
+            "name": "Oboé",
+            "url": "/api/equipamentos/oboe"
+        }
+    },
+    {
+        "index": "violino",
+        "type": "Instrumentos Musicais",
+        "name": "Violino",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/violino",
+        "reference": {
+            "index": "violino",
+            "name": "Violino",
+            "url": "/api/equipamentos/violino"
+        }
+    },
+    {
+        "index": "kit-de-herbalismo",
+        "type": "Outros",
+        "name": "Kit de Herbalismo",
+        "classes": [
+            {
+                "index": "druida",
+                "name": "Druida",
+                "url": "/api/classes/druida"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencias/kit-de-herbalismo",
+        "reference": {
+            "index": "kit-de-herbalismo",
+            "name": "Kit de Herbalismo",
+            "url": "/api/equipamentos/kit-de-herbalismo"
+        }
+    },
+    {
+        "index": "ferramentas-de-navegador",
+        "type": "Outros",
+        "name": "Ferramentas de Navegador",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/ferramentas-de-navegador",
+        "reference": {
+            "index": "ferramentas-de-navegador",
+            "name": "Ferramentas de Navegador",
+            "url": "/api/equipamentos/ferramentas-de-navegador"
+        }
+    },
+    {
+        "index": "kit-de-venenos",
+        "type": "Outros",
+        "name": "Kit de Venenos",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/kit-de-venenos",
+        "reference": {
+            "index": "kit-de-venenos",
+            "name": "Kit de Venenos",
+            "url": "/api/equipamentos/kit-de-venenos"
+        }
+    },
+    {
+        "index": "ferramentas-de-ladrao",
+        "type": "Outros",
+        "name": "Ferramentas de Ladrão",
+        "classes": [
+            {
+                "index": "ladrao",
+                "name": "Ladrão",
+                "url": "/api/classes/ladrao"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencias/ferramentas-de-ladrao",
+        "reference": {
+            "index": "ferramentas-de-ladrao",
+            "name": "Ferramentas de Ladrão",
+            "url": "/api/equipamentos/ferramentas-de-ladrao"
+        }
+    },
+    {
+        "index": "veiculos-terrestres",
+        "type": "Veículos",
+        "name": "Veículos Terrestres",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/veiculos-terrestres",
+        "reference": {
+            "index": "veiculos-terrestres",
+            "name": "Veículos Terrestres",
+            "url": "/api/categorias-de-equipamento/veiculos-terrestres"
+        }
+    },
+    {
+        "index": "veiculos-aquaticos",
+        "type": "Veículos",
+        "name": "Veículos Aquáticos",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/veiculos-aquaticos",
+        "reference": {
+            "index": "veiculos-aquaticos",
+            "name": "Veículos Aquáticos",
+            "url": "/api/categorias-de-equipamento/veiculos-aquaticos"
+        }
+    },
+    {
+        "index": "teste-de-resistencia-for",
+        "type": "Testes de Resistência",
+        "name": "Teste de Resistência: Força",
+        "classes": [
+            {
+                "index": "barbaro",
+                "name": "Bárbaro",
+                "url": "/api/classes/barbaro"
+            },
+            {
+                "index": "guerreiro",
+                "name": "Guerreiro",
+                "url": "/api/classes/guerreiro"
+            },
+            {
+                "index": "monge",
+                "name": "Monge",
+                "url": "/api/classes/monge"
+            },
+            {
+                "index": "guardiao",
+                "name": "Guardião",
+                "url": "/api/classes/guardiao"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencias/teste-de-resistencia-for",
+        "reference": {
+            "index": "for",
+            "name": "FOR",
+            "full_name": "Força",
+            "url": "/api/valores-de-atributo/for"
+        }
+    },
+    {
+        "index": "teste-de-resistencia-des",
+        "type": "Testes de Resistência",
+        "name": "Teste de Resistência: DES",
+        "classes": [
+            {
+                "index": "bardo",
+                "name": "Bardo",
+                "url": "/api/classes/bardo"
+            },
+            {
+                "index": "monge",
+                "name": "Monge",
+                "url": "/api/classes/monge"
+            },
+            {
+                "index": "guardiao",
+                "name": "Guardião",
+                "url": "/api/classes/guardiao"
+            },
+            {
+                "index": "ladino",
+                "name": "Ladino",
+                "url": "/api/classes/ladino"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencias/teste-de-resistencia-des",
+        "reference": {
+            "index": "des",
+            "name": "DES",
+            "full_name": "Destreza",
+            "url": "/api/valores-de-atributo/des"
+        }
+    },
+    {
+        "index": "teste-de-resistencia-con",
+        "type": "Testes de Resistência",
+        "name": "Teste de Resistência: CON",
+        "classes": [
+            {
+                "index": "barbaro",
+                "name": "Bárbaro",
+                "url": "/api/classes/barbaro"
+            },
+            {
+                "index": "guerreiro",
+                "name": "Guerreiro",
+                "url": "/api/classes/guerreiro"
+            },
+            {
+                "index": "feiticeiro",
+                "name": "Feiticeiro",
+                "url": "/api/classes/feiticeiro"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencias/teste-de-resistencia-con",
+        "reference": {
+            "index": "con",
+            "name": "CON",
+            "full_name": "Constituição",
+            "url": "/api/valores-de-atributo/con"
+        }
+    },
+    {
+        "index": "teste-de-resistencia-int",
+        "type": "Testes de Resistência",
+        "name": "Teste de Resistência: INT",
+        "classes": [
+            {
+                "index": "druida",
+                "name": "Druida",
+                "url": "/api/classes/druida"
+            },
+            {
+                "index": "ladino",
+                "name": "Ladino",
+                "url": "/api/classes/ladino"
+            },
+            {
+                "index": "mago",
+                "name": "Mago",
+                "url": "/api/classes/mago"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencias/teste-de-resistencia-int",
+        "reference": {
+            "index": "int",
+            "name": "INT",
+            "full_name": "Inteligência",
+            "url": "/api/valores-de-atributo/int"
+        }
+    },
+    {
+        "index": "teste-de-resistencia-sab",
+        "type": "Testes de Resistência",
+        "name": "Teste de Resistência: SAB",
+        "classes": [
+            {
+                "index": "clerigo",
+                "name": "Clérigo",
+                "url": "/api/classes/clerigo"
+            },
+            {
+                "index": "druida",
+                "name": "Druida",
+                "url": "/api/classes/druida"
+            },
+            {
+                "index": "paladino",
+                "name": "Paladino",
+                "url": "/api/classes/paladino"
+            },
+            {
+                "index": "feiticeiro",
+                "name": "Feiticeiro",
+                "url": "/api/classes/feiticeiro"
+            },
+            {
+                "index": "mago",
+                "name": "Mago",
+                "url": "/api/classes/mago"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencias/teste-de-resistencia-sab",
+        "reference": {
+            "index": "sab",
+            "name": "SAB",
+            "full_name": "Sabedoria",
+            "url": "/api/valores-de-atributo/sab"
+        }
+    },
+    {
+        "index": "teste-de-resistencia-car",
+        "type": "Testes de Resistência",
+        "name": "Teste de Resistência: CAR",
+        "classes": [
+            {
+                "index": "bardo",
+                "name": "Bardo",
+                "url": "/api/classes/bardo"
+            },
+            {
+                "index": "clerigo",
+                "name": "Clérigo",
+                "url": "/api/classes/clerigo"
+            },
+            {
+                "index": "paladino",
+                "name": "Paladino",
+                "url": "/api/classes/paladino"
+            },
+            {
+                "index": "feiticeiro",
+                "name": "Feiticeiro",
+                "url": "/api/classes/feiticeiro"
+            },
+            {
+                "index": "feiticeiro",
+                "name": "Feiticeiro",
+                "url": "/api/classes/feiticeiro"
+            }
+        ],
+        "races": [],
+        "url": "/api/proficiencias/teste-de-resistencia-car",
+        "reference": {
+            "index": "car",
+            "name": "CAR",
+            "url": "/api/valores-de-atributo/car"
+        }
+    },
+    {
+        "index": "pericia-acrobacia",
+        "type": "Perícias",
+        "name": "Perícia: Acrobacia",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/pericia-acrobacia",
+        "reference": {
+            "index": "acrobacia",
+            "name": "Acrobacia",
+            "url": "/api/pericias/acrobacia"
+        }
+    },
+    {
+        "index": "pericia-lidar-com-animais",
+        "type": "Perícias",
+        "name": "Perícia: Lidar com Animais",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/pericia-lidar-com-animais",
+        "reference": {
+            "index": "lidar-com-animais",
+            "name": "Lidar com Animais",
+            "url": "/api/pericias/lidar-com-animais"
+        }
+    },
+    {
+        "index": "pericia-arcanismo",
+        "type": "Perícias",
+        "name": "Perícia: Arcanismo",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/pericia-arcanismo",
+        "reference": {
+            "index": "arcanismo",
+            "name": "Arcanismo",
+            "url": "/api/pericias/arcanismo"
+        }
+    },
+    {
+        "index": "pericia-atletismo",
+        "type": "Perícias",
+        "name": "Perícia: Atletismo",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/pericia-atletismo",
+        "reference": {
+            "index": "atletismo",
+            "name": "Atletismo",
+            "url": "/api/pericias/atletismo"
+        }
+    },
+    {
+        "index": "pericia-enganacao",
+        "type": "Perícias",
+        "name": "Perícia: Enganação",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/pericia-enganacao",
+        "reference": {
+            "index": "enganacao",
+            "name": "Enganação",
+            "url": "/api/pericias/enganacao"
+        }
+    },
+    {
+        "index": "pericia-historia",
+        "type": "Perícias",
+        "name": "Perícia: História",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/pericia-historia",
+        "reference": {
+            "index": "historia",
+            "name": "História",
+            "url": "/api/pericias/historia"
+        }
+    },
+    {
+        "index": "pericia-intuicao",
+        "type": "Perícias",
+        "name": "Perícia: Intuição",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/pericia-intuicao",
+        "reference": {
+            "index": "intuicao",
+            "name": "Intuição",
+            "url": "/api/pericias/intuicao"
+        }
+    },
+    {
+        "index": "pericia-intimidacao",
+        "type": "Perícias",
+        "name": "Perícia: Intimidação",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/pericia-intimidacao",
+        "reference": {
+            "index": "intimidacao",
+            "name": "Intimidação",
+            "url": "/api/pericias/intimidacao"
+        }
+    },
+    {
+        "index": "pericia-investigacao",
+        "type": "Perícias",
+        "name": "Perícia: Investigação",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/pericia-investigacao",
+        "reference": {
+            "index": "investigacao",
+            "name": "Investigação",
+            "url": "/api/pericias/investigacao"
+        }
+    },
+    {
+        "index": "pericia-medicina",
+        "type": "Perícias",
+        "name": "Perícia: Medicina",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/pericia-medicina",
+        "reference": {
+            "index": "medicina",
+            "name": "Medicina",
+            "url": "/api/pericias/medicina"
+        }
+    },
+    {
+        "index": "pericia-natureza",
+        "type": "Perícias",
+        "name": "Perícia: Natureza",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/pericia-natureza",
+        "reference": {
+            "index": "natureza",
+            "name": "Natureza",
+            "url": "/api/pericias/natureza"
+        }
+    },
+    {
+        "index": "pericia-percepcao",
+        "type": "Perícias",
+        "name": "Perícia: Percepção",
+        "classes": [],
+        "races": [
+            {
+                "index": "elfo",
+                "name": "Elfo",
+                "url": "/api/racas/elfo"
+            }
+        ],
+        "url": "/api/proficiencias/pericia-percepcao",
+        "reference": {
+            "index": "percepcao",
+            "name": "Percepção",
+            "url": "/api/pericias/percepcao"
+        }
+    },
+    {
+        "index": "pericia-atuacao",
+        "type": "Perícias",
+        "name": "Perícia: Atuação",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/pericia-atuacao",
+        "reference": {
+            "index": "atuacao",
+            "name": "Atuação",
+            "url": "/api/pericias/atuacao"
+        }
+    },
+    {
+        "index": "pericia-persuasao",
+        "type": "Perícias",
+        "name": "Perícia: Persuasão",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/pericia-persuasao",
+        "reference": {
+            "index": "persuasao",
+            "name": "Persuasão",
+            "url": "/api/pericias/persuasao"
+        }
+    },
+    {
+        "index": "pericia-religiao",
+        "type": "Perícias",
+        "name": "Perícia: Religião",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/pericia-religiao",
+        "reference": {
+            "index": "religiao",
+            "name": "Religião",
+            "url": "/api/pericias/religiao"
+        }
+    },
+    {
+        "index": "pericia-prestidigitacao",
+        "type": "Perícias",
+        "name": "Perícia: Prestidigitação",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/pericia-prestidigitacao",
+        "reference": {
+            "index": "prestidigitacao",
+            "name": "Prestidigitação",
+            "url": "/api/pericias/prestidigitacao"
+        }
+    },
+    {
+        "index": "pericia-furtividade",
+        "type": "Perícias",
+        "name": "Perícia: Furtividade",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/pericia-furtividade",
+        "reference": {
+            "index": "furtividade",
+            "name": "Furtividade",
+            "url": "/api/pericias/furtividade"
+        }
+    },
+    {
+        "index": "pericia-sobrevivencia",
+        "type": "Perícias",
+        "name": "Perícia: Sobrevivência",
+        "classes": [],
+        "races": [],
+        "url": "/api/proficiencias/pericia-sobrevivencia",
+        "reference": {
+            "index": "sobrevivencia",
+            "name": "Sobrevivência",
+            "url": "/api/pericias/sobrevivencia"
+        }
+    }
+]

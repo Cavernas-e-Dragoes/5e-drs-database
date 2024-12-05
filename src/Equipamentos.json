@@ -5074,8 +5074,8 @@
     "url": "/api/equipamentos/ferramentas-de-sapateiro"
   },
   {
-    "index": "utensilios-de-cozinheiro",
-    "name": "Utensílios de Cozinheiro",
+    "index": "utensilios-de-cozinha",
+    "name": "Utensílios de Cozinha",
     "equipment_category": {
       "index": "ferramentas",
       "name": "Ferramentas",
@@ -5090,7 +5090,7 @@
     "desc": [
       "Essas ferramentas especiais incluem os itens necessários para seguir um ofício ou profissão. A tabela mostra exemplos dos tipos mais comuns de ferramentas, cada uma fornecendo itens relacionados a um único ofício. Ter proficiência com um conjunto de ferramentas de artesão permite que você adicione seu bônus de proficiência a qualquer teste de habilidade que fizer usando as ferramentas do seu ofício. Cada tipo de ferramenta de artesão requer uma proficiência separada."
     ],
-    "url": "/api/equipamentos/utensilios-de-cozinheiro"
+    "url": "/api/equipamentos/utensilios-de-cozinha"
   },
   {
     "index": "ferramentas-de-vidreiro",

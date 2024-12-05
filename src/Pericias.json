@@ -156,17 +156,17 @@
         "url": "/api/pericias/percepcao"
     },
     {
-        "index": "performance",
-        "name": "Performance",
+        "index": "atuacao",
+        "name": "Atuação",
         "desc": [
-            "Seu teste de Carisma (Performance) determina o quão bem você pode encantar uma audiência com música, dança, atuação, contação de histórias ou outra forma de entretenimento."
+            "Seu teste de Carisma (Atuação) determina o quão bem você pode encantar uma audiência com música, dança, atuação, contação de histórias ou outra forma de entretenimento."
         ],
         "ability_score": {
             "index": "car",
             "name": "CAR",
             "url": "/api/valores-de-atributos/car"
         },
-        "url": "/api/pericias/performance"
+        "url": "/api/pericias/atuacao"
     },
     {
         "index": "persuasao",
