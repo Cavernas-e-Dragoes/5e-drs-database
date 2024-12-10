@@ -1287,6 +1287,7 @@
         "index": "ferramentas-de-funileiro",
         "type": "Ferramentas de Artesão",
         "name": "Ferramentas de Funileiro",
+        "second_name": "Ferramentas de Engenhoqueiro",
         "classes": [],
         "races": [],
         "url": "/api/proficiencias/ferramentas-de-funileiro",

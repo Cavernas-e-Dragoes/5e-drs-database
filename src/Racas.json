@@ -194,6 +194,7 @@
   {
     "index": "pequenino",
     "name": "Pequenino",
+    "second_name": "Halfling",
     "speed": 7.5,
     "ability_bonuses": [
       {
@@ -1016,6 +1017,7 @@
   {
     "index": "tiferino",
     "name": "Tiferino",
+    "second_name": "Tiefling",
     "speed": 9,
     "ability_bonuses": [
       {

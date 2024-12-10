@@ -1,0 +1,1724 @@
+[
+    {
+        "index": "visao-no-escuro",
+        "races": [
+          {
+            "index": "anao",
+            "name": "Anão",
+            "url": "/api/racas/anao"
+          },
+          {
+            "index": "elfo",
+            "name": "Elfo",
+            "url": "/api/racas/elfo"
+          },
+          {
+            "index": "gnomo",
+            "name": "Gnomo",
+            "url": "/api/racas/gnomo"
+          },
+          {
+            "index": "meio-elfo",
+            "name": "Meio-Elfo",
+            "url": "/api/racas/meio-elfo"
+          },
+          {
+            "index": "meio-orc",
+            "name": "Meio-Orc",
+            "url": "/api/racas/meio-orc"
+          },
+          {
+            "index": "tiferino",
+            "name": "Tiferino",
+            "url": "/api/racas/tiferino"
+          }
+        ],
+        "subraces": [],
+        "name": "Visão no Escuro",
+        "desc": [
+          "Você tem uma visão superior em condições de escuridão e penumbra. Você consegue enxergar na penumbra a até 18 metros como se fosse luz plena, e na escuridão como se fosse penumbra. Você não consegue discernir cores na escuridão, apenas tons de cinza."
+        ],
+        "proficiencies": [],
+        "url": "/api/tracos/visao-no-escuro"
+      },
+      {
+        "index": "resistencia-a-toxinas",
+        "races": [
+          {
+            "index": "anao",
+            "name": "Anão",
+            "url": "/api/racas/anao"
+          }
+        ],
+        "subraces": [],
+        "name" : "Resistência a Toxinas",
+        "second_name": "Resiliência Anã",
+        "desc": [
+          "Você tem vantagem em testes de resistência contra veneno e resistência a dano de veneno."
+        ],
+        "proficiencies": [],
+        "url": "/api/tracos/resistencia-a-toxinas"
+      },
+      {
+        "index": "treinamento-anao-em-combate",
+        "races": [
+          {
+            "index": "anao",
+            "name": "Anão",
+            "url": "/api/racas/anao"
+          }
+        ],
+        "subraces": [],
+        "name": "Treinamento Anão em Combate",
+        "desc": [
+          "Você tem proficiência com a machado de batalha, machadinha, martelo leve e martelo de guerra."
+        ],
+        "proficiencies": [
+          {
+            "index": "machados-de-batalha",
+            "name": "Machados de Batalha",
+            "url": "/api/proficiencias/machados-de-batalha"
+          },
+          {
+            "index": "machadinhas",
+            "name": "Machadinhas",
+            "url": "/api/proficiencias/machadinhas"
+          },
+          {
+            "index": "martelos-leves",
+            "name": "Martelos Leves",
+            "url": "/api/proficiencias/martelos-leves"
+          },
+          {
+            "index": "martelos-de-guerra",
+            "name": "Martelos de Guerra",
+            "url": "/api/proficiencias/martelos-de-guerra"
+          }
+        ],
+        "url": "/api/tracos/treinamento-anao-em-combate"
+      },
+      {
+        "index": "proficiencia-com-ferramentas",
+        "races": [
+          {
+            "index": "anao",
+            "name": "Anão",
+            "url": "/api/racas/anao"
+          }
+        ],
+        "subraces": [],
+        "name": "Proficiência com Ferramentas",
+        "desc": [
+          "Você ganha proficiência com as ferramentas de artesão da sua escolha: ferramentas de ferreiro, suprimentos para cervejeiros ou ferramentas de pedreiro."
+        ],
+        "proficiencies": [],
+        "proficiency_choices": {
+          "choose": 1,
+          "type": "proficiencias",
+          "from": {
+            "option_set_type": "options_array",
+            "options": [
+              {
+                "option_type": "reference",
+                "item": {
+                  "index": "ferramentas-de-ferreiro",
+                  "name": "Ferramentas de Ferreiro",
+                  "url": "/api/proficiencias/ferramentas-de-ferreiro"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "index": "suprimentos-para-cervejeiros",
+                  "name": "Suprimentos para Cervejeiros",
+                  "url": "/api/proficiencias/suprimentos-para-cervejeiros"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "index": "ferramentas-de-pedreiro",
+                  "name": "Ferramentas de Pedreiro",
+                  "url": "/api/proficiencias/ferramentas-de-pedreiro"
+                }
+              }
+            ]
+          }
+        },
+        "url": "/api/tracos/proficiencia-com-ferramentas"
+      },
+      {
+        "index": "conhecimento-de-pedras",
+        "races": [
+          {
+            "index": "anao",
+            "name": "Anão",
+            "url": "/api/racas/anao"
+          }
+        ],
+        "subraces": [],
+        "name": "Conhecimento de Pedras",
+        "desc": [
+          "Sempre que você fizer um teste de Inteligência (História) relacionado à origem de trabalhos em pedra, você é considerado proficiente na perícia História e adiciona o dobro do seu bônus de proficiência ao teste, em vez do bônus de proficiência normal."
+        ],
+        "proficiencies": [],
+        "url": "/api/tracos/conhecimento-de-pedras"
+      },
+      {
+        "index": "tenacidade-ana",
+        "races": [],
+        "subraces": [
+          {
+            "index": "anao-das-colinas",
+            "name": "Anão das Colinas",
+            "url": "/api/subracas/anao-das-colinas"
+          }
+        ],
+        "name": "Tenacidade Anã",
+        "desc": [
+          "Seu máximo de pontos de vida aumenta em 1 e aumenta em 1 a cada vez que você sobe de nível."
+        ],
+        "proficiencies": [],
+        "url": "/api/tracos/tenacidade-ana"
+      },
+      {
+        "index": "sentidos-agucados",
+        "races": [
+          {
+            "index": "elfo",
+            "name": "Elfo",
+            "url": "/api/racas/elfo"
+          }
+        ],
+        "subraces": [],
+        "name": "Sentidos Aguçados",
+        "desc": ["Você possui proficiência na perícia Percepção."],
+        "proficiencies": [
+          {
+            "index": "pericia-percepcao",
+            "name": "Perícia: Percepção",
+            "url": "/api/proficiencias/pericia-percepcao"
+          }
+        ],
+        "url": "/api/tracos/sentidos-agucados"
+      },
+      {
+        "index": "ancestralidade-feerica",
+        "races": [
+          {
+            "index": "elfo",
+            "name": "Elfo",
+            "url": "/api/racas/elfo"
+          },
+          {
+            "index": "meio-elfo",
+            "name": "Meio-Elfo",
+            "url": "/api/racas/meio-elfo"
+          }
+        ],
+        "subraces": [],
+        "name": "Ancestralidade Feérica",
+        "desc": [
+          "Nenhum tipo de magia pode colocá-lo para dormir, e você tem vantagem em salvaguardas contra ser enfeitiçado"
+        ],
+        "proficiencies": [],
+        "url": "/api/tracos/ancestralidade-feerica"
+      },
+      {
+        "index": "transe",
+        "races": [
+          {
+            "index": "elfo",
+            "name": "Elfo",
+            "url": "/api/racas/elfo"
+          }
+        ],
+        "subraces": [],
+        "name": "Transe",
+        "desc": [
+          "Elfos não precisam dormir. Em vez disso, meditam profundamente, permanecendo semiconscientes 4 horas ao dia. (A expressão comum para tal meditação é 'transe'). Enquanto medita, você pode sonhar, de certo modo; tais sonhos são, na verdade, exercícios mentais que passaram a ser quase involuntários após anos de prática. Depois de descansar dessa forma, você obtém os mesmos benefícios que um ser humano obtém após 8 horas de sono."
+        ],
+        "proficiencies": [],
+        "url": "/api/tracos/transe"
+      },
+      {
+        "index": "treinamento-elfico-com-armas",
+        "races": [],
+        "subraces": [
+          {
+            "index": "alto-elfo",
+            "name": "Alto Elfo",
+            "url": "/api/subracas/alto-elfo"
+          }
+        ],
+        "name": "Treinamento Élfico com Armas",
+        "desc": [
+          "Você tem proficiência com a espada longa, espada curta, arco curto e arco longo."
+        ],
+        "proficiencies": [
+          {
+            "index": "espadas-longas",
+            "name": "Espadas Longas",
+            "url": "/api/proficiencias/espadas-longas"
+          },
+          {
+            "index": "espadas-curtas",
+            "name": "Espadas Curtas",
+            "url": "/api/proficiencias/espadas-curtas"
+          },
+          {
+            "index": "arcos-curtos",
+            "name": "Arcos Curtos",
+            "url": "/api/proficiencias/arcos-curtos"
+          },
+          {
+            "index": "arcos-longos",
+            "name": "Arcos Longos",
+            "url": "/api/proficiencias/arcos-longos"
+          }
+        ],
+        "url": "/api/tracos/treinamento-elfico-com-armas"
+      },
+      {
+        "index": "truque-de-alto-elfo",
+        "races": [],
+        "subraces": [
+          {
+            "index": "alto-elfo",
+            "name": "Alto Elfo",
+            "url": "/api/subracas/alto-elfo"
+          }
+        ],
+        "name": "Truque de Alto Elfo",
+        "desc": [
+          "Você conhece um truque de sua escolha da lista de magias de mago. Inteligência é sua habilidade para conjurar essa magia."
+        ],
+        "proficiencies": [],
+        "trait_specific": {
+          "spell_options": {
+            "choose": 1,
+            "from": {
+              "option_set_type": "options_array",
+              "options": [
+                {
+                  "option_type": "reference",
+                  "item": {
+                    "index": "luz",
+                    "name": "Luz",
+                    "url": "/api/magias/luz"
+                  }
+                },
+                {
+                  "option_type": "reference",
+                  "item": {
+                    "index": "maos-magicas",
+                    "name": "Mãos Mágicas",
+                    "url": "/api/magias/maos-magicas"
+                  }
+                },
+                {
+                  "option_type": "reference",
+                  "item": {
+                    "index": "reparar",
+                    "name": "Reparar",
+                    "url": "/api/magias/reparar"
+                  }
+                },
+                {
+                  "option_type": "reference",
+                  "item": {
+                    "index": "mensagem",
+                    "name": "Mensagem",
+                    "url": "/api/magias/mensagem"
+                  }
+                },
+                {
+                  "option_type": "reference",
+                  "item": {
+                    "index": "ilusao-menor",
+                    "name": "Ilusão Menor",
+                    "url": "/api/magias/ilusao-menor"
+                  }
+                },
+                {
+                  "option_type": "reference",
+                  "item": {
+                    "index": "bolha-acida",
+                    "name": "Bolha Ácida",
+                    "url": "/api/magias/bolha-acida"
+                  }
+                },
+                {
+                  "option_type": "reference",
+                  "item": {
+                    "index": "prestidigitacao",
+                    "name": "Prestidigitação",
+                    "url": "/api/magias/prestidigitacao"
+                  }
+                },
+                {
+                  "option_type": "reference",
+                  "item": {
+                    "index": "raio-de-gelo",
+                    "name": "Raio de Gelo",
+                    "url": "/api/magias/raio-de-gelo"
+                  }
+                },
+                {
+                  "option_type": "reference",
+                  "item": {
+                    "index": "toque-chocante",
+                    "name": "Toque Chocante",
+                    "url": "/api/magias/toque-chocante"
+                  }
+                },
+                {
+                  "option_type": "reference",
+                  "item": {
+                    "index": "golpe-certeiro",
+                    "name": "Golpe Certeiro",
+                    "url": "/api/magias/golpe-certeiro"
+                  }
+                },
+                {
+                  "option_type": "reference",
+                  "item": {
+                    "index": "toque-necrotico",
+                    "name": "Toque Necrótico",
+                    "url": "/api/magias/toque-necrotico"
+                  }
+                },
+                {
+                  "option_type": "reference",
+                  "item": {
+                    "index": "luzes-dancantes",
+                    "name": "Luzes Dançantes",
+                    "url": "/api/magias/luzes-dancantes"
+                  }
+                },
+                {
+                  "option_type": "reference",
+                  "item": {
+                    "index": "raio-de-fogo",
+                    "name": "Raio de Fogo",
+                    "url": "/api/magias/raio-de-fogo"
+                  }
+                },
+                {
+                  "option_type": "reference",
+                  "item": {
+                    "index": "rajada-de-veneno",
+                    "name": "Rajada de Veneno",
+                    "url": "/api/magias/rajada-de-veneno"
+                  }
+                }
+              ]
+            },
+            "type": "magia"
+          }
+        },
+        "url": "/api/tracos/truque-de-alto-elfo"
+      },
+      {
+        "index": "idioma-extra",
+        "races": [],
+        "subraces": [
+          {
+            "index": "alto-elfo",
+            "name": "Alto Elfo",
+            "url": "/api/subracas/alto-elfo"
+          }
+        ],
+        "name": "Idioma Extra",
+        "desc": [
+          "Você pode falar, ler e escrever um idioma adicional de sua escolha."
+        ],
+        "proficiencies": [],
+        "language_options": {
+          "choose": 1,
+          "type": "idiomas",
+          "from": {
+            "option_set_type": "options_array",
+            "options": [
+              {
+                "option_type": "reference",
+                "item": {
+                  "index": "anao",
+                  "name": "Anão",
+                  "url": "/api/idiomas/anao"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "index": "gigante",
+                  "name": "Gigante",
+                  "url": "/api/idiomas/gigante"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "index": "gnomico",
+                  "name": "Gnômico",
+                  "url": "/api/idiomas/gnomico"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "index": "goblin",
+                  "name": "Goblin",
+                  "url": "/api/idiomas/goblin"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "index": "pequenino",
+                  "name": "Pequenino",
+                  "url": "/api/idiomas/pequenino"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "index": "orc",
+                  "name": "Orc",
+                  "url": "/api/idiomas/orc"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "index": "abissal",
+                  "name": "Abissal",
+                  "url": "/api/idiomas/abissal"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "index": "celestial",
+                  "name": "Celestial",
+                  "url": "/api/idiomas/celestial"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "index": "draconico",
+                  "name": "Dracônico",
+                  "url": "/api/idiomas/draconico"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "index": "lingua-profunda",
+                  "name": "Língua Profunda",
+                  "url": "/api/idiomas/lingua-profunda"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "index": "infernal",
+                  "name": "Infernal",
+                  "url": "/api/idiomas/infernal"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "index": "primordial",
+                  "name": "Primordial",
+                  "url": "/api/idiomas/primordial"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "index": "silvestre",
+                  "name": "Silvestre",
+                  "url": "/api/idiomas/silvestre"
+                }
+              },
+              {
+                "option_type": "reference",
+                "item": {
+                  "index": "subcomum",
+                  "name": "Subcomum",
+                  "url": "/api/idiomas/subcomum"
+                }
+              }
+            ]
+          }
+        },
+        "url": "/api/tracos/idioma-extra"
+      },
+      {
+        "index": "sortudo",
+        "races": [
+          {
+            "index": "pequenino",
+            "name": "Pequenino",
+            "url": "/api/racas/pequenino"
+          }
+        ],
+        "subraces": [],
+        "name": "Sortudo",
+        "desc": [
+          "Quando você rolar um 1 no d20 para uma jogada de ataque, teste de habilidade ou teste de resistência, você pode rolar o dado novamente e deve usar o novo resultado."
+        ],
+        "proficiencies": [],
+        "url": "/api/tracos/sortudo"
+      },
+      {
+        "index": "corajoso",
+        "races": [
+          {
+            "index": "pequenino",
+            "name": "Pequenino",
+            "url": "/api/racas/pequenino"
+          }
+        ],
+        "subraces": [],
+        "name": "Corajoso",
+        "desc": ["Você tem vantagem em testes de resistência contra ser amedrontado."],
+        "proficiencies": [],
+        "url": "/api/tracos/corajoso"
+      },
+      {
+        "index": "agilidade-pequenina",
+        "races": [
+          {
+            "index": "pequenino",
+            "name": "Pequenino",
+            "url": "/api/racas/pequenino"
+          }
+        ],
+        "subraces": [],
+        "name": "Agilidade Pequenina",
+        "desc": [
+          "Você pode se mover através do espaço de qualquer criatura com tamanho um nível acima do seu."
+        ],
+        "proficiencies": [],
+        "url": "/api/tracos/agilidade-pequenina"
+      },
+      {
+        "index": "furtividade-natural",
+        "races": [],
+        "subraces": [
+          {
+            "index": "pequenino-pé-ligeiro",
+            "name": "Pequenino Pé-Ligeiro",
+            "url": "/api/subracas/pequenino-pé-ligeiro"
+          }
+        ],
+        "name": "Furtividade Natural",
+        "desc": [
+          "Você pode tentar se esconder mesmo quando só possuir a cobertura de uma criatura com ao menos um nível de tamanho acima do seu."
+        ],
+        "proficiencies": [],
+        "url": "/api/tracos/furtividade-natural"
+      },
+      {
+        "index": "ancestralidade-draconica",
+        "races": [
+          {
+            "index": "draconico",
+            "name": "Dracônico",
+            "url": "/api/racas/draconico"
+          }
+        ],
+        "subraces": [],
+        "name": "Ancestralidade Dracônica",
+        "desc": [
+          "Você tem uma ancestralidade dracônica. Escolha um tipo de dragão na tabela de Ancestralidade Dracônica. Sua arma de sopro e resistência ao dano são determinadas pelo tipo de dragão, conforme mostrado na tabela."
+        ],
+        "proficiencies": [],
+        "trait_specific": {
+          "subtrait_options": {
+            "choose": 1,
+            "from": {
+              "option_set_type": "options_array",
+              "options": [
+                {
+                  "option_type": "reference",
+                  "item": {
+                    "index": "ancestralidade-draconica-negra",
+                    "name": "Ancestralidade Dracônica (Negra)",
+                    "url": "/api/tracos/ancestralidade-draconica-negra"
+                  }
+                },
+                {
+                  "option_type": "reference",
+                  "item": {
+                    "index": "ancestralidade-draconica-azul",
+                    "name": "Ancestralidade Dracônica (Azul)",
+                    "url": "/api/tracos/ancestralidade-draconica-azul"
+                  }
+                },
+                {
+                  "option_type": "reference",
+                  "item": {
+                    "index": "ancestralidade-draconica-bronze",
+                    "name": "Ancestralidade Dracônica (Bronze)",
+                    "url": "/api/tracos/ancestralidade-draconica-bronze"
+                  }
+                },
+                {
+                  "option_type": "reference",
+                  "item": {
+                    "index": "ancestralidade-draconica-latao",
+                    "name": "Ancestralidade Dracônica (Latão)",
+                    "url": "/api/tracos/ancestralidade-draconica-latao"
+                  }
+                },
+                {
+                  "option_type": "reference",
+                  "item": {
+                    "index": "ancestralidade-draconica-cobre",
+                    "name": "Ancestralidade Dracônica (Cobre)",
+                    "url": "/api/tracos/ancestralidade-draconica-cobre"
+                  }
+                },
+                {
+                  "option_type": "reference",
+                  "item": {
+                    "index": "ancestralidade-draconica-ouro",
+                    "name": "Ancestralidade Dracônica (Ouro)",
+                    "url": "/api/tracos/ancestralidade-draconica-ouro"
+                  }
+                },
+                {
+                  "option_type": "reference",
+                  "item": {
+                    "index": "ancestralidade-draconica-verde",
+                    "name": "Ancestralidade Dracônica (Verde)",
+                    "url": "/api/tracos/ancestralidade-draconica-verde"
+                  }
+                },
+                {
+                  "option_type": "reference",
+                  "item": {
+                    "index": "ancestralidade-draconica-vermelha",
+                    "name": "Ancestralidade Dracônica (Vermelha)",
+                    "url": "/api/tracos/ancestralidade-draconica-vermelha"
+                  }
+                },
+                {
+                  "option_type": "reference",
+                  "item": {
+                    "index": "ancestralidade-draconica-prata",
+                    "name": "Ancestralidade Dracônica (Prata)",
+                    "url": "/api/tracos/ancestralidade-draconica-prata"
+                  }
+                },
+                {
+                  "option_type": "reference",
+                  "item": {
+                    "index": "ancestralidade-draconica-branca",
+                    "name": "Ancestralidade Dracônica (Branca)",
+                    "url": "/api/tracos/ancestralidade-draconica-branca"
+                  }
+                }
+              ]
+            },
+            "type": "tracos"
+          }
+        },
+        "url": "/api/tracos/ancestralidade-draconica"
+      },
+      {
+        "index": "ancestralidade-draconica-negra",
+        "races": [
+          {
+            "index": "draconico",
+            "name": "Dracônico",
+            "url": "/api/racas/draconico"
+          }
+        ],
+        "subraces": [],
+        "name": "Ancestralidade Dracônica (Negra)",
+        "desc": [
+          "Você tem uma ancestralidade dracônica. Escolha um tipo de dragão na tabela de Ancestralidade Dracônica. Sua arma de sopro e resistência ao dano são determinadas pelo tipo de dragão, conforme mostrado na tabela."
+        ],
+        "parent": {
+          "index": "ancestralidade-draconica",
+          "name": "Ancestralidade Dracônica",
+          "url": "/api/tracos/ancestralidade-draconica"
+        },
+        "proficiencies": [],
+        "trait_specific": {
+          "damage_type": {
+            "index": "acido",
+            "name": "Ácido",
+            "url": "/api/tipos-de-dano/acido"
+          },
+          "breath_weapon": {
+            "name": "Arma de Sopro",
+            "desc": "Você pode usar sua ação para exalar energia destrutiva. Sua ancestralidade dracônica determina o tamanho, a forma e o tipo de dano da exalação. Quando você usar sua arma de sopro, cada criatura na área da exalação deve fazer uma jogada de salvamento, cujo tipo é determinado pela sua ancestralidade dracônica. O CD para essa jogada de salvamento é igual a 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura sofre 2d6 de dano em uma falha no salvamento, e metade desse dano em um sucesso. O dano aumenta para 3d6 no 6º nível, 4d6 no 11º nível e 5d6 no 16º nível. Após usar sua arma de sopro, você não poderá usá-la novamente até completar um descanso curto ou longo.",
+            "area_of_effect": {
+              "size": 30,
+              "type": "linha"
+            },
+            "usage": {
+              "type": "por descanso",
+              "times": 1
+            },
+            "dc": {
+              "dc_type": {
+                "index": "des",
+                "name": "DES",
+                "url": "/api/valores-de-atributo/des"
+              },
+              "success_type": "metade"
+            },
+            "damage": [
+              {
+                "damage_type": {
+                  "index": "acido",
+                  "name": "Ácido",
+                  "url": "/api/tipos-de-dano/acido"
+                },
+                "damage_at_character_level": {
+                  "1": "2d6",
+                  "6": "3d6",
+                  "11": "4d6",
+                  "16": "5d6"
+                }
+              }
+            ]
+          }
+        },
+        "url": "/api/tracos/ancestralidade-draconica-negra"
+      },
+      {
+        "index": "ancestralidade-draconica-azul",
+        "races": [
+          {
+            "index": "draconico",
+            "name": "Dracônico",
+            "url": "/api/racas/draconico"
+          }
+        ],
+        "subraces": [],
+        "name": "Ancestralidade Dracônica (Azul)",
+        "desc": [
+          "Você tem uma ancestralidade dracônica. Escolha um tipo de dragão na tabela de Ancestralidade Dracônica. Sua arma de sopro e resistência ao dano são determinadas pelo tipo de dragão, conforme mostrado na tabela."
+        ],
+        "parent": {
+          "index": "ancestralidade-draconica",
+          "name": "Ancestralidade Dracônica",
+          "url": "/api/tracos/ancestralidade-draconica"
+        },
+        "proficiencies": [],
+        "trait_specific": {
+          "damage_type": {
+            "index": "eletrico",
+            "name": "Elétrico",
+            "url": "/api/tipos-de-dano/eletrico"
+          },
+          "breath_weapon": {
+            "name": "Arma de Sopro",
+            "desc": "Você pode usar sua ação para exalar energia destrutiva. Sua ancestralidade dracônica determina o tamanho, a forma e o tipo de dano da exalação. Quando você usar sua arma de sopro, cada criatura na área da exalação deve fazer uma jogada de salvamento, cujo tipo é determinado pela sua ancestralidade dracônica. O CD para essa jogada de salvamento é igual a 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura sofre 2d6 de dano em uma falha no salvamento, e metade desse dano em um sucesso. O dano aumenta para 3d6 no 6º nível, 4d6 no 11º nível e 5d6 no 16º nível. Após usar sua arma de sopro, você não poderá usá-la novamente até completar um descanso curto ou longo.",
+            "area_of_effect": {
+              "size": 30,
+              "type": "linha"
+            },
+            "usage": {
+              "type": "por descanso",
+              "times": 1
+            },
+            "dc": {
+              "dc_type": {
+                "index": "des",
+                "name": "DES",
+                "url": "/api/valores-de-atributo/des"
+              },
+              "success_type": "metade"
+            },
+            "damage": [
+              {
+                "damage_type": {
+                  "index": "eletrico",
+                  "name": "Elétrico",
+                  "url": "/api/tipos-de-dano/eletrico"
+                },
+                "damage_at_character_level": {
+                  "1": "2d6",
+                  "6": "3d6",
+                  "11": "4d6",
+                  "16": "5d6"
+                }
+              }
+            ]
+          }
+        },
+        "url": "/api/tracos/ancestralidade-draconica-azul"
+      },
+      {
+        "index": "ancestralidade-draconica-latao",
+        "races": [
+          {
+            "index": "draconico",
+            "name": "Dracônico",
+            "url": "/api/racas/draconico"
+          }
+        ],
+        "subraces": [],
+        "name": "Ancestralidade Dracônica (Latão)",
+        "desc": [
+          "Você tem uma ancestralidade dracônica. Escolha um tipo de dragão na tabela de Ancestralidade Dracônica. Sua arma de sopro e resistência ao dano são determinadas pelo tipo de dragão, conforme mostrado na tabela."
+        ],
+        "parent": {
+          "index": "ancestralidade-draconica",
+          "name": "Ancestralidade Dracônica",
+          "url": "/api/tracos/ancestralidade-draconica"
+        },
+        "proficiencies": [],
+        "trait_specific": {
+          "damage_type": {
+            "index": "fogo",
+            "name": "Fogo",
+            "url": "/api/tipos-de-dano/fogo"
+          },
+          "breath_weapon": {
+            "name": "Arma de Sopro",
+            "desc": "Você pode usar sua ação para exalar energia destrutiva. Sua ancestralidade dracônica determina o tamanho, a forma e o tipo de dano da exalação. Quando você usar sua arma de sopro, cada criatura na área da exalação deve fazer uma jogada de salvamento, cujo tipo é determinado pela sua ancestralidade dracônica. O CD para essa jogada de salvamento é igual a 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura sofre 2d6 de dano em uma falha no salvamento, e metade desse dano em um sucesso. O dano aumenta para 3d6 no 6º nível, 4d6 no 11º nível e 5d6 no 16º nível. Após usar sua arma de sopro, você não poderá usá-la novamente até completar um descanso curto ou longo.",
+            "area_of_effect": {
+              "size": 30,
+              "type": "linha"
+            },
+            "usage": {
+              "type": "por descanso",
+              "times": 1
+            },
+            "dc": {
+              "dc_type": {
+                "index": "des",
+                "name": "DES",
+                "url": "/api/valores-de-atributo/des"
+              },
+              "success_type": "metade"
+            },
+            "damage": [
+              {
+                "damage_type": {
+                  "index": "fogo",
+                  "name": "Fogo",
+                  "url": "/api/tipos-de-dano/fogo"
+                },
+                "damage_at_character_level": {
+                  "1": "2d6",
+                  "6": "3d6",
+                  "11": "4d6",
+                  "16": "5d6"
+                }
+              }
+            ]
+          }
+        },
+        "url": "/api/tracos/ancestralidade-draconica-latao"
+      },
+      {
+        "index": "ancestralidade-draconica-bronze",
+        "races": [
+          {
+            "index": "draconico",
+            "name": "Dracônico",
+            "url": "/api/racas/draconico"
+          }
+        ],
+        "subraces": [],
+        "name": "Ancestralidade Dracônica (Bronze)",
+        "desc": [
+          "Você tem uma ancestralidade dracônica. Escolha um tipo de dragão na tabela de Ancestralidade Dracônica. Sua arma de sopro e resistência ao dano são determinadas pelo tipo de dragão, conforme mostrado na tabela."
+        ],
+        "parent": {
+          "index": "ancestralidade-draconica",
+          "name": "Ancestralidade Dracônica",
+          "url": "/api/tracos/ancestralidade-draconica"
+        },
+        "proficiencies": [],
+        "trait_specific": {
+          "damage_type": {
+            "index": "eletrico",
+            "name": "Elétrico",
+            "url": "/api/tipos-de-dano/eletrico"
+          },
+          "breath_weapon": {
+            "name": "Arma de Sopro",
+            "desc": "Você pode usar sua ação para exalar energia destrutiva. Sua ancestralidade dracônica determina o tamanho, a forma e o tipo de dano da exalação. Quando você usar sua arma de sopro, cada criatura na área da exalação deve fazer uma jogada de salvamento, cujo tipo é determinado pela sua ancestralidade dracônica. O CD para essa jogada de salvamento é igual a 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura sofre 2d6 de dano em uma falha no salvamento, e metade desse dano em um sucesso. O dano aumenta para 3d6 no 6º nível, 4d6 no 11º nível e 5d6 no 16º nível. Após usar sua arma de sopro, você não poderá usá-la novamente até completar um descanso curto ou longo.",
+            "area_of_effect": {
+              "size": 30,
+              "type": "linha"
+            },
+            "usage": {
+              "type": "por descanso",
+              "times": 1
+            },
+            "dc": {
+              "dc_type": {
+                "index": "des",
+                "name": "DES",
+                "url": "/api/valores-de-atributo/des"
+              },
+              "success_type": "metade"
+            },
+            "damage": [
+              {
+                "damage_type": {
+                  "index": "eletrico",
+                  "name": "Elétrico",
+                  "url": "/api/tipos-de-dano/eletrico"
+                },
+                "damage_at_character_level": {
+                  "1": "2d6",
+                  "6": "3d6",
+                  "11": "4d6",
+                  "16": "5d6"
+                }
+              }
+            ]
+          }
+        },
+        "url": "/api/tracos/ancestralidade-draconica-bronze"
+      },
+      {
+        "index": "ancestralidade-draconica-cobre",
+        "races": [
+          {
+            "index": "draconico",
+            "name": "Dracônico",
+            "url": "/api/racas/draconico"
+          }
+        ],
+        "subraces": [],
+        "name": "Ancestralidade Dracônica (Cobre)",
+        "desc": [
+          "Você tem uma ancestralidade dracônica. Escolha um tipo de dragão na tabela de Ancestralidade Dracônica. Sua arma de sopro e resistência ao dano são determinadas pelo tipo de dragão, conforme mostrado na tabela."
+        ],
+        "parent": {
+          "index": "ancestralidade-draconica",
+          "name": "Ancestralidade Dracônica",
+          "url": "/api/tracos/ancestralidade-draconica"
+        },
+        "proficiencies": [],
+        "trait_specific": {
+          "damage_type": {
+            "index": "acido",
+            "name": "Ácido",
+            "url": "/api/tipos-de-dano/acido"
+          },
+          "breath_weapon": {
+            "name": "Arma de Sopro",
+            "desc": "Você pode usar sua ação para exalar energia destrutiva. Sua ancestralidade dracônica determina o tamanho, a forma e o tipo de dano da exalação. Quando você usar sua arma de sopro, cada criatura na área da exalação deve fazer uma jogada de salvamento, cujo tipo é determinado pela sua ancestralidade dracônica. O CD para essa jogada de salvamento é igual a 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura sofre 2d6 de dano em uma falha no salvamento, e metade desse dano em um sucesso. O dano aumenta para 3d6 no 6º nível, 4d6 no 11º nível e 5d6 no 16º nível. Após usar sua arma de sopro, você não poderá usá-la novamente até completar um descanso curto ou longo.",
+            "area_of_effect": {
+              "size": 30,
+              "type": "linha"
+            },
+            "usage": {
+              "type": "por descanso",
+              "times": 1
+            },
+            "dc": {
+              "dc_type": {
+                "index": "des",
+                "name": "DES",
+                "url": "/api/valores-de-atributo/des"
+              },
+              "success_type": "metade"
+            },
+            "damage": [
+              {
+                "damage_type": {
+                  "index": "acido",
+                  "name": "Ácido",
+                  "url": "/api/tipos-de-dano/acido"
+                },
+                "damage_at_character_level": {
+                  "1": "2d6",
+                  "6": "3d6",
+                  "11": "4d6",
+                  "16": "5d6"
+                }
+              }
+            ]
+          }
+        },
+        "url": "/api/tracos/ancestralidade-draconica-cobre"
+      },
+      {
+        "index": "ancestralidade-draconica-ouro",
+        "races": [
+          {
+            "index": "draconico",
+            "name": "Dracônico",
+            "url": "/api/racas/draconico"
+          }
+        ],
+        "subraces": [],
+        "name": "Ancestralidade Dracônica (Ouro)",
+        "desc": [
+          "Você tem uma ancestralidade dracônica. Escolha um tipo de dragão na tabela de Ancestralidade Dracônica. Sua arma de sopro e resistência ao dano são determinadas pelo tipo de dragão, conforme mostrado na tabela."
+        ],
+        "parent": {
+          "index": "ancestralidade-draconica",
+          "name": "Ancestralidade Dracônica",
+          "url": "/api/tracos/ancestralidade-draconica"
+        },
+        "proficiencies": [],
+        "trait_specific": {
+          "damage_type": {
+            "index": "fogo",
+            "name": "Fogo",
+            "url": "/api/tipos-de-dano/fogo"
+          },
+          "breath_weapon": {
+            "name": "Arma de Sopro",
+            "desc": "Você pode usar sua ação para exalar energia destrutiva. Sua ancestralidade dracônica determina o tamanho, a forma e o tipo de dano da exalação. Quando você usar sua arma de sopro, cada criatura na área da exalação deve fazer uma jogada de salvamento, cujo tipo é determinado pela sua ancestralidade dracônica. O CD para essa jogada de salvamento é igual a 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura sofre 2d6 de dano em uma falha no salvamento, e metade desse dano em um sucesso. O dano aumenta para 3d6 no 6º nível, 4d6 no 11º nível e 5d6 no 16º nível. Após usar sua arma de sopro, você não poderá usá-la novamente até completar um descanso curto ou longo.",
+            "area_of_effect": {
+              "size": 15,
+              "type": "cone"
+            },
+            "usage": {
+              "type": "por descanso",
+              "times": 1
+            },
+            "dc": {
+              "dc_type": {
+                "index": "des",
+                "name": "DES",
+                "url": "/api/valores-de-atributo/des"
+              },
+              "success_type": "metade"
+            },
+            "damage": [
+              {
+                "damage_type": {
+                  "index": "fogo",
+                  "name": "Fogo",
+                  "url": "/api/tipos-de-dano/fogo"
+                },
+                "damage_at_character_level": {
+                  "1": "2d6",
+                  "6": "3d6",
+                  "11": "4d6",
+                  "16": "5d6"
+                }
+              }
+            ]
+          }
+        },
+        "url": "/api/tracos/ancestralidade-draconica-ouro"
+      },
+      {
+        "index": "ancestralidade-draconica-verde",
+        "races": [
+          {
+            "index": "draconico",
+            "name": "Dracônico",
+            "url": "/api/racas/draconico"
+          }
+        ],
+        "subraces": [],
+        "name": "Ancestralidade Dracônica (Verde)",
+        "desc": [
+          "Você tem uma ancestralidade dracônica. Escolha um tipo de dragão na tabela de Ancestralidade Dracônica. Sua arma de sopro e resistência ao dano são determinadas pelo tipo de dragão, conforme mostrado na tabela."
+        ],
+        "parent": {
+          "index": "ancestralidade-draconica",
+          "name": "Ancestralidade Dracônica",
+          "url": "/api/tracos/ancestralidade-draconica"
+        },
+        "proficiencies": [],
+        "trait_specific": {
+          "damage_type": {
+            "index": "veneno",
+            "name": "Veneno",
+            "url": "/api/tipos-de-dano/veneno"
+          },
+          "breath_weapon": {
+            "name": "Arma de Sopro",
+            "desc": "Você pode usar sua ação para exalar energia destrutiva. Sua ancestralidade dracônica determina o tamanho, a forma e o tipo de dano da exalação. Quando você usar sua arma de sopro, cada criatura na área da exalação deve fazer uma jogada de salvamento, cujo tipo é determinado pela sua ancestralidade dracônica. O CD para essa jogada de salvamento é igual a 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura sofre 2d6 de dano em uma falha no salvamento, e metade desse dano em um sucesso. O dano aumenta para 3d6 no 6º nível, 4d6 no 11º nível e 5d6 no 16º nível. Após usar sua arma de sopro, você não poderá usá-la novamente até completar um descanso curto ou longo.",
+            "area_of_effect": {
+              "size": 15,
+              "type": "cone"
+            },
+            "usage": {
+              "type": "por descanso",
+              "times": 1
+            },
+            "dc": {
+              "dc_type": {
+                "index": "con",
+                "name": "CON",
+                "url": "/api/valores-de-atributo/con"
+              },
+              "success_type": "metade"
+            },
+            "damage": [
+              {
+                "damage_type": {
+                  "index": "veneno",
+                  "name": "Veneno",
+                  "url": "/api/tipos-de-dano/veneno"
+                },
+                "damage_at_character_level": {
+                  "1": "2d6",
+                  "6": "3d6",
+                  "11": "4d6",
+                  "16": "5d6"
+                }
+              }
+            ]
+          }
+        },
+        "url": "/api/tracos/ancestralidade-draconica-verde"
+      },
+      {
+        "index": "ancestralidade-draconica-vermelha",
+        "races": [
+          {
+            "index": "draconico",
+            "name": "Dracônico",
+            "url": "/api/racas/draconico"
+          }
+        ],
+        "subraces": [],
+        "name": "Ancestralidade Dracônica (Vermelha)",
+        "desc": [
+          "Você tem uma ancestralidade dracônica. Escolha um tipo de dragão na tabela de Ancestralidade Dracônica. Sua arma de sopro e resistência ao dano são determinadas pelo tipo de dragão, conforme mostrado na tabela."
+        ],
+        "parent": {
+          "index": "ancestralidade-draconica",
+          "name": "Ancestralidade Dracônica",
+          "url": "/api/tracos/ancestralidade-draconica"
+        },
+        "proficiencies": [],
+        "trait_specific": {
+          "damage_type": {
+            "index": "fogo",
+            "name": "Fogo",
+            "url": "/api/tipos-de-dano/fogo"
+          },
+          "breath_weapon": {
+            "name": "Arma de Sopro",
+            "desc": "Você pode usar sua ação para exalar energia destrutiva. Sua ancestralidade dracônica determina o tamanho, a forma e o tipo de dano da exalação. Quando você usar sua arma de sopro, cada criatura na área da exalação deve fazer uma jogada de salvamento, cujo tipo é determinado pela sua ancestralidade dracônica. O CD para essa jogada de salvamento é igual a 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura sofre 2d6 de dano em uma falha no salvamento, e metade desse dano em um sucesso. O dano aumenta para 3d6 no 6º nível, 4d6 no 11º nível e 5d6 no 16º nível. Após usar sua arma de sopro, você não poderá usá-la novamente até completar um descanso curto ou longo.",
+            "area_of_effect": {
+              "size": 15,
+              "type": "cone"
+            },
+            "usage": {
+              "type": "por descanso",
+              "times": 1
+            },
+            "dc": {
+              "dc_type": {
+                "index": "des",
+                "name": "DES",
+                "url": "/api/valores-de-atributo/des"
+              },
+              "success_type": "metade"
+            },
+            "damage": [
+              {
+                "damage_type": {
+                  "index": "fogo",
+                  "name": "Fogo",
+                  "url": "/api/tipos-de-dano/fogo"
+                },
+                "damage_at_character_level": {
+                  "1": "2d6",
+                  "6": "3d6",
+                  "11": "4d6",
+                  "16": "5d6"
+                }
+              }
+            ]
+          }
+        },
+        "url": "/api/tracos/ancestralidade-draconica-vermelha"
+      },
+      {
+        "index": "ancestralidade-draconica-prata",
+        "races": [
+          {
+            "index": "draconico",
+            "name": "Dracônico",
+            "url": "/api/racas/draconico"
+          }
+        ],
+        "subraces": [],
+        "name": "Ancestralidade Dracônica (Prata)",
+        "desc": [
+          "Você tem uma ancestralidade dracônica. Escolha um tipo de dragão na tabela de Ancestralidade Dracônica. Sua arma de sopro e resistência ao dano são determinadas pelo tipo de dragão, conforme mostrado na tabela."
+        ],
+        "parent": {
+          "index": "ancestralidade-draconica",
+          "name": "Ancestralidade Dracônica",
+          "url": "/api/tracos/ancestralidade-draconica"
+        },
+        "proficiencies": [],
+        "trait_specific": {
+          "damage_type": {
+            "index": "frio",
+            "name": "Frio",
+            "url": "/api/tipos-de-dano/frio"
+          },
+          "breath_weapon": {
+            "name": "Arma de Sopro",
+            "desc": "Você pode usar sua ação para exalar energia destrutiva. Sua ancestralidade dracônica determina o tamanho, a forma e o tipo de dano da exalação. Quando você usar sua arma de sopro, cada criatura na área da exalação deve fazer uma jogada de salvamento, cujo tipo é determinado pela sua ancestralidade dracônica. O CD para essa jogada de salvamento é igual a 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura sofre 2d6 de dano em uma falha no salvamento, e metade desse dano em um sucesso. O dano aumenta para 3d6 no 6º nível, 4d6 no 11º nível e 5d6 no 16º nível. Após usar sua arma de sopro, você não poderá usá-la novamente até completar um descanso curto ou longo.",
+            "area_of_effect": {
+              "size": 15,
+              "type": "cone"
+            },
+            "usage": {
+              "type": "por descanso",
+              "times": 1
+            },
+            "dc": {
+              "dc_type": {
+                "index": "con",
+                "name": "CON",
+                "url": "/api/valores-de-atributo/con"
+              },
+              "success_type": "metade"
+            },
+            "damage": [
+              {
+                "damage_type": {
+                  "index": "frio",
+                  "name": "Frio",
+                  "url": "/api/tipos-de-dano/frio"
+                },
+                "damage_at_character_level": {
+                  "1": "2d6",
+                  "6": "3d6",
+                  "11": "4d6",
+                  "16": "5d6"
+                }
+              }
+            ]
+          }
+        },
+        "url": "/api/tracos/ancestralidade-draconica-prata"
+      },
+      {
+        "index": "ancestralidade-draconica-branca",
+        "races": [
+          {
+            "index": "draconico",
+            "name": "Dracônico",
+            "url": "/api/racas/draconico"
+          }
+        ],
+        "subraces": [],
+        "name": "Ancestralidade Dracônica (Branca)",
+        "desc": [
+          "Você tem uma ancestralidade dracônica. Escolha um tipo de dragão na tabela de Ancestralidade Dracônica. Sua arma de sopro e resistência ao dano são determinadas pelo tipo de dragão, conforme mostrado na tabela."
+        ],
+        "parent": {
+          "index": "ancestralidade-draconica",
+          "name": "Ancestralidade Dracônica",
+          "url": "/api/tracos/ancestralidade-draconica"
+        },
+        "proficiencies": [],
+        "trait_specific": {
+          "damage_type": {
+            "index": "frio",
+            "name": "Frio",
+            "url": "/api/tipos-de-dano/frio"
+          },
+          "breath_weapon": {
+            "name": "Arma de Sopro",
+            "desc": "Você pode usar sua ação para exalar energia destrutiva. Sua ancestralidade dracônica determina o tamanho, a forma e o tipo de dano da exalação. Quando você usar sua arma de sopro, cada criatura na área da exalação deve fazer uma jogada de salvamento, cujo tipo é determinado pela sua ancestralidade dracônica. O CD para essa jogada de salvamento é igual a 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura sofre 2d6 de dano em uma falha no salvamento, e metade desse dano em um sucesso. O dano aumenta para 3d6 no 6º nível, 4d6 no 11º nível e 5d6 no 16º nível. Após usar sua arma de sopro, você não poderá usá-la novamente até completar um descanso curto ou longo.",
+            "area_of_effect": {
+              "size": 15,
+              "type": "cone"
+            },
+            "usage": {
+              "type": "por descanso",
+              "times": 1
+            },
+            "dc": {
+              "dc_type": {
+                "index": "con",
+                "name": "CON",
+                "url": "/api/valores-de-atributo/con"
+              },
+              "success_type": "metade"
+            },
+            "damage": [
+              {
+                "damage_type": {
+                  "index": "frio",
+                  "name": "Frio",
+                  "url": "/api/tipos-de-dano/frio"
+                },
+                "damage_at_character_level": {
+                  "1": "2d6",
+                  "6": "3d6",
+                  "11": "4d6",
+                  "16": "5d6"
+                }
+              }
+            ]
+          }
+        },
+        "url": "/api/tracos/ancestralidade-draconica-branca"
+      },
+      {
+        "index": "ataque-de-sopro",
+        "races": [
+          {
+            "index": "draconico",
+            "name": "Dracônico",
+            "url": "/api/racas/draconico"
+          }
+        ],
+        "subraces": [],
+        "name": "Ataque de Sopro",
+        "desc": [
+          "Você pode usar sua ação para exalar energia destrutiva. Sua ancestralidade dracônica determina o tamanho, a forma e o tipo de dano da exalação.",
+          "Quando você usar seu ataque de sopro, cada criatura na área da exalação deve fazer uma jogada de salvamento, cujo tipo é determinado pela sua ancestralidade dracônica. O CD para essa jogada de salvamento é igual a 8 + seu modificador de Constituição + seu bônus de proficiência. Uma criatura sofre 2d6 de dano em uma falha no salvamento, e metade desse dano em um sucesso. O dano aumenta para 3d6 no 6º nível, 4d6 no 11º nível e 5d6 no 16º nível.",
+          "Após usar seu ataque de sopro, você não poderá usá-lo novamente até completar um descanso curto ou longo."
+        ],
+        "proficiencies": [],
+        "url": "/api/tracos/ataque-de-sopro"
+      },
+      {
+        "index": "resistencia-a-dano",
+        "races": [
+          {
+            "index": "draconico",
+            "name": "Dracônico",
+            "url": "/api/racas/draconico"
+          }
+        ],
+        "subraces": [],
+        "name": "Resistência a Dano",
+        "desc": [
+          ". Você tem resistência ao mesmo tipo de dano associado à sua herança dracônica."
+        ],
+        "proficiencies": [],
+        "url": "/api/tracos/resistencia-a-dano"
+      },
+      {
+        "index": "astucia-de-gnomo",
+        "races": [
+          {
+            "index": "gnomo",
+            "name": "Gnomo",
+            "url": "/api/racas/gnomo"
+          }
+        ],
+        "subraces": [],
+        "name": "Astúcia de Gnomo",
+        "desc": [
+          "Você tem vantagem em todas as jogadas de resistência de Inteligência, Sabedoria e Carisma contra magia."
+        ],
+        "proficiencies": [],
+        "url": "/api/tracos/astucia-de-gnomo"
+      },
+      {
+        "index": "conhecimento-do-artifice",
+        "races": [],
+        "subraces": [
+          {
+            "index": "gnomo-das-rochas",
+            "name": "Gnomo das Rochas",
+            "url": "/api/subracas/gnomo-das-rochas"
+          }
+        ],
+        "name": "Conhecimento do Artífice",
+        "desc": [
+          "Sempre que você realizar uma checagem de Inteligência (História) relacionada a itens mágicos, objetos alquímicos ou dispositivos tecnológicos, você pode adicionar o dobro do seu bônus de proficiência, em vez de qualquer bônus de proficiência que você normalmente aplicaria."
+        ],
+        "proficiencies": [],
+        "url": "/api/tracos/conhecimento-do-artifice"
+      },
+      {
+        "index": "engenhoqueiro",
+        "races": [],
+        "subraces": [
+          {
+            "index": "gnomo-das-rochas",
+            "name": "Gnomo das Rochas",
+            "url": "/api/subracas/gnomo-das-rochas"
+          }
+        ],
+        "name": "Engenhoqueiro",
+        "desc": [
+          "Você tem proficiência com ferramentas de artesão (ferramentas de engenhoqueiro / funileiro). Usando essas ferramentas, você pode gastar 1 hora e 10 peças de ouro em materiais para construir um dispositivo mecânico pequeno (CA 5, 1 PV). O dispositivo para de funcionar após 24 horas (a menos que você passe 1 hora reparando-o para mantê-lo funcionando) ou quando você usa sua ação para desmontá-lo; nesse momento, você pode recuperar os materiais usados para criá-lo. Você pode ter até três desses dispositivos funcionando ao mesmo tempo.",
+          "Quando você cria um dispositivo, escolha uma das seguintes opções:",
+          "Brinquedo Mecânico: Este brinquedo é um animal, monstro ou pessoa mecânica, como um sapo, rato, pássaro, dragão ou soldado. Quando colocado no chão, o brinquedo se move 1,5 metros a cada um dos seus turnos em uma direção aleatória. Ele emite sons apropriados para a criatura que representa.",
+          "Acendedor: O dispositivo produz uma chama em miniatura, que você pode usar para acender uma vela, tocha ou fogo de acampamento. Usar o dispositivo requer sua ação.",
+          "Caixinha de Música: Quando aberta, essa caixinha de música toca uma única canção em volume moderado. A caixa para de tocar quando a música termina ou quando é fechada."
+        ],
+        "proficiencies": [
+          {
+            "index": "ferramentas-de-funileiro",
+            "name": "Ferramentas de Engenhoqueiro",
+            "url": "/api/proficiencies/ferramentas-de-funileiro"
+          }
+        ],
+        "url": "/api/tracos/engenhoqueiro"
+      },
+      {
+        "index": "versatilidade-com-pericias",
+        "racas": [
+          {
+            "index": "meio-elfo",
+            "name": "Meio-Elfo",
+            "url": "/api/racas/meio-elfo"
+          }
+        ],
+        "subracas": [],
+        "name": "Versatilidade com Perícias",
+        "desc": [
+          "Você ganha proficiência em duas perícias de sua escolha."
+        ],
+        "proficiencias": [],
+        "opcoes_de_proficiencia": {
+          "escolher": 2,
+          "tipo": "proficiencias",
+          "de": {
+            "tipo_de_conjunto_de_opcoes": "opcoes_array",
+            "opcoes": [
+              {
+                "tipo_de_opcao": "referencia",
+                "item": {
+                  "index": "pericia-acrobacia",
+                  "name": "Perícia: Acrobacia",
+                  "url": "/api/proficiencias/pericia-acrobacia"
+                }
+              },
+              {
+                "tipo_de_opcao": "referencia",
+                "item": {
+                  "index": "pericia-lidar-com-animais",
+                  "name": "Perícia: Lidar com Animais",
+                  "url": "/api/proficiencias/pericia-lidar-com-animais"
+                }
+              },
+              {
+                "tipo_de_opcao": "referencia",
+                "item": {
+                  "index": "pericia-arcanismo",
+                  "name": "Perícia: Arcanismo",
+                  "url": "/api/proficiencias/pericia-arcanismo"
+                }
+              },
+              {
+                "tipo_de_opcao": "referencia",
+                "item": {
+                  "index": "pericia-atletismo",
+                  "name": "Perícia: Atletismo",
+                  "url": "/api/proficiencias/pericia-atletismo"
+                }
+              },
+              {
+                "tipo_de_opcao": "referencia",
+                "item": {
+                  "index": "pericia-enganacao",
+                  "name": "Perícia: Enganação",
+                  "url": "/api/proficiencias/pericia-enganacao"
+                }
+              },
+              {
+                "tipo_de_opcao": "referencia",
+                "item": {
+                  "index": "pericia-historia",
+                  "name": "Perícia: História",
+                  "url": "/api/proficiencias/pericia-historia"
+                }
+              },
+              {
+                "tipo_de_opcao": "referencia",
+                "item": {
+                  "index": "pericia-intuicao",
+                  "name": "Perícia: Intuição",
+                  "url": "/api/proficiencias/pericia-intuicao"
+                }
+              },
+              {
+                "tipo_de_opcao": "referencia",
+                "item": {
+                  "index": "pericia-intimidacao",
+                  "name": "Perícia: Intimidação",
+                  "url": "/api/proficiencias/pericia-intimidacao"
+                }
+              },
+              {
+                "tipo_de_opcao": "referencia",
+                "item": {
+                  "index": "pericia-investigacao",
+                  "name": "Perícia: Investigação",
+                  "url": "/api/proficiencias/pericia-investigacao"
+                }
+              },
+              {
+                "tipo_de_opcao": "referencia",
+                "item": {
+                  "index": "pericia-medicina",
+                  "name": "Perícia: Medicina",
+                  "url": "/api/proficiencias/pericia-medicina"
+                }
+              },
+              {
+                "tipo_de_opcao": "referencia",
+                "item": {
+                  "index": "pericia-natureza",
+                  "name": "Perícia: Natureza",
+                  "url": "/api/proficiencias/pericia-natureza"
+                }
+              },
+              {
+                "tipo_de_opcao": "referencia",
+                "item": {
+                  "index": "pericia-percepcao",
+                  "name": "Perícia: Percepção",
+                  "url": "/api/proficiencias/pericia-percepcao"
+                }
+              },
+              {
+                "tipo_de_opcao": "referencia",
+                "item": {
+                  "index": "pericia-performance",
+                  "name": "Perícia: Performance",
+                  "url": "/api/proficiencias/pericia-performance"
+                }
+              },
+              {
+                "tipo_de_opcao": "referencia",
+                "item": {
+                  "index": "pericia-persuasião",
+                  "name": "Perícia: Persuasão",
+                  "url": "/api/proficiencias/pericia-persuasião"
+                }
+              },
+              {
+                "tipo_de_opcao": "referencia",
+                "item": {
+                  "index": "pericia-religiao",
+                  "name": "Perícia: Religião",
+                  "url": "/api/proficiencias/pericia-religiao"
+                }
+              },
+              {
+                "tipo_de_opcao": "referencia",
+                "item": {
+                  "index": "pericia-furtividade",
+                  "name": "Perícia: Furtividade",
+                  "url": "/api/proficiencias/pericia-furtividade"
+                }
+              },
+              {
+                "tipo_de_opcao": "referencia",
+                "item": {
+                  "index": "pericia-sobrevivencia",
+                  "name": "Perícia: Sobrevivência",
+                  "url": "/api/proficiencias/pericia-sobrevivencia"
+                }
+              }
+            ]
+          }
+        },
+        "url": "/api/tracos/versatilidade-com-pericias"
+      },
+      {
+        "index": "ameacador",
+        "racas": [
+          {
+            "index": "meio-orc",
+            "name": "Meio-Orc",
+            "url": "/api/racas/meio-orc"
+          }
+        ],
+        "subracas": [],
+        "name": "Ameaçador",
+        "desc": [
+          "Você ganha proficiência na perícia Intimidação."
+        ],
+        "proficiencias": [
+          {
+            "index": "pericia-intimidacao",
+            "name": "Perícia: Intimidação",
+            "url": "/api/proficiencias/pericia-intimidacao"
+          }
+        ],
+        "url": "/api/tracos/ameacador"
+      },
+      {
+        "index": "vigor-implacavel",
+        "racas": [
+          {
+            "index": "meio-orc",
+            "name": "Meio-Orc",
+            "url": "/api/racas/meio-orc"
+          }
+        ],
+        "subracas": [],
+        "name": "Vigor Implacável",
+        "desc": [
+          "Quando você é reduzido a 0 pontos de vida, mas não é morto instantaneamente, você pode cair para 1 ponto de vida em vez disso. Você não pode usar essa habilidade novamente até terminar um descanso longo."
+        ],
+        "proficiencias": [],
+        "url": "/api/tracos/vigor-implacavel"
+      },
+      {
+        "index": "ataques-selvagens",
+        "racas": [
+          {
+            "index": "meio-orc",
+            "name": "Meio-Orc",
+            "url": "/api/racas/meio-orc"
+          }
+        ],
+        "subracas": [],
+        "name": "Ataques Selvagens",
+        "desc": [
+          "Quando você consegue um acerto crítico com um ataque de arma corpo a corpo, você pode rolar um dos dados de dano da arma mais uma vez e adicionar ao dano extra do acerto crítico."
+        ],
+        "proficiencias": [],
+        "url": "/api/tracos/ataques-selvagens"
+      },
+      {
+        "index": "resistencia-infernal",
+        "racas": [
+          {
+            "index": "tiferino",
+            "name": "Tiferino",
+            "url": "/api/racas/tiferino"
+          }
+        ],
+        "subracas": [],
+        "name": "Resistência Infernal",
+        "desc": [
+          "Você tem resistência a dano de fogo."
+        ],
+        "proficiencias": [],
+        "url": "/api/tracos/resistencia-infernal"
+      },
+      {
+        "index": "legado-infernal",
+        "racas": [
+          {
+            "index": "tiferino",
+            "name": "Tiferino",
+            "url": "/api/racas/tiferino"
+          }
+        ],
+        "subracas": [],
+        "name": "Legado Infernal",
+        "desc": [
+          "Você conhece o truque taumaturgia. Ao alcançar o 3° nível, pode conjurar a magia repreensão infernal uma vez como se fosse uma magia de 2° círculo. Ao alcançar o 5º nível, pode conjurar escuridão. Você precisa terminar um descanso longo para conjurar as magias deste traço outra vez. Carisma é o atributo usado para a conjuração dessas magias."
+        ],
+        "proficiencias": [],
+        "url": "/api/tracos/legado-infernal"
+      }
+  ]
