@@ -5768,6 +5768,25 @@
     "url": "/api/equipamentos/armadura-de-couro-para-montaria"
   },
   {
+    "index": "armadura-de-couro-batido-para-montaria",
+    "name": "Armadura de Couro Batido para montaria",
+    "equipment_category": {
+      "index": "montarias-e-veiculos",
+      "name": "Montarias e Veículos",
+      "url": "/api/categorias-de-equipamento/montarias-e-veiculos"
+    },
+    "vehicle_category": "Equipamento de Montaria e Veículos",
+    "cost": {
+      "quantity": 180,
+      "unit": "po"
+    },
+    "weight": 13,
+    "desc": [
+      "Armadura acolchoada para montaria é uma armadura projetada para proteger a cabeça, pescoço, peito e corpo de um animal. Qualquer tipo de armadura mostrada na tabela de Armaduras pode ser adquirida como barda. O custo é quatro vezes o da armadura equivalente feita para humanoides, e pesa o dobro"
+    ],
+    "url": "/api/equipamentos/armadura-de-couro-batido-para-montaria"
+  },
+  {
     "index": "armadura-de-gibao-de-peles-para-montaria",
     "name": "Armadura de Gibão de Peles para Montaria",
     "equipment_category": {
